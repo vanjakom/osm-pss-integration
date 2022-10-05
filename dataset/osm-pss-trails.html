@@ -147,7 +147,7 @@
 				function(e) { clearInterval(mousedownInterval) })
 
 
-			var layer7 = L.tileLayer(
+			var layer17 = L.tileLayer(
 				'http://ue.cache.osmsrbija.iz.rs/cir/{z}/{x}/{y}.png',
 				{
 					attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -155,11 +155,33 @@
 					bounds: [[-90,-180],[90,180]],
 					noWrap: true
 				})
-			layer7.addTo(map)
-			layers.addBaseLayer(layer7, 'osm rs tile')
+			layer17.addTo(map)
+			layers.addBaseLayer(layer17, 'osm rs tile')
 
 
-			var overlay8 = L.tileLayer(
+			var layer18 = L.tileLayer(
+				'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+				{
+					attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+					maxZoom: 21,
+					bounds: [[-90,-180],[90,180]],
+					noWrap: true
+				})
+			layers.addBaseLayer(layer18, 'osm tile')
+
+
+			var layer19 = L.tileLayer(
+				'https://a.tile.opentopomap.org/{z}/{x}/{y}.png',
+				{
+					attribution: 'Map data: © OpenStreetMap contributors, SRTM | Map display: © OpenTopoMap (CC-BY-SA)',
+					maxZoom: 21,
+					bounds: [[-90,-180],[90,180]],
+					noWrap: true
+				})
+			layers.addBaseLayer(layer19, 'opentopomap')
+
+
+			var overlay20 = L.tileLayer(
 				'https://api.mapbox.com/styles/v1/vanjakom/cl4vushrv002k14og8qmnpme5/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoidmFuamFrb20iLCJhIjoiY2pwZHp4N3p6MG1tMDNxbzI2d2wxb3l5bCJ9.NzANQ393MK-tX7j8dQLjNw',
 				{
 					attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -167,11 +189,11 @@
 					bounds: [[-90,-180],[90,180]],
 					noWrap: true
 				})
-			overlay8.addTo(map)
-			layers.addOverlay(overlay8, 'osm-pss-map')
+			overlay20.addTo(map)
+			layers.addOverlay(overlay20, 'osm-pss-map')
 
 
-			var overlay9 = L.tileLayer(
+			var overlay21 = L.tileLayer(
 				'https://tile.waymarkedtrails.org/hiking/{z}/{x}/{y}.png',
 				{
 					attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -179,14 +201,14 @@
 					bounds: [[-90,-180],[90,180]],
 					noWrap: true
 				})
-			layers.addOverlay(overlay9, 'hiking waymarked trails')
+			layers.addOverlay(overlay21, 'hiking waymarked trails')
 
-			var layer10 = new TileBoundsLayer(				{
+			var layer22 = new TileBoundsLayer(				{
 					maxZoom: 21,
 					bounds: [[-90,-180], [90, 180]],
 					noWrap: true,
 					color: 'rgba(0, 0, 0, 0.5)'})
-			layers.addOverlay(layer10, 'tile bounds')
+			layers.addOverlay(layer22, 'tile bounds')
 
 			if (window.location.hash) {
 				var splits = window.location.hash.substring(5).split('/')
