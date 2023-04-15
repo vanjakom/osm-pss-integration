@@ -1544,6 +1544,24 @@ Staze dostupne unutar OSM baze:
 | {{relation|15688573}}
 | није обележен почетак стазе јер се на необлеженом месту прелази примарни пут
 |-
+| 5-12-10
+| Jugozapadna Srbija
+| Zlatibor
+| odlično uređena i markirana
+| Стаза бр. 6: Златибор - Споменик - Чукер
+| [https://pss.rs/terenipp/staza-br-6-zlatibor-spomenik-cuker/ pss]
+| {{relation|15699116}}
+| 
+|-
+| 5-12-11
+| Jugozapadna Srbija
+| Zlatibor
+| odlično uređena i markirana
+| Стаза бр. 18: Јечмиште - врх Бандера (Торник)
+| [https://pss.rs/terenipp/staza-br-18-jecmiste-vrh-bandera-tornik/ pss]
+| {{relation|15711357}}
+| 
+|-
 | 5-40-1
 | Jugozapadna Srbija
 | Pobijenik
@@ -1551,15 +1569,6 @@ Staze dostupne unutar OSM baze:
 | Насеље - Полин поток - Лиса стена - Стан и Градац пећина - Насеље
 | [https://pss.rs/terenipp/naselje-polin-potok-lisa-stena-stan-i-gradac-pecina-naselje/ pss]
 | {{relation|12185187}}
-| 
-|-
-| 6-3-6
-| Kopaoničko-Toplička regija
-| Stolovi
-| odlično uređena i markirana
-| Оштра главица, црвена стаза
-| [https://pss.rs/terenipp/ostra-glavica-crvena-staza/ pss]
-| {{relation|13234242}}
 | 
 |-
 | 6-14-1
@@ -1889,22 +1898,6 @@ Staze koje je moguće mapirati:
 | 
 | Ovčarsko-kablarska transverzala
 | [https://pss.rs/terenipp/ovcarsko-kablarska-transverzala/ pss]
-| 
-|-
-| 5-12-10
-| Jugozapadna Srbija
-| Zlatibor
-| odlično uređena i markirana
-| Staza br. 6: Zlatibor – Spomenik - Čuker
-| [https://pss.rs/terenipp/staza-br-6-zlatibor-spomenik-cuker/ pss]
-| 
-|-
-| 5-12-11
-| Jugozapadna Srbija
-| Zlatibor
-| odlično uređena i markirana
-| Staza br. 18: Ječmište – vrh Bandera (Tornik)
-| [https://pss.rs/terenipp/staza-br-18-jecmiste-vrh-bandera-tornik/ pss]
 | 
 |-
 | 5-12-12
