@@ -1,0 +1,284 @@
+<html>
+  <head>
+    <meta charset="UTF-8"></meta>
+    <title>a map</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/leaflet.css" crossorigin=""></link>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/leaflet.js" crossorigin=""></script>
+    <script src="https://rowanwins.github.io/leaflet-simplestyle/dist/leaflet-simplestyle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/perliedman-leaflet-control-geocoder/2.4.0/Control.Geocoder.min.js" crossorigin=""></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/perliedman-leaflet-control-geocoder/2.4.0/Control.Geocoder.min.css"></link>
+    <style>
+      ::-webkit-scrollbar {display: none;}
+      .content {white-space: nowrap;overflow: hidden;}
+      .map {position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; cursor: default;}
+    </style>
+  </head>
+  <body>
+    <div id="content" class="content">
+      <map id="map" class="map"></map>
+    </div>
+    <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript">
+      // utils
+      var projectX = function(longitude) {
+	  return Math.floor((longitude / 360 + 0.5) * Math.pow(2, 24))
+      }
+      var projectY = function(latitude) {
+	  const sin = Math.sin(latitude * Math.PI / 180);
+	  const y2 = 0.5 - 0.25 * Math.log((1 + sin) / (1 - sin)) / Math.PI;
+	  const y3 = y2 < 0 ? 0 : y2 > 1 ? 1 : y2;
+	  return Math.floor(y3 * Math.pow(2, 24))
+      }
+
+      var projectedLocationToWord = function(x, y) {
+	  var key =''
+	  for (var i = 24; i >= 2; i -= 2) {
+	      var xUpper = (x & (1 << (i - 1))) != 0 ? 2 : 0
+	      var xLower = (x & (1 << (i - 2))) != 0 ? 1 : 0
+	      var yUpper = (y & (1 << (i - 1))) != 0 ? 2 : 0
+	      var yLower = (y & (1 << (i - 2))) != 0 ? 1 : 0
+	      var index = xUpper + xLower + (yUpper  + yLower) * 4
+	      key = key + String.fromCharCode(97 + index).toUpperCase()
+	  }
+	  return key
+      }
+
+      var BingLayer = L.TileLayer.extend({
+	  getTileUrl: function (tilePoint) {
+	      return L.Util.template(
+		  this._url,
+		  {q: this._quadKey(tilePoint.x, tilePoint.y, this._getZoomForUrl())});
+	  },
+	  _quadKey: function (x, y, z) {
+	      var quadKey = []
+	      for (var i = z; i > 0; i--) {
+		  var digit = '0'
+		  var mask = 1 << (i - 1)
+		  if ((x & mask) != 0) {
+		      digit++
+		  }
+		  if ((y & mask) != 0) {
+		      digit++
+		      digit++
+		  }
+		  quadKey.push(digit)
+	      }
+	      return quadKey.join('')
+	  }
+      })
+
+      var TileBoundsLayer = L.GridLayer.extend({
+	  initialize: function(options) {
+	      L.GridLayer.prototype.initialize.call(this, options)
+	      this._color = options.color
+	  },
+
+	  createTile: function(coords) {
+	      var key = coords.z + '/' + coords.x + '/' + coords.y
+
+	      var tile = L.DomUtil.create('canvas', 'leaflet-tile')
+	      var size = this.getTileSize()
+	      tile.width = size.x
+	      tile.height = size.y
+	      var ctx = tile.getContext('2d')
+
+	      ctx.strokeStyle = this._color
+	      ctx.fillStyle = this._color
+	      ctx.font = '15px Arial'
+	      ctx.lineWidth = 1
+	      ctx.beginPath()
+	      ctx.rect(0, 0, 255, 255)
+	      ctx.fillText(key, 5, 20)
+	      ctx.stroke()
+
+	      return tile
+	  }
+      })
+
+      var map = L.map('map', {maxBoundsViscosity: 1.0})
+      map.setMaxBounds ([[-90,-180],[90,180]])
+      L.control.scale({imperial: false}).addTo(map)
+      var layers = L.control.layers()
+      layers.addTo(map)
+      new L.Control.Geocoder({
+	  geocoder: L.Control.Geocoder.nominatim(),
+	  defaultMarkGeocode: false}).on(
+	      'markgeocode',
+	      function(e) {
+		  var bbox = e.geocode.bbox
+		  var poly = L.polygon([
+		      bbox.getSouthEast(),
+		      bbox.getNorthEast(),
+		      bbox.getNorthWest(),
+		      bbox.getSouthWest()])
+		  map.fitBounds(poly.getBounds())
+	      }).addTo(map)
+
+      var defaultBounds = null
+
+      var mousedownInterval;
+      map.on(
+	  'mousedown',
+	  function (e) {
+	      mousedownInterval = setInterval(
+		  function() {
+		      let longitude = Number (e.latlng.lng).toFixed (5)
+		      let latitude = Number (e.latlng.lat).toFixed (5)
+		      let zoom = map.getZoom()
+		      L
+			  .popup({closeOnClick: false})
+			  .setLatLng(e.latlng)
+			  .setContent(
+			      longitude + ', ' + latitude + '<br/>' + 
+				  projectedLocationToWord(projectX(longitude), projectY(latitude)) + '<br/>' + 
+				  '<a href="http://openstreetmap.org/#map=16/' + e.latlng.lat + '/' + e.latlng.lng + '" target="_blank">osm</a></br>' + 
+				  '<a href="https://preview.ideditor.com/release/#map=16/' + e.latlng.lat + '/' + e.latlng.lng + '" target="_blank">iD</a></br>' + 
+				  '<a href="http://localhost:8080/#map=16/' + e.latlng.lat + '/' + e.latlng.lng + '" target="_blank">iD (localhost)</a></br>' + 
+				  '<a href="https://www.mapillary.com/app/?focus=map&z=16&lat=' + e.latlng.lat + '&lng=' + e.latlng.lng + '" target="_blank">mapillary</a></br>' + 
+				  '<a href="https://kartaview.org/map/@' + e.latlng.lat + ',' + e.latlng.lng + ',16z" target="_blank">kartaview</a></br>' + 
+				  '<a href="https://www.google.com/maps/@' + e.latlng.lat + ',' + e.latlng.lng + ',16z" target="_blank">google maps</a></br>' 
+			  )
+			  .openOn(map)},
+		  500)})
+      map.on(
+	  'mousemove',
+	  function(e) { clearInterval(mousedownInterval) })
+      map.on(
+	  'mouseup',
+	  function(e) { clearInterval(mousedownInterval) })
+
+
+      var layer3 = L.tileLayer(
+	  'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+	  {
+	      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	      maxZoom: 21,
+	      bounds: [[-90,-180],[90,180]],
+	      noWrap: true
+	  })
+      layers.addBaseLayer(layer3, 'osm tile')
+
+
+      var layer4 = L.tileLayer(
+	  'https://a.tile.opentopomap.org/{z}/{x}/{y}.png',
+	  {
+	      attribution: 'Map data: © OpenStreetMap contributors, SRTM | Map display: © OpenTopoMap (CC-BY-SA)',
+	      maxZoom: 21,
+	      bounds: [[-90,-180],[90,180]],
+	      noWrap: true
+	  })
+      layer4.addTo(map)
+      layers.addBaseLayer(layer4, 'opentopomap')
+
+      var overlay7 = L.tileLayer(
+	  'https://tile.waymarkedtrails.org/hiking/{z}/{x}/{y}.png',
+	  {
+	      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	      maxZoom: 21,
+	      bounds: [[-90,-180],[90,180]],
+	      noWrap: true
+	  })
+      overlay7.addTo(map)
+      layers.addOverlay(overlay7, "терени")
+
+
+      // added code and data.js script
+      
+      let mountainsLayer = L.featureGroup()
+      let selectedMountainLayer = null
+      
+      for (let index in mountains) {
+	  let mountain = mountains[index]
+	  let marker = L.marker([mountain.highest.latitude, mountain.highest.longitude])
+	  marker.setIcon(L.icon({
+	      iconUrl:"https://vanjakom.github.io/trek-mate-pins/blue_and_grey/national-park.grey.png",
+	      iconSize:[25,25]}))
+	  
+	  var tooltip =
+	      "<b>" + mountain.highest.name + "</b>" +
+	      " (" + mountain.highest.elevation + "m)</br>" +
+	      mountain.name + "</br>"
+	  for (let index in mountain["peak-seq"]) {
+	      let peak = mountain["peak-seq"][index]
+	      tooltip += peak.name + " (" + peak.elevation + "m)</br>"
+	  }
+	  
+	  marker.bindTooltip(tooltip)
+	  marker.on(
+	      "click",
+	      function() {
+		  if (selectedMountainLayer != null) {
+		      map.removeLayer(selectedMountainLayer)
+		  }
+
+		  selectedMountainLayer = L.featureGroup()
+		  
+		  for (let index in mountain["peak-seq"]) {
+		      let peak = mountain["peak-seq"][index]
+		      let marker = L.marker([peak.latitude, peak.longitude])
+		      marker.setIcon(L.icon({
+			  iconUrl:"https://vanjakom.github.io/trek-mate-pins/blue_and_grey/summit.grey.png",
+			  iconSize:[25,25]}))		      
+		      marker.bindTooltip(
+			  peak.name + " (" + peak.elevation + "m)</br>" +
+			  mountain.name + "</br>")
+		      
+		      
+		      marker.addTo(selectedMountainLayer)
+		  }
+
+		  selectedMountainLayer.addTo(map)
+	      })
+	  
+	  marker.addTo(mountainsLayer)
+      }
+      layers.addOverlay(mountainsLayer, "планине")
+      mountainsLayer.addTo(map)
+
+
+      let hutsLayer = L.featureGroup()
+      for (index in huts) {
+	  let hut = huts[index]
+	  let marker = L.marker([hut.latitude, hut.longitude])
+	  marker.setIcon(L.icon({
+	      iconUrl:"https://vanjakom.github.io/trek-mate-pins/blue_and_grey/sleep.grey.png",
+	      iconSize:[25,25]}))
+	  marker.bindTooltip(hut.name);
+	  marker.addTo(hutsLayer)
+      }
+      layers.addOverlay(hutsLayer, "планинарски домови")
+      hutsLayer.addTo(map)
+      
+      // end of added code
+      
+      var params = new URLSearchParams(window.location.search)
+      if (params.get('marker')) {
+	  var splits = params.get('marker').split(',')
+	  map.setView([parseFloat(splits[1]), parseFloat(splits[0])], 18)
+	  L.marker([parseFloat(splits[1]), parseFloat(splits[0])]).addTo(map)
+      }
+
+      if (window.location.hash) {
+	  var splits = window.location.hash.substring(5).split('/')
+	  map.setView([parseFloat(splits[2]), parseFloat(splits[1])], parseInt(splits[0]))
+      } else {
+	  if (defaultBounds != null) { 
+	      map.fitBounds(defaultBounds, null)
+	  } else {
+	      map.setView([44.82763029742812, 20.50529479980469], 10)
+	  }
+      }
+
+      window.onhashchange = function() {
+	  var splits = window.location.hash.substring(5).split('/')
+	  map.setView([parseFloat(splits[2]), parseFloat(splits[1])], parseInt(splits[0]))
+      }
+      map.on(
+	  'moveend',
+	  function() {
+	      window.location.hash = '#map=' + map.getZoom() + '/' + map.getCenter().lng + '/' + map.getCenter().lat
+	  })
+
+	  </script>
+  </body>
+</html>
