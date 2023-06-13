@@ -191,16 +191,20 @@
 	  let mountain = mountains[index]
 	  let marker = L.marker([mountain.highest.latitude, mountain.highest.longitude])
 	  marker.setIcon(L.icon({
-	      iconUrl:"https://vanjakom.github.io/trek-mate-pins/blue_and_grey/national-park.grey.png",
-	      iconSize:[25,25]}))
+	      iconUrl:"https://vanjakom.github.io/trek-mate-pins/blue_and_grey/national-park.green.png",
+	      iconSize:[50,50]}))
 	  
 	  var tooltip =
 	      "<b>" + mountain.highest.name + "</b>" +
 	      " (" + mountain.highest.elevation + "m)</br>" +
-	      mountain.name + "</br>"
-	  for (let index in mountain["peak-seq"]) {
-	      let peak = mountain["peak-seq"][index]
-	      tooltip += peak.name + " (" + peak.elevation + "m)</br>"
+	      mountain.name + "</br></br>"
+
+	  if (mountain["peak-seq"] != null && mountain["peak-seq"].length > 0) {
+	      tooltip += "остали врхови:</br>"
+	      for (let index in mountain["peak-seq"]) {
+		  let peak = mountain["peak-seq"][index]
+		  tooltip += peak.name + " (" + peak.elevation + "m)</br>"
+	      }
 	  }
 	  
 	  marker.bindTooltip(tooltip)
@@ -217,8 +221,8 @@
 		      let peak = mountain["peak-seq"][index]
 		      let marker = L.marker([peak.latitude, peak.longitude])
 		      marker.setIcon(L.icon({
-			  iconUrl:"https://vanjakom.github.io/trek-mate-pins/blue_and_grey/summit.grey.png",
-			  iconSize:[25,25]}))		      
+			  iconUrl:"https://vanjakom.github.io/trek-mate-pins/blue_and_grey/summit.green.png",
+			  iconSize:[50,50]}))		      
 		      marker.bindTooltip(
 			  peak.name + " (" + peak.elevation + "m)</br>" +
 			  mountain.name + "</br>")
@@ -241,8 +245,8 @@
 	  let hut = huts[index]
 	  let marker = L.marker([hut.latitude, hut.longitude])
 	  marker.setIcon(L.icon({
-	      iconUrl:"https://vanjakom.github.io/trek-mate-pins/blue_and_grey/sleep.grey.png",
-	      iconSize:[25,25]}))
+	      iconUrl:"https://vanjakom.github.io/trek-mate-pins/blue_and_grey/sleep.green.png",
+	      iconSize:[50,50]}))
 	  marker.bindTooltip(hut.name);
 	  marker.addTo(hutsLayer)
       }
