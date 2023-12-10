@@ -1,0 +1,3808 @@
+12150508
+	ascent = 25
+	descent = 25
+	distance = 13.3 km
+	name = Водоторањ - Тресетиште - Палић центар
+	name:sr = Водоторањ - Тресетиште - Палић центар
+	name:sr-Latn = Vodotoranj - Tresetište - Palić centar
+	network = rwn
+	note = staza nije mapirana u potpunosti, prelazak pruge
+	operator = Spartak PSK
+	osmc:symbol = red:red_round::2:white
+	ref = 1-1-2
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/vodotoranj-tresetiste-palic-centar/
+
+11314365
+	ascent = 381
+	descent = 381
+	distance = 14.9 km
+	name = Чортановачка магија
+	name:sr = Чортановачка магија
+	name:sr-Latn = Čortanovačka magija
+	network = rwn
+	operator = Železničar PD Beograd
+	osmc:symbol = red:red_round::2:white
+	ref = 1-13-2
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/cortanovacka-magija/
+
+14288192
+	ascent = 76
+	descent = 76
+	distance = 13.5 km
+	name = Обалом Јегричке
+	name:sr = Обалом Јегричке
+	name:sr-Latn = Obalom Jegričke
+	network = rwn
+	operator = Sirig PSK
+	osmc:symbol = red:red_round::1:white
+	ref = 1-14-1
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/obalom-jegricke/
+
+11334200
+	ascent = 5
+	descent = 5
+	distance = 6 km
+	name = Бојчинска шума
+	name:sr = Бојчинска шума
+	name:sr-Latn = Bojčinska šuma
+	network = rwn
+	operator = Železničar PD Beograd
+	osmc:symbol = red:red_round::1:white
+	ref = 1-15-1
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/bojcinska-suma/
+
+13906712
+	ascent = 63
+	descent = 63
+	distance = 15.3 km
+	name = Мала стаза 15 км
+	name:sr = Мала стаза 15 км
+	name:sr-Latn = Mala staza 15 km
+	network = rwn
+	operator = Zrenjanin KP
+	osmc:symbol = red:red_round::1:white
+	ref = 1-2-1
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/mala-staza/
+
+13913437
+	ascent = 81
+	descent = 81
+	distance = 20.7 km
+	name = Средња стаза 20 км
+	name:sr = Средња стаза 20 км
+	name:sr-Latn = Srednja staza 20 km
+	network = rwn
+	operator = Zrenjanin KP
+	osmc:symbol = red:red_round::2:white
+	ref = 1-2-2
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/srednja-staza-20-km/
+
+13916548
+	ascent = 105
+	descent = 105
+	distance = 30.3 km
+	name = Велика стаза 30 км
+	name:sr = Велика стаза 30 км
+	name:sr-Latn = Velika staza 30 km
+	network = rwn
+	operator = Zrenjanin KP
+	osmc:symbol = red:red_round::3:white
+	ref = 1-2-3
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/velika-staza-30-km/
+
+11317382
+	ascent = 580
+	descent = 580
+	distance = 16 km
+	name = Буковачки маратон – Основна стаза
+	name:en = Bukovac Marathon – Basic track
+	name:sr = Буковачки маратон – Основна стаза
+	name:sr-Latn = Bukovački maraton – Osnovna staza
+	network = rwn
+	operator = Vilina vodica PD
+	osmc:symbol = red:red:white_triangle_turned::1:red
+	ref = 1-3-1
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/bukovacki-maraton-osnovna-staza/
+
+11321138
+	ascent = 980
+	descent = 980
+	distance = 35.2 km
+	name = Буковачки маратон – Средња стаза
+	name:en = Bukovac Marathon – Medium track
+	name:sr = Буковачки маратон – Средња стаза
+	name:sr-Latn = Bukovački maraton – Srednja staza
+	network = rwn
+	operator = Vilina vodica PD
+	osmc:symbol = red:red:white_triangle_turned::2:red
+	ref = 1-3-2
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/bukovacki-maraton-srednja-staza/
+
+11314960
+	ascent = 1350
+	descent = 1350
+	distance = 47.8 km
+	name = Буковачки маратон – Велика стаза
+	name:en = Bukovac Marathon – Long track
+	name:sr = Буковачки маратон – Велика стаза
+	name:sr-Latn = Bukovački maraton – Velika staza
+	network = rwn
+	operator = Vilina vodica PD
+	osmc:symbol = red:red:white_triangle_turned::3:red
+	ref = 1-3-3
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/bukovacki-maraton-velika-staza/
+
+14906749
+	ascent = 815
+	descent = 415
+	distance = 16 km
+	name = Успон на Гудурички врх
+	name:sr = Успон на Гудурички врх
+	name:sr-Latn = Uspon na Gudurički vrh
+	network = rwn
+	operator = Vršačka kula PSD
+	osmc:symbol = red:red_round::1:white
+	ref = 1-4-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/uspon-na-guduricki-vrh/
+
+14911970
+	ascent = 438
+	descent = 0
+	distance = 8 km
+	name = Манастир Средиште - Гудурички врх
+	name:sr = Манастир Средиште - Гудурички врх
+	name:sr-Latn = Manastir Središte – Gudurički vrh
+	network = rwn
+	operator = Vršačka kula PSD
+	osmc:symbol = red:red_round::2:white
+	ref = 1-4-2
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/manastir-srediste-guduricki-vrh/
+
+14912124
+	distance = 15 km
+	name = Манастир Месић
+	name:sr = Манастир Месић
+	name:sr-Latn = Manastir Mesić
+	network = rwn
+	operator = Vršačka kula PSD
+	osmc:symbol = red:red_round::3:white
+	ref = 1-4-3
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/manastir-mesic/
+
+14916943
+	ascent = 471
+	descent = 471
+	distance = 10 km
+	name = Каменарице преко Лисичије главе
+	name:sr = Каменарице преко Лисичије главе
+	name:sr-Latn = Kamenarice preko Lisičije glave
+	network = rwn
+	operator = Vršačka kula PSD
+	osmc:symbol = red:red_round::4:white
+	ref = 1-4-4
+	roundtrip = но
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/kamenarice-preko-lisic-glave/
+
+14921298
+	ascent = 1065
+	descent = 1065
+	distance = 19 km
+	name = Гудурички врх преко Лисичије главе
+	name:sr = Гудурички врх преко Лисичије главе
+	name:sr-Latn = Gudurički vrh preko Lisičije glave
+	network = rwn
+	operator = Vršačka kula PSD
+	osmc:symbol = red:red_round::5:white
+	ref = 1-4-5
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/guduricki-vrh-preko-lisicije-glave/
+
+11076236
+	ascent = 1260
+	descent = 1230
+	distance = 26.5 km
+	name = Лесковац - Котлењача - Гружанско језеро - Кнић
+	name:sr = Лесковац - Котлењача - Гружанско језеро - Кнић
+	name:sr-Latn = Leskovac – Kotlenjača – Gružansko jezero – Knić
+	network = rwn
+	osmc:symbol = red:red_round::1:white
+	ref = 2-13-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/leskovac-kotlenjaca-gruzansko-jezero-knic/
+
+11073423
+	ascent = 1570
+	descent = 1400
+	distance = 33 km
+	name = Ман. Ралетинац - Кременац - ман. Манастирак - Богалинац - Жупањевац - Говор вода - ман. Каленић (”Манастирска тура”)
+	name:sr = Ман. Ралетинац - Кременац - ман. Манастирак - Богалинац - Жупањевац - Говор вода - ман. Каленић (”Манастирска тура”)
+	name:sr-Latn = Man. Raletinac – Kremenac – man. Manastirak – Bogalinac – Županjevac – Govor voda – man. Kalenić (“Manastirska tura”)
+	network = rwn
+	operator = Žeželj PD
+	osmc:symbol = red:red_round::19:white
+	ref = 2-14-19
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/man-raletinac-kremenac-man-manastirak-bogalinac-zupanjevac-govor-voda-man-kalenic-manastirska-tura/
+
+12433998
+	ascent = 617
+	descent = 617
+	distance = 16.6 km
+	name = Планинарски дом Аџине Ливаде - Манастир Каменац
+	name:sr = Планинарски дом Аџине Ливаде - Манастир Каменац
+	name:sr-Latn = Planinarski dom Adžine Livade – Manastir Kamenac
+	network = rwn
+	operator = Žeželj PD
+	osmc:symbol = red:red_round::20:white
+	ref = 2-14-20
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/planinarski-dom-adzine-livade-manastir-kamenac/
+
+12434519
+	ascent = 431
+	descent = 431
+	distance = 9.5 km
+	name = Бајчетина - Гледићки Црни врх - Бајчетина
+	name:sr = Бајчетина - Гледићки Црни врх - Бајчетина
+	name:sr-Latn = Bajčetina – Gledićki Crni vrh – Bajčetina
+	network = rwn
+	operator = Žeželj PD
+	osmc:symbol = red:red_round::21:white
+	ref = 2-14-21
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/bajcetina-gledicki-crni-vrh-bajcetina/
+
+11066834
+	ascent = 773
+	descent = 696
+	distance = 19.1
+	name = Крагујевачка планинарска стаза Жежељ-Бешњаја
+	name:sr = Крагујевачка планинарска стаза Жежељ-Бешњаја
+	name:sr-Latn = Kragujevačka planinarska staza Žeželj-Bešnjaja
+	network = rwn
+	operator = Gora PEK
+	osmc:symbol = red:red_round::1:white
+	ref = 2-15-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/kragujevacka-planinarska-staza-zezelj-besnjaja/
+
+11069677
+	ascent = 970
+	descent = 970
+	distance = 19 km
+	name = Букоровац - кањон Вољевице - Бешњаја ( село ) - Букоровац
+	name:sr = Букоровац - кањон Вољевице - Бешњаја ( село ) - Букоровац
+	name:sr-Latn = Bukorovac – kanjon Voljevice – Bešnjaja (selo) – Bukovorac
+	network = rwn
+	operator = Gora PEK
+	osmc:symbol = red:red_round::2:white
+	ref = 2-15-2
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/bukorovac-kanjon-voljevice-besnjaja-selo-bukovorac/
+
+15002235
+	ascent = 200
+	descent = 200
+	distance = 9 km
+	name = Едукативна стаза
+	name:sr = Едукативна стаза
+	name:sr-Latn = Edukativna staza
+	network = rwn
+	operator = Planinski duh PD
+	osmc:symbol = red:red_round::1:white
+	ref = 2-16-1
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/pesacka-staza-jagodina-djurdjevo-brdo/
+
+13185966
+	ascent = 10
+	descent = 20
+	distance = 6 km
+	name = Рекреативна стаза „Рибаре - Кочин храст”
+	name:sr = Рекреативна стаза „Рибаре - Кочин храст”
+	name:sr-Latn = Rekreativna staza „Ribare - Kočin hrast”
+	network = rwn
+	operator = Planinski duh PD
+	osmc:symbol = red:red_round::2:white
+	ref = 2-16-2
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/rekreativna-staza-ribare-kocin-hrast/
+
+12086876
+	ascent = 174
+	descent = 152
+	distance = 8.6 km
+	name = Ритопек - Винча
+	name:sr = Ритопек - Винча
+	name:sr-Latn = Ritopek – Vinča
+	network = rwn
+	operator = Železničar PD Beograd
+	osmc:symbol = red:red_round::1:white
+	ref = 2-3-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/ritopek-vinca/
+
+12091435
+	ascent = 582
+	descent = 582
+	distance = 9.13 km
+	name = Авала, стаза 1
+	name:sr = Авала, стаза 1
+	name:sr-Latn = Avala, staza 1
+	network = rwn
+	operator = Avala PD
+	osmc:symbol = red:red_round::2:white
+	ref = 2-3-2
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/avala-staza-1/
+
+12094994
+	ascent = 376
+	descent = 145
+	distance = 3.34 km
+	name = Авала, стаза 2
+	name:sr = Авала, стаза 2
+	name:sr-Latn = Avala, staza 2
+	network = rwn
+	operator = Avala PD
+	osmc:symbol = red:red_round::3:white
+	ref = 2-3-3
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/avala-staza-2/
+
+12098640
+	ascent = 273
+	descent = 52
+	distance = 2.28 km
+	name = Авала, стаза 3
+	name:sr = Авала, стаза 3
+	name:sr-Latn = Avala, staza 3
+	network = rwn
+	operator = Avala PD
+	osmc:symbol = red:red_round::4:white
+	ref = 2-3-4
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/avala-staza-3/
+
+12102740
+	ascent = 369
+	descent = 103
+	distance = 3.8 km
+	name = Авала, стаза 4
+	name:sr = Авала, стаза 4
+	name:sr-Latn = Avala, staza 4
+	network = rwn
+	operator = Avala PD
+	osmc:symbol = red:red_round::5:white
+	ref = 2-3-5
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/avala-staza-4/
+
+12107165
+	ascent = 293
+	descent = 30
+	distance = 2.3 km
+	name = Авала, стаза 5
+	name:sr = Авала, стаза 5
+	name:sr-Latn = Avala, staza 5
+	network = rwn
+	operator = Avala PD
+	osmc:symbol = red:red_round::6:white
+	ref = 2-3-6
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/avala-staza-5/
+
+12111398
+	ascent = 228
+	descent = 43
+	distance = 2 km
+	name = Авала, стаза 6
+	name:sr = Авала, стаза 6
+	name:sr-Latn = Avala, staza 6
+	network = rwn
+	operator = Avala PD
+	osmc:symbol = red:red_round::7:white
+	ref = 2-3-7
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/avala-staza-6/
+
+12111419
+	ascent = 234
+	descent = 235
+	distance = 4.2 km
+	name = Авала, стаза 7
+	name:sr = Авала, стаза 7
+	name:sr-Latn = Avala, staza 7
+	network = rwn
+	operator = Avala PD
+	osmc:symbol = red:red_round::8:white
+	ref = 2-3-8
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/avala-staza-7/
+
+11043543
+	ascent = 1114
+	descent = 1114
+	distance = 18.7 km
+	int_name = Arandjelovac – Bukulja – Garasko jezero – Bukulja – Arandjelovac
+	name = Аранђеловац - Букуља - Гарашко језеро - Букуља - Аранђеловац
+	name:sr = Аранђеловац - Букуља - Гарашко језеро - Букуља - Аранђеловац
+	name:sr-Latn = Aranđelovac – Bukulja – Garaško jezero – Bukulja – Aranđelovac
+	network = rwn
+	operator = Bukulja PD
+	osmc:symbol = red:red_round::6:white
+	ref = 2-5-6
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/arandjelovac-bukulja-garasko-jezero-bukulja-arandjelovac/
+
+14989345
+	ascent = 586
+	descent = 641
+	distance = 12.5 km
+	name = Манастирска стаза
+	name:sr = Манастирска стаза
+	name:sr-Latn = Manastirska staza
+	network = rwn
+	operator = Žeželj PD
+	osmc:symbol = red:red_round::1:white
+	ref = 2-8-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/manastirska-staza/
+
+13938905
+	ascent = 240
+	descent = 240
+	distance = 5 km
+	name = Стаза здравља манастир Драча
+	name:sr = Стаза здравља манастир Драча
+	name:sr-Latn = Staza zdravlja manastir Drača
+	network = rwn
+	operator = Žeželj PD
+	osmc:symbol = red:red_round::3:white
+	ref = 2-8-3
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-zdravlja-manastir-draca/
+
+14274559
+	ascent = 263
+	descent = 794
+	distance = 10.3 km
+	name = Дебело Брдо - Јабланик - Бебића Лука
+	name:sr = Дебело Брдо - Јабланик - Бебића Лука
+	name:sr-Latn = Debelo Brdo – Jablanik – Bebića Luka
+	network = rwn
+	operator = Magleš PSD
+	osmc:symbol = red:red_round::1:white
+	ref = 3-13-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/debelo-brdo-jablanik-bebica-luka/
+
+14274591
+	ascent = 250
+	descent = 823
+	distance = 13.4 km
+	name = Планинарски дом „Дебело брдо” - Поћута
+	name:sr = Планинарски дом „Дебело брдо” - Поћута
+	name:sr-Latn = Planinarski dom „Debelo brdo“- Poćuta
+	network = rwn
+	operator = Magleš PSD
+	osmc:symbol = red:red_round::2:white
+	ref = 3-13-2
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/planinarski-dom-debelo-brdo-pocuta/
+
+12452310
+	ascent = 512
+	descent = 512
+	distance = 9.0 km
+	name = 3 врха Повлена
+	name:sr = 3 врха Повлена
+	name:sr-Latn = 3 vrha Povlena
+	network = rwn
+	operator = Povlen PK
+	osmc:symbol = red:red_round::1:white
+	ref = 3-14-1
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/3-vrha-povlena/
+
+12452381
+	ascent = 845
+	descent = 845
+	distance = 14.0 km
+	name = 4 извора Повлена
+	name:sr = 4 извора Повлена
+	name:sr-Latn = 4 izvora Povlena
+	network = rwn
+	operator = Povlen PK
+	osmc:symbol = red:red_round::2:white
+	ref = 3-14-2
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/4-izvora-povlena/
+
+12456657
+	ascent = 346
+	descent = 346
+	distance = 8.0 km
+	name = Мрка стена - Беден
+	name:sr = Мрка стена - Беден
+	name:sr-Latn = Mrka stena – Beden
+	network = rwn
+	operator = Povlen PK
+	osmc:symbol = red:red_round::3:white
+	ref = 3-14-3
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/mrka-stena-beden/
+
+12456767
+	ascent = 689
+	descent = 689
+	distance = 18.0 km
+	name = Пл. кућа ”Повленски кућерак” - с. Пашна раван - Јабланик
+	name:sr = Пл. кућа ”Повленски кућерак” - с. Пашна раван - Јабланик
+	name:sr-Latn = Pl. kuća “Povlenski kućerak” – s. Pašna ravan – Jablanik
+	network = rwn
+	operator = Povlen PK
+	osmc:symbol = red:red_round::4:white
+	ref = 3-14-4
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/pl-kuca-povlenski-kucerak-s-pasna-ravan-zaseok-prokici-jablanik-debelo-brdo-pl-kuca-povlenski-kucerak/
+
+10886455
+	ascent = 430
+	descent = 430
+	distance = 9.5 km
+	name = Таорска врела - с. Радановци - Таорска врела
+	name:sr = Таорска врела - с. Радановци - Таорска врела
+	name:sr-Latn = Taorska vrela – s. Radanovci – Taorska vrela
+	network = rwn
+	operator = Povlen PK
+	osmc:symbol = red:red_round::5:white
+	ref = 3-14-5
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/taorska-vrela-s-radanovci-spomenik-zikici-jovanovicu-spancu-taorska-vrela/
+
+12464587
+	ascent = 962
+	descent = 310
+	distance = 16 km
+	name = Жел. ст. Самари - планинарска кућа ”Повленски кућерак”
+	name:sr = Жел. ст. Самари - планинарска кућа ”Повленски кућерак”
+	name:sr-Latn = Žel. st. Samari – planinarska kuća “Povlenski kućerak”
+	network = rwn
+	operator = Povlen PK
+	osmc:symbol = red:red_round::6:white
+	ref = 3-14-6
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/zel-st-samari-s-mravinjci-planinarska-kuca-povlenski-kucerak/
+
+12481140
+	ascent = 982
+	descent = 982
+	distance = 20 km
+	name = Жел. ст. Самари - Мравињци
+	name:sr = Жел. ст. Самари - Мравињци
+	name:sr-Latn = Žel. st. Samari – Mravinjci
+	network = rwn
+	operator = Povlen PK
+	osmc:symbol = red:red_round::7:white
+	ref = 3-14-7
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/zel-st-samari-s-mravinjci-vrh-maglesa-zel-st-samari/
+
+14041560
+	ascent = 108
+	descent = 486
+	distance = 10.6 km
+	name = Беле воде - Таорска врела
+	name:sr = Беле воде - Таорска врела
+	name:sr-Latn = Bele vode – Taorska vrela
+	network = rwn
+	operator = Povlen PK
+	osmc:symbol = red:red_round::8:white
+	ref = 3-14-8
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/bele-vode-taorska-vrela/
+
+14274639
+	ascent = 376
+	descent = 500
+	distance = 14.8 km
+	name = Село Радановици - „Обрадовићи”
+	name:sr = Село Радановици - „Обрадовићи”
+	name:sr-Latn = Selo Radanovci – „Obradovići“
+	network = rwn
+	operator = Povlen PK
+	osmc:symbol = red:red_round::1:white
+	ref = 3-18-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/selo-radanovci-obradovic/
+
+12525280
+	ascent = 740
+	descent = 110
+	distance = 14 km
+	name = Славковица - Сувобор (врх)
+	name:sr = Славковица - Сувобор (врх)
+	name:sr-Latn = Slavkovica - Suvobor (vrh)
+	network = rwn
+	operator = Pobeda PK
+	osmc:symbol = red:red_round::1:white
+	ref = 3-20-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/slavkovica-suvobor-vrh/
+
+12726586
+	ascent = 425
+	descent = 170
+	distance = 20 km
+	name = Таково - Рајац (Пл. дом)
+	name:sr = Таково - Рајац (Пл. дом)
+	name:sr-Latn = Takovo - Rajac (Pl. dom)
+	network = rwn
+	operator = Pobeda PK
+	osmc:symbol = red:red_round::11:white
+	ref = 3-20-11
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/takovo-rajac-pl-dom/
+
+12721684
+	ascent = 250
+	descent = 10
+	distance = 5.5 km
+	name = Коштунићи - Данилов врх
+	name:sr = Коштунићи - Данилов врх
+	name:sr-Latn = Koštunići - Danilov vrh
+	network = rwn
+	operator = Pobeda PK
+	osmc:symbol = red:red_round::12:white
+	ref = 3-20-12
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/kostunici-danilov-vrh/
+
+12726079
+	ascent = 480
+	descent = 75
+	distance = 5.5 km
+	name = Славковица - Чика Душков дом на Рајцу
+	name:sr = Славковица - Чика Душков дом на Рајцу
+	name:sr-Latn = Slavkovica - Čika Duškov dom na Rajcu
+	network = rwn
+	operator = Pobeda PK
+	osmc:symbol = red:red_round::3:white
+	ref = 3-20-3
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/slavkovica-cika-duskov-dom-na-rajcu/
+
+14124085
+	ascent = 700
+	descent = 300
+	distance = 13 km
+	name = Дићи - Пл. дом на Рајцу
+	name:sr = Дићи - Пл. дом на Рајцу
+	name:sr-Latn = Dići – Pl. dom na Rajcu
+	network = rwn
+	operator = Pobeda PK
+	osmc:symbol = red:red_round::5:white
+	ref = 3-20-5
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/dici-pl-dom-na-rajcu/
+
+12525333
+	name = Сувобор (врх) - Маљен, Дивчибаре (Пл. дом „Маглеш”)
+	name:sr = Сувобор (врх) - Маљен, Дивчибаре (Пл. дом „Маглеш”)
+	name:sr-Latn = Suvobor (vrh) - Maljen, Divčibare (Pl. dom „Magleš”)
+	network = rwn
+	operator = Pobeda PK
+	osmc:symbol = red:red_round::7:white
+	ref = 3-20-7
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/suvobor-vrh-maljen-divcibare-pl-dom-magles/
+
+12721371
+	ascent = 960
+	descent = 490
+	distance = 17 km
+	name = Љиг (центар) - Рајац (Чика Душков пл. дом)
+	name:sr = Љиг (центар) - Рајац (Чика Душков пл. дом)
+	name:sr-Latn = Ljig (centar) - Rajac (Čika Duškov pl. dom)
+	network = rwn
+	operator = Pobeda PK
+	osmc:symbol = red:red_round::8:white
+	ref = 3-20-8
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/ljig-centar-rajac-cika-duskov-pl-dom/
+
+12721535
+	ascent = 960
+	descent = 490
+	distance = 19.5 km
+	name = Бања Врујци - Пл. дом на Рајцу
+	name:sr = Бања Врујци - Пл. дом на Рајцу
+	name:sr-Latn = Banja Vrujci - Pl. dom na Rajcu
+	network = rwn
+	operator = Pobeda PK
+	osmc:symbol = red:red_round::9:white
+	ref = 3-20-9
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/banja-vrujci-pl-dom-na-rajcu/
+
+11046762
+	ascent = 650
+	descent = 650
+	distance = 12 km
+	name = Меморијал „Миле Обрадовић”
+	name:sr = Меморијал „Миле Обрадовић”
+	name:sr-Latn = Memorijal „Mile Obradović”
+	network = rwn
+	operator = Magleš PSD
+	osmc:symbol = red:red_round::1:white
+	ref = 3-22-1
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/memorijal-mile-obradovic/
+
+14280882
+	ascent = 290
+	descent = 224
+	distance = 7.8 km
+	name = Планинарски дом „На Пољанама” - Паљба
+	name:sr = Планинарски дом „На Пољанама” - Паљба
+	name:sr-Latn = Planinarski dom „Na Poljanama“ – Paljba
+	network = rwn
+	operator = Magleš PSD
+	osmc:symbol = red:red_round::2:white
+	ref = 3-22-2
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/planinarski-dom-na-poljanama-paljba/
+
+14280939
+	ascent = 162
+	descent = 80
+	distance = 5.1 km
+	name = Дивчибаре центар - Велика Плећа
+	name:sr = Дивчибаре центар - Велика Плећа
+	name:sr-Latn = Divčibare centar – Velika Pleća
+	network = rwn
+	operator = Magleš PSD
+	osmc:symbol = red:red_round::3:white
+	ref = 3-22-3
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/divcibare-centar-velika-pleca/
+
+14280954
+	ascent = 116
+	descent = 25
+	distance = 6.1 km
+	name = Дивчибаре центар - Голубац
+	name:sr = Дивчибаре центар - Голубац
+	name:sr-Latn = Divčibare centar – Golubac
+	network = rwn
+	operator = Magleš PSD
+	osmc:symbol = red:red_round::4:white
+	ref = 3-22-4
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/divcibare-centar-golubac/
+
+14281022
+	ascent = 170
+	descent = 149
+	distance = 5.9 km
+	name = Дивчибаре центар - Планинарски дом „На Пољанама”
+	name:sr = Дивчибаре центар - Планинарски дом „На Пољанама”
+	name:sr-Latn = Divčibare centar – Planinarski dom „Na Poljanama“
+	network = rwn
+	operator = Magleš PSD
+	osmc:symbol = red:red_round::5:white
+	ref = 3-22-5
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/divcibare-centar-planinarski-dom-na-poljanama/
+
+11189634
+	ascent = 595
+	descent = 0
+	distance = 2.5 km
+	name = Девојачка стена
+	name:sr = Девојачка стена
+	name:sr-Latn = Devojačka stena
+	network = rwn
+	operator = Kablar PD
+	osmc:symbol = red:red_round::1:white
+	ref = 3-28-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/devojacka-stena/
+
+11189523
+	ascent = 595
+	descent = 0
+	distance = 3.4 km
+	name = Свети Сава
+	name:sr = Свети Сава
+	name:sr-Latn = Sveti Sava
+	network = rwn
+	operator = Kablar PD
+	osmc:symbol = red:red_round::2:white
+	ref = 3-28-2
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/sveti-sava/
+
+11189476
+	ascent = 607
+	descent = 0
+	distance = 6.4 km
+	name = Каблар
+	name:sr = Каблар
+	name:sr-Latn = Kablar
+	network = rwn
+	operator = Kablar PD
+	osmc:symbol = red:red_round::3:white
+	ref = 3-28-3
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/kablar/
+
+11189613
+	ascent = 599
+	descent = 0
+	distance = 2.45 km
+	name = Кота 889
+	name:sr = Кота 889
+	name:sr-Latn = Kota 889
+	network = rwn
+	operator = Kablar PD
+	osmc:symbol = red:red_round::5:white
+	ref = 3-28-5
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/kota-889/
+
+11129769
+	ascent = 690
+	complete = no
+	descent = 42
+	distance = 6 km
+	name = Три чесме - Ковиљачка коса - Црни врх (Гучево)
+	name:sr = Три чесме - Ковиљачка коса - Црни врх (Гучево)
+	name:sr-Latn = Tri česme – Koviljačka kosa – Crni vrh (Gučevo)
+	network = rwn
+	note = staza nije mapirana u potpunosti
+	operator = Gučevo PK
+	osmc:symbol = red:red_round::1:white
+	ref = 3-3-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/tri-cesme-koviljacka-kosa-crni-vrh-gucevo/
+
+15005069
+	ascent = 688
+	descent = 54
+	distance = 5.6 km
+	name = Три чесме - Грабовци - Кам - Црни врх (Гучево)
+	name:sr = Три чесме - Грабовци - Кам - Црни врх (Гучево)
+	name:sr-Latn = Tri česme – Grabovci – Kam – Crni vrh (Gučevo)
+	network = rwn
+	operator = Gučevo PK
+	osmc:symbol = red:red_round::2:white
+	ref = 3-3-2
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/tri-cesme-grabovci-kam-crni-vrh-gucevo/
+
+11128849
+	ascent = 708
+	complete = no
+	descent = 57
+	distance = 5.8 km
+	name = Етно насеље Сунчана река - Кам - Црхи врх (Гучево)
+	name:sr = Етно насеље Сунчана река - Кам - Црхи врх (Гучево)
+	name:sr-Latn = Etno naselje Sunčana reka – Kam – Crni vrh (Gučevo)
+	network = rwn
+	note = staza nije mapirana u potpunosti
+	operator = Gučevo PK
+	osmc:symbol = red:red_round::3:white
+	ref = 3-3-3
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/etno-naselje-suncana-reka-kam-crni-vrh-gucevo/
+
+12918979
+	ascent = 730
+	descent = 680
+	distance = 17 km
+	name = Субјел - Дивчибаре
+	name:sr = Субјел - Дивчибаре
+	name:sr-Latn = Subjel – Divčibare
+	network = rwn
+	operator = Pobeda PK
+	osmc:symbol = red:red_round::1:white
+	ref = 3-32-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/subjel-divcibare/
+
+14041583
+	ascent = 251
+	descent = 151
+	distance = 8.8 km
+	name = Клисура реке Градац
+	name:sr = Клисура реке Градац
+	name:sr-Latn = Klisura reke Gradac
+	network = rwn
+	operator = Povlen PK
+	osmc:symbol = red:red_round::1:white
+	ref = 3-34-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/klisura-reke-gradac/
+
+11059141
+	ascent = 542
+	descent = 403
+	distance = 16.5 km
+	name = Три манастира, Прва етапа: Љубовија - Соко Град
+	name:sr = Три манастира, Прва етапа: Љубовија - Соко Град
+	name:sr-Latn = Tri manastira, Prva etapa: Ljubovija – Soko Grad
+	network = rwn
+	operator = Avala PSK
+	osmc:symbol = red:red_round::1:white
+	ref = 3-7-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/tri-manastira-prva-etapa-ljubovija-soko-grad/
+
+11046907
+	ascent = 591
+	descent = 361
+	distance = 13.5 km
+	name = Бобија (рудник - врх - Добра вода - Разбојиште)
+	name:sr = Бобија (рудник - врх - Добра вода - Разбојиште)
+	name:sr-Latn = Bobija (rudnik – vrh – Dobra voda – Razbojište)
+	network = rwn
+	operator = Avala PSK
+	osmc:symbol = red:red_round::1:white
+	ref = 3-8-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/bobija-rudnik-vrh-dobra-voda-razbojiste/
+
+11049687
+	ascent = 1263
+	descent = 411
+	distance = 25.4 km
+	name = Три манастира, Друга етапа: Љубовија - Беле воде - Торничка Бобија
+	name:sr = Три манастира, Друга етапа: Љубовија - Беле воде - Торничка Бобија
+	name:sr-Latn = Tri manastira, Druga etapa: Ljubovija – Bele vode – Tornička Bobija
+	network = rwn
+	operator = Avala PSK
+	osmc:symbol = red:red_round::2:white
+	ref = 3-8-2
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/tri-manastira-druga-etapa-ljubovija-bele-vode-tornicka-bobija/
+
+11046859
+	ascent = 747
+	descent = 747
+	distance = 12.5 km
+	int_name = Djacka staza, Kanjon Tresnjice – Gornje Koslje
+	name = Ђачка стаза, Кањон Трешњице - Горње Кошље
+	name:sr = Ђачка стаза, Кањон Трешњице - Горње Кошље
+	name:sr-Latn = Đačka staza, Kanjon Trešnjice – Gornje Košlje
+	network = rwn
+	operator = Avala PSK
+	osmc:symbol = red:red_round::3:white
+	ref = 3-8-3
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/djacka-staza-kanjon-tresnjice-gornje-koslje/
+
+11095303
+	ascent = 1230
+	descent = 1230
+	distance = 21 km
+	name = ПД Грза - Велики Козји Рог - Вис - Црни врх - Јаворак - ПД Грза
+	name:sr = ПД Грза - Велики Козји Рог - Вис - Црни врх - Јаворак - ПД Грза
+	name:sr-Latn = PD Grza – Veliki Kozji Rog – Vis – Crni vrh – Javorak – PD Grza
+	network = rwn
+	operator = Javorak PK
+	osmc:symbol = red:red_round::1:white
+	ref = 4-26-1
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/pd-grza-veliki-kozji-rog-vis-crni-vrh-javorak-pd-grza/
+
+11102761
+	ascent = 300
+	descent = 360
+	distance = 14 km
+	name = Врмџа (кружна стаза)
+	name:sr = Врмџа (кружна стаза)
+	name:sr-Latn = Vrmdža (kružna staza)
+	network = rwn
+	note = staza nije mapirana u potpunosti
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::1:white
+	ref = 4-27-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/vrmdza-kruzna-staza/
+
+11097820
+	ascent = 746
+	descent = 746
+	distance = 6 km
+	name = Томићева колиба - Шиљак
+	name:sr = Томићева колиба - Шиљак
+	name:sr-Latn = Tomićeva koliba – Šiljak
+	network = rwn
+	note = deluje da postoji greška u podacima o visinskoj razlici
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::2:white
+	ref = 4-27-2
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/tomiceva-koliba-siljak/
+
+11097850
+	ascent = 316
+	descent = 18
+	distance = 6.6 km
+	name = Мужинац - Томићева колиба (подножје Ртња)
+	name:sr = Мужинац - Томићева колиба (подножје Ртња)
+	name:sr-Latn = Mužinac – Tomićeva koliba (podnožje Rtnja)
+	network = rwn
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::3:white
+	ref = 4-27-3
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/muzinac-tomiceva-koliba-podnozje-rtnja/
+
+11097832
+	ascent = 102
+	descent = 0
+	distance = 1.1 km
+	name = Томићева колиба – Јама Леденица
+	name:sr = Томићева колиба – Јама Леденица
+	name:sr-Latn = Tomićeva koliba – Jama Ledenica
+	network = lwn
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::4:white
+	ref = 4-27-4
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/tomiceva-koliba-jama-ledenica/
+
+11098424
+	ascent = 583
+	descent = 17
+	distance = 8 km
+	name = Гола планина
+	name:sr = Гола планина
+	name:sr-Latn = Gola planina
+	network = rwn
+	note = staza nije mapirana u potpunosti
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::5:white
+	ref = 4-27-5
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/sarbanovac-gola-planina/
+
+11098411
+	ascent = 781
+	descent = 779
+	distance = 22 km
+	name = Шарбановац - В. Порица - Баба
+	name:sr = Шарбановац - В. Порица - Баба
+	name:sr-Latn = Šarbanovac – V. Porica – Baba
+	network = rwn
+	note = staza nije mapirana u potpunosti
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::6:white
+	ref = 4-27-6
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/sarbanovac-v-porica-baba/
+
+11097107
+	ascent = 1207
+	descent = 971
+	distance = 13.7 km
+	name = Ртањ
+	name:sr = Ртањ
+	name:sr-Latn = Rtanj
+	network = rwn
+	operator = Dragan Radosavljević OPSD
+	osmc:symbol = red:red_round::7:white
+	ref = 4-27-7
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/rtanj/
+
+12899375
+	ascent = 636
+	descent = 636
+	distance = 12.9 km
+	name = Сесалац - Тумба - Сесалачка пећина
+	name:sr = Сесалац - Тумба - Сесалачка пећина
+	name:sr-Latn = Sesalac – Tumba – Sesalačka pećina
+	network = rwn
+	operator = Ozren PK
+	osmc:symbol = red:red_round::8:white
+	ref = 4-27-8
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/sesalac-tumba-sesalacka-pecina/
+
+13922554
+	ascent = 869
+	descent = 869
+	distance = 13.3 km
+	name = Гребеном Ртња
+	name:sr = Гребеном Ртња
+	name:sr-Latn = Grebenom Rtnja
+	network = rwn
+	operator = Ozren PK
+	osmc:symbol = red:red_round::9:white
+	ref = 4-27-9
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/grebenom-rtnja/
+
+11105001
+	ascent = 357
+	descent = 177
+	distance = 7 km
+	int_name = Vrbovac- Djurkov vrh
+	name = Врбовац - Ђурков врх
+	name:sr = Врбовац - Ђурков врх
+	name:sr-Latn = Vrbovac- Đurkov vrh
+	network = rwn
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::1:white
+	ref = 4-29-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/vrbovac-djurkov-vrh/
+
+14281136
+	ascent = 565
+	descent = 565
+	distance = 14.9 km
+	name = Трубаревац - Бованско језеро
+	name:sr = Трубаревац - Бованско језеро
+	name:sr-Latn = Trubarevac – Bovansko jezero
+	network = rwn
+	operator = Ozren PK
+	osmc:symbol = red:red_round::1:white
+	ref = 4-30-1
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/trubarevac-bovansko-jezero/
+
+11072572
+	ascent = 104
+	descent = 316
+	description = Spaja sledeće staze/puteve: "Vlasina - Leskovik", "Sokobanja - Golemi kamen - Oštra Čuka" i "Sokobanja - Kalinovica - Oštra Čuka"
+	distance = 5.1 km
+	name = Оштра чука - село Језеро
+	name:sr = Оштра чука - село Језеро
+	name:sr-Latn = Oštra čuka - selo Jezero
+	network = rwn
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::1:white
+	ref = 4-31-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/ostra-cuka-selo-jezero/
+
+11313552
+	ascent = 505
+	descent = 494
+	distance = 12.3 km
+	name = Маљица
+	name:sr = Маљица
+	name:sr-Latn = Maljica
+	network = rwn
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::11:white
+	ref = 4-31-11
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/maljica/
+
+11232313
+	ascent = 1065
+	descent = 578
+	distance = 21 km
+	name = Око Оштре чуке
+	name:sr = Око Оштре чуке
+	name:sr-Latn = Oko Oštre čuke
+	network = rwn
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::12:white
+	ref = 4-31-12
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/oko-ostre-cuke/
+
+12902283
+	ascent = 398
+	descent = 398
+	distance = 4.9 km
+	name = Лептерија - Сокоград - Големи камен
+	name:sr = Лептерија - Сокоград - Големи камен
+	name:sr-Latn = Lepterija – Sokograd – Golemi kamen
+	network = rwn
+	operator = Ozren PK
+	osmc:symbol = red:red_round::13:white
+	ref = 4-31-13
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/lepterija-sokograd-golemi-kamen/
+
+12902454
+	ascent = 597
+	descent = 597
+	distance = 11.5 km
+	name = Излетишта и видиковци Сокобање
+	name:sr = Излетишта и видиковци Сокобање
+	name:sr-Latn = Izletišta i vidikovci Sokobanje
+	network = rwn
+	operator = Ozren PK
+	osmc:symbol = red:red_round::14:white
+	ref = 4-31-14
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/izletista-i-vidikovci-sokobanje/
+
+13933124
+	ascent = 668
+	descent = 668
+	distance = 12.5 km
+	name = 4 врха Девице
+	name:sr = 4 врха Девице
+	name:sr-Latn = 4 vrha Device
+	network = rwn
+	operator = Ozren PK
+	osmc:symbol = red:red_round::15:white
+	ref = 4-31-15
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/4-vrha-device/
+
+14405400
+	ascent = 638
+	descent = 1182
+	distance = 18.2 km
+	name = Плато Девице до извора Моравице
+	name:sr = Плато Девице до извора Моравице
+	name:sr-Latn = Plato Device do izvora Moravice
+	network = rwn
+	operator = Ozren PK
+	osmc:symbol = red:red_round::16:white
+	ref = 4-31-16
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/plato-device-do-izvora-moravice/
+
+11232073
+	ascent = 780
+	descent = 47
+	distance = 9 km
+	name = Сокобања - Калиновица - Оштра Чука
+	name:sr = Сокобања - Калиновица - Оштра Чука
+	name:sr-Latn = Sokobanja – Kalinovica – Oštra Čuka
+	network = rwn
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::2:white
+	ref = 4-31-2
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/sokobanja-kalinovica-ostra-cuka/
+
+11313503
+	ascent = 372
+	descent = 392
+	distance = 9 km
+	name = Ново Село - Крст - Раденковац
+	name:sr = Ново Село - Крст - Раденковац
+	name:sr-Latn = Novo Selo – Krst – Radenkovac
+	network = rwn
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::4:white
+	ref = 4-31-4
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/novo-selo-krst-radenkovac/
+
+11232158
+	ascent = 834
+	descent = 90
+	distance = 8 km
+	name = Сокобања - Кулин врх - Оштра Чука
+	name:de = E4: Sokobanja – Kulin vrh – Oštra Čuka
+	name:sr = Сокобања - Кулин врх - Оштра Чука
+	name:sr-Latn = Sokobanja – Kulin vrh – Oštra Čuka
+	network = rwn
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::5:white
+	ref = 4-31-5
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/sokobanja-kulin-vrh-ostra-cuka/
+
+11185515
+	ascent = 759
+	descent = 762
+	distance = 13 km
+	name = Кањон Ждрело на Девици (Левовик)
+	name:sr = Кањон Ждрело на Девици (Левовик)
+	name:sr-Latn = Kanjon Ždrelo na Devici (Levovik)
+	network = rwn
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::6:white
+	ref = 4-31-6
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/kanjon-zdrelo-na-devici-levovik/
+
+11189246
+	ascent = 851
+	descent = 851
+	distance = 16.8 km
+	name = Велика и Мала Пропаст на Девици
+	name:sr = Велика и Мала Пропаст на Девици
+	name:sr-Latn = Velika i Mala Propast na Devici
+	network = rwn
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::7:white
+	ref = 4-31-7
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/velika-i-mala-propast-na-devici/
+
+11192825
+	ascent = 942
+	descent = 989
+	distance = 19 km
+	name = Три бунара на Девици - Извор Моравице
+	name:sr = Три бунара на Девици - Извор Моравице
+	name:sr-Latn = Tri bunara na Devici – Izvor Moravice
+	network = rwn
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::8:white
+	ref = 4-31-8
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/tri-bunara-na-devici-izvor-moravice/
+
+15015633
+	ascent = 572
+	descent = 566
+	distance = 9 km
+	name = Клисура Изгарске реке - „Дикулићева стаза”
+	name:sr = Клисура Изгарске реке - „Дикулићева стаза”
+	name:sr-Latn = Klisura Izgarske reke – „Dikulićeva staza“
+	network = rwn
+	note = staza nije mapirana u potpunosti
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::9:white
+	ref = 4-31-9
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/klisura-izgarske-reke-dikuliceva-staza/
+
+11260598
+	ascent = 235
+	descent = 0
+	distance = 7 km
+	name = Власина - Лесковик
+	name:sr = Власина - Лесковик
+	name:sr-Latn = Vlasina – Leskovik
+	network = rwn
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::1:white
+	ref = 4-33-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/vlasina-leskovik-2/
+
+11313703
+	ascent = 780
+	descent = 780
+	distance = 14 km
+	name = Лесковик - кружна стаза
+	name:sr = Лесковик - кружна стаза
+	name:sr-Latn = Leskovik – kružna staza
+	network = rwn
+	operator = Brđanka PSK
+	osmc:symbol = red:red_round::2:white
+	ref = 4-33-2
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/leskovik-kruzna-staza/
+
+11305864
+	ascent = 837
+	descent = 499
+	distance = 27 km
+	name = Поздрав пролећу / Алексинац - Сокобања (Рипаљка)
+	name:sr = Поздрав пролећу / Алексинац - Сокобања (Рипаљка)
+	name:sr-Latn = Pozdrav proleću / Aleksinac – Sokobanja (Ripaljka)
+	network = rwn
+	operator = Brđanka PSK
+	osmc:symbol = red:red_round::3:white
+	ref = 4-33-3
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/pozdrav-prolecu-aleksinac-sokobanja-ripaljka/
+
+11310324
+	ascent = 404
+	descent = 459
+	distance = 20 km
+	name = Виа Милитарис / Липовац - Бованско језеро
+	name:sr = Виа Милитарис / Липовац - Бованско језеро
+	name:sr-Latn = Via militaris / Lipovac – Bovansko jezero
+	network = rwn
+	operator = Brđanka PSK
+	osmc:symbol = red:red_round::4:white
+	ref = 4-33-4
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/via-militaris-lipovac-bovansko-jezero/
+
+11313879
+	ascent = 403
+	descent = 145
+	distance = 9.8 km
+	name = Ковиљача / Станци - Липовац
+	name:sr = Ковиљача / Станци - Липовац
+	name:sr-Latn = Koviljača / Stanci – Lipovac
+	network = rwn
+	operator = Brđanka PSK
+	osmc:symbol = red:red_round::5:white
+	ref = 4-33-5
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/koviljaca-stanci-lipovac/
+
+11260540
+	ascent = 140
+	descent = 0
+	distance = 3 km
+	name = Сокобања - Рипаљка
+	name:sr = Сокобања - Рипаљка
+	name:sr-Latn = Sokobanja – Ripaljka
+	network = rwn
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::6:white
+	ref = 4-33-6
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/sokobanja-ripaljka/
+
+11260582
+	ascent = 146
+	descent = 25
+	distance = 1.8 km
+	name = Власина - Оштра чука
+	name:sr = Власина - Оштра чука
+	name:sr-Latn = Vlasina – Oštra čuka
+	network = rwn
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::7:white
+	ref = 4-33-7
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/vlasina-ostra-cuka/
+
+13190049
+	ascent = 384
+	descent = 384
+	distance = 9.6 km
+	name = Сокобања - Рипаљка - Јерменчић
+	name:sr = Сокобања - Рипаљка - Јерменчић
+	name:sr-Latn = Sokobanja - Ripaljka - Jermenčić
+	network = rwn
+	operator = Ozren PK
+	osmc:symbol = red:red_round::8:white
+	ref = 4-33-8
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/13405/
+
+13190234
+	ascent = 892
+	descent = 892
+	distance = 15.9 km
+	name = Рипаљка - Јерменчић - Лесковик - Озренска врата
+	name:sr = Рипаљка - Јерменчић - Лесковик - Озренска врата
+	name:sr-Latn = Ripaljka - Jermenčić - Leskovik - Ozrenska vrata
+	network = rwn
+	operator = Ozren PK
+	osmc:symbol = red:red_round::9:white
+	ref = 4-33-9
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/ripaljka-jermencic-leskovik-ozrenska-vrata/
+
+11182558
+	ascent = 701
+	descent = 701
+	distance = 12.6 km
+	name = Кожељ - Леднички врх
+	name:sr = Кожељ - Леднички врх
+	name:sr-Latn = Koželj – Ledenički vrh
+	network = rwn
+	operator = Dragan Radosavljević OPSD
+	osmc:symbol = red:red_round::1:white
+	ref = 4-36-1
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/kozelj-ledenicki-vrh/
+
+11169649
+	ascent = 714
+	descent = 714
+	distance = 12.2 km
+	name = Мариновац - Глоговачки врх
+	name:sr = Мариновац - Глоговачки врх
+	name:sr-Latn = Marinovac – Glogovački vrh
+	network = rwn
+	operator = Dragan Radosavljević OPSD
+	osmc:symbol = red:red_round::2:white
+	ref = 4-36-2
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/marinovac-glogovacki-vrh/
+
+11105694
+	ascent = 165
+	descent = 0
+	distance = 3 km
+	name = Сесалац - Сесалачка пећина
+	name:sr = Сесалац - Сесалачка пећина
+	name:sr-Latn = Sesalac – Sesalačka pećina
+	network = rwn
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::1:white
+	ref = 4-37-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/sesalac-sesalacka-pecina-2/
+
+11126557
+	ascent = 649
+	descent = 0
+	distance = 7 km
+	name = Милушинац - Слемен
+	name:sr = Милушинац - Слемен
+	name:sr-Latn = Milušinac – Slemen
+	network = rwn
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::2:white
+	ref = 4-37-2
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/milusinac-slemen-2/
+
+13190270
+	ascent = 675
+	descent = 675
+	distance = 18.3 km
+	name = Сесалац - Слемен - Сесалачка пећина
+	name:sr = Сесалац - Слемен - Сесалачка пећина
+	name:sr-Latn = Sesalac - Slemen - Sesalačka pećina
+	network = rwn
+	operator = Ozren PK
+	osmc:symbol = red:red_round::3:white
+	ref = 4-37-3
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/sesalac-slemen-sesalacka-pecina/
+
+11263389
+	ascent = 1084
+	descent = 0
+	distance = 6.6 km
+	name = Крупац - Зелени врх
+	name:sr = Крупац - Зелени врх
+	name:sr-Latn = Krupac – Zeleni vrh
+	network = rwn
+	operator = Železničar PK Niš
+	osmc:symbol = red:red_round::3:white
+	ref = 4-39-3
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/krupac-zeleni-vrh/
+
+11263559
+	ascent = 1017
+	descent = 0
+	distance = 7.9 km
+	name = Ћирин пролаз - Градиште - Плеш
+	name:sr = Ћирин пролаз - Градиште - Плеш
+	name:sr-Latn = Ćirin prolaz – Gradište – Pleš
+	network = rwn
+	operator = Železničar PK Niš
+	osmc:symbol = red:red_round::4:white
+	ref = 4-39-4
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/cirin-prolaz-gradiste-ples/
+
+11286263
+	ascent = 243
+	descent = 243
+	distance = 4.3 km
+	name = Преконошка пећина
+	name:sr = Преконошка пећина
+	name:sr-Latn = Prekonoška pećina
+	network = rwn
+	operator = Preslap PD
+	osmc:symbol = red:red_round::5:white
+	ref = 4-39-5
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/prekonoska-pecina/
+
+11286225
+	ascent = 842
+	descent = 842
+	distance = 13.5 km
+	name = Белоиље - Плеш - Белоиње
+	name:sr = Белоиље - Плеш - Белоиње
+	name:sr-Latn = Beloinje – Pleš – Beloinje
+	network = rwn
+	operator = Preslap PD
+	osmc:symbol = red:red_round::6:white
+	ref = 4-39-6
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/beloinje-ples-beloinje/
+
+12115780
+	ascent = 305
+	descent = 222
+	distance = 6 km
+	name = Сићево - Јечава
+	name:sr = Сићево - Јечава
+	name:sr-Latn = Sićevo – Ječava
+	network = rwn
+	operator = Mosor PAK
+	osmc:symbol = red:red_round::7:white
+	ref = 4-39-7
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/sicevo-jecava/
+
+11043232
+	ascent = 1800
+	descent = 1800
+	distance = 35.0 km
+	name = Хомољски планински маратон
+	name:sr = Хомољски планински маратон
+	name:sr-Latn = Homoljski planinarski maraton
+	network = rwn
+	operator = Vukan PK
+	osmc:symbol = red:red_round::1:white
+	ref = 4-4-1
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/homoljski-planinarski-maraton/
+
+11043157
+	ascent = 800
+	descent = 800
+	distance = 16.0 km
+	name = Хомољски планински полумаратон
+	name:sr = Хомољски планински полумаратон
+	name:sr-Latn = Homoljski planinarski polumaraton
+	network = rwn
+	operator = Vukan PK
+	osmc:symbol = red:red_round::2:white
+	ref = 4-4-2
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/homoljski-planinarski-polumaraton/
+
+11038377
+	ascent = 845
+	descent = 795
+	distance = 18.5 km
+	name = Од манастира Горњак до Крупајског врела
+	name:sr = Од манастира Горњак до Крупајског врела
+	name:sr-Latn = Od manastira Gornjak do Krupajskog vrela
+	network = rwn
+	operator = Gornjak PD
+	osmc:symbol = red:red_round::3:white
+	ref = 4-4-3
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/od-manastira-gornjak-do-krupajskog-vrela/
+
+11512754
+	ascent = 333
+	descent = 0
+	distance = 6.5 km
+	name = Стрњак - Трест
+	name:sr = Стрњак - Трест
+	name:sr-Latn = Strnjak – Trest
+	network = rwn
+	operator = Gornjak PD
+	osmc:symbol = red:red_round::4:white
+	ref = 4-4-4
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/strnjak-trest/
+
+11515769
+	ascent = 400
+	descent = 400
+	distance = 9.6 km
+	name = Штубеј од Церомошње
+	name:sr = Штубеј од Церомошње
+	name:sr-Latn = Štubej od Ceremošnje
+	network = rwn
+	operator = Gornjak PD
+	osmc:symbol = red:red_round::5:white
+	ref = 4-4-5
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/stubej-od-ceremosnje/
+
+11515913
+	ascent = 627
+	descent = 627
+	distance = 12.5 km
+	name = Велики Суморовац од Бистрице
+	name:sr = Велики Суморовац од Бистрице
+	name:sr-Latn = Veliki Sumorovac od Bistrice
+	network = rwn
+	operator = Gornjak PD
+	osmc:symbol = red:red_round::6:white
+	ref = 4-4-6
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/veliki-sumorovac-od-bistrice/
+
+11515931
+	ascent = 630
+	descent = 630
+	distance = 12.5 km
+	name = Велики Врањ од Крепољина
+	name:sr = Велики Врањ од Крепољина
+	name:sr-Latn = Veliki Vranj od Krepoljina
+	network = rwn
+	operator = Gornjak PD
+	osmc:symbol = red:red_round::7:white
+	ref = 4-4-7
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/veliki-vranj-od-krepoljina/
+
+11164146
+	ascent = 350
+	descent = 462
+	distance = 18 km
+	name = Вршка чука - Влашки до - кружна стаза
+	name:sr = Вршка чука - Влашки до - кружна стаза
+	name:sr-Latn = Vrška čuka – Vlaški do – kružna staza
+	network = rwn
+	operator = Ljuba Nešić PSD
+	osmc:symbol = red:red_round::1:white
+	ref = 4-42-1
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/vrska-cuka-vlaski-do-kruzna-staza/
+
+11166660
+	ascent = 350
+	descent = 353
+	distance = 11 km
+	name = Ветрен - полукружна стаза
+	name:sr = Ветрен - полукружна стаза
+	name:sr-Latn = Vetren – polukružna staza
+	network = rwn
+	operator = Ljuba Nešić PSD
+	osmc:symbol = red:red_round::2:white
+	ref = 4-42-2
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/vetren-polukruzna-staza/
+
+11126446
+	ascent = 620
+	complete = no
+	descent = 0
+	distance = 6 km
+	name = Милушинац - Крстатац
+	name:sr = Милушинац - Крстатац
+	name:sr-Latn = Milušinac – Krstatac
+	network = rwn
+	note = staza nije mapirana u potpunosti
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::1:white
+	ref = 4-45-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/milusinac-krstatac-2/
+
+14281196
+	ascent = 724
+	descent = 724
+	distance = 13 km
+	name = Милушинац - Крстатац - Богова врата
+	name:sr = Милушинац - Крстатац - Богова врата
+	name:sr-Latn = Milušinac – Krstatac – Bogova vrata
+	network = rwn
+	operator = Ozren PK
+	osmc:symbol = red:red_round::2:white
+	ref = 4-45-2
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/krstatac-bogova-vrata/
+
+13191274
+	ascent = 390
+	descent = 390
+	distance = 8.0 km
+	name = Милушинац - Богова врата
+	name:sr = Милушинац - Богова врата
+	name:sr-Latn = Milušinac - Bogova vrata
+	network = rwn
+	operator = Ozren PK
+	osmc:symbol = red:red_round::4:white
+	ref = 4-45-4
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/milusinac-bogova-vrata/
+
+11297467
+	ascent = 335
+	descent = 335
+	distance = 9.3 km
+	name = Церје - Голи врх - Дебели врх
+	name:sr = Церје - Голи врх - Дебели врх
+	name:sr-Latn = Cerje – Goli vrh – Debeli vrh
+	network = rwn
+	operator = Železničar PK Niš
+	osmc:symbol = red:red_round::1:white
+	ref = 4-47-1
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/cerje-goli-vrh-debeli-vrh/
+
+11294577
+	ascent = 346
+	descent = 346
+	distance = 9.2 km
+	name = Церје - Љути врх - Провалија
+	name:sr = Церје - Љути врх - Провалија
+	name:sr-Latn = Cerje – Ljuti vrh – Provalija
+	network = rwn
+	operator = Železničar PK Niš
+	osmc:symbol = red:red_round::2:white
+	ref = 4-47-2
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/cerje-ljuti-vrh-provalija/
+
+11301905
+	ascent = 421
+	descent = 0
+	distance = 3.5 km
+	name = Кравље - Голи врх
+	name:sr = Кравље - Голи врх
+	name:sr-Latn = Kravlje – Goli vrh
+	network = rwn
+	operator = Železničar PK Niš
+	osmc:symbol = red:red_round::4:white
+	ref = 4-47-4
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/kravlje-goli-vrh/
+
+11301866
+	ascent = 483
+	descent = 0
+	distance = 4.2 km
+	name = Кравље - Пећурина - Љути врх
+	name:sr = Кравље - Пећурина - Љути врх
+	name:sr-Latn = Kravlje – Pećurina – Ljuti vrh
+	network = rwn
+	operator = Železničar PK Niš
+	osmc:symbol = red:red_round::5:white
+	ref = 4-47-5
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/kravlje-pecurina-ljuti-vrh/
+
+11289071
+	ascent = 660
+	descent = 758
+	distance = 16 km
+	name = Кнез Село - Градац - Силва - Калафат - ман. Св. Јована - Горњи Матејевац
+	name:sr = Кнез Село - Градац - Силва - Калафат - ман. Св. Јована - Горњи Матејевац
+	name:sr-Latn = Knez Selo - Gradac - Sliva - Kalafat - man. Sv.Jovana - Gornji Matejevac
+	network = rwn
+	operator = Preslap PD
+	osmc:symbol = red:red_round::6:white
+	ref = 4-47-6
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/knez-selo-gradac-sliva-kalafat-man-sv-jovana-gornji-matejevac/
+
+11289209
+	ascent = 149
+	descent = 811
+	distance = 18 km
+	int_name = Kalafat – Tvrdjava Nis
+	name = Калафат - Тврђава Ниш
+	name:sr = Калафат - Тврђава Ниш
+	name:sr-Latn = Kalafat – Tvrđava Niš
+	network = rwn
+	operator = Mosor PAK
+	osmc:symbol = red:red_round::7:white
+	ref = 4-47-7
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/kalafat-tvrdjava-nis/
+
+11038409
+	ascent = 640
+	descent = 615
+	distance = 10.3 km
+	int_name = Veliki Vukan od manastira Gornjak do izvidjackog doma u Zdrelu
+	name = Велики Вукан од манастира Горњак до извиђачког дома у Ждрелу
+	name:sr = Велики Вукан од манастира Горњак до извиђачког дома у Ждрелу
+	name:sr-Latn = Veliki Vukan od manastira Gornjak do izviđačkog doma u Ždrelu
+	network = rwn
+	operator = Gornjak PD
+	osmc:symbol = red:red_round::1:white
+	ref = 4-48-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/veliki-vukan-od-manastira-gornjak-do-izvidjackog-doma-u-zdrelu/
+
+11038554
+	ascent = 710
+	descent = 710
+	distance = 11 km
+	name = Мали и Велики Вукан од дома Ждрело
+	name:sr = Мали и Велики Вукан од дома Ждрело
+	name:sr-Latn = Mali i Veliki Vukan od doma Ždrelo
+	network = rwn
+	operator = Gornjak PD
+	osmc:symbol = red:red_round::2:white
+	ref = 4-48-2
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/mali-i-veliki-vukan-od-doma-zdrelo/
+
+11038427
+	ascent = 556
+	descent = 476
+	distance = 6.3 km
+	name = Мали Вукан од Четири луле до манастира Ждрело
+	name:sr = Мали Вукан од Четири луле до манастира Ждрело
+	name:sr-Latn = Mali Vukan od Četiri lule do manastira Ždrelo
+	network = rwn
+	operator = Gornjak PD
+	osmc:symbol = red:red_round::3:white
+	ref = 4-48-3
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/mali-vukan-od-cetiri-lule-do-manastira-zdrelo/
+
+11038526
+	ascent = 620
+	descent = 620
+	distance = 8.4 km
+	name = Велики Вукан од Ждрела
+	name:sr = Велики Вукан од Ждрела
+	name:sr-Latn = Veliki Vukan od Ždrela
+	network = rwn
+	operator = Gornjak PD
+	osmc:symbol = red:red_round::4:white
+	ref = 4-48-4
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/veliki-vukan-od-zdrela/
+
+11518648
+	ascent = 556
+	descent = 556
+	distance = 6 km
+	name = Мали Вукан гребеном од Четири луле
+	name:sr = Мали Вукан гребеном од Четири луле
+	name:sr-Latn = Mali Vukan grebenom od Četiri lule
+	network = rwn
+	operator = Gornjak PD
+	osmc:symbol = red:red_round::5:white
+	ref = 4-48-5
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/mali-vukan-grebenom-od-cetiri-lule/
+
+11038474
+	ascent = 517
+	descent = 498
+	distance = 7.2 km
+	name = Јежевац преко Козјег Грба
+	name:sr = Јежевац преко Козјег Грба
+	name:sr-Latn = Ježevac preko Kozjeg Grba
+	network = rwn
+	operator = Gornjak PD
+	osmc:symbol = red:red_round::1:white
+	ref = 4-49-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/jezevac-preko-kozjeg-grba/
+
+10808656
+	ascent = 498
+	descent = 512
+	description = Na startu i cilju ima mesta za parkiranje vozila. Iz oba smera se jednim delom ide nasutim ili zemljenim putem, dok ostatak čine planinarske staze sa većinski zemljanom podlogom. Staza nije strma i prikladna je za početnike i osobe sa slabijom kondicijom.
+	distance = 9.2 km
+	name = Јежевац, Манастир Горњак - Лалин кладенац
+	name:sr = Јежевац, Манастир Горњак - Лалин кладенац
+	name:sr-Latn = Ježevac, Manastir Gornjak-Lalin kladenac
+	network = rwn
+	operator = Gornjak PD
+	osmc:symbol = red:red_round::2:white
+	ref = 4-49-2
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/jezevac-manastir-gornjak-lalin-kladenac/
+
+11132794
+	ascent = 570
+	descent = 582
+	distance = 12 km
+	name = Кружна стаза Јежевац
+	name:sr = Кружна стаза Јежевац
+	name:sr-Latn = Kružna staza Ježevac
+	network = rwn
+	operator = Vukan PK
+	osmc:symbol = red:red_round::3:white
+	ref = 4-49-3
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/kruzna-staza-jezevac/
+
+11518753
+	ascent = 497
+	descent = 387
+	distance = 8.5 km
+	name = Извор реке Дубочице
+	name:sr = Извор реке Дубочице
+	name:sr-Latn = Izvor reke Dubočice
+	network = rwn
+	operator = Gornjak PD
+	osmc:symbol = red:red_round::4:white
+	ref = 4-49-4
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/izvor-reke-dubocice/
+
+11092714
+	ascent = 750
+	descent = 750
+	distance = 21 km
+	name = Манастир Раваница - Бостава - Манастир Раваница
+	name:sr = Манастир Раваница - Бостава - Манастир Раваница
+	name:sr-Latn = Manastir Ravanica – Bostava – Manastir Ravanica
+	network = rwn
+	note = staza nije mapirana u potpunosti, na (43.98857, 21.468790) postoji neslaganje
+	operator = Zubrova PD
+	osmc:symbol = red:red_round::1:white
+	ref = 4-53-1
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/manastir-ravanica-bostava-manastir-ravanica/
+
+11518703
+	ascent = 620
+	descent = 450
+	distance = 9.7 km
+	name = Велики Вукан од Ждрела до манастира Рашковице
+	name:sr = Велики Вукан од Ждрела до манастира Рашковице
+	name:sr-Latn = Veliki Vukan od Ždrela do manastira Reškovice
+	network = rwn
+	operator = Gornjak PD
+	osmc:symbol = red:red_round::6:white
+	ref = 4-86-6
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/veliki-vukan-od-zdrela-do-manastira-reskovice/
+
+12167007
+	ascent = 957
+	descent = 957
+	distance = 17 km
+	name = Бања - Бањско брдо
+	name:sr = Бања - Бањско брдо
+	name:sr-Latn = Banja – Banjsko brdo
+	network = rwn
+	operator = Ljeskovac ŽKP
+	osmc:symbol = red:red_round::1:white
+	ref = 5-11-1
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/banja-banjsko-brdo/
+
+12173165
+	ascent = 150
+	descent = 315
+	distance = 7 km
+	name = Кањон Кратовске реке
+	name:sr = Кањон Кратовске реке
+	name:sr-Latn = Kanjon Kratovske reke
+	network = rwn
+	note = proveriti geometriju duž kanjona
+	operator = Ljeskovac ŽKP
+	osmc:symbol = red:red_round::2:white
+	ref = 5-11-2
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/kanjon-kratovske-reke/
+
+11338783
+	ascent = 1007
+	descent = 918
+	distance = 22 km
+	name = Златибор - Торник - Водице
+	name:sr = Златибор - Торник - Водице
+	name:sr-Latn = Zlatibor – Tornik – Vodice
+	network = rwn
+	operator = Tornik PK
+	osmc:symbol = red:red_round::1:white
+	ref = 5-12-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/zlatibor-tornik-vodice/
+
+15699116
+	ascent = 790
+	descent = 790
+	distance = 21.7 km
+	name = Стаза бр. 6: Златибор - Споменик - Чукер
+	name:sr = Стаза бр. 6: Златибор - Споменик - Чукер
+	name:sr-Latn = Staza br. 6: Zlatibor – Spomenik – Čuker
+	network = rwn
+	operator = Tornik PK
+	osmc:symbol = red:red_round::10:white
+	ref = 5-12-10
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-6-zlatibor-spomenik-cuker/
+
+15711357
+	ascent = 670
+	descent = 670
+	distance = 16.1 km
+	name = Стаза бр. 18: Јечмиште - врх Бандера (Торник)
+	name:sr = Стаза бр. 18: Јечмиште - врх Бандера (Торник)
+	name:sr-Latn = Staza br. 18: Ječmište – vrh Bandera (Tornik)
+	network = rwn
+	operator = Tornik PK
+	osmc:symbol = red:red_round::11:white
+	ref = 5-12-11
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-18-jecmiste-vrh-bandera-tornik/
+
+15720466
+	ascent = 450
+	descent = 450
+	distance = 14.1 km
+	name = Стаза бр. 1: Негбина - Караула
+	name:sr = Стаза бр. 1: Негбина - Караула
+	name:sr-Latn = Staza br. 1: Negbina – Karaula
+	network = rwn
+	operator = Omorika PD
+	osmc:symbol = red:red_round::12:white
+	ref = 5-12-12
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-1-negbina-karaula/
+
+15731914
+	ascent = 810
+	descent = 810
+	distance = 18.1 km
+	name = Стаза бр. 3: Љубиш - Муртеница
+	name:sr = Стаза бр. 3: Љубиш - Муртеница
+	name:sr-Latn = Staza br. 3: Ljubiš – Murtenica
+	network = rwn
+	note = недостаје operator биће унешен
+	osmc:symbol = red:red_round::13:white
+	ref = 5-12-13
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-3-ljubis-murtenica/
+
+15745815
+	ascent = 460
+	descent = 460
+	distance = 14.4 km
+	name = Стаза бр. 7 - Семегњево - Савино Брдо
+	name:sr = Стаза бр. 7 - Семегњево - Савино Брдо
+	name:sr-Latn = Staza br. 7: Semegnjevo – Savino Brdo
+	network = rwn
+	note = недостаје operator, биће унешен
+	osmc:symbol = red:red_round::14:white
+	ref = 5-12-14
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-7-semegnjevo-savino-brdo/
+
+15772472
+	ascent = 680
+	descent = 680
+	distance = 17.2 km
+	name = Стаза бр. 8: Семегњево - Виогор
+	name:sr = Стаза бр. 8: Семегњево - Виогор
+	name:sr-Latn = Staza br. 8: Semegnjevo – Viogor
+	network = rwn
+	note = недостаје operator, биће унешен
+	osmc:symbol = red:red_round::15:white
+	ref = 5-12-15
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-8-semegnjevo-viogor/
+
+15777952
+	ascent = 550
+	descent = 550
+	distance = 13.8 km
+	name = Стаза бр. 9: Чавловац - Кобиља глава
+	name:sr = Стаза бр. 9: Чавловац - Кобиља глава
+	name:sr-Latn = Staza br. 9: Čavlovac – Kobilja glava
+	network = rwn
+	note = недостаје operator, биће унешен
+	osmc:symbol = red:red_round::16:white
+	ref = 5-12-16
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-9-cavlovac-kobilja-glava/
+
+15786003
+	ascent = 730
+	descent = 730
+	distance = 15.5 km
+	name = Стаза бр. 10: Семегњево - Лечића врх
+	name:sr = Стаза бр. 10: Семегњево - Лечића врх
+	name:sr-Latn = Staza br. 10: Semegnjevo – Lečića vrh
+	network = rwn
+	note = недостаје operator, биће унешен
+	osmc:symbol = red:red_round::17:white
+	ref = 5-12-17
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-10-semegnjevo-lecica-vrh/
+
+15790126
+	ascent = 630
+	descent = 630
+	distance = 15.1 km
+	name = Стаза бр. 12: Доброселица - Марића стена
+	name:sr = Стаза бр. 12: Доброселица - Марића стена
+	name:sr-Latn = Staza br. 12: Dobroselica – Marića stena
+	network = rwn
+	note = недостаје operator, биће унешен
+	osmc:symbol = red:red_round::18:white
+	ref = 5-12-18
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-12-dobroselica-marica-stena/
+
+15793365
+	ascent = 520
+	descent = 520
+	distance = 9 km
+	name = Стаза бр. 13: Стубло - Омарски поток
+	name:sr = Стаза бр. 13: Стубло - Омарски поток
+	name:sr-Latn = Staza br. 13: Stublo – Omarski potok
+	network = rwn
+	note = недостаје operator, биће унешен
+	osmc:symbol = red:red_round::19:white
+	ref = 5-12-19
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/19291/
+
+11349334
+	ascent = 327
+	descent = 379
+	distance = 9.9 km
+	name = Ски центар „Торник” (Рибница) - Водице
+	name:sr = Ски центар „Торник” (Рибница) - Водице
+	name:sr-Latn = Ski centar „Tornik” (Ribnica) – Vodice
+	network = rwn
+	operator = Tornik PK
+	osmc:symbol = red:red_round::2:white
+	ref = 5-12-2
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/ski-centar-tornik-ribnica-vodice/
+
+15796504
+	ascent = 630
+	descent = 630
+	distance = 14.9 km
+	name = Стаза бр. 17: Доње Село - Дубрава
+	name:sr = Стаза бр. 17: Доње Село - Дубрава
+	name:sr-Latn = Staza br. 17: Donje Selo – Dubrava
+	network = rwn
+	note = недостаје operator, биће унешен
+	osmc:symbol = red:red_round::20:white
+	ref = 5-12-20
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-17-donje-selo-dubrava/
+
+15801273
+	ascent = 570
+	descent = 570
+	distance = 12.9 km
+	name = Стаза бр. 19: Рибница - Лиска
+	name:sr = Стаза бр. 19: Рибница - Лиска
+	name:sr-Latn = Staza br. 19: Ribnica – Liska
+	network = rwn
+	note = недостаје operator, биће унешен
+	osmc:symbol = red:red_round::21:white
+	ref = 5-12-21
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-19-ribnica-liska/
+
+15817623
+	ascent = 480
+	descent = 480
+	distance = 13.3 km
+	name = Стаза бр. 20: Семегњево - Лупоглав
+	name:sr = Стаза бр. 20: Семегњево - Лупоглав
+	name:sr-Latn = Staza br. 20: Semegnjevo – Lupoglav
+	network = rwn
+	note = недостаје operator, биће унешен
+	osmc:symbol = red:red_round::22:white
+	ref = 5-12-22
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-20-semegnjevo-lupoglav/
+
+11349461
+	ascent = 617
+	descent = 617
+	distance = 14.2 km
+	name = Тетребовац
+	name:sr = Тетребовац
+	name:sr-Latn = Tetrebovac
+	network = rwn
+	operator = Tornik PK
+	osmc:symbol = red:red_round::3:white
+	ref = 5-12-3
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/tetrebovac/
+
+15628650
+	ascent = 710
+	descent = 710
+	distance = 10.3 km
+	name = Стаза бр. 14: Манастир Увац - Крвавац
+	name:sr = Стаза бр. 14: Манастир Увац - Крвавац
+	name:sr-Latn = Staza br. 14: Manastir Uvac – Krvavac
+	network = rwn
+	operator = Aleksandar Džavović PD
+	osmc:symbol = red:red_round::4:white
+	ref = 5-12-4
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-14-manastir-uvac-krvavac/
+
+15632160
+	ascent = 760
+	descent = 760
+	distance = 10.9 km
+	name = Стаза бр. 15: Колијевка - Орлић
+	name:sr = Стаза бр. 15: Колијевка - Орлић
+	name:sr-Latn = Staza br. 15: Kolijevka – Orlić
+	network = rwn
+	operator = Aleksandar Džavović PD
+	osmc:symbol = red:red_round::5:white
+	ref = 5-12-5
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-15-kolijevka-orlic/
+
+15632353
+	ascent = 790
+	descent = 790
+	distance = 18.7 km
+	name = Стаза бр. 16: Јабланица - Љуљаш
+	name:sr = Стаза бр. 16: Јабланица - Љуљаш
+	name:sr-Latn = Staza br. 16: Jablanica – Ljuljaš
+	network = rwn
+	operator = Aleksandar Džavović PD
+	osmc:symbol = red:red_round::6:white
+	ref = 5-12-6
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-16-jablanica-ljuljas/
+
+15640271
+	ascent = 700
+	descent = 700
+	distance = 16.8 km
+	name = Стаза бр. 2: Муртеница - Тавничко језеро
+	name:sr = Стаза бр. 2: Муртеница - Тавничко језеро
+	name:sr-Latn = Staza br. 2: Murtenica – Tavničko jezero
+	network = rwn
+	operator = Tornik PK
+	osmc:symbol = red:red_round::7:white
+	ref = 5-12-7
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-2-murtenica-tavnicko-jezero/
+
+15671294
+	ascent = 850
+	descent = 850
+	distance = 17.6 km
+	name = Стаза бр. 4: Гостиље - Чигота
+	name:sr = Стаза бр. 4: Гостиље - Чигота
+	name:sr-Latn = Staza br. 4: Gostilje – Čigota
+	network = rwn
+	operator = Tornik PK
+	osmc:symbol = red:red_round::8:white
+	ref = 5-12-8
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-4-gostilje-cigota/
+
+15688573
+	ascent = 550
+	descent = 550
+	distance = 14.5 km
+	name = Стаза бр. 5: Јокина ћурија - Јеље - Коњодер
+	name:sr = Стаза бр. 5: Јокина ћурија - Јеље - Коњодер
+	name:sr-Latn = Staza br. 5: Jokina ćuprija – Jelje – Konjoder
+	network = rwn
+	note = није обележен почетак стазе јер се на необлеженом месту прелази примарни пут
+	operator = Tornik PK
+	osmc:symbol = red:red_round::9:white
+	ref = 5-12-9
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-5-jokina-cuprija-jelje-konjoder/
+
+11478100
+	ascent = 20
+	descent = 513
+	distance = 4.35 km
+	name = Кађеница
+	name:sr = Кађеница
+	name:sr-Latn = Kađenica
+	network = rwn
+	operator = Kablar PD
+	osmc:symbol = red:red_round::2:white
+	ref = 5-15-2
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/kadjenica/
+
+11214225
+	ascent = 708
+	descent = 708
+	distance = 9.54 km
+	name = Овчар
+	name:sr = Овчар
+	name:sr-Latn = Ovčar
+	network = rwn
+	operator = Kablar PD
+	osmc:symbol = red:red_round::1:white
+	ref = 5-17-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/ovcar/
+
+11489032
+	ascent = 365
+	descent = 0
+	distance = 5.6 km
+	name = Дуле Крњајић
+	name:sr = Дуле Крњајић
+	name:sr-Latn = Dule Krnjajić
+	network = rwn
+	operator = Kablar PD
+	osmc:symbol = red:red_round::2:white
+	ref = 5-17-2
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/dule-krnjajic/
+
+12185187
+	ascent = 1104
+	descent = 1104
+	distance = 17.3 km
+	name = Насеље - Полин поток - Лиса стена - Стан и Градац пећина - Насеље
+	name:sr = Насеље - Полин поток - Лиса стена - Стан и Градац пећина - Насеље
+	name:sr-Latn = Naselje - Polin potok - Lisa stena - Stan i Gradac pećina - Naselje
+	network = rwn
+	operator = Ljeskovac ŽKP
+	osmc:symbol = red:red_round::1:white
+	ref = 5-40-1
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/naselje-polin-potok-lisa-stena-stan-i-gradac-pecina-naselje/
+
+12154094
+	ascent = 1016
+	descent = 0
+	distance = 16 km
+	name = Велики Бич
+	name:sr = Велики Бич
+	name:sr-Latn = Veliki Bič
+	network = rwn
+	operator = Ljeskovac ŽKP
+	osmc:symbol = red:red_round::1:white
+	ref = 5-6-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/veliki-bic/
+
+12163308
+	ascent = 530
+	descent = 0
+	distance = 9.5 km
+	name = Прибој - Тврђава Јагат
+	name:sr = Прибој - Тврђава Јагат
+	name:sr-Latn = Priboj – Tvrđava Jagat
+	network = rwn
+	operator = Ljeskovac ŽKP
+	osmc:symbol = red:red_round::2:white
+	ref = 5-6-2
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/mali-bic/
+
+11163991
+	ascent = 567
+	descent = 567
+	distance = 10.3 km
+	name = Мечје стене
+	name:sr = Мечје стене
+	name:sr-Latn = Mečje stene
+	network = rwn
+	operator = Jastrebac PSK
+	osmc:symbol = red:red_round::1:white
+	ref = 6-14-1
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/mecje-stene/
+
+14283620
+	ascent = 539
+	descent = 479
+	distance = 18.2 km
+	name = Сретењски сусрети / Копривница - Велики Дреновац
+	name:sr = Сретењски сусрети / Копривница - Велики Дреновац
+	name:sr-Latn = Sretenjski susreti / Koprivnica – Veliki Drenovac
+	network = rwn
+	operator = Brđanka PSK
+	osmc:symbol = red:red_round::1:white
+	ref = 6-21-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/sretenjski-susreti-koprivnica-v-drenovac/
+
+13935770
+	ascent = 529
+	descent = 529
+	distance = 6.3 km
+	name = „Црни Камен“
+	name:sr = „Црни Камен“
+	name:sr-Latn = „Crni Kamen“
+	network = rwn
+	operator = Kukavica PSK
+	osmc:symbol = red:red_round::1:white
+	ref = 7-1-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/crni-kamen/
+
+13936069
+	ascent = 717
+	descent = 176
+	distance = 13 km
+	name = Јарсеново - Г. Купиновица - Крива Бука
+	name:sr = Јарсеново - Г. Купиновица - Крива Бука
+	name:sr-Latn = Jarsenovo – G. Kupinovica – Kriva Buka
+	network = rwn
+	operator = Kukavica PSK
+	osmc:symbol = red:red_round::2:white
+	ref = 7-1-2
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/jarsenovo-g-kupinovica-kriva-buka/
+
+11258223
+	ascent = 601
+	descent = 601
+	distance = 20 km
+	name = Велики и Мали Вртоп - Грамада, Власина
+	name:sr = Велики и Мали Вртоп - Грамада, Власина
+	name:sr-Latn = Veliki i Mali Vrtop – Gramada, Vlasina
+	network = rwn
+	operator = Vlasina SPK
+	osmc:symbol = red:red_round::1:white
+	ref = 7-15-1
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/veliki-i-mali-vrtop-gramada-vlasina/
+
+11263354
+	ascent = 1398
+	descent = 697
+	distance = 17.2 km
+	name = Коритњак - Девојачки гроб
+	name:sr = Коритњак - Девојачки гроб
+	name:sr-Latn = Koritnjak – Devojački grob
+	network = rwn
+	operator = Mosor PAK
+	osmc:symbol = red:red_round::10:white
+	ref = 7-3-10
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/koritnjak-devojacki-grob/
+
+11282897
+	ascent = 700
+	descent = 700
+	distance = 11 km
+	name = Бањица - Кусача
+	name:sr = Бањица - Кусача
+	name:sr-Latn = Banjica – Kusača
+	network = rwn
+	operator = Mosor PAK
+	osmc:symbol = red:red_round::11:white
+	ref = 7-3-11
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/banjica-kusaca/
+
+12185208
+	ascent = 651
+	descent = 651
+	distance = 14 km
+	name = Нишка Бања - Коритник - Раутово - Нишка Бања
+	name:sr = Нишка Бања - Коритник - Раутово - Нишка Бања
+	name:sr-Latn = Niška Banja – Koritnik – Rautovo – Niška Banja
+	network = rwn
+	operator = Mosor PAK
+	osmc:symbol = red:red_round::12:white
+	ref = 7-3-12
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/niska-banja-koritnik-rautovo-niska-banja/
+
+12204224
+	ascent = 645
+	descent = 645
+	distance = 14.4 km
+	name = Бојанине воде - Соколов камен - Бојанине воде
+	name:sr = Бојанине воде - Соколов камен - Бојанине воде
+	name:sr-Latn = Bojanine vode – Sokolov kamen – Bojanine vode
+	network = rwn
+	operator = Mosor PAK
+	osmc:symbol = red:red_round::14:white
+	ref = 7-3-14
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/bojanine-vode-sokolov-kamen-bojanine-vode/
+
+12204344
+	ascent = 2436
+	descent = 2432
+	distance = 43.5 km
+	name = Suva trail – Niška Banja – Trem – Niška Banja
+	name:sr = Сува трејл - Нишка Бања - Трем - Нишка Бања
+	name:sr-Latn = Suva trail – Niška Banja – Trem – Niška Banja
+	network = rwn
+	operator = Mosor PAK
+	osmc:symbol = red:red_round::15:white
+	ref = 7-3-15
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/sokolov-put/
+
+11220788
+	ascent = 1072
+	descent = 0
+	distance = 14.9 km
+	name = Бежиште - Пасарело
+	name:sr = Бежиште - Пасарело
+	name:sr-Latn = Bežište – Pasarelo
+	network = rwn
+	operator = Železničar PK Niš
+	osmc:symbol = red:red_round::3:white
+	ref = 7-3-3
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/beziste-pasarelo/
+
+11221138
+	ascent = 1072
+	descent = 0
+	distance = 8.8 km
+	name = Дивљана - Пасарело
+	name:sr = Дивљана - Пасарело
+	name:sr-Latn = Divljana – Pasarelo
+	network = rwn
+	operator = Železničar PK Niš
+	osmc:symbol = red:red_round::4:white
+	ref = 7-3-4
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/divljana-pasarelo/
+
+13191393
+	ascent = 1122
+	descent = 0
+	distance = 10 km
+	name = Доња Коритница - Пасарело
+	name:sr = Доња Коритница - Пасарело
+	name:sr-Latn = Donja Koritnica - Pasarelo
+	network = rwn
+	note = доста неслагања са GPX снимком, мапирано према постојећим путевима
+	operator = Železničar PK Niš
+	osmc:symbol = red:red_round::5:white
+	ref = 7-3-5
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/d-koritnica-pasarelo/
+
+11258277
+	ascent = 1445
+	descent = 0
+	distance = 12.9 km
+	name = Доња Студена - Трем
+	name:sr = Доња Студена - Трем
+	name:sr-Latn = Donja Studena – Trem
+	network = rwn
+	operator = Železničar PK Niš
+	osmc:symbol = red:red_round::6:white
+	ref = 7-3-6
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/donja-studena-trem/
+
+11263261
+	distance = 6 km
+	name = Тасковићи - Црни камен
+	name:sr = Тасковићи - Црни камен
+	name:sr-Latn = Taskovići – Crni kamen
+	network = rwn
+	operator = Železničar PK Niš
+	osmc:symbol = red:red_round::7:white
+	ref = 7-3-7
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/taskovici-crni-kamen/
+
+11216827
+	ascent = 1163
+	descent = 0
+	distance = 6 km
+	name = Велики Крчимир - Литица
+	name:sr = Велики Крчимир - Литица
+	name:sr-Latn = Veliki Krčimir – Litica
+	network = rwn
+	operator = Železničar PK Niš
+	osmc:symbol = red:red_round::8:white
+	ref = 7-3-8
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/veliki-krcimir-litica/
+
+11216896
+	ascent = 1149
+	descent = 0
+	distance = 6.3 km
+	name = Велики Вртоп - Големо Стражиште
+	name:sr = Велики Вртоп - Големо Стражиште
+	name:sr-Latn = Veliki Vrtop – Golemo Stražište
+	network = rwn
+	operator = Železničar PK Niš
+	osmc:symbol = red:red_round::9:white
+	ref = 7-3-9
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/veliki-vrtop-golemo-straziste/
+
+11263606
+	ascent = 556
+	descent = 556
+	distance = 8 km
+	name = Островица - Облик
+	name:sr = Островица - Облик
+	name:sr-Latn = Ostrovica – Oblik
+	network = rwn
+	operator = Mosor PAK
+	osmc:symbol = red:red_round::1:white
+	ref = 7-47-1
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/ostrovica-oblik/
+
+12485559
+	ascent = 1038
+	descent = 153
+	distance = 13.7 km
+	name = Стаза бр. 1 ”Стругара”
+	name:sr = Стаза бр. 1 ”Стругара”
+	name:sr-Latn = Staza br. 1 “Strugara”
+	network = rwn
+	operator = Kukavica PSK
+	osmc:symbol = red:red_round::1:white
+	ref = 7-9-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-1-strugara/
+
+14287232
+	distance = 13 km
+	name = Стаза бр. 10 „Врх Влајна 1442”
+	name:sr = Стаза бр. 10 „Врх Влајна 1442”
+	name:sr-Latn = Staza br. 10. „Vrh Vlajna 1442“
+	network = rwn
+	operator = Kukavica PSK
+	osmc:symbol = red:red_round::10:white
+	ref = 7-9-10
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-10-vrh-vlajna-1442/
+
+13190823
+	ascent = 673
+	descent = 685
+	distance = 10.5 km
+	name = Стаза бр. 12 „Соколица”
+	name:sr = Стаза бр. 12 „Соколица”
+	name:sr-Latn = Staza br. 12 „Sokolica”
+	network = rwn
+	operator = Kukavica PSK
+	osmc:symbol = red:red_round::12:white
+	ref = 7-9-12
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-12-sokolica/
+
+14287283
+	ascent = 220
+	descent = 220
+	distance = 5 km
+	name = Стаза бр. 13 „Стаза здравља”
+	name:sr = Стаза бр. 13 „Стаза здравља”
+	name:sr-Latn = Staza br. 13 „Staza zdravlja“
+	network = rwn
+	operator = Kukavica PSK
+	osmc:symbol = red:red_round::13:white
+	ref = 7-9-13
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-13-staza-zdravlja/
+
+14287354
+	ascent = 958
+	descent = 918
+	distance = 18.6 km
+	name = Стаза бр. 15 „Кита”
+	name:sr = Стаза бр. 15 „Кита”
+	name:sr-Latn = Staza br. 15 „Kita”
+	network = rwn
+	operator = Kukavica PSK
+	osmc:symbol = red:red_round::15:white
+	ref = 7-9-15
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-15-kita/
+
+14998522
+	ascent = 233
+	descent = 202
+	distance = 5.2 km
+	name = Стаза бр. 16. „Бисер Кукавице”
+	name:sr = Стаза бр. 16. „Бисер Кукавице”
+	name:sr-Latn = Staza br. 16. „Biser Kukavice“
+	network = rwn
+	operator = Kukavica PSK
+	osmc:symbol = red:red_round::16:white
+	ref = 7-9-16
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-16-biser-kukavice/
+
+14287193
+	ascent = 935
+	descent = 50
+	distance = 14.6 km
+	name = Стаза бр. 2 „Крстовски рид”
+	name:sr = Стаза бр. 2 „Крстовски рид”
+	name:sr-Latn = Staza br. 2 „Krstovski rid“
+	network = rwn
+	operator = Kukavica PSK
+	osmc:symbol = red:red_round::2:white
+	ref = 7-9-2
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-2-krstovski-rid/
+
+12485631
+	ascent = 1226
+	descent = 342
+	distance = 14.4 km
+	name = Стаза бр. 3 ”Репушница”
+	name:sr = Стаза бр. 3 ”Репушница”
+	name:sr-Latn = Staza br. 3 “Repušnica”
+	network = rwn
+	operator = Kukavica PSK
+	osmc:symbol = red:red_round::3:white
+	ref = 7-9-3
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-3-repusnica/
+
+13190651
+	ascent = 833
+	descent = 275
+	distance = 13.4 km
+	name = Стаза бр. 6 „Фурниште”
+	name:sr = Стаза бр. 6 „Фурниште”
+	name:sr-Latn = Staza br. 6 „Furnište”
+	network = rwn
+	operator = Kukavica PSK
+	osmc:symbol = red:red_round::6:white
+	ref = 7-9-6
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-6-furniste/
+
+13190747
+	ascent = 969
+	descent = 316
+	distance = 11.8 km
+	name = Стаза бр. 8 „Марков град”
+	name:sr = Стаза бр. 8 „Марков град”
+	name:sr-Latn = Staza br. 8 „Markov grad”
+	network = rwn
+	operator = Kukavica PSK
+	osmc:symbol = red:red_round::8:white
+	ref = 7-9-8
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-8-markov-grad/
+
+14287208
+	distance = 16.7 km
+	name = Стаза бр. 9 „Шијанка”
+	name:sr = Стаза бр. 9 „Шијанка”
+	name:sr-Latn = Staza br. 9 „Šijanka“
+	network = rwn
+	operator = Kukavica PSK
+	osmc:symbol = red:red_round::9:white
+	ref = 7-9-9
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/staza-br-9-sijanka/
+
+14185952
+	complete = yes
+	from = Хоргош (Граница Мађарске)
+	length = 67
+	name = E4: Horgoš – Ada
+	name:de = E4: Horgoš – Ada
+	name:en = E4: Horgoš – Ada
+	name:sr = E4: Хоргош 2 (Граница Мађарске) – Ада
+	name:sr-Latn = E4: Horgoš 2 (Granica Mađarske) – Ada
+	network = iwn
+	operator = Kinđa PD;Spartak PSK
+	osmc:symbol = blue:blue::E4:yellow
+	ref = E4-1
+	route = hiking
+	source = pss_staze
+	tourism = Ада
+	type = route
+	url = https://wiki.openstreetmap.org/wiki/Serbia/Beleske/Evropski_pesacki_putevi
+	website = https://pss.rs/terenipp/granica-madjarske-horgos2-ada/
+	wiki:symbol = E 4 sign.jpg
+	wikidata = Q151658
+	wikipedia = en:E4 European long distance path
+
+14206054
+	complete = yes
+	from = Лазарев кањон
+	length = 74
+	name = E4: (Krivelj –) Lazarev kanjon – Sokobanja
+	name:en = E4: (Krivelj –) Lazarev kanjon – Sokobanja
+	name:sr = E4: (Кривељ –) Лазарев кањон – Сокобања
+	name:sr-Latn = E4: (Krivelj –) Lazarev kanjon – Sokobanja
+	network = iwn
+	operator = Crni vrh PSD;Dubašnica PK;Ljuba Nešić PSD;Ozren PK;Šiljak PK
+	osmc:symbol = blue:blue::E4:yellow
+	ref = E4-11
+	route = hiking
+	source = pss_staze
+	to = Сокобања
+	type = route
+	url = https://wiki.openstreetmap.org/wiki/Serbia/Beleske/Evropski_pesacki_putevi
+	website = https://pss.rs/terenipp/krivelj-soko-banja/
+	wiki:symbol = E_4_sign.jpg
+	wikidata = Q151658
+	wikipedia = en:E4 European long distance path
+
+14191834
+	complete = yes
+	from = Ада
+	length = 129
+	name = E4: Ada – Zrenjanin
+	name:de = E4: Ada – Zrenjanin
+	name:en = E4: Ada – Zrenjanin
+	name:sr = E4: Ада – Зрењанин
+	name:sr-Latn = E4: Ada – Zrenjanin
+	network = iwn
+	operator = Kinđa PD;Zrenjanin KP
+	osmc:symbol = blue:blue::E4:yellow
+	ref = E4-2
+	route = hiking
+	source = pss_staze
+	to = Зрењанин
+	type = route
+	url = https://wiki.openstreetmap.org/wiki/Serbia/Beleske/Evropski_pesacki_putevi
+	website = https://pss.rs/terenipp/ada-zrenjanin/
+	wiki:symbol = E 4 sign.jpg
+	wikidata = Q151658
+	wikipedia = en:E4 European long distance path
+
+14192820
+	complete = yes
+	from = Зрењанин
+	length = 63
+	name = E4: Zrenjanin – Padina
+	name:de = E4: Zrenjanin – Padina
+	name:en = E4: Zrenjanin – Padina
+	name:sr = E4: Зрењанин – Падина
+	name:sr-Latn = E4: Zrenjanin – Padina
+	network = iwn
+	operator = Jelenak PD;Soko PEK;Zrenjanin KP
+	osmc:symbol = blue:blue::E4:yellow
+	ref = E4-3
+	route = hiking
+	source = pss_staze
+	to = Падина
+	type = route
+	url = https://wiki.openstreetmap.org/wiki/Serbia/Beleske/Evropski_pesacki_putevi
+	website = https://pss.rs/terenipp/zrenjanin-padina/
+	wiki:symbol = E 4 sign.jpg
+	wikidata = Q151658
+	wikipedia = en:E4 European long distance path
+
+14194463
+	complete = yes
+	from = Падина
+	length = 99
+	name = E4: Padina – Krnjača (Beograd)
+	name:de = E4: Padina – Krnjača (Belgrad)
+	name:en = E4: Padina – Krnjača (Belgrade)
+	name:sr = E4: Падина – Крњача (Београд)
+	name:sr-Latn = E4: Padina – Krnjača (Beograd)
+	network = iwn
+	operator = Jelenak PD;Karpati PD;Soko PEK;Vršačka kula PSD;Zrenjanin KP
+	osmc:symbol = blue:blue::E4:yellow
+	ref = E4-4
+	route = hiking
+	source = pss_staze
+	to = Крњача (Београд)
+	type = route
+	url = https://wiki.openstreetmap.org/wiki/Serbia/Beleske/Evropski_pesacki_putevi
+	website = https://pss.rs/terenipp/padina-krnjaca-beograd/
+	wiki:symbol = E 4 sign.jpg
+	wikidata = Q151658
+	wikipedia = en:E4 European long distance path
+
+11753312
+	from = Brijač
+	name = E7: Бријач - Увац - Сопотница - Сјеница
+	name:de = E7: Brijač – Uvac – Sopotnica – Sjenica
+	name:en = E7: Brijač – Uvac – Sopotnica – Sjenica
+	name:sr = E7: Бријач - Увац - Сопотница - Сјеница
+	name:sr-Latn = E7: Brijač – Uvac – Sopotnica – Sjenica
+	network = iwn
+	operator = European Ramblers Association
+	ref = E7-12
+	route = hiking
+	source = pss_staze
+	to = Sjenica
+	type = route
+	website = https://pss.rs/terenipp/brijac-uvac-sopotnica-sjenica/
+	wiki:symbol = Symbol_E7.png
+	wikidata = Q2914372
+	wikipedia = en:E7 European long distance path
+
+14185390
+	complete = no
+	from = Selova
+	name = E7: Селова - Блаце - Велики Јастребац - Мали Јастребац - Тешица - Г. Трнава
+	name:de = E7: Selova – Blace – Veliki Jastrebac – Mali Jastrebac – Tešica – G. Trnava
+	name:en = E7: Selova – Blace – Veliki Jastrebac – Mali Jastrebac – Tešica – G. Trnava
+	name:sr = E7: Селова - Блаце - Велики Јастребац - Мали Јастребац - Тешица - Г. Трнава
+	name:sr-Latn = E7: Selova – Blace – Veliki Jastrebac – Mali Jastrebac – Tešica – G. Trnava
+	network = iwn
+	operator = Brđanka PSK;Jastrebac PSK;Toplica PSK
+	ref = E7-16
+	route = hiking
+	source = pss_staze
+	to = G. Trnava
+	type = route
+	website = https://pss.rs/terenipp/selova-blace-v-jastrebac-m-jastrebac-tesica-g-trnava/
+	wiki:symbol = Symbol_E7.png
+	wikidata = Q2914372
+	wikipedia = en:E7 European long distance path
+
+14177412
+	from = Krupanj
+	name = E7: Крупањ - Љубовија - Ваљево - Дивчибаре
+	name:de = E7: Krupanj - Ljubovija - Valjevo - Divčibare
+	name:en = E7: Krupanj - Ljubovija - Valjevo - Divčibare
+	name:sr = E7: Крупањ - Љубовија - Ваљево - Дивчибаре
+	name:sr-Latn = E7: Krupanj - Ljubovija - Valjevo - Divčibare
+	network = iwn
+	operator = Brđanka PSK;Magleš PSD;Povlen PK;Subjel PED;Tornička Bobija PK
+	ref = E7-8
+	route = hiking
+	source = pss_staze
+	to = Divčibare
+	type = route
+	website = https://pss.rs/terenipp/krupanj-ljubovija-valjevo-divcibare/
+	wiki:symbol = Symbol_E7.png
+	wikidata = Q2914372
+	wikipedia = en:E7 European long distance path
+
+14180878
+	from = Divčibare
+	name = E7: Дивчибаре - Рајац - Рудник - Овчар бања
+	name:de = E7: Divčibare – Rajac – Rudnik – Ovčar banja
+	name:en = E7: Divčibare – Rajac – Rudnik – Ovčar banja
+	name:sr = E7: Дивчибаре - Рајац - Рудник - Овчар бања
+	name:sr-Latn = E7: Divčibare – Rajac – Rudnik – Ovčar banja
+	network = iwn
+	operator = Kablar PD;Pobeda PK;Povlen PK;PTT POSK;Rudnik PSD;Železničar PD Beograd
+	ref = E7-9
+	route = hiking
+	source = pss_staze
+	to = Ovčar banja
+	type = route
+	website = https://pss.rs/terenipp/divcibare-rajac-rudnik-ovcar-banja/
+	wiki:symbol = Symbol_E7.png
+	wikidata = Q2914372
+	wikipedia = en:E7 European long distance path
+
+13145926
+	ascent = 1162
+	complete = no
+	descent = 1332
+	distance = 32 km
+	name = Вршачка трансверзала
+	name:sr = Вршачка трансверзала
+	name:sr-Latn = Vršačka transverzala
+	network = nwn
+	operator = ПСД Вршачка кула
+	osmc:symbol = red:red_round::3:white
+	ref = T-1-3
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/vrsacka-transverzala/
+
+13244999
+	ascent = 1681
+	descent = 1698
+	distance = 38.1
+	name = Јухорска трансверзала
+	name:sr = Јухорска трансверзала
+	name:sr-Latn = Juhorska transverzala
+	network = nwn
+	operator = ПК Рунолист
+	osmc:symbol = red:red_round::36:white
+	ref = T-2-36
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/juhorska-transverzala/
+
+12190325
+	ascent = 2110
+	descent = 1512
+	distance = 29.5 km
+	name = Нишка Бања - Девојачки гроб - Трем - Бојанине воде
+	name:sr = Нишка Бања - Девојачки гроб - Трем - Бојанине воде
+	name:sr-Latn = Niška Banja – Devojački grob – Trem – Bojanine vode
+	network = rwn
+	operator = Mosor PAK
+	osmc:symbol = red:red_round::13:white
+	ref = T-3-13
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/niska-banja-devojacki-grob-trem-bojanine-vode/
+
+12693206
+	ascent = 1600
+	descent = 1600
+	distance = 44 km
+	name = Чика Душкове рајачке стазе
+	name:sr = Чика Душкове рајачке стазе
+	name:sr-Latn = Čika Duškove rajačke staze
+	network = nwn
+	note = Унет преостали део кружне стазе. Потребно је средити стазе 2а/б/ц/д, 3/3а, 8, 9.
+	operator = Pobeda PK
+	osmc:symbol = yellow:red_round::2:white
+	ref = T-3-2
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/cika-duskove-rajacke-staze/
+
+13237511
+	ascent = 700
+	descent = 700
+	distance = 45
+	name = Вукове богазе
+	name:sr = Вукове богазе
+	name:sr-Latn = Vukove bogaze
+	network = nwn
+	operator = ПСД Цер
+	osmc:symbol = red:red_round::29:white
+	ref = T-3-29
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/vukove-bogaze/
+
+13237362
+	ascent = 546
+	descent = 686
+	distance = 23
+	name = Стазама Цера
+	name:sr = Стазама Цера
+	name:sr-Latn = Stazama Cera
+	network = nwn
+	operator = ПСД Цер
+	osmc:symbol = red:red_round::7:white
+	ref = T-3-7
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/stazama-cera/
+
+13239017
+	ascent = 7700
+	descent = 7600
+	distance = 119
+	name = Хомољска трансверзала
+	name:sr = Хомољска трансверзала
+	name:sr-Latn = Homoljska transverzala
+	network = nwn
+	operator = ПК Вукан Пожаревац
+	osmc:symbol = red:red_round::12:white
+	ref = T-4-12
+	route = hiking
+	source = pss_staze
+	type = route
+
+13239147
+	ascent = 1606
+	descent = 1611
+	description = Бастионска трансверзала осмишљена је тако да обухвата већи број знаменитости из околине Зајечара које су привлачне како за планинаре тако и за обичне туристе.
+	distance = 68.75
+	name = Бастионска трансверзала
+	name:de = Bastionen-Rundweg
+	name:sr = Бастионска трансверзала
+	name:sr-Latn = Bastionska transverzala
+	network = lwn
+	operator = ОПСД Драган Радосављевић
+	osmc:symbol = yellow:red_round::41:white
+	ref = T-4-41
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/bastionska-transverzala/
+
