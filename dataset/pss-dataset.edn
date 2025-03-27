@@ -248,7 +248,7 @@
   :planina "Zlatibor",
   :location
   {:longitude 19.621796, :latitude 43.66429, :timestamp 1601780653000},
-  :drustvo nil},
+  :drustvo "Tornik PK"},
  "2-8-2"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "2-8-2.json"],
@@ -290,7 +290,7 @@
   :planina "Zlatibor",
   :location
   {:longitude 19.613861125, :latitude 43.735219091, :timestamp nil},
-  :drustvo nil},
+  :drustvo "Tornik PK"},
  "E7-3"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "E7-3.json"],
@@ -457,6 +457,18 @@
   :planina "Gledićke planine",
   :location nil,
   :drustvo "Ljukten PSD"},
+ "5-3-12"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "5-3-12.json"],
+  :gpx-path nil,
+  :title "Lađevac - Sokolina",
+  :region "5 - Jugozapadna Srbija",
+  :link "https://pss.rs/terenipp/ladjevac-sokolina/",
+  :id "5-3-12",
+  :uredjenost "zapuštena",
+  :planina "Tara",
+  :location nil,
+  :drustvo nil},
  "5-12-19"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "5-12-19.json"],
@@ -470,7 +482,7 @@
   :planina "Zlatibor",
   :location
   {:longitude 19.64822, :latitude 43.625729, :timestamp 1590935997000},
-  :drustvo nil},
+  :drustvo "Omorika PD"},
  "T-3-2"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "T-3-2.json"],
@@ -487,6 +499,18 @@
    :latitude 44.14106103591621,
    :timestamp 1000},
   :drustvo "Pobeda PK"},
+ "E7-12-6"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "E7-12-6.json"],
+  :gpx-path nil,
+  :title "Sopotnica",
+  :region nil,
+  :link "https://pss.rs/terenipp/sopotnica/",
+  :id "E7-12-6",
+  :uredjenost nil,
+  :planina nil,
+  :location nil,
+  :drustvo nil},
  "7-20-2"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "7-20-2.json"],
@@ -531,6 +555,18 @@
    :latitude 43.60737604089081,
    :timestamp nil},
   :drustvo "Tornik PK"},
+ "E7-12-1"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "E7-12-1.json"],
+  :gpx-path nil,
+  :title "Janja",
+  :region nil,
+  :link "https://pss.rs/terenipp/janja/",
+  :id "E7-12-1",
+  :uredjenost nil,
+  :planina nil,
+  :location nil,
+  :drustvo nil},
  "7-20-5"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "7-20-5.json"],
@@ -632,6 +668,22 @@
   :planina "Golija",
   :location nil,
   :drustvo "Golija PD"},
+ "7-22-1"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "7-22-1.json"],
+  :gpx-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "7-22-1.gpx"],
+  :title "Edukativna staza \"neXt borovnice\"",
+  :region "7 - Jugoistočna Srbija",
+  :link "https://pss.rs/terenipp/edukativna-staza-next-borovnice/",
+  :id "7-22-1",
+  :uredjenost "odlično uređena i markirana",
+  :planina "Čemernik",
+  :location
+  {:longitude 22.326008538,
+   :latitude 42.72567166,
+   :timestamp 1689495499000},
+  :drustvo "Svarog PSU"},
  "4-27-7"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "4-27-7.json"],
@@ -693,6 +745,18 @@
   :planina "Gledićke planine",
   :location nil,
   :drustvo "Ljukten PSD"},
+ "5-65-1"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "5-65-1.json"],
+  :gpx-path nil,
+  :title "Priboj (stari deo grada) - Crni vrh",
+  :region "5 - Jugozapadna Srbija",
+  :link "https://pss.rs/terenipp/priboj-stari-deo-grada-crni-vrh/",
+  :id "5-65-1",
+  :uredjenost "delimično uređena",
+  :planina "Crni vrh (pribojski)",
+  :location nil,
+  :drustvo "Ljeskovac ŽKP"},
  "3-20-8"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "3-20-8.json"],
@@ -726,6 +790,38 @@
    :latitude 43.74376251362264,
    :timestamp 1531550544000},
   :drustvo "Dragan Radosavljević OPSD"},
+ "4-9-1"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "4-9-1.json"],
+  :gpx-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "4-9-1.gpx"],
+  :title "Beljanica - Bogojavljenski uspon",
+  :region "4 - Istočna Srbija",
+  :link "https://pss.rs/terenipp/beljanica-bogojavljenski-uspon/",
+  :id "4-9-1",
+  :uredjenost "dobro uređena i markirana",
+  :planina "Beljanica",
+  :location
+  {:longitude 21.6359515954,
+   :latitude 44.0911108442,
+   :timestamp 1579161927000},
+  :drustvo "Resava PSK"},
+ "7-15-4"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "7-15-4.json"],
+  :gpx-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "7-15-4.gpx"],
+  :title "Brana - V. Vrtop (staza 9)",
+  :region "7 - Jugoistočna Srbija",
+  :link "https://pss.rs/terenipp/brana-v-vrtop-staza-9/",
+  :id "7-15-4",
+  :uredjenost "odlično uređena i markirana",
+  :planina "Gramada",
+  :location
+  {:longitude 22.324681515,
+   :latitude 42.752411859,
+   :timestamp 1694184357000},
+  :drustvo "Čemernik PD"},
  "6-2-1"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "6-2-1.json"],
@@ -829,6 +925,20 @@
    :latitude 43.29524000175297,
    :timestamp nil},
   :drustvo "Železničar PK Niš"},
+ "5-12-23"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "5-12-23.json"],
+  :gpx-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "5-12-23.gpx"],
+  :title "Drežnik (zaseok Joletići) – vrh Kućišta",
+  :region "5 - Jugozapadna Srbija",
+  :link "https://pss.rs/terenipp/dreznik-zaseok-joletici-vrh-kucista/",
+  :id "5-12-23",
+  :uredjenost "delimično uređena",
+  :planina "Zlatibor",
+  :location
+  {:longitude 19.90065205, :latitude 43.75873236, :timestamp nil},
+  :drustvo "Zlatibor PD"},
  "2-14-19"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "2-14-19.json"],
@@ -863,7 +973,7 @@
   {:longitude 19.704332352,
    :latitude 43.616260529,
    :timestamp 1598538279000},
-  :drustvo nil},
+  :drustvo "Tornik PK"},
  "5-6-2"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "5-6-2.json"],
@@ -962,6 +1072,18 @@
    :latitude 43.32462837919593,
    :timestamp nil},
   :drustvo "Železničar PK Niš"},
+ "E7-12-5"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "E7-12-5.json"],
+  :gpx-path nil,
+  :title "Kamena Gora",
+  :region nil,
+  :link "https://pss.rs/terenipp/kamena-gora/",
+  :id "E7-12-5",
+  :uredjenost nil,
+  :planina nil,
+  :location nil,
+  :drustvo nil},
  "6-3-3"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "6-3-3.json"],
@@ -1062,6 +1184,18 @@
    :latitude 42.866575978696346,
    :timestamp 1000},
   :drustvo "Kukavica PSK"},
+ "5-3-23"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "5-3-23.json"],
+  :gpx-path nil,
+  :title "Mitrovac - Predov Krst",
+  :region "---",
+  :link "https://pss.rs/terenipp/mitrovac-predov-krst/",
+  :id "5-3-23",
+  :uredjenost "zapuštena",
+  :planina "---",
+  :location nil,
+  :drustvo nil},
  "2-14-15"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "2-14-15.json"],
@@ -1101,6 +1235,22 @@
   :location
   {:longitude 19.7825, :latitude 43.598748, :timestamp 1606567080000},
   :drustvo "Tornik PK"},
+ "7-15-3"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "7-15-3.json"],
+  :gpx-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "7-15-3.gpx"],
+  :title "Polom - M. Vrtop - V. Vrtop (staza 8)",
+  :region "7 - Jugoistočna Srbija",
+  :link "https://pss.rs/terenipp/polom-m-vrtop-v-vrtop-staza-8/",
+  :id "7-15-3",
+  :uredjenost "odlično uređena i markirana",
+  :planina "Gramada",
+  :location
+  {:longitude 22.373345,
+   :latitude 42.792896,
+   :timestamp 1691836145000},
+  :drustvo "Čemernik PD"},
  "4-48-4"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "4-48-4.json"],
@@ -1445,6 +1595,18 @@
    :latitude 42.82283660955727,
    :timestamp nil},
   :drustvo "Kukavica PSK"},
+ "5-12-24"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "5-12-24.json"],
+  :gpx-path nil,
+  :title "Kotroman - Krsmanovića potok",
+  :region "5 - Jugozapadna Srbija",
+  :link "https://pss.rs/terenipp/kotroman-krsmanovica-potok/",
+  :id "5-12-24",
+  :uredjenost "zapuštena",
+  :planina "Zlatibor",
+  :location nil,
+  :drustvo nil},
  "4-31-12"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "4-31-12.json"],
@@ -2017,7 +2179,7 @@
   {:longitude 19.687994449,
    :latitude 43.605709216,
    :timestamp 1600239728000},
-  :drustvo nil},
+  :drustvo "Omorika PD"},
  "1-4-4"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "1-4-4.json"],
@@ -2320,6 +2482,34 @@
    :latitude 44.188256012275815,
    :timestamp 1437115787000},
   :drustvo "Avala PD"},
+ "2-16-3"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "2-16-3.json"],
+  :gpx-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "2-16-3.gpx"],
+  :title "Juhorski izvori",
+  :region "2 - Šumadija",
+  :link "https://pss.rs/terenipp/juhorski-izvori/",
+  :id "2-16-3",
+  :uredjenost "delimično uređena",
+  :planina "Juhor",
+  :location
+  {:longitude 21.1844289,
+   :latitude 43.7913077,
+   :timestamp 1683444139000},
+  :drustvo "Planinski duh PD"},
+ "5-3-1"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "5-3-1.json"],
+  :gpx-path nil,
+  :title "Kaluđerske Bare - Zborište",
+  :region "5 - Jugozapadna Srbija",
+  :link "https://pss.rs/terenipp/kaludjerske-bare-zboriste/",
+  :id "5-3-1",
+  :uredjenost "zapuštena",
+  :planina "Tara",
+  :location nil,
+  :drustvo nil},
  "3-20-3"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "3-20-3.json"],
@@ -2392,6 +2582,18 @@
   :planina "Svrljiške planine",
   :location nil,
   :drustvo "Suva Planina PD"},
+ "5-3-3"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "5-3-3.json"],
+  :gpx-path nil,
+  :title "Kaluđerske Bare - manastir Rača",
+  :region "5 - Jugozapadna Srbija",
+  :link "https://pss.rs/terenipp/kaludjerske-bare-manastir-raca/",
+  :id "5-3-3",
+  :uredjenost "zapuštena",
+  :planina "Tara",
+  :location nil,
+  :drustvo nil},
  "3-1-3"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "3-1-3.json"],
@@ -2435,7 +2637,7 @@
   {:longitude 19.589792239,
    :latitude 43.758438136,
    :timestamp 1589039001000},
-  :drustvo nil},
+  :drustvo "Omorika PD"},
  "7-9-12"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "7-9-12.json"],
@@ -2464,6 +2666,18 @@
   :planina "Besna Kobila",
   :location nil,
   :drustvo "Železničar 2006 PK Vranje"},
+ "E7-11-3"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "E7-11-3.json"],
+  :gpx-path nil,
+  :title "Mokra Gora",
+  :region nil,
+  :link "https://pss.rs/terenipp/mokra-gora/",
+  :id "E7-11-3",
+  :uredjenost nil,
+  :planina nil,
+  :location nil,
+  :drustvo nil},
  "E7-2"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "E7-2.json"],
@@ -2830,6 +3044,18 @@
   :planina "Stolovi",
   :location nil,
   :drustvo "Kraljevo PAK"},
+ "E7-10-5"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "E7-10-5.json"],
+  :gpx-path nil,
+  :title "Čajetina",
+  :region nil,
+  :link "https://pss.rs/terenipp/cajetina/",
+  :id "E7-10-5",
+  :uredjenost nil,
+  :planina nil,
+  :location nil,
+  :drustvo nil},
  "4-53-1"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "4-53-1.json"],
@@ -2921,7 +3147,7 @@
   :planina "Zlatibor",
   :location
   {:longitude 19.646213531, :latitude 43.736255646, :timestamp nil},
-  :drustvo nil},
+  :drustvo "Tornik PK"},
  "E4-6"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "E4-6.json"],
@@ -2947,6 +3173,18 @@
   :planina "Gledićke planine",
   :location nil,
   :drustvo "Železničar PSK Kraljevo"},
+ "E7-11-2"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "E7-11-2.json"],
+  :gpx-path nil,
+  :title "Zvijezda",
+  :region nil,
+  :link "https://pss.rs/terenipp/zvijezda/",
+  :id "E7-11-2",
+  :uredjenost nil,
+  :planina nil,
+  :location nil,
+  :drustvo nil},
  "4-49-3"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "4-49-3.json"],
@@ -3290,6 +3528,22 @@
   :planina "Gledićke planine",
   :location nil,
   :drustvo "Železničar PSK Kraljevo"},
+ "7-15-2"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "7-15-2.json"],
+  :gpx-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "7-15-2.gpx"],
+  :title "Zlatanci - Orlovac - V. Vrtop (staza 7)",
+  :region "7 - Jugoistočna Srbija",
+  :link "https://pss.rs/terenipp/zlatanci-orlovac-v-vrtop-staza-7/",
+  :id "7-15-2",
+  :uredjenost "odlično uređena i markirana",
+  :planina "Gramada",
+  :location
+  {:longitude 22.327192398,
+   :latitude 42.798273359,
+   :timestamp 1694932598000},
+  :drustvo "Čemernik PD"},
  "1-14-1"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "1-14-1.json"],
@@ -3355,6 +3609,18 @@
    :latitude 42.993096029385924,
    :timestamp nil},
   :drustvo "Kukavica PSK"},
+ "E7-10-4"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "E7-10-4.json"],
+  :gpx-path nil,
+  :title "Drežnik",
+  :region nil,
+  :link "https://pss.rs/terenipp/dreznik/",
+  :id "E7-10-4",
+  :uredjenost nil,
+  :planina nil,
+  :location nil,
+  :drustvo nil},
  "2-5-1"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "2-5-1.json"],
@@ -3367,6 +3633,18 @@
   :planina "Bukulja",
   :location nil,
   :drustvo "Bukulja PD"},
+ "2-18-1"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "2-18-1.json"],
+  :gpx-path nil,
+  :title "Stazama Kolubarske bitke",
+  :region "2 - Šumadija",
+  :link "https://pss.rs/terenipp/stazama-kolubarske-bitke/",
+  :id "2-18-1",
+  :uredjenost "odlično uređena i markirana",
+  :planina "Lajkovac",
+  :location nil,
+  :drustvo "Ćira PSD"},
  "3-20-11"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "3-20-11.json"],
@@ -3442,7 +3720,7 @@
   {:longitude 19.776608264,
    :latitude 43.629881451,
    :timestamp 1604765578000},
-  :drustvo nil},
+  :drustvo "Tornik PK"},
  "6-3-8"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "6-3-8.json"],
@@ -3487,6 +3765,18 @@
    :latitude 44.19709003530443,
    :timestamp nil},
   :drustvo "Pobeda PK"},
+ "E7-11-4"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "E7-11-4.json"],
+  :gpx-path nil,
+  :title "Zlatibor",
+  :region nil,
+  :link "https://pss.rs/terenipp/zlatibor/",
+  :id "E7-11-4",
+  :uredjenost nil,
+  :planina nil,
+  :location nil,
+  :drustvo nil},
  "2-14-14"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "2-14-14.json"],
@@ -3768,6 +4058,18 @@
   :planina "Kukavica",
   :location nil,
   :drustvo "Kukavica PSK"},
+ "5-3-25"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "5-3-25.json"],
+  :gpx-path nil,
+  :title "Mitrovac - Gorišice - Banjska stena",
+  :region "---",
+  :link "https://pss.rs/terenipp/mitrovac-gorisice-banjska-stena/",
+  :id "5-3-25",
+  :uredjenost "zapuštena",
+  :planina "---",
+  :location nil,
+  :drustvo nil},
  "7-3-2"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "7-3-2.json"],
@@ -3860,8 +4162,24 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Debela gora",
   :location
-  {:longitude 20.187231246, :latitude 43.899707152, :timestamp nil},
+  {:longitude 20.186208822, :latitude 43.896167474, :timestamp nil},
   :drustvo "Kablar PD"},
+ "4-7-2"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "4-7-2.json"],
+  :gpx-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "4-7-2.gpx"],
+  :title "Lisine - Resavska pećina - Suvaja",
+  :region "4 - Istočna Srbija",
+  :link "https://pss.rs/terenipp/lisine-resavska-pecina-suvaja/",
+  :id "4-7-2",
+  :uredjenost "delimično uređena",
+  :planina "Kučaj (Resavica)",
+  :location
+  {:longitude 21.635560077,
+   :latitude 44.090409363,
+   :timestamp 1656143602000},
+  :drustvo "Resava PSK"},
  "5-11-1"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "5-11-1.json"],
@@ -3929,7 +4247,8 @@
  "E7-10-11"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "E7-10-11.json"],
-  :gpx-path nil,
+  :gpx-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "E7-10-11.gpx"],
   :title
   "Ovčar banja -Arilje - Čajetina - Kremna - Tara - Mokra gora - Zlatibor - Murtenica (Brijač)",
   :region nil,
@@ -3938,7 +4257,10 @@
   :id "E7-10-11",
   :uredjenost nil,
   :planina nil,
-  :location nil,
+  :location
+  {:longitude 20.170608927,
+   :latitude 43.741006795,
+   :timestamp 1700393263000},
   :drustvo nil},
  "7-20-3"
  {:info-path
@@ -4233,6 +4555,45 @@
    :latitude 43.896549018099904,
    :timestamp 1539414604000},
   :drustvo "Javorak  PK"},
+ "E7-11-1"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "E7-11-1.json"],
+  :gpx-path nil,
+  :title "Tara",
+  :region nil,
+  :link "https://pss.rs/terenipp/tara/",
+  :id "E7-11-1",
+  :uredjenost nil,
+  :planina nil,
+  :location nil,
+  :drustvo nil},
+ "5-19-1"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "5-19-1.json"],
+  :gpx-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "5-19-1.gpx"],
+  :title "Kaljon reke Panjice - Vodena pećina - Brekovo",
+  :region "5 - Jugozapadna Srbija",
+  :link
+  "https://pss.rs/terenipp/kaljon-reke-panjice-vodena-pecina-brekovo/",
+  :id "5-19-1",
+  :uredjenost "odlično uređena i markirana",
+  :planina "Budeč",
+  :location
+  {:longitude 20.095802448, :latitude 43.663250343, :timestamp nil},
+  :drustvo "Sunčevica SUPSD"},
+ "E7-10-6"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "E7-10-6.json"],
+  :gpx-path nil,
+  :title "Kremna",
+  :region nil,
+  :link "https://pss.rs/terenipp/kremna/",
+  :id "E7-10-6",
+  :uredjenost nil,
+  :planina nil,
+  :location nil,
+  :drustvo nil},
  "3-7-1"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "3-7-1.json"],
@@ -4266,6 +4627,18 @@
    :latitude 44.26090800203383,
    :timestamp 1000},
   :drustvo "Povlen PK"},
+ "E7-12-4"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "E7-12-4.json"],
+  :gpx-path nil,
+  :title "Jabuka",
+  :region nil,
+  :link "https://pss.rs/terenipp/jabuka/",
+  :id "E7-12-4",
+  :uredjenost nil,
+  :planina nil,
+  :location nil,
+  :drustvo nil},
  "3-28-4"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "3-28-4.json"],
@@ -4278,7 +4651,7 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Kablar",
   :location
-  {:longitude 20.186208822, :latitude 43.896167474, :timestamp nil},
+  {:longitude 20.187231246, :latitude 43.899707152, :timestamp nil},
   :drustvo "Kablar PD"},
  "6-5-3"
  {:info-path
@@ -4511,6 +4884,32 @@
   :planina "Gledićke planine",
   :location nil,
   :drustvo "Ljukten PSD"},
+ "E7-12-3"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "E7-12-3.json"],
+  :gpx-path nil,
+  :title "Mažići",
+  :region nil,
+  :link "https://pss.rs/terenipp/mazici/",
+  :id "E7-12-3",
+  :uredjenost nil,
+  :planina nil,
+  :location nil,
+  :drustvo nil},
+ "7-22-2"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "7-22-2.json"],
+  :gpx-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "7-22-2.gpx"],
+  :title "Promaja - V. Čemernik (staza 4)",
+  :region "7 - Jugoistočna Srbija",
+  :link "https://pss.rs/terenipp/promaja-v-cemernik-staza-4/",
+  :id "7-22-2",
+  :uredjenost "odlično uređena i markirana",
+  :planina "Čemernik",
+  :location
+  {:longitude 22.315535, :latitude 42.686696, :timestamp nil},
+  :drustvo "Svarog PSU"},
  "3-14-3"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "3-14-3.json"],
@@ -4555,6 +4954,18 @@
   :planina "Bukulja",
   :location nil,
   :drustvo "Bukulja PD"},
+ "5-3-6"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "5-3-6.json"],
+  :gpx-path nil,
+  :title "Đurino brdo - Jarevac - Borovo brdo",
+  :region "5 - Jugozapadna Srbija",
+  :link "https://pss.rs/terenipp/djurino-brdo-jarevac-borovo-brdo/",
+  :id "5-3-6",
+  :uredjenost "zapuštena",
+  :planina "Tara",
+  :location nil,
+  :drustvo nil},
  "2-14-7"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "2-14-7.json"],
@@ -4626,6 +5037,18 @@
   :planina "Kukavica",
   :location nil,
   :drustvo "Kukavica PSK"},
+ "E7-11-5"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "E7-11-5.json"],
+  :gpx-path nil,
+  :title "Sirogojno",
+  :region nil,
+  :link "https://pss.rs/terenipp/sirogojno/",
+  :id "E7-11-5",
+  :uredjenost nil,
+  :planina nil,
+  :location nil,
+  :drustvo nil},
  "E7-7"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "E7-7.json"],
@@ -4651,6 +5074,22 @@
   :planina nil,
   :location nil,
   :drustvo nil},
+ "7-22-3"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "7-22-3.json"],
+  :gpx-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "7-22-3.gpx"],
+  :title "Vlasinski Vrtovi - V. Čemernik (staza 5)",
+  :region "7 - Jugoistočna Srbija",
+  :link "https://pss.rs/terenipp/vlasinski-vrtovi-v-cemernik-staza-5/",
+  :id "7-22-3",
+  :uredjenost "odlično uređena i markirana",
+  :planina "Čemernik",
+  :location
+  {:longitude 22.329218,
+   :latitude 42.742201,
+   :timestamp 1636874146000},
+  :drustvo "Svarog PSU"},
  "7-9-5"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "7-9-5.json"],
@@ -4695,7 +5134,7 @@
   {:longitude 19.583398188,
    :latitude 43.750916971,
    :timestamp 1568531801000},
-  :drustvo nil},
+  :drustvo "Omorika PD"},
  "7-10-1"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "7-10-1.json"],
@@ -4725,6 +5164,18 @@
    :latitude 43.23996956460178,
    :timestamp nil},
   :drustvo "Železničar PK Niš"},
+ "4-54-1"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "4-54-1.json"],
+  :gpx-path nil,
+  :title "Meandri Timoka",
+  :region "4 - Istočna Srbija",
+  :link "https://pss.rs/terenipp/meandri-timoka/",
+  :id "4-54-1",
+  :uredjenost "dobro uređena i markirana",
+  :planina "Dolina Timoka",
+  :location nil,
+  :drustvo "Ljuba Nešić PSD"},
  "3-28-2"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "3-28-2.json"],
@@ -4797,7 +5248,7 @@
   :planina "Zlatibor",
   :location
   {:longitude 19.667720795, :latitude 43.696422577, :timestamp nil},
-  :drustvo nil},
+  :drustvo "Tornik PK"},
  "5-12-4"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "5-12-4.json"],
@@ -4857,6 +5308,18 @@
   :id "E7-20",
   :uredjenost nil,
   :planina nil,
+  :location nil,
+  :drustvo nil},
+ "5-4-28"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "5-4-28.json"],
+  :gpx-path nil,
+  :title "Dikava - Janjač",
+  :region "5 - Jugozapadna Srbija",
+  :link "https://pss.rs/terenipp/dikava-janjac/",
+  :id "5-4-28",
+  :uredjenost "zapuštena",
+  :planina "Tara",
   :location nil,
   :drustvo nil},
  "T-2-25"
@@ -4932,6 +5395,18 @@
    :latitude 45.15527500770986,
    :timestamp 1574583725000},
   :drustvo "Železničar PD Beograd"},
+ "5-4-26"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "5-4-26.json"],
+  :gpx-path nil,
+  :title "Luke - Ravna stena",
+  :region "5 - Jugozapadna Srbija",
+  :link "https://pss.rs/terenipp/luke-ravna-stena/",
+  :id "5-4-26",
+  :uredjenost "zapuštena",
+  :planina "Tara",
+  :location nil,
+  :drustvo nil},
  "2-17-3"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "2-17-3.json"],
@@ -5089,6 +5564,30 @@
    :latitude 43.88184489682317,
    :timestamp nil},
   :drustvo "Kablar PD"},
+ "E7-12-2"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "E7-12-2.json"],
+  :gpx-path nil,
+  :title "Pribojska Banja",
+  :region nil,
+  :link "https://pss.rs/terenipp/pribojska-banja/",
+  :id "E7-12-2",
+  :uredjenost nil,
+  :planina nil,
+  :location nil,
+  :drustvo nil},
+ "5-4-27"
+ {:info-path
+  ["Users" "vanja" "dataset-git" "pss.rs" "routes" "5-4-27.json"],
+  :gpx-path nil,
+  :title "Luke - Sklopovi",
+  :region "5 - Jugozapadna Srbija",
+  :link "https://pss.rs/terenipp/luke-sklopovi/",
+  :id "5-4-27",
+  :uredjenost "zapuštena",
+  :planina "Tara",
+  :location nil,
+  :drustvo nil},
  "7-3-1"
  {:info-path
   ["Users" "vanja" "dataset-git" "pss.rs" "routes" "7-3-1.json"],

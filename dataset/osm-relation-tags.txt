@@ -24,6 +24,7 @@
 	name:sr = Чортановачка магија
 	name:sr-Latn = Čortanovačka magija
 	network = rwn
+	network:type = local
 	operator = Železničar PD Beograd
 	osmc:symbol = red:red_round::2:white
 	ref = 1-13-2
@@ -135,42 +136,6 @@
 	source = pss_staze
 	type = route
 	website = https://pss.rs/terenipp/bukovacki-maraton-osnovna-staza/
-
-11321138
-	ascent = 980
-	descent = 980
-	distance = 35.2 km
-	name = Буковачки маратон – Средња стаза
-	name:en = Bukovac Marathon – Medium track
-	name:sr = Буковачки маратон – Средња стаза
-	name:sr-Latn = Bukovački maraton – Srednja staza
-	network = rwn
-	operator = Vilina vodica PD
-	osmc:symbol = red:red:white_triangle_turned::2:red
-	ref = 1-3-2
-	roundtrip = yes
-	route = hiking
-	source = pss_staze
-	type = route
-	website = https://pss.rs/terenipp/bukovacki-maraton-srednja-staza/
-
-11314960
-	ascent = 1350
-	descent = 1350
-	distance = 47.8 km
-	name = Буковачки маратон – Велика стаза
-	name:en = Bukovac Marathon – Long track
-	name:sr = Буковачки маратон – Велика стаза
-	name:sr-Latn = Bukovački maraton – Velika staza
-	network = rwn
-	operator = Vilina vodica PD
-	osmc:symbol = red:red:white_triangle_turned::3:red
-	ref = 1-3-3
-	roundtrip = yes
-	route = hiking
-	source = pss_staze
-	type = route
-	website = https://pss.rs/terenipp/bukovacki-maraton-velika-staza/
 
 14906749
 	ascent = 815
@@ -390,6 +355,23 @@
 	type = route
 	website = https://pss.rs/terenipp/rekreativna-staza-ribare-kocin-hrast/
 
+16857128
+	ascent = 650
+	descent = 650
+	distance = 18 km
+	name = Јухорски извори
+	name:sr = Јухорски извори
+	name:sr-Latn = Juhorski izvori
+	network = rwn
+	operator = Planinski duh PD
+	osmc:symbol = red:red_round::3:white
+	ref = 2-16-3
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/juhorski-izvori/
+
 12086876
 	ascent = 174
 	descent = 152
@@ -408,6 +390,7 @@
 	website = https://pss.rs/terenipp/ritopek-vinca/
 
 12091435
+	alt_name = Кружна пешачка стаза
 	ascent = 582
 	descent = 582
 	distance = 9.13 km
@@ -1033,6 +1016,23 @@
 	type = route
 	website = https://pss.rs/terenipp/kablar/
 
+11189458
+	ascent = 607
+	descent = 0
+	distance = 5.7 km
+	name = Грабова коса
+	name:sr = Грабова коса
+	name:sr-Latn = Grabova kosa
+	network = rwn
+	operator = Kablar PD
+	osmc:symbol = red:red_round::4:white
+	ref = 3-28-4
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/grabova-kosa/
+
 11189613
 	ascent = 599
 	descent = 0
@@ -1208,6 +1208,23 @@
 	type = route
 	website = https://pss.rs/terenipp/djacka-staza-kanjon-tresnjice-gornje-koslje/
 
+16782461
+	ascent = 160
+	descent = 25
+	distance = 4.5 km
+	name = Cerovi - Golema Porica
+	name:sr = Церови - Голема Порица
+	name:sr-Latn = Cerovi - Golema Porica
+	network = rwn
+	operator = Oštra čuka PD
+	osmc:symbol = red:red_round::1:white
+	ref = 4-23-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/cerovi-golema-porica/
+
 11095303
 	ascent = 1230
 	descent = 1230
@@ -1282,9 +1299,9 @@
 	ascent = 102
 	descent = 0
 	distance = 1.1 km
-	name = Томићева колиба – Јама Леденица
-	name:sr = Томићева колиба – Јама Леденица
-	name:sr-Latn = Tomićeva koliba – Jama Ledenica
+	name = Томићева колиба - јама Леденица
+	name:sr = Томићева колиба - јама Леденица
+	name:sr-Latn = Tomićeva koliba – jama Ledenica
 	network = lwn
 	operator = Oštra čuka PD
 	osmc:symbol = red:red_round::4:white
@@ -1321,7 +1338,6 @@
 	name:sr = Шарбановац - В. Порица - Баба
 	name:sr-Latn = Šarbanovac – V. Porica – Baba
 	network = rwn
-	note = staza nije mapirana u potpunosti
 	operator = Oštra čuka PD
 	osmc:symbol = red:red_round::6:white
 	ref = 4-27-6
@@ -2591,7 +2607,7 @@
 	name:sr = Стаза бр. 3: Љубиш - Муртеница
 	name:sr-Latn = Staza br. 3: Ljubiš – Murtenica
 	network = rwn
-	note = недостаје operator биће унешен
+	operator = Tornik PK
 	osmc:symbol = red:red_round::13:white
 	ref = 5-12-13
 	roundtrip = yes
@@ -2770,6 +2786,23 @@
 	type = route
 	website = https://pss.rs/terenipp/staza-br-20-semegnjevo-lupoglav/
 
+16861754
+	ascent = 316
+	descent = 316
+	distance = 3.4 km
+	name = Дрежник ( засеок Јолетићи ) - врх Кућишта
+	name:sr = Дрежник ( засеок Јолетићи ) - врх Кућишта
+	name:sr-Latn = Drežnik (zaseok Joletići) – vrh Kućišta
+	network = rwn
+	operator = Zlatibor PD
+	osmc:symbol = red:red_round::23:white
+	ref = 5-12-23
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/dreznik-zaseok-joletici-vrh-kucista/
+
 11349461
 	ascent = 617
 	descent = 617
@@ -2941,6 +2974,21 @@
 	type = route
 	website = https://pss.rs/terenipp/dule-krnjajic/
 
+17610500
+	distance = 10.6 km
+	name = Кањон реке Пањице - Водена пећина - Бреково
+	name:sr = Кањон реке Пањице - Водена пећина - Бреково
+	name:sr-Latn = Kanjon reke Panjice – Vodena pećina – Brekovo
+	network = rwn
+	operator = Sunčevica SUPSD
+	osmc:symbol = red:red_round::1:white
+	ref = 5-19-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/kaljon-reke-panjice-vodena-pecina-brekovo/
+
 12185187
 	ascent = 1104
 	descent = 1104
@@ -3076,6 +3124,107 @@
 	source = pss_staze
 	type = route
 	website = https://pss.rs/terenipp/veliki-i-mali-vrtop-gramada-vlasina/
+
+16861834
+	ascent = 730
+	descent = 130
+	distance = 13.3 km
+	name = Златанци - Орловац - В. Вртоп (стаза 7)
+	name:sr = Златанци - Орловац - В. Вртоп (стаза 7)
+	name:sr-Latn = Zlatanci – Orlovac – V. Vrtop (staza 7)
+	network = rwn
+	operator = Čemernik PD
+	osmc:symbol = red:red_round::2:white
+	ref = 7-15-2
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/zlatanci-orlovac-v-vrtop-staza-7/
+
+16861877
+	ascent = 615
+	descent = 90
+	distance = 7.7 km
+	name = Полом - М. Вртоп - В. Вртоп (стаза 8)
+	name:sr = Полом - М. Вртоп - В. Вртоп (стаза 8)
+	name:sr-Latn = Polom – M. Vrtop – V. Vrtop (staza 8)
+	network = rwn
+	operator = Čemernik PD
+	osmc:symbol = red:red_round::3:white
+	ref = 7-15-3
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/polom-m-vrtop-v-vrtop-staza-8/
+
+16864820
+	ascent = 530
+	descent = 10
+	distance = 8.8 km
+	name = Брана - В. Вртоп (стаза 9)
+	name:sr = Брана - В. Вртоп (стаза 9)
+	name:sr-Latn = Brana – V. Vrtop (staza 9)
+	network = rwn
+	operator = Čemernik PD
+	osmc:symbol = red:red_round::4:white
+	ref = 7-15-4
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/brana-v-vrtop-staza-9/
+
+16865068
+	ascent = 280
+	descent = 280
+	distance = 7.7 km
+	name = Едукативна стаза „neXt боровнице“
+	name:sr = Едукативна стаза „neXt боровнице“
+	name:sr-Latn = Edukativna staza „neXt borovnice“
+	network = rwn
+	operator = Svarog PSU
+	osmc:symbol = red:red_round::1:white
+	ref = 7-22-1
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/edukativna-staza-next-borovnice/
+
+16865164
+	ascent = 410
+	descent = 20
+	distance = 6.9 km
+	name = Промаја - В. Чемерник (стаза 4)
+	name:sr = Промаја - В. Чемерник (стаза 4)
+	name:sr-Latn = Promaja – V. Čemernik (staza 4)
+	network = rwn
+	operator = Svarog PSU
+	osmc:symbol = red:red_round::2:white
+	ref = 7-22-2
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/promaja-v-cemernik-staza-4/
+
+16865212
+	ascent = 420
+	descent = 20
+	distance = 6.8 km
+	name = Власински Вртови - В. Чемерник (стаза 5)
+	name:sr = Власински Вртови - В. Чемерник (стаза 5)
+	name:sr-Latn = Vlasinski Vrtovi – V. Čemernik (staza 5)
+	network = rwn
+	osmc:symbol = red:red_round::3:white
+	ref = 7-22-3
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/vlasinski-vrtovi-v-cemernik-staza-5/
 
 11263354
 	ascent = 1398
@@ -3507,11 +3656,12 @@
 	complete = yes
 	from = Лазарев кањон
 	length = 74
-	name = E4: (Krivelj –) Lazarev kanjon – Sokobanja
-	name:en = E4: (Krivelj –) Lazarev kanjon – Sokobanja
-	name:sr = E4: (Кривељ –) Лазарев кањон – Сокобања
-	name:sr-Latn = E4: (Krivelj –) Lazarev kanjon – Sokobanja
+	name = Кривељ - Сокобања
+	name:en = Krivelj – Sokobanja
+	name:sr = Кривељ - Сокобања
+	name:sr-Latn = Krivelj – Sokobanja
 	network = iwn
+	note = postoji prekid na 21.95013, 43.79219, kontaktirati za vise informacija
 	operator = Crni vrh PSD;Dubašnica PK;Ljuba Nešić PSD;Ozren PK;Šiljak PK
 	osmc:symbol = blue:blue::E4:yellow
 	ref = E4-11
@@ -3593,6 +3743,21 @@
 	wiki:symbol = E 4 sign.jpg
 	wikidata = Q151658
 	wikipedia = en:E4 European long distance path
+
+17610623
+	name = Овчар бања - Ариље - Чајетина - Кремна - Тара - Мокра гора - Златибор - Муртеница (Бријач)
+	name:sr = Овчар бања - Ариље - Чајетина - Кремна - Тара - Мокра гора - Златибор - Муртеница (Бријач)
+	name:sr-Latn = Ovčar banja -Arilje – Čajetina – Kremna – Tara – Mokra gora – Zlatibor – Murtenica (Brijač)
+	network = iwn
+	operator = Kablar PD;Maljen PPD;Rujno PD;Sevojno PSSD;Sunčevica SUPSD;Tornik PK;Zlatibor PD;Železničar PD Beograd
+	ref = E7-10-11
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/ovcar-banja-arilje-cajetina-kremna-tara-mokra-gora-zlatibor-murtenica-brijac/
+	wiki:symbol = Symbol_E7.png
+	wikidata = Q2914372
+	wikipedia = en:E7 European long distance path
 
 11753312
 	from = Brijač
@@ -3805,4 +3970,19 @@
 	source = pss_staze
 	type = route
 	website = https://pss.rs/terenipp/bastionska-transverzala/
+
+11499127
+	distance = 45 km
+	name = Овчарско-кабларска трансверзала
+	name:sr = Овчарско-кабларска трансверзала
+	name:sr-Latn = Ovčarsko-kablarska transverzala
+	network = nwn
+	operator = ПД Каблар
+	osmc:symbol = yellow:red_round::ОКТ:white
+	ref = T-5-8
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/ovcarsko-kablarska-transverzala/
 
