@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="MapSource 6.16.3" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2019-01-21T16:30:45Z</time>
+    <bounds maxlat="43.640871047973633" maxlon="21.853985264897346" minlat="43.62633959390223" minlon="21.850675251334906"/>
+  </metadata>
+
+  <wpt lat="43.640871047973633" lon="21.853287220001221">
+    <time>2019-01-21T16:23:35Z</time>
+    <name>Grudonjske Vodenice</name>
+    <cmt>Grudonjske Vodenice</cmt>
+    <desc>Grudonjske Vodenice</desc>
+    <sym>Scenic Area</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Sokobanja</gpxx:City>
+          <gpxx:State>Srb</gpxx:State>
+          <gpxx:Country>Srbija</gpxx:Country>
+          <gpxx:PostalCode>18230</gpxx:PostalCode>
+        </gpxx:Address>
+        <gpxx:PhoneNumber>018/833-988</gpxx:PhoneNumber>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.626387119293213" lon="21.853780746459961">
+    <time>2019-01-21T16:23:17Z</time>
+    <name>Vodopad Ripaljka</name>
+    <cmt>Ripaljka Vodopad</cmt>
+    <desc>Ripaljka Vodopad</desc>
+    <sym>Scenic Area</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Sokobanja</gpxx:City>
+          <gpxx:State>Srb</gpxx:State>
+          <gpxx:Country>Srbija</gpxx:Country>
+        </gpxx:Address>
+        <gpxx:PhoneNumber></gpxx:PhoneNumber>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <trk>
+    <name>Sokobanja - Ripaljka</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="43.640810195356607" lon="21.852072263136506">
+        <ele>336.63</ele>
+      </trkpt>
+      <trkpt lat="43.640605257824063" lon="21.85204753652215">
+        <ele>337.66199999999998</ele>
+      </trkpt>
+      <trkpt lat="43.640061523765326" lon="21.852286588400602">
+        <ele>341.69099999999997</ele>
+      </trkpt>
+      <trkpt lat="43.6396708432585" lon="21.852493118494749">
+        <ele>340.09500000000003</ele>
+      </trkpt>
+      <trkpt lat="43.639365071430802" lon="21.852285666391253">
+        <ele>342.315</ele>
+      </trkpt>
+      <trkpt lat="43.639061897993088" lon="21.852117190137506">
+        <ele>344.83999999999997</ele>
+      </trkpt>
+      <trkpt lat="43.638761909678578" lon="21.851867828518152">
+        <ele>347.27699999999999</ele>
+      </trkpt>
+      <trkpt lat="43.638438284397125" lon="21.851680828258395">
+        <ele>348.87900000000002</ele>
+      </trkpt>
+      <trkpt lat="43.638035031035542" lon="21.851396514102817">
+        <ele>351.06400000000002</ele>
+      </trkpt>
+      <trkpt lat="43.637546366080642" lon="21.851313784718513">
+        <ele>354.577</ele>
+      </trkpt>
+      <trkpt lat="43.637096341699362" lon="21.851677559316158">
+        <ele>351.928</ele>
+      </trkpt>
+      <trkpt lat="43.636770369485021" lon="21.851931028068066">
+        <ele>354.88</ele>
+      </trkpt>
+      <trkpt lat="43.636386310681701" lon="21.852132612839341">
+        <ele>357.33699999999999</ele>
+      </trkpt>
+      <trkpt lat="43.636106187477708" lon="21.852348949760199">
+        <ele>357.36900000000003</ele>
+      </trkpt>
+      <trkpt lat="43.635785076767206" lon="21.852219449356198">
+        <ele>355.81999999999999</ele>
+      </trkpt>
+      <trkpt lat="43.63547938875854" lon="21.852039825171232">
+        <ele>356.58199999999999</ele>
+      </trkpt>
+      <trkpt lat="43.635237906128168" lon="21.851900350302458">
+        <ele>358.96699999999998</ele>
+      </trkpt>
+      <trkpt lat="43.635020731016994" lon="21.851841676980257">
+        <ele>362.33999999999997</ele>
+      </trkpt>
+      <trkpt lat="43.634861474856734" lon="21.851939158514142">
+        <ele>364.45800000000003</ele>
+      </trkpt>
+      <trkpt lat="43.634515386074781" lon="21.851868666708469">
+        <ele>367.41500000000002</ele>
+      </trkpt>
+      <trkpt lat="43.634057398885489" lon="21.851790547370911">
+        <ele>372.70400000000001</ele>
+      </trkpt>
+      <trkpt lat="43.633716758340597" lon="21.851640678942204">
+        <ele>370.84800000000001</ele>
+      </trkpt>
+      <trkpt lat="43.633371675387025" lon="21.851699938997626">
+        <ele>371.839</ele>
+      </trkpt>
+      <trkpt lat="43.633101610466838" lon="21.85164931230247">
+        <ele>371.64699999999999</ele>
+      </trkpt>
+      <trkpt lat="43.632693998515606" lon="21.851749224588275">
+        <ele>376.005</ele>
+      </trkpt>
+      <trkpt lat="43.632344640791416" lon="21.851643109694123">
+        <ele>379.84300000000002</ele>
+      </trkpt>
+      <trkpt lat="43.632063595578074" lon="21.851656269282103">
+        <ele>381.90899999999999</ele>
+      </trkpt>
+      <trkpt lat="43.631791938096285" lon="21.851534144952893">
+        <ele>379.90199999999999</ele>
+      </trkpt>
+      <trkpt lat="43.631590353325009" lon="21.851407997310162">
+        <ele>378.82499999999999</ele>
+      </trkpt>
+      <trkpt lat="43.630995908752084" lon="21.851302804425359">
+        <ele>383.14600000000002</ele>
+      </trkpt>
+      <trkpt lat="43.630443541333079" lon="21.851289896294475">
+        <ele>384.80700000000002</ele>
+      </trkpt>
+      <trkpt lat="43.630052357912064" lon="21.851177578791976">
+        <ele>387.16899999999998</ele>
+      </trkpt>
+      <trkpt lat="43.629566458985209" lon="21.850927630439401">
+        <ele>391.13200000000001</ele>
+      </trkpt>
+      <trkpt lat="43.629353474825621" lon="21.850748844444752">
+        <ele>391.88299999999998</ele>
+      </trkpt>
+      <trkpt lat="43.629130013287067" lon="21.850675251334906">
+        <ele>394.31700000000001</ele>
+      </trkpt>
+      <trkpt lat="43.62894737161696" lon="21.850744569674134">
+        <ele>398.38400000000001</ele>
+      </trkpt>
+      <trkpt lat="43.628839747980237" lon="21.851191157475114">
+        <ele>400.54500000000002</ele>
+      </trkpt>
+      <trkpt lat="43.628594661131501" lon="21.851838072761893">
+        <ele>412.11399999999998</ele>
+      </trkpt>
+      <trkpt lat="43.628264581784606" lon="21.852076537907124">
+        <ele>411.67899999999997</ele>
+      </trkpt>
+      <trkpt lat="43.627802906557918" lon="21.85272772796452">
+        <ele>415.608</ele>
+      </trkpt>
+      <trkpt lat="43.627060521394014" lon="21.853346982970834">
+        <ele>426.90499999999997</ele>
+      </trkpt>
+      <trkpt lat="43.626842424273491" lon="21.85360481031239">
+        <ele>437.92399999999998</ele>
+      </trkpt>
+      <trkpt lat="43.626526426523924" lon="21.853985264897346">
+        <ele>456.11000000000001</ele>
+      </trkpt>
+      <trkpt lat="43.62633959390223" lon="21.853902284055948">
+        <ele>458.87200000000001</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+</gpx>
