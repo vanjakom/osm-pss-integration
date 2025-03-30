@@ -61,22 +61,40 @@ Staze dostupne unutar OSM baze:
 |-
 | E7-8
 | nepoznat
+<<<<<<< Updated upstream
+| 
+=======
+>>>>>>> Stashed changes
 | 
 | 
-| E7: Крупањ - Љубовија - Ваљево - Дивчибаре
-| [https://pss.rs/terenipp/krupanj-ljubovija-valjevo-divcibare/ pss]
+| E7-08: Крупањ – Љубовија – Ваљево – Дивчибаре
+| [https://pss.rs/terenipp/e7-8/ pss]
 | {{relation|14177412}}
-| 
+| https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Evropski_pešački_put_E7
 |-
 | E7-9
 | nepoznat
+<<<<<<< Updated upstream
+| 
+=======
+>>>>>>> Stashed changes
 | 
 | 
-| E7: Дивчибаре - Рајац - Рудник - Овчар бања
-| [https://pss.rs/terenipp/divcibare-rajac-rudnik-ovcar-banja/ pss]
+| E7-09: Дивчибаре – Рајац – Рудник – Овчар бања
+| [https://pss.rs/terenipp/e7-9/ pss]
 | {{relation|14180878}}
+| https://wiki.openstreetmap.org/wiki/Serbia/Beleske/Evropski_pesacki_putevi#e7
+|-
+| T-1-3
+| nepoznat
+| Vršačke planine
+| 
+| Вршачка трансверзала
+| [https://pss.rs/terenipp/vrsacka-transverzala/ pss]
+| {{relation|13145926}}
 | 
 |-
+<<<<<<< Updated upstream
 | E7-10-11
 | nepoznat
 | 
@@ -89,19 +107,73 @@ Staze dostupne unutar OSM baze:
 | E7-12
 | nepoznat
 | 
+=======
+| T-2-36
+| nepoznat
+| Juhor
+>>>>>>> Stashed changes
 | 
-| E7: Бријач - Увац - Сопотница - Сјеница
-| [https://pss.rs/terenipp/brijac-uvac-sopotnica-sjenica/ pss]
-| {{relation|11753312}}
+| Јухорска трансверзала
+| [https://pss.rs/terenipp/juhorska-transverzala/ pss]
+| {{relation|13244999}}
 | 
 |-
-| E7-16
+| T-3-2
 | nepoznat
+<<<<<<< Updated upstream
 | 
+=======
+| Rajac (suvoborski), Suvobor
+>>>>>>> Stashed changes
 | 
-| E7: Селова - Блаце - Велики Јастребац - Мали Јастребац - Тешица - Г. Трнава
-| [https://pss.rs/terenipp/selova-blace-v-jastrebac-m-jastrebac-tesica-g-trnava/ pss]
-| {{relation|14185390}}
+| Чика Душкове рајачке стазе
+| [https://pss.rs/terenipp/cika-duskove-rajacke-staze/ pss]
+| {{relation|12693206}}
+| Унет преостали део кружне стазе. Потребно је средити стазе 2а/б/ц/д, 3/3а, 8, 9.
+|-
+| T-3-7
+| nepoznat
+| Cer
+| 
+| Стазама Цера
+| [https://pss.rs/terenipp/stazama-cera/ pss]
+| {{relation|13237362}}
+| 
+|-
+| T-3-13
+| nepoznat
+| Suva planina
+| dobro uređena i markirana
+| Нишка Бања - Девојачки гроб - Трем - Бојанине воде
+| [https://pss.rs/terenipp/niska-banja-devojacki-grob-trem-bojanine-vode/ pss]
+| {{relation|12190325}}
+| 
+|-
+| T-3-29
+| nepoznat
+| Boranja, Gučevo
+| 
+| Вукове богазе
+| [https://pss.rs/terenipp/vukove-bogaze/ pss]
+| {{relation|13237511}}
+| 
+|-
+| T-4-12
+| nepoznat
+| Beljanica, Homoljske planine
+| 
+| Хомољска трансверзала
+| [ pss]
+| {{relation|13239017}}
+| 
+|-
+| T-4-41
+| nepoznat
+| Romulijana
+| 
+| Бастионска трансверзала
+| [https://pss.rs/terenipp/bastionska-transverzala/ pss]
+| {{relation|13239147}}
 | 
 |-
 | T-1-3
@@ -378,7 +450,7 @@ Staze dostupne unutar OSM baze:
 | Šumadija
 | Bukulja
 | dobro uređena i markirana
-| Аранђеловац - Букуља - Гарашко језеро - Букуља - Аранђеловац
+| Аранђеловац – Букуља – Гарашко језеро – Букуља – Аранђеловац
 | [https://pss.rs/terenipp/arandjelovac-bukulja-garasko-jezero-bukulja-arandjelovac/ pss]
 | {{relation|11043543}}
 | 
@@ -788,6 +860,7 @@ Staze dostupne unutar OSM baze:
 | {{relation|11189476}}
 | 
 |-
+<<<<<<< Updated upstream
 | 3-28-4
 | Zapadna Srbija
 | Kablar
@@ -797,6 +870,8 @@ Staze dostupne unutar OSM baze:
 | {{relation|11189458}}
 | 
 |-
+=======
+>>>>>>> Stashed changes
 | 3-28-5
 | Zapadna Srbija
 | Kablar
@@ -887,6 +962,7 @@ Staze dostupne unutar OSM baze:
 | {{relation|11515931}}
 | 
 |-
+<<<<<<< Updated upstream
 | 4-23-1
 | Istočna Srbija
 | Baba
@@ -896,6 +972,8 @@ Staze dostupne unutar OSM baze:
 | {{relation|16782461}}
 | 
 |-
+=======
+>>>>>>> Stashed changes
 | 4-26-1
 | Istočna Srbija
 | Južni Kučaj
@@ -1215,7 +1293,7 @@ Staze dostupne unutar OSM baze:
 | Istočna Srbija
 | Tupižnica
 | dobro uređena i markirana
-| Кожељ - Леднички врх
+| Кожељ - Леденички врх
 | [https://pss.rs/terenipp/kozelj-ledenicki-vrh/ pss]
 | {{relation|11182558}}
 | 
@@ -1733,6 +1811,7 @@ Staze dostupne unutar OSM baze:
 | {{relation|15817623}}
 | недостаје operator, биће унешен
 |-
+<<<<<<< Updated upstream
 | 5-12-23
 | Jugozapadna Srbija
 | Zlatibor
@@ -1742,6 +1821,8 @@ Staze dostupne unutar OSM baze:
 | {{relation|16861754}}
 | 
 |-
+=======
+>>>>>>> Stashed changes
 | 5-15-2
 | Jugozapadna Srbija
 | Debela gora
@@ -1769,6 +1850,7 @@ Staze dostupne unutar OSM baze:
 | {{relation|11489032}}
 | 
 |-
+<<<<<<< Updated upstream
 | 5-19-1
 | Jugozapadna Srbija
 | Budeč
@@ -1778,6 +1860,8 @@ Staze dostupne unutar OSM baze:
 | {{relation|17610500}}
 | 
 |-
+=======
+>>>>>>> Stashed changes
 | 5-40-1
 | Jugozapadna Srbija
 | Pobijenik
@@ -2113,6 +2197,334 @@ Staze koje je moguće mapirati:
 ! scope="col" | link
 ! scope="col" | note
 |-
+| E4-5
+| nepoznat
+| nil
+| 
+| Beograd (Krnjača) - Osipaonica
+| [https://pss.rs/terenipp/e4-5/ pss]
+| 
+|-
+| E4-6
+| nepoznat
+| nil
+| 
+| Osipaonica - Veliko Gradište
+| [https://pss.rs/terenipp/e4-6/ pss]
+| 
+|-
+| E4-7
+| nepoznat
+| nil
+| 
+| Veliko Gradište - Beljanica vrh
+| [https://pss.rs/terenipp/e4-7/ pss]
+| 
+|-
+| E4-8
+| nepoznat
+| nil
+| 
+| Beljanica vrh - Lepenski Vir
+| [https://pss.rs/terenipp/e4-8/ pss]
+| 
+|-
+| E4-9
+| nepoznat
+| nil
+| 
+| Lepenski Vir - Đerdap hidroelektrana
+| [https://pss.rs/terenipp/e4-9/ pss]
+| 
+|-
+| E4-10
+| nepoznat
+| nil
+| 
+| Đerdap hidroelektrana - Sikole
+| [https://pss.rs/terenipp/e4-10/ pss]
+| 
+|-
+| E4-12
+| nepoznat
+| nil
+| 
+| Sokobanja - Jalovik
+| [https://pss.rs/terenipp/e4-12/ pss]
+| 
+|-
+| E4-13
+| nepoznat
+| nil
+| 
+| Jalovik - Gradina
+| [https://pss.rs/terenipp/e4-13/ pss]
+| 
+|-
+| E7-1
+| nepoznat
+| nil
+| 
+| Bački Vinogradi - Stari Žednik
+| [https://pss.rs/terenipp/e7-1/ pss]
+| 
+|-
+| E7-2
+| nepoznat
+| nil
+| 
+| Stari Žednik - Sombor
+| [https://pss.rs/terenipp/e7-2/ pss]
+| 
+|-
+| E7-3
+| nepoznat
+| nil
+| 
+| Sombor - Bač
+| [https://pss.rs/terenipp/e7-3/ pss]
+| 
+|-
+| E7-4
+| nepoznat
+| nil
+| 
+| Bač - Novi Sad
+| [https://pss.rs/terenipp/e7-4/ pss]
+| 
+|-
+| E7-5
+| nepoznat
+| nil
+| 
+| Novi Sad - Sremska Mitrovica
+| [https://pss.rs/terenipp/e7-5/ pss]
+| 
+|-
+| E7-6
+| nepoznat
+| nil
+| 
+| Sremska Mitrovica - Cer
+| [https://pss.rs/terenipp/e7-6/ pss]
+| 
+|-
+| E7-7
+| nepoznat
+| nil
+| 
+| Cer - Krupanj
+| [https://pss.rs/terenipp/e7-7/ pss]
+| 
+|-
+| E7-10
+| nepoznat
+| nil
+| 
+| Ovčar banja - Kremna
+| [https://pss.rs/terenipp/e7-10/ pss]
+| 
+|-
+| E7-10-5
+| nepoznat
+| nil
+| 
+| Čajetina
+| [https://pss.rs/terenipp/cajetina/ pss]
+| 20250323 segment E7-10, pitao slobodana, preskocio u mapiranju
+|-
+| E7-10-4
+| nepoznat
+| nil
+| 
+| Drežnik
+| [https://pss.rs/terenipp/dreznik/ pss]
+| 20250323 segment E7-10, pitao slobodana, preskocio u mapiranju
+|-
+| E7-10-11
+| nepoznat
+| nil
+| 
+| Ovčar banja -Arilje - Čajetina - Kremna - Tara - Mokra gora - Zlatibor - Murtenica (Brijač)
+| [https://pss.rs/terenipp/ovcar-banja-arilje-cajetina-kremna-tara-mokra-gora-zlatibor-murtenica-brijac/ pss]
+| 20250323 mislim da je stara spojena verzija 10 i 11. preskocio u mapiranju, cimao slobodana
+|-
+| E7-10-6
+| nepoznat
+| nil
+| 
+| Kremna
+| [https://pss.rs/terenipp/kremna/ pss]
+| 20250323 segment E7-10, pitao slobodana, preskocio u mapiranju
+|-
+| E7-11-3
+| nepoznat
+| nil
+| 
+| Mokra Gora
+| [https://pss.rs/terenipp/mokra-gora/ pss]
+| 20250323 segment E7-11, preskocio u mapiranju za sada, proveriti sa slobodanom
+|-
+| E7-11
+| nepoznat
+| nil
+| 
+| Kremna - Murtenica
+| [https://pss.rs/terenipp/e7-11/ pss]
+| 
+|-
+| E7-11-2
+| nepoznat
+| nil
+| 
+| Zvijezda
+| [https://pss.rs/terenipp/zvijezda/ pss]
+| 20250323 segment E7-11, preskocio u mapiranju za sada, proveriti sa slobodanom
+|-
+| E7-11-4
+| nepoznat
+| nil
+| 
+| Zlatibor
+| [https://pss.rs/terenipp/zlatibor/ pss]
+| 20250323 segment E7-11, preskocio u mapiranju za sada, proveriti sa slobodanom
+|-
+| E7-11-1
+| nepoznat
+| nil
+| 
+| Tara
+| [https://pss.rs/terenipp/tara/ pss]
+| 20250323 segment E7-11, preskocio u mapiranju za sada, proveriti sa slobodanom
+|-
+| E7-11-5
+| nepoznat
+| nil
+| 
+| Sirogojno
+| [https://pss.rs/terenipp/sirogojno/ pss]
+| 20250323 segment E7-11, preskocio u mapiranju za sada, proveriti sa slobodanom
+|-
+| E7-12-6
+| nepoznat
+| nil
+| 
+| Sopotnica
+| [https://pss.rs/terenipp/sopotnica/ pss]
+| 20250323 segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom
+|-
+| E7-12-1
+| nepoznat
+| nil
+| 
+| Janja
+| [https://pss.rs/terenipp/janja/ pss]
+| 20250323 segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom
+|-
+| E7-12-5
+| nepoznat
+| nil
+| 
+| Kamena Gora
+| [https://pss.rs/terenipp/kamena-gora/ pss]
+| 20250323 segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom
+|-
+| E7-12-4
+| nepoznat
+| nil
+| 
+| Jabuka
+| [https://pss.rs/terenipp/jabuka/ pss]
+| 20250323 segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom
+|-
+| E7-12-3
+| nepoznat
+| nil
+| 
+| Mažići
+| [https://pss.rs/terenipp/mazici/ pss]
+| 20250323 segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom
+|-
+| E7-12
+| nepoznat
+| nil
+| 
+| Brijač - Uvac - Sopotnica - Sjenica
+| [https://pss.rs/terenipp/brijac-uvac-sopotnica-sjenica/ pss]
+| 
+|-
+| E7-12-2
+| nepoznat
+| nil
+| 
+| Pribojska Banja
+| [https://pss.rs/terenipp/pribojska-banja/ pss]
+| 20250323 segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom
+|-
+| E7-13
+| nepoznat
+| nil
+| 
+| Sjenica - Gradac
+| [https://pss.rs/terenipp/e7-13/ pss]
+| 
+|-
+| E7-14
+| nepoznat
+| nil
+| 
+| Gradac - Kriva Reka
+| [https://pss.rs/terenipp/e7-14/ pss]
+| 
+|-
+| E7-15
+| nepoznat
+| nil
+| 
+| Kriva Reka - Žuč
+| [https://pss.rs/terenipp/e7-15/ pss]
+| 
+|-
+| E7-16
+| nepoznat
+| nil
+| 
+| Selova - Blace - Veliki Jastrebac - Mali Jastrebac - Tešica - G.Trnava
+| [https://pss.rs/terenipp/selova-blace-v-jastrebac-m-jastrebac-tesica-g-trnava/ pss]
+| 
+|-
+| E7-17
+| nepoznat
+| nil
+| 
+| Gornja Trnava - Vlasotince
+| [https://pss.rs/terenipp/e7-17/ pss]
+| 
+|-
+| E7-18
+| nepoznat
+| nil
+| 
+| Vlasotince - Prohor Pčinjski
+| [https://pss.rs/terenipp/e7-18/ pss]
+| 
+|-
+| E7-19
+| nepoznat
+| nil
+| 
+| Devijacija: Žuč - Lebane
+| [https://pss.rs/terenipp/e7-19/ pss]
+| 
+|-
+| E7-20
+| nepoznat
+| nil
+| 
+| Devijacija: Lebane - Sveti Ilija
+| [https://pss.rs/terenipp/e7-20/ pss]
+| 
+|-
 | T-1-9
 | nepoznat
 | Fruška gora
@@ -2121,6 +2533,7 @@ Staze koje je moguće mapirati:
 | [https://pss.rs/terenipp/fruskogorska-transverzala/ pss]
 | 
 |-
+<<<<<<< Updated upstream
 | 1-3-2
 | Vojvodina
 | Fruška gora
@@ -2138,6 +2551,97 @@ Staze koje je moguće mapirati:
 | 
 |-
 | 4-7-2
+=======
+| T-5-8
+| nepoznat
+| Ovčar
+| 
+| Ovčarsko-kablarska transverzala
+| [https://pss.rs/terenipp/ovcarsko-kablarska-transverzala/ pss]
+| 
+|-
+| 2-16-3
+| Šumadija
+| Juhor
+| delimično uređena
+| Juhorski izvori
+| [https://pss.rs/terenipp/juhorski-izvori/ pss]
+| 
+|-
+| 2-16-4
+| Šumadija
+| Juhor
+| delimično uređena
+| Junior eko trail
+| [https://pss.rs/terenipp/junior-eko-trail/ pss]
+| 
+|-
+| 3-5-1
+| Zapadna Srbija
+| Boranja
+| dobro uređena i markirana
+| Zajača - manastir Tronoša
+| [https://pss.rs/terenipp/zajaca-manastir-tronosa/ pss]
+| 
+|-
+| 3-5-2
+| Zapadna Srbija
+| Boranja
+| dobro uređena i markirana
+| Pl.dom Šarena bukva-Leskova ravan-Radaljsko jezero
+| [https://pss.rs/terenipp/pl-dom-sarena-bukva-leskova-ravan-radaljsko-jezero/ pss]
+| 
+|-
+| 3-28-4
+| Zapadna Srbija
+| Kablar
+| dobro uređena i markirana
+| Grabova kosa
+| [https://pss.rs/terenipp/grabova-kosa/ pss]
+| 
+|-
+| 4-7-2
+| Istočna Srbija
+| Kučaj (Resavica)
+| delimično uređena
+| Lisine - Resavska pećina - Suvaja
+| [https://pss.rs/terenipp/lisine-resavska-pecina-suvaja/ pss]
+| 
+|-
+| 4-7-3
+| Istočna Srbija
+| Kučaj (Resavica)
+| odlično uređena i markirana
+| Planinarska kuća „Suvaja"- Resavska pećina
+| [https://pss.rs/terenipp/planinarska-kuca-suvaja-resavska-pecina/ pss]
+| 
+|-
+| 4-9-1
+| Istočna Srbija
+| Beljanica
+| dobro uređena i markirana
+| Beljanica - Bogojavljenski uspon
+| [https://pss.rs/terenipp/beljanica-bogojavljenski-uspon/ pss]
+| 
+|-
+| 4-9-2
+| Istočna Srbija
+| Beljanica
+| odlično uređena i markirana
+| Planinarska kuća „Suvaja"- vrh Golovršac
+| [https://pss.rs/terenipp/planinarska-kuca-suvaja-vrh-golovrsac/ pss]
+| 
+|-
+| 4-9-3
+| Istočna Srbija
+| Beljanica
+| odlično uređena i markirana
+| Planinarska kuća „Suvaja"- vrh Beljanica
+| [https://pss.rs/terenipp/planinarska-kuca-suvaja-vrh-beljanica/ pss]
+| 
+|-
+| 4-23-1
+>>>>>>> Stashed changes
 | Istočna Srbija
 | Kučaj (Resavica)
 | delimično uređena
@@ -2177,11 +2681,107 @@ Staze koje je moguće mapirati:
 | [https://pss.rs/terenipp/kamenica-sreckovo-vrelo-kamenicka-karaula/ pss]
 | malo poklapanja sa putevima i tragovima, dugo nije markirana
 |-
+<<<<<<< Updated upstream
 | 5-15-1
 | Jugozapadna Srbija
+=======
+| 5-9-1
+| Jugozapadna Srbija
+| Ponikve
+| dobro uređena i markirana
+| Megara 1 – Milunova staza
+| [https://pss.rs/terenipp/megara-1-milunova-staza/ pss]
+| 
+|-
+| 5-12-23
+| Jugozapadna Srbija
+| Zlatibor
+| delimično uređena
+| Drežnik (zaseok Joletići) – vrh Kućišta
+| [https://pss.rs/terenipp/dreznik-zaseok-joletici-vrh-kucista/ pss]
+| 
+|-
+| 5-12-25
+| Jugozapadna Srbija
+| Zlatibor
+| delimično uređena
+| Ravni (centar) – Drežnik (centar)
+| [https://pss.rs/terenipp/ravni-centar-dreznik-centar/ pss]
+| 
+|-
+| 5-15-1
+| Jugozapadna Srbija
+>>>>>>> Stashed changes
 | Debela gora
 | dobro uređena i markirana
 | Debela gora
 | [https://pss.rs/terenipp/debela-gora/ pss]
+<<<<<<< Updated upstream
+=======
+| 
+|-
+| 5-19-1
+| Jugozapadna Srbija
+| Budeč
+| odlično uređena i markirana
+| Kaljon reke Panjice - Vodena pećina - Brekovo
+| [https://pss.rs/terenipp/kaljon-reke-panjice-vodena-pecina-brekovo/ pss]
+| 
+|-
+| 6-31-1
+| Kopaoničko-Toplička regija
+| Radan
+| odlično uređena i markirana
+| Borince - Petrov vrh
+| [https://pss.rs/terenipp/borince-petrov-vrh/ pss]
+| 
+|-
+| 7-15-2
+| Jugoistočna Srbija
+| Gramada
+| odlično uređena i markirana
+| Zlatanci - Orlovac - V. Vrtop (staza 7)
+| [https://pss.rs/terenipp/zlatanci-orlovac-v-vrtop-staza-7/ pss]
+| 
+|-
+| 7-15-3
+| Jugoistočna Srbija
+| Gramada
+| odlično uređena i markirana
+| Polom - M. Vrtop - V. Vrtop (staza 8)
+| [https://pss.rs/terenipp/polom-m-vrtop-v-vrtop-staza-8/ pss]
+| 
+|-
+| 7-15-4
+| Jugoistočna Srbija
+| Gramada
+| odlično uređena i markirana
+| Brana - V. Vrtop (staza 9)
+| [https://pss.rs/terenipp/brana-v-vrtop-staza-9/ pss]
+| 
+|-
+| 7-22-1
+| Jugoistočna Srbija
+| Čemernik
+| odlično uređena i markirana
+| Edukativna staza "neXt borovnice"
+| [https://pss.rs/terenipp/edukativna-staza-next-borovnice/ pss]
+| 
+|-
+| 7-22-2
+| Jugoistočna Srbija
+| Čemernik
+| odlično uređena i markirana
+| Promaja - V. Čemernik (staza 4)
+| [https://pss.rs/terenipp/promaja-v-cemernik-staza-4/ pss]
+| 
+|-
+| 7-22-3
+| Jugoistočna Srbija
+| Čemernik
+| odlično uređena i markirana
+| Vlasinski Vrtovi - V. Čemernik (staza 5)
+| [https://pss.rs/terenipp/vlasinski-vrtovi-v-cemernik-staza-5/ pss]
+>>>>>>> Stashed changes
 | 
 |}

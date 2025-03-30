@@ -20,6 +20,7 @@
 	ascent = 381
 	descent = 381
 	distance = 14.9 km
+	int_name = Cortanovacka magija
 	name = Чортановачка магија
 	name:sr = Чортановачка магија
 	name:sr-Latn = Čortanovačka magija
@@ -38,6 +39,7 @@
 	ascent = 76
 	descent = 76
 	distance = 13.5 km
+	int_name = Obalom Jegricke
 	name = Обалом Јегричке
 	name:sr = Обалом Јегричке
 	name:sr-Latn = Obalom Jegričke
@@ -55,6 +57,7 @@
 	ascent = 5
 	descent = 5
 	distance = 6 km
+	int_name = Bojcinska suma
 	name = Бојчинска шума
 	name:sr = Бојчинска шума
 	name:sr-Latn = Bojčinska šuma
@@ -72,6 +75,7 @@
 	ascent = 63
 	descent = 63
 	distance = 15.3 km
+	int_name = Mala staza 15 km
 	name = Мала стаза 15 км
 	name:sr = Мала стаза 15 км
 	name:sr-Latn = Mala staza 15 km
@@ -89,6 +93,7 @@
 	ascent = 81
 	descent = 81
 	distance = 20.7 km
+	int_name = Srednja staza 20 km
 	name = Средња стаза 20 км
 	name:sr = Средња стаза 20 км
 	name:sr-Latn = Srednja staza 20 km
@@ -106,6 +111,7 @@
 	ascent = 105
 	descent = 105
 	distance = 30.3 km
+	int_name = Velika staza 30 km
 	name = Велика стаза 30 км
 	name:sr = Велика стаза 30 км
 	name:sr-Latn = Velika staza 30 km
@@ -123,6 +129,7 @@
 	ascent = 580
 	descent = 580
 	distance = 16 km
+	int_name = Bukovacki maraton – Osnovna staza
 	name = Буковачки маратон – Основна стаза
 	name:en = Bukovac Marathon – Basic track
 	name:sr = Буковачки маратон – Основна стаза
@@ -137,10 +144,51 @@
 	type = route
 	website = https://pss.rs/terenipp/bukovacki-maraton-osnovna-staza/
 
+<<<<<<< Updated upstream
+=======
+11321138
+	ascent = 980
+	descent = 980
+	distance = 35.2 km
+	int_name = Bukovacki maraton – Srednja staza
+	name = Буковачки маратон – Средња стаза
+	name:en = Bukovac Marathon – Medium track
+	name:sr = Буковачки маратон – Средња стаза
+	name:sr-Latn = Bukovački maraton – Srednja staza
+	network = rwn
+	operator = Vilina vodica PD
+	osmc:symbol = red:red:white_triangle_turned::2:red
+	ref = 1-3-2
+	roundtrip = yes
+	route = hiking
+	type = route
+	website = https://pss.rs/terenipp/bukovacki-maraton-srednja-staza/
+
+11314960
+	ascent = 1350
+	descent = 1350
+	distance = 47.8 km
+	int_name = Bukovacki maraton – Velika staza
+	name = Буковачки маратон – Велика стаза
+	name:en = Bukovac Marathon – Long track
+	name:sr = Буковачки маратон – Велика стаза
+	name:sr-Latn = Bukovački maraton – Velika staza
+	network = rwn
+	operator = Vilina vodica PD
+	osmc:symbol = red:red:white_triangle_turned::3:red
+	ref = 1-3-3
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/bukovacki-maraton-velika-staza/
+
+>>>>>>> Stashed changes
 14906749
 	ascent = 815
 	descent = 415
 	distance = 16 km
+	int_name = Uspon na Guduricki vrh
 	name = Успон на Гудурички врх
 	name:sr = Успон на Гудурички врх
 	name:sr-Latn = Uspon na Gudurički vrh
@@ -158,6 +206,7 @@
 	ascent = 438
 	descent = 0
 	distance = 8 km
+	int_name = Manastir Srediste - Guduricki vrh
 	name = Манастир Средиште - Гудурички врх
 	name:sr = Манастир Средиште - Гудурички врх
 	name:sr-Latn = Manastir Središte – Gudurički vrh
@@ -190,6 +239,7 @@
 	ascent = 471
 	descent = 471
 	distance = 10 km
+	int_name = Kamenarice preko Lisicije glave
 	name = Каменарице преко Лисичије главе
 	name:sr = Каменарице преко Лисичије главе
 	name:sr-Latn = Kamenarice preko Lisičije glave
@@ -207,6 +257,7 @@
 	ascent = 1065
 	descent = 1065
 	distance = 19 km
+	int_name = Guduricki vrh preko Lisicije glave
 	name = Гудурички врх преко Лисичије главе
 	name:sr = Гудурички врх преко Лисичије главе
 	name:sr-Latn = Gudurički vrh preko Lisičije glave
@@ -308,6 +359,7 @@
 	ascent = 970
 	descent = 970
 	distance = 19 km
+	int_name = Bukorovac - kanjon Voljevice - Besnjaja ( selo ) - Bukorovac
 	name = Букоровац - кањон Вољевице - Бешњаја ( село ) - Букоровац
 	name:sr = Букоровац - кањон Вољевице - Бешњаја ( село ) - Букоровац
 	name:sr-Latn = Bukorovac – kanjon Voljevice – Bešnjaja (selo) – Bukovorac
@@ -325,6 +377,7 @@
 	ascent = 200
 	descent = 200
 	distance = 9 km
+	int_name = Edukativna staza
 	name = Едукативна стаза
 	name:sr = Едукативна стаза
 	name:sr-Latn = Edukativna staza
@@ -394,6 +447,7 @@
 	ascent = 582
 	descent = 582
 	distance = 9.13 km
+	int_name = Avala, staza 1
 	name = Авала, стаза 1
 	name:sr = Авала, стаза 1
 	name:sr-Latn = Avala, staza 1
@@ -514,8 +568,8 @@
 	descent = 1114
 	distance = 18.7 km
 	int_name = Arandjelovac – Bukulja – Garasko jezero – Bukulja – Arandjelovac
-	name = Аранђеловац - Букуља - Гарашко језеро - Букуља - Аранђеловац
-	name:sr = Аранђеловац - Букуља - Гарашко језеро - Букуља - Аранђеловац
+	name = Аранђеловац – Букуља – Гарашко језеро – Букуља – Аранђеловац
+	name:sr = Аранђеловац – Букуља – Гарашко језеро – Букуља – Аранђеловац
 	name:sr-Latn = Aranđelovac – Bukulja – Garaško jezero – Bukulja – Aranđelovac
 	network = rwn
 	operator = Bukulja PD
@@ -548,6 +602,7 @@
 	ascent = 240
 	descent = 240
 	distance = 5 km
+	int_name = Staza zdravlja manastir Draca
 	name = Стаза здравља манастир Драча
 	name:sr = Стаза здравља манастир Драча
 	name:sr-Latn = Staza zdravlja manastir Drača
@@ -599,6 +654,7 @@
 	ascent = 512
 	descent = 512
 	distance = 9.0 km
+	int_name = 3 vrha Povlena
 	name = 3 врха Повлена
 	name:sr = 3 врха Повлена
 	name:sr-Latn = 3 vrha Povlena
@@ -616,6 +672,7 @@
 	ascent = 845
 	descent = 845
 	distance = 14.0 km
+	int_name = 4 izvora Povlena
 	name = 4 извора Повлена
 	name:sr = 4 извора Повлена
 	name:sr-Latn = 4 izvora Povlena
@@ -633,6 +690,7 @@
 	ascent = 346
 	descent = 346
 	distance = 8.0 km
+	int_name = Mrka stena - Beden
 	name = Мрка стена - Беден
 	name:sr = Мрка стена - Беден
 	name:sr-Latn = Mrka stena – Beden
@@ -667,6 +725,7 @@
 	ascent = 430
 	descent = 430
 	distance = 9.5 km
+	int_name = Taorska vrela - s. Radanovci - Taorska vrela
 	name = Таорска врела - с. Радановци - Таорска врела
 	name:sr = Таорска врела - с. Радановци - Таорска врела
 	name:sr-Latn = Taorska vrela – s. Radanovci – Taorska vrela
@@ -701,6 +760,7 @@
 	ascent = 982
 	descent = 982
 	distance = 20 km
+	int_name = Zel. st. Samari - Mravinjci
 	name = Жел. ст. Самари - Мравињци
 	name:sr = Жел. ст. Самари - Мравињци
 	name:sr-Latn = Žel. st. Samari – Mravinjci
@@ -884,6 +944,7 @@
 	ascent = 650
 	descent = 650
 	distance = 12 km
+	int_name = Memorijal „Mile Obradovic”
 	name = Меморијал „Миле Обрадовић”
 	name:sr = Меморијал „Миле Обрадовић”
 	name:sr-Latn = Memorijal „Mile Obradović”
@@ -1368,6 +1429,7 @@
 	ascent = 636
 	descent = 636
 	distance = 12.9 km
+	int_name = Sesalac - Tumba - Sesalacka pecina
 	name = Сесалац - Тумба - Сесалачка пећина
 	name:sr = Сесалац - Тумба - Сесалачка пећина
 	name:sr-Latn = Sesalac – Tumba – Sesalačka pećina
@@ -1385,6 +1447,7 @@
 	ascent = 869
 	descent = 869
 	distance = 13.3 km
+	int_name = Grebenom Rtnja
 	name = Гребеном Ртња
 	name:sr = Гребеном Ртња
 	name:sr-Latn = Grebenom Rtnja
@@ -1420,6 +1483,7 @@
 	ascent = 565
 	descent = 565
 	distance = 14.9 km
+	int_name = Trubarevac - Bovansko jezero
 	name = Трубаревац - Бованско језеро
 	name:sr = Трубаревац - Бованско језеро
 	name:sr-Latn = Trubarevac – Bovansko jezero
@@ -1489,6 +1553,7 @@
 	ascent = 398
 	descent = 398
 	distance = 4.9 km
+	int_name = Lepterija - Sokograd - Golemi kamen
 	name = Лептерија - Сокоград - Големи камен
 	name:sr = Лептерија - Сокоград - Големи камен
 	name:sr-Latn = Lepterija – Sokograd – Golemi kamen
@@ -1506,6 +1571,7 @@
 	ascent = 597
 	descent = 597
 	distance = 11.5 km
+	int_name = Izletista i vidikovci Sokobanje
 	name = Излетишта и видиковци Сокобање
 	name:sr = Излетишта и видиковци Сокобање
 	name:sr-Latn = Izletišta i vidikovci Sokobanje
@@ -1523,6 +1589,7 @@
 	ascent = 668
 	descent = 668
 	distance = 12.5 km
+	int_name = 4 vrha Device
 	name = 4 врха Девице
 	name:sr = 4 врха Девице
 	name:sr-Latn = 4 vrha Device
@@ -1609,6 +1676,7 @@
 	ascent = 759
 	descent = 762
 	distance = 13 km
+	int_name = Kanjon Zdrelo na Devici (Levovik)
 	name = Кањон Ждрело на Девици (Левовик)
 	name:sr = Кањон Ждрело на Девици (Левовик)
 	name:sr-Latn = Kanjon Ždrelo na Devici (Levovik)
@@ -1626,6 +1694,7 @@
 	ascent = 851
 	descent = 851
 	distance = 16.8 km
+	int_name = Velika i Mala Propast na Devici
 	name = Велика и Мала Пропаст на Девици
 	name:sr = Велика и Мала Пропаст на Девици
 	name:sr-Latn = Velika i Mala Propast na Devici
@@ -1695,6 +1764,7 @@
 	ascent = 780
 	descent = 780
 	distance = 14 km
+	int_name = Leskovik - kruzna staza
 	name = Лесковик - кружна стаза
 	name:sr = Лесковик - кружна стаза
 	name:sr-Latn = Leskovik – kružna staza
@@ -1797,6 +1867,7 @@
 	ascent = 384
 	descent = 384
 	distance = 9.6 km
+	int_name = Sokobanja - Ripaljka - Jermencic
 	name = Сокобања - Рипаљка - Јерменчић
 	name:sr = Сокобања - Рипаљка - Јерменчић
 	name:sr-Latn = Sokobanja - Ripaljka - Jermenčić
@@ -1814,6 +1885,7 @@
 	ascent = 892
 	descent = 892
 	distance = 15.9 km
+	int_name = Ripaljka - Jermencic - Leskovik - Ozrenska vrata
 	name = Рипаљка - Јерменчић - Лесковик - Озренска врата
 	name:sr = Рипаљка - Јерменчић - Лесковик - Озренска врата
 	name:sr-Latn = Ripaljka - Jermenčić - Leskovik - Ozrenska vrata
@@ -1831,8 +1903,9 @@
 	ascent = 701
 	descent = 701
 	distance = 12.6 km
-	name = Кожељ - Леднички врх
-	name:sr = Кожељ - Леднички врх
+	int_name = Kozelj - Ledenicki vrh
+	name = Кожељ - Леденички врх
+	name:sr = Кожељ - Леденички врх
 	name:sr-Latn = Koželj – Ledenički vrh
 	network = rwn
 	operator = Dragan Radosavljević OPSD
@@ -1848,6 +1921,7 @@
 	ascent = 714
 	descent = 714
 	distance = 12.2 km
+	int_name = Marinovac - Glogovacki vrh
 	name = Мариновац - Глоговачки врх
 	name:sr = Мариновац - Глоговачки врх
 	name:sr-Latn = Marinovac – Glogovački vrh
@@ -1899,6 +1973,7 @@
 	ascent = 675
 	descent = 675
 	distance = 18.3 km
+	int_name = Sesalac - Slemen - Sesalacka pecina
 	name = Сесалац - Слемен - Сесалачка пећина
 	name:sr = Сесалац - Слемен - Сесалачка пећина
 	name:sr-Latn = Sesalac - Slemen - Sesalačka pećina
@@ -1950,6 +2025,7 @@
 	ascent = 243
 	descent = 243
 	distance = 4.3 km
+	int_name = Prekonoska pecina
 	name = Преконошка пећина
 	name:sr = Преконошка пећина
 	name:sr-Latn = Prekonoška pećina
@@ -2001,6 +2077,7 @@
 	ascent = 1800
 	descent = 1800
 	distance = 35.0 km
+	int_name = Homoljski planinski maraton
 	name = Хомољски планински маратон
 	name:sr = Хомољски планински маратон
 	name:sr-Latn = Homoljski planinarski maraton
@@ -2018,6 +2095,7 @@
 	ascent = 800
 	descent = 800
 	distance = 16.0 km
+	int_name = Homoljski planinski polumaraton
 	name = Хомољски планински полумаратон
 	name:sr = Хомољски планински полумаратон
 	name:sr-Latn = Homoljski planinarski polumaraton
@@ -2120,6 +2198,7 @@
 	ascent = 350
 	descent = 462
 	distance = 18 km
+	int_name = Vrska cuka - Vlaski do - kruzna staza
 	name = Вршка чука - Влашки до - кружна стаза
 	name:sr = Вршка чука - Влашки до - кружна стаза
 	name:sr-Latn = Vrška čuka – Vlaški do – kružna staza
@@ -2173,6 +2252,7 @@
 	ascent = 724
 	descent = 724
 	distance = 13 km
+	int_name = Milusinac - Krstatac - Bogova vrata
 	name = Милушинац - Крстатац - Богова врата
 	name:sr = Милушинац - Крстатац - Богова врата
 	name:sr-Latn = Milušinac – Krstatac – Bogova vrata
@@ -2190,6 +2270,7 @@
 	ascent = 390
 	descent = 390
 	distance = 8.0 km
+	int_name = Milusinac - Bogova vrata
 	name = Милушинац - Богова врата
 	name:sr = Милушинац - Богова врата
 	name:sr-Latn = Milušinac - Bogova vrata
@@ -2207,6 +2288,7 @@
 	ascent = 335
 	descent = 335
 	distance = 9.3 km
+	int_name = Cerje - Goli vrh - Debeli vrh
 	name = Церје - Голи врх - Дебели врх
 	name:sr = Церје - Голи врх - Дебели врх
 	name:sr-Latn = Cerje – Goli vrh – Debeli vrh
@@ -2224,6 +2306,7 @@
 	ascent = 346
 	descent = 346
 	distance = 9.2 km
+	int_name = Cerje - Ljuti vrh - Provalija
 	name = Церје - Љути врх - Провалија
 	name:sr = Церје - Љути врх - Провалија
 	name:sr-Latn = Cerje – Ljuti vrh – Provalija
@@ -2328,6 +2411,7 @@
 	ascent = 710
 	descent = 710
 	distance = 11 km
+	int_name = Mali i Veliki Vukan od doma Zdrelo
 	name = Мали и Велики Вукан од дома Ждрело
 	name:sr = Мали и Велики Вукан од дома Ждрело
 	name:sr-Latn = Mali i Veliki Vukan od doma Ždrelo
@@ -2379,6 +2463,7 @@
 	ascent = 556
 	descent = 556
 	distance = 6 km
+	int_name = Mali Vukan grebenom od Cetiri lule
 	name = Мали Вукан гребеном од Четири луле
 	name:sr = Мали Вукан гребеном од Четири луле
 	name:sr-Latn = Mali Vukan grebenom od Četiri lule
@@ -2465,6 +2550,7 @@
 	ascent = 750
 	descent = 750
 	distance = 21 km
+	int_name = Manastir Ravanica - Bostava - Manastir Ravanica
 	name = Манастир Раваница - Бостава - Манастир Раваница
 	name:sr = Манастир Раваница - Бостава - Манастир Раваница
 	name:sr-Latn = Manastir Ravanica – Bostava – Manastir Ravanica
@@ -2500,6 +2586,7 @@
 	ascent = 957
 	descent = 957
 	distance = 17 km
+	int_name = Banja - Banjsko brdo
 	name = Бања - Бањско брдо
 	name:sr = Бања - Бањско брдо
 	name:sr-Latn = Banja – Banjsko brdo
@@ -2552,6 +2639,7 @@
 	ascent = 790
 	descent = 790
 	distance = 21.7 km
+	int_name = Staza br. 6: Zlatibor - Spomenik - Cuker
 	name = Стаза бр. 6: Златибор - Споменик - Чукер
 	name:sr = Стаза бр. 6: Златибор - Споменик - Чукер
 	name:sr-Latn = Staza br. 6: Zlatibor – Spomenik – Čuker
@@ -2569,6 +2657,7 @@
 	ascent = 670
 	descent = 670
 	distance = 16.1 km
+	int_name = Staza br. 18: Jecmiste - vrh Bandera (Tornik)
 	name = Стаза бр. 18: Јечмиште - врх Бандера (Торник)
 	name:sr = Стаза бр. 18: Јечмиште - врх Бандера (Торник)
 	name:sr-Latn = Staza br. 18: Ječmište – vrh Bandera (Tornik)
@@ -2586,6 +2675,7 @@
 	ascent = 450
 	descent = 450
 	distance = 14.1 km
+	int_name = Staza br. 1: Negbina - Karaula
 	name = Стаза бр. 1: Негбина - Караула
 	name:sr = Стаза бр. 1: Негбина - Караула
 	name:sr-Latn = Staza br. 1: Negbina – Karaula
@@ -2603,6 +2693,7 @@
 	ascent = 810
 	descent = 810
 	distance = 18.1 km
+	int_name = Staza br. 3: Ljubis - Murtenica
 	name = Стаза бр. 3: Љубиш - Муртеница
 	name:sr = Стаза бр. 3: Љубиш - Муртеница
 	name:sr-Latn = Staza br. 3: Ljubiš – Murtenica
@@ -2620,6 +2711,7 @@
 	ascent = 460
 	descent = 460
 	distance = 14.4 km
+	int_name = Staza br. 7 - Semegnjevo - Savino Brdo
 	name = Стаза бр. 7 - Семегњево - Савино Брдо
 	name:sr = Стаза бр. 7 - Семегњево - Савино Брдо
 	name:sr-Latn = Staza br. 7: Semegnjevo – Savino Brdo
@@ -2637,6 +2729,7 @@
 	ascent = 680
 	descent = 680
 	distance = 17.2 km
+	int_name = Staza br. 8: Semegnjevo - Viogor
 	name = Стаза бр. 8: Семегњево - Виогор
 	name:sr = Стаза бр. 8: Семегњево - Виогор
 	name:sr-Latn = Staza br. 8: Semegnjevo – Viogor
@@ -2654,6 +2747,7 @@
 	ascent = 550
 	descent = 550
 	distance = 13.8 km
+	int_name = Staza br. 9: Cavlovac - Kobilja glava
 	name = Стаза бр. 9: Чавловац - Кобиља глава
 	name:sr = Стаза бр. 9: Чавловац - Кобиља глава
 	name:sr-Latn = Staza br. 9: Čavlovac – Kobilja glava
@@ -2671,6 +2765,7 @@
 	ascent = 730
 	descent = 730
 	distance = 15.5 km
+	int_name = Staza br. 10: Semegnjevo - Lecica vrh
 	name = Стаза бр. 10: Семегњево - Лечића врх
 	name:sr = Стаза бр. 10: Семегњево - Лечића врх
 	name:sr-Latn = Staza br. 10: Semegnjevo – Lečića vrh
@@ -2688,6 +2783,7 @@
 	ascent = 630
 	descent = 630
 	distance = 15.1 km
+	int_name = Staza br. 12: Dobroselica - Marica stena
 	name = Стаза бр. 12: Доброселица - Марића стена
 	name:sr = Стаза бр. 12: Доброселица - Марића стена
 	name:sr-Latn = Staza br. 12: Dobroselica – Marića stena
@@ -2705,6 +2801,7 @@
 	ascent = 520
 	descent = 520
 	distance = 9 km
+	int_name = Staza br. 13: Stublo - Omarski potok
 	name = Стаза бр. 13: Стубло - Омарски поток
 	name:sr = Стаза бр. 13: Стубло - Омарски поток
 	name:sr-Latn = Staza br. 13: Stublo – Omarski potok
@@ -2739,6 +2836,7 @@
 	ascent = 630
 	descent = 630
 	distance = 14.9 km
+	int_name = Staza br. 17: Donje Selo - Dubrava
 	name = Стаза бр. 17: Доње Село - Дубрава
 	name:sr = Стаза бр. 17: Доње Село - Дубрава
 	name:sr-Latn = Staza br. 17: Donje Selo – Dubrava
@@ -2756,6 +2854,7 @@
 	ascent = 570
 	descent = 570
 	distance = 12.9 km
+	int_name = Staza br. 19: Ribnica - Liska
 	name = Стаза бр. 19: Рибница - Лиска
 	name:sr = Стаза бр. 19: Рибница - Лиска
 	name:sr-Latn = Staza br. 19: Ribnica – Liska
@@ -2773,6 +2872,7 @@
 	ascent = 480
 	descent = 480
 	distance = 13.3 km
+	int_name = Staza br. 20: Semegnjevo - Lupoglav
 	name = Стаза бр. 20: Семегњево - Лупоглав
 	name:sr = Стаза бр. 20: Семегњево - Лупоглав
 	name:sr-Latn = Staza br. 20: Semegnjevo – Lupoglav
@@ -2807,6 +2907,7 @@
 	ascent = 617
 	descent = 617
 	distance = 14.2 km
+	int_name = Tetrebovac
 	name = Тетребовац
 	name:sr = Тетребовац
 	name:sr-Latn = Tetrebovac
@@ -2824,6 +2925,7 @@
 	ascent = 710
 	descent = 710
 	distance = 10.3 km
+	int_name = Staza br. 14: Manastir Uvac - Krvavac
 	name = Стаза бр. 14: Манастир Увац - Крвавац
 	name:sr = Стаза бр. 14: Манастир Увац - Крвавац
 	name:sr-Latn = Staza br. 14: Manastir Uvac – Krvavac
@@ -2841,6 +2943,7 @@
 	ascent = 760
 	descent = 760
 	distance = 10.9 km
+	int_name = Staza br. 15: Kolijevka - Orlic
 	name = Стаза бр. 15: Колијевка - Орлић
 	name:sr = Стаза бр. 15: Колијевка - Орлић
 	name:sr-Latn = Staza br. 15: Kolijevka – Orlić
@@ -2858,6 +2961,7 @@
 	ascent = 790
 	descent = 790
 	distance = 18.7 km
+	int_name = Staza br. 16: Jablanica - Ljuljas
 	name = Стаза бр. 16: Јабланица - Љуљаш
 	name:sr = Стаза бр. 16: Јабланица - Љуљаш
 	name:sr-Latn = Staza br. 16: Jablanica – Ljuljaš
@@ -2875,6 +2979,7 @@
 	ascent = 700
 	descent = 700
 	distance = 16.8 km
+	int_name = Staza br. 2: Murtenica - Tavnicko jezero
 	name = Стаза бр. 2: Муртеница - Тавничко језеро
 	name:sr = Стаза бр. 2: Муртеница - Тавничко језеро
 	name:sr-Latn = Staza br. 2: Murtenica – Tavničko jezero
@@ -2892,6 +2997,7 @@
 	ascent = 850
 	descent = 850
 	distance = 17.6 km
+	int_name = Staza br. 4: Gostilje - Cigota
 	name = Стаза бр. 4: Гостиље - Чигота
 	name:sr = Стаза бр. 4: Гостиље - Чигота
 	name:sr-Latn = Staza br. 4: Gostilje – Čigota
@@ -2909,6 +3015,7 @@
 	ascent = 550
 	descent = 550
 	distance = 14.5 km
+	int_name = Staza br. 5: Jokina curija - Jelje - Konjoder
 	name = Стаза бр. 5: Јокина ћурија - Јеље - Коњодер
 	name:sr = Стаза бр. 5: Јокина ћурија - Јеље - Коњодер
 	name:sr-Latn = Staza br. 5: Jokina ćuprija – Jelje – Konjoder
@@ -2993,6 +3100,7 @@
 	ascent = 1104
 	descent = 1104
 	distance = 17.3 km
+	int_name = Naselje - Polin potok - Lisa stena - Stan i Gradac pecina - Naselje
 	name = Насеље - Полин поток - Лиса стена - Стан и Градац пећина - Насеље
 	name:sr = Насеље - Полин поток - Лиса стена - Стан и Градац пећина - Насеље
 	name:sr-Latn = Naselje - Polin potok - Lisa stena - Stan i Gradac pećina - Naselje
@@ -3112,6 +3220,7 @@
 	ascent = 601
 	descent = 601
 	distance = 20 km
+	int_name = Veliki i Mali Vrtop - Gramada, Vlasina
 	name = Велики и Мали Вртоп - Грамада, Власина
 	name:sr = Велики и Мали Вртоп - Грамада, Власина
 	name:sr-Latn = Veliki i Mali Vrtop – Gramada, Vlasina
@@ -3281,6 +3390,7 @@
 	ascent = 645
 	descent = 645
 	distance = 14.4 km
+	int_name = Bojanine vode - Sokolov kamen - Bojanine vode
 	name = Бојанине воде - Соколов камен - Бојанине воде
 	name:sr = Бојанине воде - Соколов камен - Бојанине воде
 	name:sr-Latn = Bojanine vode – Sokolov kamen – Bojanine vode
@@ -3333,6 +3443,7 @@
 	descent = 0
 	distance = 8.8 km
 	name = Дивљана - Пасарело
+	name:en = Divljana – Pasarelo
 	name:sr = Дивљана - Пасарело
 	name:sr-Latn = Divljana – Pasarelo
 	network = rwn
@@ -3368,6 +3479,7 @@
 	descent = 0
 	distance = 12.9 km
 	name = Доња Студена - Трем
+	name:en = Donja Studena – Trem
 	name:sr = Доња Студена - Трем
 	name:sr-Latn = Donja Studena – Trem
 	network = rwn
@@ -3433,6 +3545,7 @@
 	ascent = 556
 	descent = 556
 	distance = 8 km
+	int_name = Ostrovica - Oblik
 	name = Островица - Облик
 	name:sr = Островица - Облик
 	name:sr-Latn = Ostrovica – Oblik
@@ -3482,6 +3595,7 @@
 	ascent = 673
 	descent = 685
 	distance = 10.5 km
+	int_name = Staza br. 12 „Sokolica”
 	name = Стаза бр. 12 „Соколица”
 	name:sr = Стаза бр. 12 „Соколица”
 	name:sr-Latn = Staza br. 12 „Sokolica”
@@ -3516,6 +3630,7 @@
 	ascent = 958
 	descent = 918
 	distance = 18.6 km
+	int_name = Staza br. 15 „Kita”
 	name = Стаза бр. 15 „Кита”
 	name:sr = Стаза бр. 15 „Кита”
 	name:sr-Latn = Staza br. 15 „Kita”
@@ -3744,6 +3859,7 @@
 	wikidata = Q151658
 	wikipedia = en:E4 European long distance path
 
+<<<<<<< Updated upstream
 17610623
 	name = Овчар бања - Ариље - Чајетина - Кремна - Тара - Мокра гора - Златибор - Муртеница (Бријач)
 	name:sr = Овчар бања - Ариље - Чајетина - Кремна - Тара - Мокра гора - Златибор - Муртеница (Бријач)
@@ -3798,41 +3914,47 @@
 	wikidata = Q2914372
 	wikipedia = en:E7 European long distance path
 
+=======
+>>>>>>> Stashed changes
 14177412
+	complete = yes
 	from = Krupanj
-	name = E7: Крупањ - Љубовија - Ваљево - Дивчибаре
-	name:de = E7: Krupanj - Ljubovija - Valjevo - Divčibare
-	name:en = E7: Krupanj - Ljubovija - Valjevo - Divčibare
-	name:sr = E7: Крупањ - Љубовија - Ваљево - Дивчибаре
-	name:sr-Latn = E7: Krupanj - Ljubovija - Valjevo - Divčibare
+	name = E7-08: Крупањ – Љубовија – Ваљево – Дивчибаре
+	name:de = E7-08: Krupanj – Ljubovija – Valjevo – Divčibare
+	name:en = E7-08: Krupanj – Ljubovija – Valjevo – Divčibare
+	name:sr = E7-08: Крупањ – Љубовија – Ваљево – Дивчибаре
+	name:sr-Latn = E7-08: Krupanj – Ljubovija – Valjevo – Divčibare
 	network = iwn
+	note = https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Evropski_pešački_put_E7
 	operator = Brđanka PSK;Magleš PSD;Povlen PK;Subjel PED;Tornička Bobija PK
 	ref = E7-8
 	route = hiking
 	source = pss_staze
 	to = Divčibare
 	type = route
-	website = https://pss.rs/terenipp/krupanj-ljubovija-valjevo-divcibare/
-	wiki:symbol = Symbol_E7.png
+	website = https://pss.rs/terenipp/e7-8/
+	wiki:symbol = E 7 sign.jpg
 	wikidata = Q2914372
 	wikipedia = en:E7 European long distance path
 
 14180878
+	complete = yes
 	from = Divčibare
-	name = E7: Дивчибаре - Рајац - Рудник - Овчар бања
-	name:de = E7: Divčibare – Rajac – Rudnik – Ovčar banja
-	name:en = E7: Divčibare – Rajac – Rudnik – Ovčar banja
-	name:sr = E7: Дивчибаре - Рајац - Рудник - Овчар бања
-	name:sr-Latn = E7: Divčibare – Rajac – Rudnik – Ovčar banja
+	name = E7-09: Дивчибаре – Рајац – Рудник – Овчар бања
+	name:de = E7-09: Divčibare – Rajac – Rudnik – Ovčar banja
+	name:en = E7-09: Divčibare – Rajac – Rudnik – Ovčar banja
+	name:sr = E7-09: Дивчибаре – Рајац – Рудник – Овчар бања
+	name:sr-Latn = E7-09: Divčibare – Rajac – Rudnik – Ovčar banja
 	network = iwn
+	note = https://wiki.openstreetmap.org/wiki/Serbia/Beleske/Evropski_pesacki_putevi#e7
 	operator = Kablar PD;Pobeda PK;Povlen PK;PTT POSK;Rudnik PSD;Železničar PD Beograd
 	ref = E7-9
 	route = hiking
 	source = pss_staze
 	to = Ovčar banja
 	type = route
-	website = https://pss.rs/terenipp/divcibare-rajac-rudnik-ovcar-banja/
-	wiki:symbol = Symbol_E7.png
+	website = https://pss.rs/terenipp/e7-9/
+	wiki:symbol = E 7 sign.jpg
 	wikidata = Q2914372
 	wikipedia = en:E7 European long distance path
 
@@ -3891,6 +4013,7 @@
 	ascent = 1600
 	descent = 1600
 	distance = 44 km
+	int_name = Cika Duskove rajacke staze
 	name = Чика Душкове рајачке стазе
 	name:sr = Чика Душкове рајачке стазе
 	name:sr-Latn = Čika Duškove rajačke staze
@@ -3957,6 +4080,7 @@
 	descent = 1611
 	description = Бастионска трансверзала осмишљена је тако да обухвата већи број знаменитости из околине Зајечара које су привлачне како за планинаре тако и за обичне туристе.
 	distance = 68.75
+	int_name = Bastionska transverzala
 	name = Бастионска трансверзала
 	name:de = Bastionen-Rundweg
 	name:sr = Бастионска трансверзала
