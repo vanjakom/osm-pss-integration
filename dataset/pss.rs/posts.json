@@ -1,4 +1,41 @@
-[{"ID":26126,
+[{"ID":26474,
+  "title":"Planinarsko-izletnička staza \"Miroslav Miki Mladenović\"",
+  "permalink":
+  "https:\/\/pss.rs\/terenipp\/planinarsko-izletnicka-staza-miroslav-miki-mladenovic\/",
+  "terrain_category":28,
+  "terrain_ids":[421],
+  "region_ids":[5],
+  "postmeta":
+  [{"label":"Oznaka",
+    "type":"text",
+    "desc":"",
+    "meta_key":"psst_meta_oznaka_q8lrf",
+    "value":"5-66-2",
+    "getValue":"5-66-2"},
+   {"label":"Društvo\/klub",
+    "type":"adresar_klubova",
+    "desc":"Naziv kluba\/društva koje održava stazu i mesto",
+    "meta_key":"psst_meta_dru_tvo_klub_c3ri7_adresar_klubova",
+    "value":
+    [{"post_title":"Sunčevica SUPSD",
+      "permalink":
+      "https:\/\/pss.rs\/adresar_klubova\/suncevica-supsd\/",
+      "meta":"Stevana Čolovića 2, Arilje 31230<br>064 4950 375<br>"}],
+    "getValue":
+    "<a href=\"https:\/\/pss.rs\/adresar_klubova\/suncevica-supsd\/\">Sunčevica SUPSD<\/a>"},
+   {"label":"Dužina (km)",
+    "type":"text",
+    "desc":"Dužina staze\/puta u km (prim. 4,1 = 4km i 100m)",
+    "meta_key":"psst_meta_du_ina__km__j3b6v",
+    "value":"15,2",
+    "getValue":"15,2"},
+   {"label":"Vreme obilaska (h:min)",
+    "type":"text",
+    "desc":"Prosečno vreme obilaska (h:min) prim. 2:20",
+    "meta_key":"psst_meta_vreme_obilaska__h_min__s8og8",
+    "value":"5:00",
+    "getValue":"5:00"}]},
+ {"ID":26126,
   "title":"Žaračka planina - vrh Bandera",
   "permalink":
   "https:\/\/pss.rs\/terenipp\/zaracka-planina-vrh-bandera\/",
@@ -8807,7 +8844,7 @@
     [{"post_title":"Golija PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/golija-pd\/",
       "meta":
-      "Braće Rabrenović 11, 32250 Ivanjica<br>+38165 640 82 99<br>"}],
+      "Braće Rabrenović 11, 32250 Ivanjica<br>062 223797<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/golija-pd\/\">Golija PD<\/a>"},
    {"label":"Dužina (km)",
@@ -8843,7 +8880,7 @@
     [{"post_title":"Golija PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/golija-pd\/",
       "meta":
-      "Braće Rabrenović 11, 32250 Ivanjica<br>+38165 640 82 99<br>"}],
+      "Braće Rabrenović 11, 32250 Ivanjica<br>062 223797<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/golija-pd\/\">Golija PD<\/a>"},
    {"label":"Dužina (km)",
@@ -8879,7 +8916,7 @@
     [{"post_title":"Golija PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/golija-pd\/",
       "meta":
-      "Braće Rabrenović 11, 32250 Ivanjica<br>+38165 640 82 99<br>"}],
+      "Braće Rabrenović 11, 32250 Ivanjica<br>062 223797<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/golija-pd\/\">Golija PD<\/a>"},
    {"label":"Dužina (km)",
@@ -8915,7 +8952,7 @@
     [{"post_title":"Golija PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/golija-pd\/",
       "meta":
-      "Braće Rabrenović 11, 32250 Ivanjica<br>+38165 640 82 99<br>"}],
+      "Braće Rabrenović 11, 32250 Ivanjica<br>062 223797<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/golija-pd\/\">Golija PD<\/a>"},
    {"label":"Dužina (km)",
@@ -8951,7 +8988,7 @@
     [{"post_title":"Golija PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/golija-pd\/",
       "meta":
-      "Braće Rabrenović 11, 32250 Ivanjica<br>+38165 640 82 99<br>"}],
+      "Braće Rabrenović 11, 32250 Ivanjica<br>062 223797<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/golija-pd\/\">Golija PD<\/a>"},
    {"label":"Dužina (km)",
@@ -8987,7 +9024,7 @@
     [{"post_title":"Golija PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/golija-pd\/",
       "meta":
-      "Braće Rabrenović 11, 32250 Ivanjica<br>+38165 640 82 99<br>"}],
+      "Braće Rabrenović 11, 32250 Ivanjica<br>062 223797<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/golija-pd\/\">Golija PD<\/a>"},
    {"label":"Dužina (km)",
