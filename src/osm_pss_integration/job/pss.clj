@@ -1668,7 +1668,7 @@
                          (= (:type member) :way)
                          (map
                           (fn [id]
-                            (get-in dataset [:nodes id]))
+                            (get-in dataset [:node id]))
                           (:nodes (get-in dataset [:way (:id member)])))
                          :else
                          nil))
@@ -1707,7 +1707,7 @@
           (doseq [way (filter #(= (:type %) :way) (:members relation))]
             (let [nodes (map
                          (fn [id]
-                           (let [node (get-in dataset [:nodes id])]
+                           (let [node (get-in dataset [:node id])]
                              {
                               :longitude (as/as-double (:longitude node))
                               :latitude (as/as-double (:latitude node))}))
@@ -2053,103 +2053,4 @@
              [route relation]))
          (sort-by :id (vals routes)))))))))
 
-
-
-
-;; todo impement as job
-;; todo remove ignore list in next iteration
-;; concept, run diff, commit what is ok, what is not resolve, iterate
-
-#_(let [original (with-open [is (fs/input-stream ["Users" "vanja" "projects" "pss-map-v1" "dataset" "trails.geojson"])]
-                 (json/read-keyworded is))
-      new (with-open [is (fs/input-stream ["Users" "vanja" "projects" "osm-pss-integration" "dataset" "trails.geojson"])]
-            (json/read-keyworded is))
-      ;; todo reset on each iteration
-      ignore #{"2-3-5" "1-2-1" "1-2-2" "1-2-3" "1-3-1" "1-4-1" "1-4-3" "1-4-4"
-               "1-4-5" "1-13-2" "2-3-1" "2-3-2"
-               "2-3-3" ;; lose mapirano
-               "2-3-6" "2-3-7"
-               "2-3-8"
-               "2-13-1" "2-14-19" "2-14-20" "2-14-21" "2-16-1"
-               "3-3-2" "3-7-1" "3-8-1" "3-8-2" "3-8-3" "3-13-1" "3-13-2"
-               "3-14-1" "3-14-2" "3-14-3" "3-14-4" "3-14-5" "3-14-6"
-               "3-14-7" "3-14-8" "3-18-1" "3-20-1" "3-20-3" "3-20-5" "3-20-7" "3-20-8" "3-20-9"
-               "3-22-1" "3-22-2" "3-22-3" "3-22-4"
-               "3-22-5" ;; promenio kokan proverice
-               "3-28-3"
-               "3-28-5" ; lose mapirano
-               "3-32-1" "3-34-1"
-               "4-4-3" "4-4-6" "4-4-7"
-               "4-23-1" "4-26-1"
-               "4-27-1" "4-27-2" "4-27-3" "4-27-4" "4-27-5" "4-27-6" "4-27-7" "4-27-8"
-               "4-29-1" "4-30-1" "4-31-1" "4-31-2" "4-31-4" "4-31-6" "4-31-11"
-               "4-31-14" "4-33-3" "4-33-6" "4-33-8" "4-33-9"
-               "4-36-1" "4-36-2" "4-37-1" "4-37-3" "4-42-1" "4-42-2" "4-47-2"
-               "4-47-7" "4-48-4" "4-49-1" "4-53-1"
-               "5-6-1" ""
-               }]
-  (let [original-ref-seq (map #(get-in % [:properties :ref]) (:features original))
-        new-ref-seq (map #(get-in % [:properties :ref]) (:features new))]
-    (println "original refs:" (count original-ref-seq))
-    (println "new refs:" (count new-ref-seq))
-    (let [new-ref-set (into #{} new-ref-seq)]
-      (doseq [ref original-ref-seq]
-        (when (not (contains? new-ref-set ref))
-          (println "[REMOVED]" ref))))
-    (let [original-ref-set (into #{} original-ref-seq)]
-      (doseq [ref new-ref-seq]
-        (when (not (contains? original-ref-set ref))
-          (println "[ADDED]" ref))))
-    ;; delete old report
-    (doseq [file (fs/list ["Users" "vanja" "projects" "osm-pss-integration" "dataset" "staze-pss-rs-diff"])]
-      (fs/delete file))
-    (doseq [new-trail (:features new)]
-      (let [ref (get-in new-trail [:properties :ref])]
-        (when-let [original-trail (first (filter
-                                          #(= (get-in % [:properties :ref]) ref)
-                                          (:features original)))]
-          (let [original-properties (:properties original-trail)
-                new-properties (:properties new-trail)
-                simplify-geom (fn [feature]
-                                (first
-                                 (reduce
-                                  (fn [[coordinates end] sequence]
-                                    (if (= end (first sequence))
-                                      [(concat coordinates (drop 1 sequence)) (last sequence)]
-                                      [(concat coordinates sequence) (last sequence)]))
-                                  [[] nil]
-                                  (:coordinates (:geometry feature)))))
-                original-geom (simplify-geom original-trail)
-                new-geom (simplify-geom new-trail)
-                osm-relation-id (get original-properties :osm-relation-id)
-                source-geojson (json/read-keyworded (http/get-as-stream
-                                                     (str "http://localhost:7077/route/source/"
-                                                          osm-relation-id)))]
-            (when (and
-                   (or
-                    (not (= original-properties new-properties))
-                    (not (= original-geom new-geom)))
-                   (not (contains? ignore ref)))
-              (println "[MODIFIED]" ref (str "(r" osm-relation-id ")"))
-              (with-open [os (fs/output-stream
-                              (path/child
-                               ["Users" "vanja" "projects" "osm-pss-integration" "dataset" "staze-pss-rs-diff" (str ref ".html")]))]
-                (io/write-string
-                 os
-                 (map/render-raw
-                  {}
-                  [
-                   (map/tile-layer-osm true)
-                   (map/tile-layer-bing-satellite false)
-                   (binding [geojson/*style-stroke-color* geojson/color-green
-                             geojson/*style-stroke-width* 16]
-                     (map/geojson-layer "original" original-trail true true))
-                   (binding [geojson/*style-stroke-color* geojson/color-red
-                             geojson/*style-stroke-width* 8]
-                     (map/geojson-layer "new" new-trail true true))
-                   (binding [geojson/*style-stroke-color* geojson/color-blue
-                             geojson/*style-stroke-width* 4]
-                     (map/geojson-layer "source gpx" source-geojson true true))])))
-              )))))
-    (println "[DONE]")))
 
