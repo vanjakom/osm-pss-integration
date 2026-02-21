@@ -91,12 +91,23 @@
         "E7-10-11" ;; 17610623 E7-10-11 -> E7-10
         "E7-10" ;; 17610623 E7-10-11 -> E7-10
 
-        ;; verifikovane izmen
+        ;; verifikovane izmene
         "1-1-2" ;; 12150508  - завршено мапирање стазе, OSM измене се поклопиле са трагом
         "1-13-2" ;; 11314365 - прегледана стаза и поправљено мапирање
         "2-15-1" ;; 11066834 - поправљена стаза
         "2-15-2" ;; 11069677 - поправљена стаза
-
+        "2-8-1" ;; 14989345 - исправљен редослед
+        "3-14-4" ;; 12456767 - пријављена неправилност
+        "3-14-5" ;; 10886455 - исправљен редослед
+        "3-14-6" ;; 12464587 - враћена траса назад, changeset 178599315
+        "3-3-1" ;; 11129769 - поправљена стаза
+        "3-3-3" ;; 11128849 - мапирана стаза до краја
+        "4-26-1" ;; 11095303 - сређен почетак стазе
+        "4-27-1" ;; 11102761 - мапирана стаза до краја
+        "4-27-8" ;; 12899375 - исправљен редослед
+        "4-31-1" ;; 11072572 - исправљен редослед
+        "4-31-13" ;; 12902283 - исправљен редослед
+        
         ;; staze kod kojih je malo izmenjena geografija
         "1-14-1" ;; 14288192
         "1-15-1" ;; 11334200
@@ -119,6 +130,43 @@
         "2-3-3" ;; 12094994
         "2-3-4" ;; 12098640
         "2-3-5" ;; 12102740
+        "2-3-6" ;; 12107165
+        "2-3-7" ;; 12111398
+        "2-3-8" ;; 12111419
+        "3-13-1" ;; 14274559
+        "3-13-2" ;; 14274591
+        "3-14-1" ;; 12452310
+        "3-14-2" ;; 12452381
+        "3-14-3" ;; 12456657
+        "3-14-7" ;; 12481140
+        "3-14-8" ;; 14041560
+        "3-18-1" ;; 14274639
+        "3-20-1" ;; 12525280
+        "3-20-11" ;; 12726586
+        "3-20-3" ;; 12726079
+        "3-20-5" ;; 14124085
+        "3-20-7" ;; 12525333
+        "3-20-8" ;; 12721371
+        "3-20-9" ;; 12721535
+        "3-22-1" ;; 11046762
+        "3-22-2" ;; 14280882
+        "3-22-3" ;; 14280939
+        "3-22-4" ;; 14280954
+        "3-22-5" ;; 14281022
+        "3-28-4" ;; 11189458
+        "3-3-2" ;; 15005069
+        "3-32-1" ;; 12918979
+        "3-34-1" ;; 14041583
+        "3-7-1" ;; 11059141
+        "3-8-2" ;; 11049687
+        "3-8-3" ;; 11046859
+        "4-27-2" ;; 11097820
+        "4-27-6" ;; 11098411
+        "4-27-7" ;; 11097107
+        "4-27-9" ;; 13922554
+        "4-30-1" ;; 14281136
+        "4-31-11" ;; 11313552
+        
         
 
         
@@ -200,19 +248,34 @@
               (not (= production-geom new-geom))
               (do
                 (println (str "[MODIFIED_GEOM] \"" ref "\" ;; " osm-relation-id))
-                (let [sample-markers (fn [coordinates color-hex n]
-                                       (let [coords (vec coordinates)
+                (let [segment-midpoint-markers
+                      (fn [segments color-hex]
+                        (let [points (keep-indexed
+                                     (fn [idx segment]
+                                       (let [coords (vec segment)
                                              cnt (count coords)]
                                          (when (pos? cnt)
-                                           (let [step (max 1 (int (/ cnt n)))]
-                                             (geojson/feature-collection
-                                              (map-indexed
-                                               (fn [idx i]
-                                                 (let [[lon lat] (nth coords (min i (dec cnt)))]
-                                                   (geojson/point
-                                                    lon lat
-                                                    {:marker-div (str "<div style='text-align:center;line-height:24px;font-size:12px;width:24px;height:24px;border-radius:50%;background-color:" color-hex ";color:white;font-weight:bold;'>" (inc idx) "</div>")})))
-                                               (range 0 (* step n) step)))))))]
+                                           (let [[lon lat] (nth coords (int (/ cnt 2)))]
+                                             (geojson/point
+                                              lon lat
+                                              {:marker-div (str "<div style='text-align:center;line-height:24px;font-size:12px;width:24px;height:24px;border-radius:50%;background-color:" color-hex ";color:white;font-weight:bold;'>" (inc idx) "</div>")})))))
+                                     segments)]
+                          (when (seq points)
+                            (geojson/feature-collection points))))
+                      sample-markers
+                      (fn [coordinates color-hex n]
+                        (let [coords (vec coordinates)
+                              cnt (count coords)]
+                          (when (pos? cnt)
+                            (let [step (max 1 (int (/ cnt n)))]
+                              (geojson/feature-collection
+                               (map-indexed
+                                (fn [idx i]
+                                  (let [[lon lat] (nth coords (min i (dec cnt)))]
+                                    (geojson/point
+                                     lon lat
+                                     {:marker-div (str "<div style='text-align:center;line-height:24px;font-size:12px;width:24px;height:24px;border-radius:50%;background-color:" color-hex ";color:white;font-weight:bold;'>" (inc idx) "</div>")})))
+                                (range 0 (* step n) step)))))))]
                   (with-open [os (fs/output-stream
                                   (path/child
                                    ["Users" "vanja" "projects" "osm-pss-integration" "dataset" "staze-pss-rs-diff" (str ref ".html")]))]
@@ -233,10 +296,31 @@
                         (when source-geojson
                           (binding [geojson/*style-stroke-color* geojson/color-blue
                                     geojson/*style-stroke-width* 4]
-                            (map/geojson-layer "source gpx" source-geojson true true)))]
+                            (map/geojson-layer "source gpx" source-geojson true true)))
+                        (let [production-points (into #{} production-geom)
+                              changed-lines (keep
+                                             (fn [segment]
+                                               (let [changed (filter
+                                                              #(not (contains? production-points %))
+                                                              segment)]
+                                                 (when (>= (count changed) 2)
+                                                   changed)))
+                                             (:coordinates (:geometry new-trail)))]
+                          (when (seq changed-lines)
+                            (binding [geojson/*style-stroke-color* "#FFA500"
+                                      geojson/*style-stroke-width* 10]
+                              (map/geojson-layer
+                               "changed"
+                               {:type "Feature"
+                                :properties {}
+                                :geometry {:type "MultiLineString"
+                                           :coordinates (vec changed-lines)}}
+                               true true))))]
                        (filter
                         some?
-                        [(when-let [markers (sample-markers new-geom "#FF0000" 10)]
+                        [(when-let [markers (segment-midpoint-markers
+                                              (:coordinates (:geometry new-trail))
+                                              "#FF0000")]
                            (map/geojson-style-extended-layer "new markers" markers true true))
                          (when-let [markers (when source-track-seq
                                               (sample-markers
