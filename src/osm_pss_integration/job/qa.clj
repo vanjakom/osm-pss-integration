@@ -84,6 +84,8 @@
             (json/read-keyworded is))
       production-ref-seq (map #(get-in % [:properties :ref]) (:features production))
       new-ref-seq (map #(get-in % [:properties :ref]) (:features new))
+
+      report (atom [])
       
       ;; todo reset on each iteration
       ignore
@@ -194,7 +196,8 @@
                  [:properties :ref])]
         (when (not (contains? ignore ref))
           (when (not (contains? new-ref-set ref))
-            (println "[REMOVED]" ref (str "(r" osm-relation-id ")")))))))
+            (println "[REMOVED]" ref (str "(r" osm-relation-id ")"))
+            (swap! report conj {:type :removed :ref ref :id osm-relation-id}))))))
   (let [production-ref-set (into #{} production-ref-seq)]
     (doseq [new-trail (sort-by
                        #(get-in % [:properties :ref])
@@ -203,8 +206,10 @@
             ref (get-in new-trail [:properties :ref])]
         (when (not (contains? ignore ref))
             (when (not (contains? production-ref-set ref))
-              (println "[ADDED]" ref (str "(r" osm-relation-id ")")))))))
-  
+              (println "[ADDED]" ref (str "(r" osm-relation-id ")"))
+              (swap! report conj {:type :added :ref ref :id osm-relation-id})))))
+  )
+
   (doseq [new-trail (sort-by
                      #(get-in % [:properties :ref])
                      (:features new))]
@@ -239,15 +244,24 @@
               (not (= production-properties new-properties))
               (do
                 (println "[MODIFIED_PROPERTIES]" ref (str "(r" osm-relation-id ")"))
-                (doseq [[key value] new-properties]
-                  (when (not (= value (get production-properties key)))
-                    (println "\t" key value "->" (get production-properties key))))
-                (doseq [[key value] production-properties]
-                  (when (nil? (get new-properties key))
-                    (println "\t" key value "->" nil))))
+                (let [changes (concat
+                               (keep (fn [[key value]]
+                                       (when (not (= value (get production-properties key)))
+                                         {:key key :new-value value :old-value (get production-properties key)}))
+                                     new-properties)
+                               (keep (fn [[key value]]
+                                       (when (nil? (get new-properties key))
+                                         {:key key :new-value nil :old-value value}))
+                                     production-properties))]
+                  (doseq [{:keys [key new-value old-value]} changes]
+                    (println "\t" key new-value "->" old-value))
+                  (swap! report conj {:type :modified-properties :ref ref :id osm-relation-id
+                                      :name (get new-properties :name) :changes (vec changes)})))
               (not (= production-geom new-geom))
               (do
                 (println (str "[MODIFIED_GEOM] \"" ref "\" ;; " osm-relation-id))
+                (swap! report conj {:type :modified-geom :ref ref :id osm-relation-id
+                                    :name (get new-properties :name)})
                 (let [segment-midpoint-markers
                       (fn [segments color-hex]
                         (let [points (keep-indexed
@@ -329,5 +343,37 @@
                                                 (apply concat source-track-seq))
                                                "#0000FF" 10))]
                            (map/geojson-style-extended-layer "source markers" markers true true))])))))))))))))
+  (when (seq @report)
+    (with-open [os (fs/output-stream
+                    (path/child
+                     ["Users" "vanja" "projects" "osm-pss-integration" "dataset" "staze-pss-rs-diff" "index.html"]))]
+      (io/write-string
+       os
+       (hiccup/html
+        [:html
+         [:head
+          [:meta {:charset "utf-8"}]
+          [:title "Production Comparison Report"]
+          [:style "body{font-family:sans-serif;margin:20px} table{border-collapse:collapse;width:100%} th,td{border:1px solid #ddd;padding:8px;text-align:left} th{background-color:#4CAF50;color:white} tr:nth-child(even){background-color:#f2f2f2} a{color:#1a73e8} .changes{font-size:0.9em;color:#666}"]]
+         [:body
+          [:h1 "Production Comparison Report"]
+          [:table
+           [:tr [:th "Ref"] [:th "ID"] [:th "Name"] [:th "Type"] [:th "Details"] [:th "Links"]]
+           (for [entry (sort-by :ref @report)]
+             [:tr
+              [:td (:ref entry)]
+              [:td (:id entry)]
+              [:td (or (:name entry) "")]
+              [:td (name (:type entry))]
+              [:td
+               (when (= (:type entry) :modified-properties)
+                 [:div {:class "changes"}
+                  (for [{:keys [key new-value old-value]} (:changes entry)]
+                    [:div (str (name key) ": " old-value " -> " new-value)])])]
+              [:td
+               (when (= (:type entry) :modified-geom)
+                 [:a {:href (str (:ref entry) ".html") :target "_blank"} "diff"])
+               " "
+               [:a {:href (str "http://localhost:7077/route/edit/" (:id entry)) :target "_blank"} "edit"]]])]]]))))
   (println "[DONE]"))
 
