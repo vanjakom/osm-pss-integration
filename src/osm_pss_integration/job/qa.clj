@@ -93,6 +93,16 @@
         "E7-10-11" ;; 17610623 E7-10-11 -> E7-10
         "E7-10" ;; 17610623 E7-10-11 -> E7-10
 
+        ;; nove staze
+        "4-7-2" ;; 18954650
+        "4-7-3" ;; 18949714
+        "4-9-1" ;; 18944634
+        "4-9-2" ;; 18940339
+        "4-9-3" ;; 18934881
+        "2-16-4" ;; 18971114
+        "3-5-1" ;; 18963918
+        "3-5-2" ;; 18959137
+        
         ;; verifikovane izmene
         "1-1-2" ;; 12150508  - завршено мапирање стазе, OSM измене се поклопиле са трагом
         "1-13-2" ;; 11314365 - прегледана стаза и поправљено мапирање
@@ -109,6 +119,12 @@
         "4-27-8" ;; 12899375 - исправљен редослед
         "4-31-1" ;; 11072572 - исправљен редослед
         "4-31-13" ;; 12902283 - исправљен редослед
+        "4-31-14" ;; 12902454 - исправљен редослед
+        "4-33-5" ;; 11313879 - исправљен редослед
+        "4-37-1" ;; 11105694 - исправљен редослед
+        "4-4-5" ;; 11515769 - поправљена стаза
+        "4-49-3" ;; 11132794 - поправљена стаза
+        "4-53-1" ;; 11092714 - исправљен редослед
         
         ;; staze kod kojih je malo izmenjena geografija
         "1-14-1" ;; 14288192
@@ -168,8 +184,39 @@
         "4-27-9" ;; 13922554
         "4-30-1" ;; 14281136
         "4-31-11" ;; 11313552
-        
-        
+        "4-31-16" ;; 14405400
+        "4-31-2" ;; 11232073
+        "4-31-4" ;; 11313503
+        "4-31-5" ;; 11232158
+        "4-31-8" ;; 11192825
+        "4-33-1" ;; 11260598
+        "4-33-2" ;; 11313703
+        "4-33-3" ;; 11305864
+        "4-33-4" ;; 11310324
+        "4-33-9" ;; 13190234
+        "4-36-2" ;; 11169649
+        "4-37-3" ;; 13190270
+        "4-39-4" ;; 11263559
+        "4-39-5" ;; 11286263
+        "4-39-6" ;; 11286225
+        "4-39-7" ;; 12115780
+        "4-4-3" ;; 11038377
+        "4-4-6" ;; 11515913
+        "4-4-7" ;; 11515931	
+        "4-42-1" ;; 11164146
+        "4-42-2" ;; 11166660
+        "4-47-1" ;; 11297467
+        "4-47-2" ;; 11294577
+        "4-47-7" ;; 11289209
+        "4-48-1" ;; 11038409
+        "4-48-2" ;; 11038554
+        "4-48-3" ;; 11038427
+        "4-48-4" ;; 11038526
+        "4-48-5" ;; 11518648
+        "4-49-1" ;; 11038474
+        "4-49-2" ;; 10808656
+        "4-49-4" ;; 11518753
+        "4-86-6" ;; 11518703	
 
         
         ;; correct edits
@@ -197,7 +244,8 @@
         (when (not (contains? ignore ref))
           (when (not (contains? new-ref-set ref))
             (println "[REMOVED]" ref (str "(r" osm-relation-id ")"))
-            (swap! report conj {:type :removed :ref ref :id osm-relation-id}))))))
+            (swap! report conj {:type :removed :ref ref :id osm-relation-id
+                                :website (get-in production-trail [:properties :website])}))))))
   (let [production-ref-set (into #{} production-ref-seq)]
     (doseq [new-trail (sort-by
                        #(get-in % [:properties :ref])
@@ -207,8 +255,8 @@
         (when (not (contains? ignore ref))
             (when (not (contains? production-ref-set ref))
               (println "[ADDED]" ref (str "(r" osm-relation-id ")"))
-              (swap! report conj {:type :added :ref ref :id osm-relation-id})))))
-  )
+              (swap! report conj {:type :added :ref ref :id osm-relation-id
+                                  :website (get-in new-trail [:properties :website])}))))))
 
   (doseq [new-trail (sort-by
                      #(get-in % [:properties :ref])
@@ -256,12 +304,14 @@
                   (doseq [{:keys [key new-value old-value]} changes]
                     (println "\t" key new-value "->" old-value))
                   (swap! report conj {:type :modified-properties :ref ref :id osm-relation-id
-                                      :name (get new-properties :name) :changes (vec changes)})))
+                                      :name (get new-properties :name) :changes (vec changes)
+                                      :website (get new-properties :website)})))
               (not (= production-geom new-geom))
               (do
                 (println (str "[MODIFIED_GEOM] \"" ref "\" ;; " osm-relation-id))
                 (swap! report conj {:type :modified-geom :ref ref :id osm-relation-id
-                                    :name (get new-properties :name)})
+                                    :name (get new-properties :name)
+                                    :website (get new-properties :website)})
                 (let [segment-midpoint-markers
                       (fn [segments color-hex]
                         (let [points (keep-indexed
@@ -366,14 +416,23 @@
               [:td (or (:name entry) "")]
               [:td (name (:type entry))]
               [:td
-               (when (= (:type entry) :modified-properties)
+               (cond
+                 (= (:type entry) :modified-properties)
                  [:div {:class "changes"}
                   (for [{:keys [key new-value old-value]} (:changes entry)]
-                    [:div (str (name key) ": " old-value " -> " new-value)])])]
+                    [:div (str (name key) ": " old-value " -> " new-value)])]
+                 (= (:type entry) :modified-geom)
+                 (str "\"" (:ref entry) "\" ;; " (:id entry)))]
               [:td
                (when (= (:type entry) :modified-geom)
                  [:a {:href (str (:ref entry) ".html") :target "_blank"} "diff"])
                " "
-               [:a {:href (str "http://localhost:7077/route/edit/" (:id entry)) :target "_blank"} "edit"]]])]]]))))
+               [:a {:href (str "http://localhost:7077/route/edit/" (:id entry)) :target "_blank"} "edit"]
+               " "
+               (when (:website entry)
+                 [:a {:href (:website entry) :target "_blank"} "pss"])
+               " "
+               [:a {:href (str "https://osm.org/relation/" (:id entry)) :target "_blank"} "osm"]
+               " "
+               [:a {:href (str "http://localhost:7077/view/osm/history/relation/" (:id entry)) :target "_blank"} "history"]]])]]]))))
   (println "[DONE]"))
-
