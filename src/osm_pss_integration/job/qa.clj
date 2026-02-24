@@ -102,6 +102,12 @@
         "2-16-4" ;; 18971114
         "3-5-1" ;; 18963918
         "3-5-2" ;; 18959137
+        "5-12-25" ;; 18918354
+        "5-66-1"
+        "5-66-2"
+        "5-9-1"
+        "6-31-1"
+        "6-9-1"
         
         ;; verifikovane izmene
         "1-1-2" ;; 12150508  - завршено мапирање стазе, OSM измене се поклопиле са трагом
@@ -125,6 +131,17 @@
         "4-4-5" ;; 11515769 - поправљена стаза
         "4-49-3" ;; 11132794 - поправљена стаза
         "4-53-1" ;; 11092714 - исправљен редослед
+        "5-12-11" ;; 15711357 - исправљен редослед
+        "5-12-13" ;; 15731914 - исправљен редослед
+        "5-12-14" ;; 15745815 - исправљен редослед
+        "5-12-15" ;; 15772472 - исправљен редослед
+        "5-12-22" ;; 15817623 - исправљен редослед	
+        "5-12-5" ;; 15632160 - исправљен редослед
+        "5-12-6" ;; 15632353 - исправљен редослед
+        "7-15-3" ;; 16861877 - исправљен редослед
+        "T-3-2" ;; 12693206 - премапирана према трагу
+        "T-3-7" ;; 13237362 - исправљен редослед
+        "T-5-8" ;; 11499127 - поправљено мапирање
         
         ;; staze kod kojih je malo izmenjena geografija
         "1-14-1" ;; 14288192
@@ -217,11 +234,59 @@
         "4-49-2" ;; 10808656
         "4-49-4" ;; 11518753
         "4-86-6" ;; 11518703	
-
+        "5-11-1" ;; 12167007
+        "5-11-2" ;; 12173165
+        "5-12-1" ;; 11338783
+        "5-12-10" ;; 15699116
+        "5-12-17" ;; 15786003
+        "5-12-18" ;; 15790126
+        "5-12-21" ;; 15801273
+        "5-19-1" ;; 17610500
+        "5-40-1" ;; 12185187
+        "6-14-1" ;; 11163991
+        "6-21-1" ;; 14283620	
+        "7-15-1" ;; 11258223
+        "7-15-2" ;; 16861834
+        "7-22-2" ;; 16865164
+        "7-3-12" ;; 12185208
+        "7-3-14" ;; 12204224
+        "7-3-15" ;; 12204344
+        "7-3-3" ;; 11220788
+        "7-3-4" ;; 11221138
+        "7-3-5" ;; 13191393
+        "7-3-6" ;; 11258277
+        "7-3-7" ;; 11263261
+        "7-3-9" ;; 11216896
+        "7-47-1" ;; 11263606
+        "T-1-3" ;; 13145926
+        "T-2-36" ;; 13244999
+        "T-3-13" ;; 12190325
+        "T-3-29" ;; 13237511
+        "T-4-12" ;; 13239017
+        "T-4-41" ;; 13239147
+        "E4-1" ;; 14185952	
+        
+        ;; properties izmene
+        "5-12-20" ;; 15796504
+        "5-12-23" ;; 
+        "7-9-10"
+        "7-9-12"
+        "7-9-13"
+        "7-9-16"
+        "7-9-3"
+        "7-9-6"
+        "7-9-8"
+        "7-9-9"
         
         ;; correct edits
         "2-5-6" ;;"11043543"
         "4-36-1" ;; "11182558"
+        "4-4-1" ;; gramatika u imenu
+        "4-4-2" ;; gramatika u imenu
+        "7-15-4" ;; mesana pisma u imenu
+        "7-22-1" ;; ispravljeni navodnici
+        "7-22-3" ;; dodat operator
+        
         }]
   
   ;; delete old report
@@ -314,16 +379,22 @@
                                     :website (get new-properties :website)})
                 (let [segment-midpoint-markers
                       (fn [segments color-hex]
-                        (let [points (keep-indexed
-                                     (fn [idx segment]
-                                       (let [coords (vec segment)
-                                             cnt (count coords)]
-                                         (when (pos? cnt)
-                                           (let [[lon lat] (nth coords (int (/ cnt 2)))]
-                                             (geojson/point
-                                              lon lat
-                                              {:marker-div (str "<div style='text-align:center;line-height:24px;font-size:12px;width:24px;height:24px;border-radius:50%;background-color:" color-hex ";color:white;font-weight:bold;'>" (inc idx) "</div>")})))))
-                                     segments)]
+                        (let [segment-indices (reduce
+                                              (fn [m [idx segment]]
+                                                (update m (vec segment) (fnil conj []) (inc idx)))
+                                              {}
+                                              (map-indexed vector segments))
+                              points (keep
+                                      (fn [[segment indices]]
+                                        (let [coords (vec segment)
+                                              cnt (count coords)]
+                                          (when (pos? cnt)
+                                            (let [[lon lat] (nth coords (int (/ cnt 2)))
+                                                  label (apply str (interpose "," indices))]
+                                              (geojson/point
+                                               lon lat
+                                               {:marker-div (str "<div style='text-align:center;line-height:24px;font-size:12px;width:auto;min-width:24px;height:24px;padding:0 4px;border-radius:50%;background-color:" color-hex ";color:white;font-weight:bold;'>" label "</div>")})))))
+                                      segment-indices)]
                           (when (seq points)
                             (geojson/feature-collection points))))
                       sample-markers
