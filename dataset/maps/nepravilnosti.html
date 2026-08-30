@@ -1,0 +1,286 @@
+<html>
+	<head>
+		<meta charset="UTF-8"></meta>
+		<title>a map</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/leaflet.css" crossorigin=""></link>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/leaflet.js" crossorigin=""></script>
+		<script src="https://rowanwins.github.io/leaflet-simplestyle/dist/leaflet-simplestyle.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/perliedman-leaflet-control-geocoder/2.4.0/Control.Geocoder.min.js" crossorigin=""></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/perliedman-leaflet-control-geocoder/2.4.0/Control.Geocoder.min.css"></link>
+		<style>
+			::-webkit-scrollbar {display: none;}
+			.content {white-space: nowrap;overflow: hidden;}
+			.map {position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; cursor: default;}
+		</style>
+	</head>
+	<body>
+		<div id="content" class="content">
+			<map id="map" class="map"></map>
+		</div>
+		<script type="text/javascript">
+			// utils
+			var projectX = function(longitude) {
+				return Math.floor((longitude / 360 + 0.5) * Math.pow(2, 24))
+			}
+			var projectY = function(latitude) {
+				const sin = Math.sin(latitude * Math.PI / 180);
+				const y2 = 0.5 - 0.25 * Math.log((1 + sin) / (1 - sin)) / Math.PI;
+				const y3 = y2 < 0 ? 0 : y2 > 1 ? 1 : y2;
+				return Math.floor(y3 * Math.pow(2, 24))
+			}
+
+			var projectedLocationToWord = function(x, y) {
+				var key =''
+				for (var i = 24; i >= 2; i -= 2) {
+					var xUpper = (x & (1 << (i - 1))) != 0 ? 2 : 0
+					var xLower = (x & (1 << (i - 2))) != 0 ? 1 : 0
+					var yUpper = (y & (1 << (i - 1))) != 0 ? 2 : 0
+					var yLower = (y & (1 << (i - 2))) != 0 ? 1 : 0
+					var index = xUpper + xLower + (yUpper  + yLower) * 4
+					key = key + String.fromCharCode(97 + index).toUpperCase()
+				}
+				return key
+			}
+
+			var BingLayer = L.TileLayer.extend({
+				getTileUrl: function (tilePoint) {
+					return L.Util.template(
+						this._url,
+						{q: this._quadKey(tilePoint.x, tilePoint.y, this._getZoomForUrl())});
+					},
+					_quadKey: function (x, y, z) {
+						var quadKey = []
+						for (var i = z; i > 0; i--) {
+							var digit = '0'
+							var mask = 1 << (i - 1)
+							if ((x & mask) != 0) {
+								digit++
+							}
+							if ((y & mask) != 0) {
+								digit++
+								digit++
+							}
+							quadKey.push(digit)
+						}
+						return quadKey.join('')
+					}
+			})
+
+			var TileBoundsLayer = L.GridLayer.extend({
+				initialize: function(options) {
+					L.GridLayer.prototype.initialize.call(this, options)
+					this._color = options.color
+				},
+
+				createTile: function(coords) {
+					var key = coords.z + '/' + coords.x + '/' + coords.y
+
+					var tile = L.DomUtil.create('canvas', 'leaflet-tile')
+					var size = this.getTileSize()
+					tile.width = size.x
+					tile.height = size.y
+					var ctx = tile.getContext('2d')
+
+					ctx.strokeStyle = this._color
+					ctx.fillStyle = this._color
+					ctx.font = '15px Arial'
+					ctx.lineWidth = 1
+					ctx.beginPath()
+					ctx.rect(0, 0, 255, 255)
+					ctx.fillText(key, 5, 20)
+					ctx.stroke()
+
+					return tile
+				}
+			})
+
+			var map = L.map('map', {maxBoundsViscosity: 1.0})
+			map.setMaxBounds ([[-90,-180],[90,180]])
+			L.control.scale({imperial: false}).addTo(map)
+			var layers = L.control.layers()
+			layers.addTo(map)
+			new L.Control.Geocoder({
+				geocoder: L.Control.Geocoder.nominatim(),
+				defaultMarkGeocode: false}).on(
+					'markgeocode',
+					function(e) {
+						var bbox = e.geocode.bbox
+						var poly = L.polygon([
+							bbox.getSouthEast(),
+							bbox.getNorthEast(),
+							bbox.getNorthWest(),
+							bbox.getSouthWest()])
+						map.fitBounds(poly.getBounds())
+					}).addTo(map)
+
+			var defaultBounds = null
+
+			var mousedownInterval;
+			map.on(
+				'mousedown',
+				function (e) {
+					mousedownInterval = setInterval(
+						function() {
+							let longitude = Number (e.latlng.lng).toFixed (5)
+							let latitude = Number (e.latlng.lat).toFixed (5)
+							let zoom = map.getZoom()
+							L
+								.popup({closeOnClick: false})
+								.setLatLng(e.latlng)
+								.setContent(
+									longitude + ', ' + latitude + '<br/>' + 
+									projectedLocationToWord(projectX(longitude), projectY(latitude)) + '<br/>' + 
+									'<a href="http://openstreetmap.org/#map=16/' + e.latlng.lat + '/' + e.latlng.lng + '" target="_blank">osm</a></br>' + 
+									'<a href="https://preview.ideditor.com/release/#map=16/' + e.latlng.lat + '/' + e.latlng.lng + '" target="_blank">iD</a></br>' + 
+									'<a href="http://localhost:8080/#map=16/' + e.latlng.lat + '/' + e.latlng.lng + '" target="_blank">iD (localhost)</a></br>' + 
+									'<a href="https://www.mapillary.com/app/?focus=map&z=16&lat=' + e.latlng.lat + '&lng=' + e.latlng.lng + '" target="_blank">mapillary</a></br>' + 
+									'<a href="https://kartaview.org/map/@' + e.latlng.lat + ',' + e.latlng.lng + ',16z" target="_blank">kartaview</a></br>' + 
+									'<a href="https://www.google.com/maps/@' + e.latlng.lat + ',' + e.latlng.lng + ',16z" target="_blank">google maps</a></br>' 
+									)
+								.openOn(map)},
+						500)})
+			map.on(
+				'mousemove',
+				function(e) { clearInterval(mousedownInterval) })
+			map.on(
+				'mouseup',
+				function(e) { clearInterval(mousedownInterval) })
+
+
+			var layer6 = L.tileLayer(
+				'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+				{
+					attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+					maxZoom: 22,
+					bounds: [[-90,-180],[90,180]],
+					noWrap: true
+				})
+			layer6.addTo(map)
+			layers.addBaseLayer(layer6, 'osm tile')
+
+			var layer7 = new BingLayer(
+				'http://ecn.t3.tiles.virtualearth.net/tiles/a{q}.jpeg?g=1',
+				{
+					attribution: '&copy; Bing Maps',
+					maxZoom: 21,
+					bounds: [[-90,-180],[90,180]],
+					noWrap: true
+				})
+			layers.addBaseLayer(layer7, 'bing satellite')
+
+
+			var layer8 = L.tileLayer(
+				'http://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}',
+				{
+					attribution: '&copy; Google',
+					maxZoom: 22,
+					bounds: [[-90,-180],[90,180]],
+					noWrap: true
+				})
+			layers.addBaseLayer(layer8, 'google satellite tile')
+
+			var layer9 = L.geoJSON(
+				[{"type":"Feature","properties":{"marker-body":"#7-22-1<br\/>Едукативна стаза „neXt боровнице”, игре са именом<br\/>#map"},"geometry":{"type":"Point","coordinates":[22.32651,42.72561]}},{"type":"Feature","properties":{"marker-body":"#4-53-1<br\/>Део стазе ка видиковцу није мапиран, могло би<br\/>#map"},"geometry":{"type":"Point","coordinates":[21.46853,43.98889]}},{"type":"Feature","properties":{"marker-body":"#4-27-2<br\/>Траг, назив и опис су обрнути, проверити са клубом. Мапирано према називу"},"geometry":{"type":"Point","coordinates":[21.8838,43.70526]}},{"type":"Feature","properties":{"marker-body":"#T-3-2<br\/>20260224 реконструисао према трагу"},"geometry":{"type":"Point","coordinates":[20.21768,44.13042]}},{"type":"Feature","properties":{"marker-body":"#5-12-21<br\/>Одступање од трага."},"geometry":{"type":"Point","coordinates":[19.6085,43.66706]}},{"type":"Feature","properties":{"marker-body":"#5-12-11<br\/>Траг заобилази паркинг али већ постоји пут који води на паркинг у OSM.<br\/>Проверити мапирање."},"geometry":{"type":"Point","coordinates":[19.64773,43.67128]}},{"type":"Feature","properties":{"marker-body":"#4-4-6<br\/>одступање на крају стазе, коришћен OSM<br\/>20260222 додао на OSM прилаз врху из трага али нисам користио, доста осталих<br\/>стаза користи постојећи успон."},"geometry":{"type":"Point","coordinates":[21.56629,44.3182]}},{"type":"Feature","properties":{"marker-body":"#4-27-7<br\/>траг има додатни сегмент. није коришћен."},"geometry":{"type":"Point","coordinates":[21.88494,43.77441]}},{"type":"Feature","properties":{"marker-body":"#4-39-4<br\/>одступање на крају стазе, коришћен OSM"},"geometry":{"type":"Point","coordinates":[22.16069,43.35313]}},{"type":"Feature","properties":{"marker-body":"#4-27-6<br\/>траг иде у супротном смеру од описа."},"geometry":{"type":"Point","coordinates":[21.88386,43.70528]}},{"type":"Feature","properties":{"marker-body":"#3-7-1<br\/>Почетак трага проблематичан."},"geometry":{"type":"Point","coordinates":[19.37746,44.18847]}},{"type":"Feature","properties":{"marker-body":"#3-28-4<br\/>Доста непоклапања са треком."},"geometry":{"type":"Point","coordinates":[20.17519,43.91541]}},{"type":"Feature","properties":{"marker-body":"#3-14-4<br\/><a href='https:\/\/www.openstreetmap.org\/note\/5169164' target='_blank'>https:\/\/www.openstreetmap.org\/note\/5169164<\/a><br\/>Део стазе је зарастао. Проблематична секција је обрисана."},"geometry":{"type":"Point","coordinates":[19.66355,44.15672]}},{"type":"Feature","properties":{"marker-body":"#3-28-4<br\/><a href='https:\/\/www.openstreetmap.org\/relation\/11189458' target='_blank'>https:\/\/www.openstreetmap.org\/relation\/11189458<\/a><br\/>#kablarpd<br\/>доста непоклапања са путевима, остављено како је унешено кроз OSM<br\/>проверити са клубом"},"geometry":{"type":"Point","coordinates":[20.17515,43.91535]}},{"type":"Feature","properties":{"marker-body":"#5-17-1<br\/><a href='https:\/\/openstreetmap.org\/relation\/11214225' target='_blank'>https:\/\/openstreetmap.org\/relation\/11214225<\/a><br\/>#kablarpd<br\/>стаза је скраћена до изласка на магистралу јер мост више не постоји до дома.<br\/>проверити одлуку са друштвом"},"geometry":{"type":"Point","coordinates":[20.19524,43.90367]}},{"type":"Feature","properties":{"marker-body":"#4-27-4<br\/><a href='https:\/\/www.openstreetmap.org\/relation\/11097832' target='_blank'>https:\/\/www.openstreetmap.org\/relation\/11097832<\/a><br\/>#ostracukapd<br\/>на основу измена Stadtigel и дискусије стаза је промељена да користи<br\/>северо-источни пут, и Е4-11 користи њега тако да је вероватно коректно<br\/><a href='https:\/\/www.openstreetmap.org\/changeset\/137882922' target='_blank'>https:\/\/www.openstreetmap.org\/changeset\/137882922<\/a><br\/>отворен ноте<br\/><a href='https:\/\/www.openstreetmap.org\/note\/4030952' target='_blank'>https:\/\/www.openstreetmap.org\/note\/4030952<\/a>"},"geometry":{"type":"Point","coordinates":[21.89137,43.75132]}},{"type":"Feature","properties":{"marker-body":"#E4-11<br\/>#siljakpk<br\/>проверити да ли је Шиљак ПК одговоран<br\/>на основу измена Stadtigel и дискусије стаза је прекинута на спорном месту<br\/>обишао 20230520<br\/><a href='https:\/\/www.openstreetmap.org\/changeset\/138677252' target='_blank'>https:\/\/www.openstreetmap.org\/changeset\/138677252<\/a><br\/>отворен ноте<br\/><a href='https:\/\/www.openstreetmap.org\/note\/4030903' target='_blank'>https:\/\/www.openstreetmap.org\/note\/4030903<\/a>"},"geometry":{"type":"Point","coordinates":[21.95055,43.7921]}},{"type":"Feature","properties":{"marker-body":"#5-17-2<br\/>#kablarpd<br\/>иницијално је стаза ишла до чесме (?), спајања са ОКТ. тако стоји и у опису.<br\/>трек иде до врха Овчара<br\/>20230524 додатa неправилност, стаза остављена како је иницијално била<br\/><a href='https:\/\/www.openstreetmap.org\/relation\/11489032' target='_blank'>https:\/\/www.openstreetmap.org\/relation\/11489032<\/a>"},"geometry":{"type":"Point","coordinates":[20.22431,43.89035]}},{"type":"Feature","properties":{"marker-body":"<a href='https:\/\/www.openstreetmap.org\/relation\/11097832' target='_blank'>https:\/\/www.openstreetmap.org\/relation\/11097832<\/a>"},"geometry":{"type":"Point","coordinates":[21.8912,43.75127]}}],
+				{
+					useSimpleStyle: false,
+					pointToLayer: function(geojson, latlng) {
+						var markerIcon = geojson.properties['marker-icon']
+						var markerDiv = geojson.properties['marker-div']
+						var marker
+						if (markerIcon != null) {
+							var icon = L.icon({
+								iconUrl: markerIcon,
+								iconSize: [25,25]})
+							marker = L.marker(latlng, {icon: icon})
+						} else if (markerDiv != null) {
+							var divIcon = L.divIcon({
+								html: markerDiv,
+								className: '',
+								iconSize: [12,12]})
+							marker = L.marker(latlng, {icon: divIcon})
+						} else {
+							marker = L.marker(latlng)
+						}
+						var markerBody = geojson.properties['marker-body']
+						if (markerBody == null) {
+							markerBody = ''
+							Object.entries(geojson.properties).forEach(function (element) {
+								markerBody += element[0] + ' = ' + element[1] + '</br>'
+							})
+						}
+						marker.bindPopup(markerBody, {maxWidth: 'auto'})
+						return marker
+					}
+				})
+.addTo(map)
+			layers.addOverlay(layer9, 'неправилности')
+
+
+			var layer10 = L.geoJSON(
+				[{"type":"Feature","properties":{"marker-body":"<a href='https:\/\/www.openstreetmap.org\/note\/4030903' target='_blank'>osm<\/a><br\/>#open<br\/>Komadinovic Vanja:<br\/>This note is created as feedback by OSM mapper on hiking trails imported from<br\/>Mountaineering association of Serbia ( PSS ) to OSM.  Per<br\/><a href='https:\/\/www.openstreetmap.org\/changeset\/138677252' target='_blank'>https:\/\/www.openstreetmap.org\/changeset\/138677252<\/a> part of trail is inaccessible.<br\/>Responsible club will be contacted and feedback will be added to this note. <br\/>Open disputes to PSS are located under<br\/><a href='https:\/\/github.com\/vanjakom\/osm-pss-integration\/blob\/master\/dataset\/nepravilnosti.dot' target='_blank'>https:\/\/github.com\/vanjakom\/osm-pss-integration\/blob\/master\/dataset\/nepravilnosti.dot<\/a><br\/> Please do not close this note.  #pss<br\/>BrackoNe:<br\/>On the marked place, can't see any trails\/paths. Does that mean it is already<br\/>removed? If so, is it okay to close the note?"},"geometry":{"type":"Point","coordinates":[21.9514883,43.7921011]}},{"type":"Feature","properties":{"marker-body":"<a href='https:\/\/www.openstreetmap.org\/note\/4030952' target='_blank'>osm<\/a><br\/>#open<br\/>Komadinovic Vanja:<br\/>This note is created as feedback by OSM mapper on hiking trails imported from<br\/>Mountaineering association of Serbia ( PSS ) to OSM.  Per<br\/><a href='https:\/\/www.openstreetmap.org\/changeset\/137882922' target='_blank'>https:\/\/www.openstreetmap.org\/changeset\/137882922<\/a> marking suggest different way<br\/>than one used. Responsible club will be contacted and feedback will be added to<br\/>this note. Relation is left suggested.  Open disputes to PSS are located under<br\/><a href='https:\/\/github.com\/vanjakom\/osm-pss-integration\/blob\/master\/dataset\/nepravilnosti.dot' target='_blank'>https:\/\/github.com\/vanjakom\/osm-pss-integration\/blob\/master\/dataset\/nepravilnosti.dot<\/a><br\/> Please do not close this note.  #pss"},"geometry":{"type":"Point","coordinates":[21.8913746,43.7513192]}},{"type":"Feature","properties":{"marker-body":"<a href='https:\/\/www.openstreetmap.org\/note\/4686765' target='_blank'>osm<\/a><br\/>#open<br\/>Komadinovic Vanja:<br\/>#pss_staze proveriti sa drustvom, blizu staze"},"geometry":{"type":"Point","coordinates":[21.5544933,42.9614835]}},{"type":"Feature","properties":{"marker-body":"<a href='https:\/\/www.openstreetmap.org\/note\/4716849' target='_blank'>osm<\/a><br\/>#open<br\/>Komadinovic Vanja:<br\/>#pss_staze postoji nepoklapanje za<br\/><a href='https:\/\/www.openstreetmap.org\/relation\/18981432' target='_blank'>https:\/\/www.openstreetmap.org\/relation\/18981432<\/a>"},"geometry":{"type":"Point","coordinates":[20.4576934,44.7564366]}},{"type":"Feature","properties":{"marker-body":"<a href='https:\/\/www.openstreetmap.org\/note\/4719834' target='_blank'>osm<\/a><br\/>#open<br\/>Komadinovic Vanja:<br\/>#pss_staze proveriti prohodnost za pešake, E4"},"geometry":{"type":"Point","coordinates":[20.5155254,44.7168646]}},{"type":"Feature","properties":{"marker-body":"<a href='https:\/\/www.openstreetmap.org\/note\/4723699' target='_blank'>osm<\/a><br\/>#closed<br\/>Komadinovic Vanja:<br\/>#pss_staze proveriti da li postoji put, E4-5<br\/>Kokili94:"},"geometry":{"type":"Point","coordinates":[20.5667857,44.7092241]}},{"type":"Feature","properties":{"marker-body":"Komadinovic Vanja:"},"geometry":{"type":"Point","coordinates":[null,null]}},{"type":"Feature","properties":{"marker-body":"Checked 2026-03-11: 1. Road under highway Autoput is passable by bicycle but<br\/>it’s covered with water and mud. 2. No way accross the ditch: I haven’t noticed<br\/>it in evening and there is fence between ditch and sidewalk — it goes along the<br\/>road at least 1 km to NW and 700 m SE So path with ford removed.  Проверено<br\/>11.03.2026: 1. Дорога под шоссе Аутопут за Ниш проходима на велосипеде, но<br\/>мокрая (с лужами) и грязная. 2. Через канаву нет пути — во всяком случае, я её<br\/>вечером не заметил, кроме того, между дорогой с тротуаром и самой канавой идёт<br\/>забор — там нет прохода как минимум на протяжении 1 км в северо-западном<br\/>направлении и 700 м в юго-восточном. Поэтому тропинка с бродом удалена.<br\/>Shoorick:<br\/><a href='https:\/\/osm.org\/changeset\/179743194' target='_blank'>https:\/\/osm.org\/changeset\/179743194<\/a><br\/>Shoorick:<br\/><a href='https:\/\/osm.org\/note\/5200973' target='_blank'>https:\/\/osm.org\/note\/5200973<\/a><br\/>Shoorick:<br\/><a href='https:\/\/www.mapillary.com\/app\/user\/Serbia360?lat=44.70907609353&lng=20.566738064378&z=18.670097595608446&panos=true&pKey=870623508254150&focus=photo&x=0.7900015366931211&y=0.651403835593625&zoom=0.3169099058182269' target='_blank'>https:\/\/www.mapillary.com\/app\/user\/Serbia360?lat=44.70907609353&lng=20.566738064378&z=18.670097595608446&panos=true&pKey=870623508254150&focus=photo&x=0.7900015366931211&y=0.651403835593625&zoom=0.3169099058182269<\/a><br\/> Мора да се прескаче заштитна ограда да би се дошло до стазе.  Такође, када сам<br\/>пролазио у пролазу изпод аутопута је лежала вода - није било проходно без<br\/>гумених чизама.<br\/>mpele:<br\/>не нашел спуска на старую дорожку которая идет паралельно автомагистрали<br\/>StanislavKi:"},"geometry":{"type":"Point","coordinates":[null,null]}},{"type":"Feature","properties":{"marker-body":"<a href='https:\/\/www.openstreetmap.org\/note\/4815550' target='_blank'>osm<\/a><br\/>#open<br\/>Komadinovic Vanja:<br\/>#pss #E-4-7 postoji odstupanje<br\/>Komadinovic Vanja:<br\/>#E4-7"},"geometry":{"type":"Point","coordinates":[21.5631191,44.3197485]}},{"type":"Feature","properties":{"marker-body":"<a href='https:\/\/www.openstreetmap.org\/note\/5169164' target='_blank'>osm<\/a><br\/>#open<br\/>Komadinovic Vanja:<br\/>Based on <a href='https:\/\/www.openstreetmap.org\/changeset\/152483229' target='_blank'>https:\/\/www.openstreetmap.org\/changeset\/152483229<\/a> it looks like trail<br\/>is broken at his point. Trail: <a href='https:\/\/www.openstreetmap.org\/relation\/12456767.' target='_blank'>https:\/\/www.openstreetmap.org\/relation\/12456767.<\/a><br\/>Needs survey or contact of club. #pss"},"geometry":{"type":"Point","coordinates":[19.6633923,44.1563928]}},{"type":"Feature","properties":{"marker-body":"<a href='https:\/\/www.openstreetmap.org\/note\/5376246' target='_blank'>osm<\/a><br\/>#open<br\/>Komadinovic Vanja:<br\/>Према:  „Bio sam juče na vrhu Velika stijeni na Ponikvama. Tuda je ucrtana<br\/>planinarska staza (ti si ucrtavao valjda). Staza na terenu kako je ucrtano ne<br\/>postoji. Samo smo na dva mesta videli markacije totalno zapuštene. Bez GPs-a i<br\/>karata tu će neko lako da se izgubi. Sve je zaraslo u žbunje i staz anije<br\/>očigledna. Mi smo našli neku livadsku stazi i prolaz posle dužeg bazanja ali s<br\/>ene poklapaju sa ucrtanim na mapi.   Ucrtao sam to što smo mi prošli, a ima i<br\/>GPS trek uploadovan na OSM. <br\/><a href='https:\/\/www.openstreetmap.org\/way\/847421838\/history#map=16\/43.90000\/19.63775&layers=VN”' target='_blank'>https:\/\/www.openstreetmap.org\/way\/847421838\/history#map=16\/43.90000\/19.63775&layers=VN”<\/a><br\/>Komadinovic Vanja:<br\/>#pssstaze<br\/>Komadinovic Vanja:<br\/>GPX track: <a href='https:\/\/www.openstreetmap.org\/user\/Pedja\/traces\/12418221' target='_blank'>https:\/\/www.openstreetmap.org\/user\/Pedja\/traces\/12418221<\/a><br\/>Проблематични пут: <a href='https:\/\/www.openstreetmap.org\/way\/847421838' target='_blank'>https:\/\/www.openstreetmap.org\/way\/847421838<\/a> Пут је део<br\/>планинарске стазе: <a href='https:\/\/www.openstreetmap.org\/relation\/11626051' target='_blank'>https:\/\/www.openstreetmap.org\/relation\/11626051<\/a><br\/>Komadinovic Vanja:<br\/>стаза није у Регистру планинарског савеза<br\/>Komadinovic Vanja:<br\/>- проблематични део стазе означен са overgrown=yes - пробематични део скинут за<br\/>релације планинарске стазе - note додат у релацију планинарске стазе<br\/>Komadinovic Vanja:<br\/>остаје још да се пошање мејл планинарском клубу ПК Тара са молбом за нове<br\/>податке о стазама."},"geometry":{"type":"Point","coordinates":[19.6413338,43.9020515]}}],
+				{
+					useSimpleStyle: false,
+					pointToLayer: function(geojson, latlng) {
+						var markerIcon = geojson.properties['marker-icon']
+						var markerDiv = geojson.properties['marker-div']
+						var marker
+						if (markerIcon != null) {
+							var icon = L.icon({
+								iconUrl: markerIcon,
+								iconSize: [25,25]})
+							marker = L.marker(latlng, {icon: icon})
+						} else if (markerDiv != null) {
+							var divIcon = L.divIcon({
+								html: markerDiv,
+								className: '',
+								iconSize: [12,12]})
+							marker = L.marker(latlng, {icon: divIcon})
+						} else {
+							marker = L.marker(latlng)
+						}
+						var markerBody = geojson.properties['marker-body']
+						if (markerBody == null) {
+							markerBody = ''
+							Object.entries(geojson.properties).forEach(function (element) {
+								markerBody += element[0] + ' = ' + element[1] + '</br>'
+							})
+						}
+						marker.bindPopup(markerBody, {maxWidth: 'auto'})
+						return marker
+					}
+				})
+.addTo(map)
+			layers.addOverlay(layer10, 'osm notes')
+
+
+			var params = new URLSearchParams(window.location.search)
+			if (params.get('marker')) {
+				var splits = params.get('marker').split(',')
+				map.setView([parseFloat(splits[1]), parseFloat(splits[0])], 18)
+				L.marker([parseFloat(splits[1]), parseFloat(splits[0])]).addTo(map)
+			}
+
+			if (window.location.hash) {
+				var splits = window.location.hash.substring(5).split('/')
+				map.setView([parseFloat(splits[2]), parseFloat(splits[1])], parseInt(splits[0]))
+			} else {
+				if (defaultBounds != null) { 
+					map.fitBounds(defaultBounds, null)
+				} else {
+					map.setView([44.82763029742812, 20.50529479980469], 10)
+				}
+			}
+
+			window.onhashchange = function() {
+				var splits = window.location.hash.substring(5).split('/')
+				map.setView([parseFloat(splits[2]), parseFloat(splits[1])], parseInt(splits[0]))
+			}
+			map.on(
+				'moveend',
+				function() {
+					window.location.hash = '#map=' + map.getZoom() + '/' + map.getCenter().lng + '/' + map.getCenter().lat
+				})
+
+		</script>
+	</body>
+</html>
