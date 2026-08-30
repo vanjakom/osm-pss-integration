@@ -1603,7 +1603,7 @@
                      (= (:type member) :way)
                      (let [nodes (map
                                   (fn [id]
-                                    (let [node (get-in dataset [:nodes id])]
+                                    (let [node (get-in dataset [:node id])]
                                       [(as/as-double (:longitude node)) (as/as-double (:latitude node))]))
                                   (:nodes (get-in dataset [:way (:id member)])))]
                        {
