@@ -51,7 +51,12 @@ diff report (`dataset/staze-pss-rs-diff/`).
 - `dataset/relation-mapping.tsv` — PSS ref → OSM relation id.
 - `dataset/klubovi/` — per-club HTML maps and markdown reports (see below).
 - `dataset/maps/`, `dataset/staze-pss-rs-diff/` — other rendered outputs.
-- `dataset/registar.md`, `dataset/wiki-status.md`, `dataset/nepravilnosti.dot`,
+- `dataset/registar.md` — notemd-format notes, one per trail, first tag in
+  each note's header is `#<ref>`. Read by `job/pss.clj`'s `load-note-map`
+  (parsed via `clj-common.notemd`) to back the `note-map` lookup used in
+  `extract-pss-stats` reports (TSV/wiki/HTML) — this replaced an inline
+  `note-map` def, see Conventions below for required sort order.
+- `dataset/wiki-status.md`, `dataset/nepravilnosti.dot`,
   `dataset/osm-notes.dot` — manually curated notes fed into map overlays.
 - `src/osm_pss_integration/job/pss.clj` — main extraction/export pipeline
   (see Data flow above).
@@ -101,6 +106,11 @@ libs during development.
 - `dataset/klubovi/*.html` naming has no strict rule yet (`psdvrsackakula.html`,
   `pskbalkan.html`, `supsdsuncevica.html`, `ostracuka.html`) — pick something
   readable derived from the club name.
+- `dataset/registar.md` note order: normal trails first (sorted by ref, e.g.
+  `region-mountain-number`), then transversals (`T-*`), then E-paths (`E*`)
+  last. Within each group, sort numerically by the ref's dash-separated
+  segments (not lexicographically — `"4-4-1"` sorts before `"4-27-1"`).
+  Re-sort after adding/editing notes.
 - `clj-geo.visualization.map/geojson-style-extended-layer` only styles Point
   features (custom markers); it ignores `stroke`/`stroke-width` properties on
   Line/MultiLine features because it sets `useSimpleStyle: false`. Use
