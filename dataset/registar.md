@@ -66,46 +66,68 @@ https://www.openstreetmap.org/relation/11499127
 # #E4-1 Granica Mađarske-Horgoš 2-Ada
 https://www.openstreetmap.org/relation/14185952
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E4-2 Ada - Zrenjanin
 https://www.openstreetmap.org/relation/14191834
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E4-3 Zrenjanin - Padina
 https://www.openstreetmap.org/relation/14192820
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E4-4 Padina - Krnjača (Beograd)
 https://www.openstreetmap.org/relation/14194463
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E4-5 Beograd (Krnjača) - Osipaonica
 https://www.openstreetmap.org/relation/18981432
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E4-6 Osipaonica - Veliko Gradište
 https://www.openstreetmap.org/relation/19199003
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E4-7 Veliko Gradište - Beljanica vrh
 https://www.openstreetmap.org/relation/19232993
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E4-8 Beljanica vrh - Lepenski Vir
 https://www.openstreetmap.org/relation/19282616
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E4-9 Lepenski Vir - Đerdap hidroelektrana
 https://www.openstreetmap.org/relation/19505827
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E4-10 Đerdap hidroelektrana - Sikole
 https://www.openstreetmap.org/relation/14206055
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E4-11 Krivelj - Sokobanja
 https://www.openstreetmap.org/relation/14206054
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E4-12 Sokobanja - Jalovik
 #mapignore
@@ -116,42 +138,62 @@ https://www.openstreetmap.org/relation/14206054
 # #E7-1 Bački Vinogradi - Stari Žednik
 https://www.openstreetmap.org/relation/18335543
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E7-2 Stari Žednik - Sombor
 https://www.openstreetmap.org/relation/18335542
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E7-3 Sombor - Bač
 https://www.openstreetmap.org/relation/18331386
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E7-4 Bač - Novi Sad
 https://www.openstreetmap.org/relation/18206217
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E7-5 Novi Sad - Sremska Mitrovica
 https://www.openstreetmap.org/relation/12499130
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E7-6 Sremska Mitrovica - Cer
 https://www.openstreetmap.org/relation/18335544
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E7-7 Cer - Krupanj
 https://www.openstreetmap.org/relation/18345452
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E7-8 Krupanj - Ljubovija - Valjevo - Divčibare
 https://www.openstreetmap.org/relation/14177412
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E7-9 Divčibare - Rajac - Rudnik - Ovčar banja
 https://www.openstreetmap.org/relation/14180878
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E7-10 Ovčar banja - Kremna
 https://www.openstreetmap.org/relation/17610623
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E7-10-4 Drežnik
 #mapignore
@@ -180,6 +222,8 @@ preneseno iz note-map (job/pss.clj)
 # #E7-11 Kremna - Murtenica
 https://www.openstreetmap.org/relation/18360637
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E7-11-1 Tara
 #mapignore
@@ -214,6 +258,8 @@ preneseno iz note-map (job/pss.clj)
 # #E7-12 Brijač - Uvac - Sopotnica - Sjenica
 https://www.openstreetmap.org/relation/11753312
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E7-12-1 Janja
 #mapignore
@@ -257,31 +303,47 @@ preneseno iz note-map (job/pss.clj)
 # #E7-13 Sjenica - Gradac
 https://www.openstreetmap.org/relation/18368092
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E7-14 Gradac - Kriva Reka
 https://www.openstreetmap.org/relation/18371638
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E7-15 Kriva Reka - Žuč
 https://www.openstreetmap.org/relation/18374951
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E7-16 Selova - Blace - Veliki Jastrebac - Mali Jastrebac - Tešica - G.Trnava
 https://www.openstreetmap.org/relation/14185390
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E7-17 Gornja Trnava - Vlasotince
 https://www.openstreetmap.org/relation/18404717
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E7-18 Vlasotince - Prohor Pčinjski
 https://www.openstreetmap.org/relation/18397689
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E7-19 Devijacija: Žuč - Lebane
 https://www.openstreetmap.org/relation/18378518
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе
 
 # #E7-20 Devijacija: Lebane - Sveti Ilija
 https://www.openstreetmap.org/relation/18391888
 #mapignore
+20260915
+Е путеви привремено уклоњени са мапе

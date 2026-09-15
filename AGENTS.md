@@ -23,7 +23,12 @@ Crawled/scraped and OSM-extracted data pass through a pipeline of jobs in
    fields — those must be derived from geometry if needed.
 3. `extract-pss-ref-osm-relation-id-mapping` — matches PSS refs to OSM
    relations, writes `dataset/relation-mapping.tsv` (`pss ref` \t
-   `osm relation id`, header row present).
+   `osm relation id`, header row present). **Not chained automatically** —
+   in the `uberjvm` scheduler preset (`sf_macbook.clj`) this is wired as a
+   manual trigger (`pss-3-relation-mapping`), not `on-state-change` off
+   `geofabrik-serbia-split`; step 4 (`pss-4-extract`) depends directly on the
+   geofabrik split, not on this step completing. Must be triggered by hand
+   when new/renamed PSS refs need (re)matching to OSM relations.
 4. `extract-pss-osm` / `load-pss-osm` / `load-pss-extract-as-dataset` — pulls
    the matched OSM relations/ways/nodes into an in-memory dataset structure
    `{:node {id -> node} :way {id -> way} :relation {id -> relation}}` (see
