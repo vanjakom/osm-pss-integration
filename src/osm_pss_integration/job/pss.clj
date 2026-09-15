@@ -13,6 +13,7 @@
    [clj-common.io :as io]
    [clj-common.json :as json]
    [clj-common.localfs :as fs]
+   [clj-common.notemd :as notemd]
    [clj-common.path :as path]
    [clj-common.pipeline :as pipeline]
    [clj-common.text :as text]
@@ -42,48 +43,19 @@
 ;; legacy from old trek-mate times
 (def active-pipeline nil)
 
-;; additional notes, not related to osm integration
-;; to be discussed with pss working group
-
-(def note-map
-  {
-   ;; trekovi ponovo postavljeni <20221210
-   ;; "4-48-3" "20221026 gpx link postoji ali ne moze da se skine"
-   ;; "4-49-3" "20221026 gpx link postoji ali ne moze da se skine"
-   ;; "4-48-2" "20221026 gpx link postoji ali ne moze da se skine"
-   ;; "4-4-2" "20221026 gpx link postoji ali ne moze da se skine"
-
-   ;; earlier notes, go over, see what is not in osm, push to osm or up
-   
-   "3-3-2" "malo poklapanja sa unešenim putevima, snimci i tragovi ne pomazu"
-   ;; staza nema gpx
-   ;; "2-8-2" "rudnik, prosli deo ture do Velikog Sturca, postoje dva puta direktno na Veliki i preko Malog i Srednjeg, malo problematicno u pocetku"
-   "4-45-3" "gpx je problematičan, deluje da je kružna staza"
-   "4-47-3" "malo poklapanja sa putevima i tragovima, dugo nije markirana"
-   "4-40-1" "kretanje železničkom prugom kroz tunele?"
-   "4-31-9" "gpx problematičan, dosta odstupanja"
-   
-   ;; "2-16-1" "dosta odstupanje, staza nije markirana 20200722, srednjeno 20221213"
-
-
-   "E7-10-11" "20250323 mislim da je stara spojena verzija 10 i 11. preskocio u mapiranju, cimao slobodana"
-   "E7-10-4" "20250323 segment E7-10, pitao slobodana, preskocio u mapiranju"
-   "E7-10-5" "20250323 segment E7-10, pitao slobodana, preskocio u mapiranju"
-   "E7-10-6" "20250323 segment E7-10, pitao slobodana, preskocio u mapiranju"
-
-   "E7-11-1" "20250323 segment E7-11, preskocio u mapiranju za sada, proveriti sa slobodanom"
-   "E7-11-2" "20250323 segment E7-11, preskocio u mapiranju za sada, proveriti sa slobodanom"
-   "E7-11-3" "20250323 segment E7-11, preskocio u mapiranju za sada, proveriti sa slobodanom"
-   "E7-11-4" "20250323 segment E7-11, preskocio u mapiranju za sada, proveriti sa slobodanom"
-   "E7-11-5" "20250323 segment E7-11, preskocio u mapiranju za sada, proveriti sa slobodanom"
-
-   "E7-12-1" "20250323 segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom"
-   "E7-12-2" "20250323 segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom"
-   "E7-12-3" "20250323 segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom"
-   "E7-12-4" "20250323 segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom"
-   "E7-12-5" "20250323 segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom"
-   "E7-12-6" "20250323 segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom"
-   })
+;; additional notes, not related to osm integration, to be discussed with pss
+;; working group
+;; 20260915 migrated from inline note-map def to dataset/registar.md, one
+;; #notemd note per trail, tagged with "#<ref>" as first tag
+(defn load-note-map [registar-path]
+  (with-open [is (fs/input-stream registar-path)]
+    (into
+     {}
+     (keep
+      (fn [note]
+        (when-let [tag (first (notemd/tags note))]
+          [(.substring tag 1) (clojure.string/join " " (notemd/lines note))]))
+      (notemd/read-notes is #{})))))
 
 
 (defn id->region
@@ -1048,7 +1020,8 @@
 
       ;; read prepared dataset from website
       (let [routes (with-open [is (fs/input-stream (path/child integration-git-path "pss-dataset.edn"))]
-                     (edn/read-object is))]        
+                     (edn/read-object is))
+            note-map (load-note-map (path/child integration-git-path "registar.md"))]
         (core/context-report job-context "Creating osm-pss-integration git files")
         ;; 20220817
         ;; table for data verification for PSS working group

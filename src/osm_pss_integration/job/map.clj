@@ -4,6 +4,7 @@
    [clj-common.io :as io]
    [clj-common.localfs :as fs]
    [clj-common.path :as path]
+   [clj-geo.dot.store.humandot :as humandot]
    [clj-geo.visualization.map :as map]))
 
 (defn create-map [context]
