@@ -203,7 +203,7 @@
 (throw (new Exception "Prevent execution of debug"))
 
 ;; 20260106 debug E4-12
-(let [color-set [
+#_(let [color-set [
                    geojson/color-red
                    geojson/color-green
                    geojson/color-blue
@@ -236,7 +236,7 @@
             )
           version-seq))))))
 
-(let [relation-id 14405401]
+#_(let [relation-id 14405401]
   (let [context (context/create-state-context)
         context-thread (pipeline/create-state-context-reporting-finite-thread context 5000)        
         channel-provider (pipeline/create-channels-provider)
@@ -283,7 +283,7 @@
 
 
 ;; 20251221 debug for 3-14-4
-(let [pss-ref "3-14-4"
+#_(let [pss-ref "3-14-4"
       way-id 729081927
       color-set [
                  geojson/color-red
@@ -321,7 +321,7 @@
         version-seq)))))
   (println (str "open: file:///tmp/w" way-id ".html")))
 
-(let [relation-id 12456767
+#_(let [relation-id 12456767
       color-set [
                  geojson/color-red
                  geojson/color-green
@@ -358,7 +358,7 @@
         version-seq)))))
   (println (str "open file:///tmp/r" relation-id ".html")))
 
-(let [relation-id 12456767]
+#_(let [relation-id 12456767]
   (let [context (context/create-state-context)
         context-thread (pipeline/create-state-context-reporting-finite-thread context 5000)        
         channel-provider (pipeline/create-channels-provider)

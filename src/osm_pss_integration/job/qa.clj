@@ -30,17 +30,20 @@
 
 (def trails-new-path ["Users" "vanja" "projects" "osm-pss-integration" "dataset"
                       "trails.geojson"])
-(def trails-production-path ["Users" "vanja" "projects" "pss-map-v1" "dataset"
-                             "trails.geojson"])
+;; todo temporary fix production to be able to verify changes
+(def trails-production-path ["Users" "vanja" "projects" "pss-map-v1"
+                             ;;"history" "trails.20240603.geojson"
+                             "history" "trails.temp.geojson"                             
+                             ;;"dataset" "trails.geojson"
+                             ])
 (def relation-mapping-path ["Users" "vanja" "projects" "osm-pss-integration"
                             "dataset" "relation-mapping.tsv"])
 (def gpx-root-path ["Users" "vanja" "projects" "osm-pss-integration" "dataset"
                     "pss.rs" "routes"])
 
-;; todo reset on each iteration
+;; todo reset on each iteration, put pss ref in
 (def ignore
-  #{
-    })
+  #{})
 
 (defn compare-trails [context]
   ;; verify ref from relation-mapping.tsv matches one from trails.geojson
@@ -266,47 +269,50 @@
                                                   (apply concat source-track-seq))
                                                  "#0000FF" 10))]
                              (map/geojson-style-extended-layer "source markers" markers true true))])))))))))))))
-    (when (seq @report)
-      (with-open [os (fs/output-stream
-                      (path/child
-                       ["Users" "vanja" "projects" "osm-pss-integration" "dataset" "staze-pss-rs-diff" "index.html"]))]
-        (io/write-string
-         os
-         (hiccup/html
-             [:html
-              [:head
-               [:meta {:charset "utf-8"}]
-               [:title "Production Comparison Report"]
-               [:style "body{font-family:sans-serif;margin:20px} table{border-collapse:collapse;width:100%} th,td{border:1px solid #ddd;padding:8px;text-align:left} th{background-color:#4CAF50;color:white} tr:nth-child(even){background-color:#f2f2f2} a{color:#1a73e8} .changes{font-size:0.9em;color:#666}"]]
-              [:body
-               [:h1 "Production Comparison Report"]
-               [:table
-                [:tr [:th "Ref"] [:th "ID"] [:th "Name"] [:th "Type"] [:th "Details"] [:th "Links"]]
-                (for [entry (sort-by :ref @report)]
-                  [:tr
-                   [:td (:ref entry)]
-                   [:td (:id entry)]
-                   [:td (or (:name entry) "")]
-                   [:td (name (:type entry))]
-                   [:td
-                    (cond
-                      (#{:modified-properties :modified-both} (:type entry))
-                      [:div {:class "changes"}
-                       (for [{:keys [key new-value old-value]} (:changes entry)]
-                         [:div (str (name key) ": " old-value " -> " new-value)])]
-                      (= (:type entry) :modified-geom)
-                      (str "\"" (:ref entry) "\" ;; " (:id entry)))]
-                   [:td
-                    (when (#{:modified-geom :modified-both} (:type entry))
-                      [:a {:href (str (:ref entry) ".html") :target "_blank"} "diff"])
-                    " "
-                    [:a {:href (str "http://localhost:7077/route/edit/" (:id entry)) :target "_blank"} "edit"]
-                    " "
-                    (when (:website entry)
-                      [:a {:href (:website entry) :target "_blank"} "pss"])
-                    " "
-                    [:a {:href (str "https://osm.org/relation/" (:id entry)) :target "_blank"} "osm"]
-                    " "
-                    [:a {:href (str "http://localhost:7077/view/osm/history/relation/" (:id entry)) :target "_blank"} "history"]]])]]]))))
+    (with-open [os (fs/output-stream
+                    (path/child
+                     ["Users" "vanja" "projects" "osm-pss-integration" "dataset" "staze-pss-rs-diff" "index.html"]))]
+      (io/write-string
+       os
+       (hiccup/html
+           [:html
+            [:head
+             [:meta {:charset "utf-8"}]
+             [:title "Production Comparison Report"]
+             [:style "body{font-family:sans-serif;margin:20px} table{border-collapse:collapse;width:100%} th,td{border:1px solid #ddd;padding:8px;text-align:left} th{background-color:#4CAF50;color:white} tr:nth-child(even){background-color:#f2f2f2} a{color:#1a73e8} .changes{font-size:0.9em;color:#666}"]]
+            [:body
+             [:h1 "Production Comparison Report"]
+             [:table
+              [:tr [:th "Ref"] [:th "ID"] [:th "Name"] [:th "Type"] [:th "Details"] [:th "Links"]]
+              (for [entry (sort-by :ref @report)]
+                [:tr
+                 [:td (:ref entry)]
+                 [:td (:id entry)]
+                 [:td (or (:name entry) "")]
+                 [:td (name (:type entry))]
+                 [:td
+                  (cond
+                    (#{:modified-properties :modified-both} (:type entry))
+                    [:div {:class "changes"}
+                     (for [{:keys [key new-value old-value]} (:changes entry)]
+                       [:div (str (name key) ": " old-value " -> " new-value)])]
+                    (= (:type entry) :modified-geom)
+                    (str "\"" (:ref entry) "\" ;; " (:id entry)))]
+                 [:td
+                  (when (#{:modified-geom :modified-both} (:type entry))
+                    [:a {:href (str (:ref entry) ".html") :target "_blank"} "diff"])
+                  " "
+                  [:a {:href (str "http://localhost:7077/route/edit/" (:id entry)) :target "_blank"} "edit"]
+                  " "
+                  (when (:website entry)
+                    [:a {:href (:website entry) :target "_blank"} "pss"])
+                  " "
+                  [:a {:href (str "https://osm.org/relation/" (:id entry)) :target "_blank"} "osm"]
+                  " "
+                  [:a {:href (str "http://localhost:7077/view/osm/history/relation/" (:id entry)) :target "_blank"} "history"]
+                  " "
+                  [:a {:href (str "http://level0.osmz.ru/?url=relation/" (:id entry)) :target "_blank"} "level0"]
+                  " "
+                  [:a {:href (str "https://vanjakom.github.io/trek-mate-osme/editor.html?id=r" (:id entry)) :target "_blank"} "tmosme"]]])]]])))
     (context/trace context "[DONE]")
     (context/trace context "take a look at file:///Users/vanja/projects/osm-pss-integration/dataset/staze-pss-rs-diff/index.html")))
