@@ -45,7 +45,19 @@ Crawled/scraped and OSM-extracted data pass through a pipeline of jobs in
 `job/qa.clj` (`compare-trails`) compares the freshly extracted
 `dataset/trails.geojson` ("new") against `~/projects/pss-map-v1/dataset/trails.geojson`
 ("production") to catch regressions before publishing, and can render an HTML
-diff report (`dataset/staze-pss-rs-diff/`).
+diff report (`dataset/staze-pss-rs-diff/`). In `sf_macbook.clj`, its trigger
+(`pss-6-compare-new-trails-geojson`) is wired off state
+`["pss" "pss-geojson-with-trails"]` — the state-done-node set specifically
+by `extract-geojson-with-trails` (the job that writes `dataset/trails.geojson`)
+— not the broader `["pss" "extract"]` state that all `pss-5-*` export jobs
+fan out from; wiring it off `["pss" "extract"]` raced `compare-trails`
+against `trails.geojson` actually being (re)written.
+
+**Releasing**: once the diff looks right, publish by copying
+`dataset/trails.geojson` over `~/projects/pss-map-v1/dataset/trails.geojson`
+(plain file copy, no dedicated job for this yet). That only updates the
+working tree in `pss-map-v1` — committing/pushing there is a separate,
+manual step in that repo.
 
 ## Repo layout
 
