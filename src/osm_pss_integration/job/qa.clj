@@ -32,8 +32,8 @@
                       "trails.geojson"])
 ;; todo temporary fix production to be able to verify changes
 (def trails-production-path ["Users" "vanja" "projects" "pss-map-v1"
-                             ;;"history" "trails.20240603.geojson"
-                             "history" "trails.temp.geojson"                             
+                             "history" "trails.20240603.geojson"
+                             ;;"history" "trails.temp.geojson"                             
                              ;;"dataset" "trails.geojson"
                              ])
 (def relation-mapping-path ["Users" "vanja" "projects" "osm-pss-integration"

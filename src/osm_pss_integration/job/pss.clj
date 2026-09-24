@@ -797,7 +797,7 @@
    (core/job-create
     "extract-pss-ref-osm-relation-id-mapping"
     {
-     :osm-pss-integration-path ["Users" "vanja" "projects" "osm-pss-integration"]
+     :osm-pss-integration-path ["Users" "vanja" "projects" "osm-pss-integration" "dataset"]
      :geofabrik-serbia-split-path ["Users" "vanja" "dataset-local" "geofabrik-serbia-split"]}
     extract-pss-ref-osm-relation-id-mapping))
 
@@ -884,7 +884,7 @@
    (core/job-create
     "extract-pss-osm"
     {
-     :osm-pss-integration-path ["Users" "vanja" "projects" "osm-pss-integration"]
+     :osm-pss-integration-path ["Users" "vanja" "projects" "osm-pss-integration" "dataset"]
      :geofabrik-serbia-split-path ["Users" "vanja" "dataset-local" "geofabrik-serbia-split"]
      :osm-pss-extract-path ["Users" "vanja" "dataset-local" "osm-pss-extract"]}
     extract-pss-osm))
@@ -1280,7 +1280,8 @@
    (core/job-create
     "extract-pss-stats"
     {
-     :osm-pss-extract-path ["Users" "vanja" "dataset-local" "osm-pss-extract"]}
+     :osm-pss-extract-path ["Users" "vanja" "dataset-local" "osm-pss-extract"]
+     :osm-pss-integration-path ["Users" "vanja" "projects" "osm-pss-integration" "dataset"]}
     extract-pss-stats))
 
 
@@ -1416,7 +1417,7 @@
   "extract-geojson-combined-map"
   {
    :osm-pss-extract-path ["Users" "vanja" "dataset-local" "osm-pss-extract"]
-   :osm-pss-integration-path ["Users" "vanja" "projects" "osm-pss-integration"]
+   :osm-pss-integration-path ["Users" "vanja" "projects" "osm-pss-integration" "dataset"]
    :state-done-node ["pss" "geojson-combined-map"]}
   ;; todo
   extract-geojson-combined-map))
