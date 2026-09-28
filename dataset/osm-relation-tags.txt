@@ -2,11 +2,11 @@
 	ascent = 25
 	descent = 25
 	distance = 13.3 km
+	int_name = Vodotoranj - Tresetiste - Palic centar
 	name = Водоторањ - Тресетиште - Палић центар
 	name:sr = Водоторањ - Тресетиште - Палић центар
 	name:sr-Latn = Vodotoranj - Tresetište - Palić centar
 	network = rwn
-	note = staza nije mapirana u potpunosti, prelazak pruge
 	operator = Spartak PSK
 	osmc:symbol = red:red_round::2:white
 	ref = 1-1-2
@@ -285,6 +285,7 @@
 	ascent = 431
 	descent = 431
 	distance = 9.5 km
+	int_name = Bajcetina - Gledicki Crni vrh - Bajcetina
 	name = Бајчетина - Гледићки Црни врх - Бајчетина
 	name:sr = Бајчетина - Гледићки Црни врх - Бајчетина
 	name:sr-Latn = Bajčetina – Gledićki Crni vrh – Bajčetina
@@ -401,6 +402,21 @@
 	source = pss_staze
 	type = route
 	website = https://pss.rs/terenipp/junior-eko-trail/
+
+21424707
+	distance = 3.5 km
+	name = Вера
+	name:sr = Вера
+	name:sr-Latn = Vera
+	network = rwn
+	operator = Planinski duh PD
+	osmc:symbol = red:red_round::5:white
+	ref = 2-16-5
+	roundtrip = yes
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/2-16-5/
 
 12086876
 	ascent = 174
@@ -1097,7 +1113,6 @@
 	name:sr = Три чесме - Ковиљачка коса - Црни врх (Гучево)
 	name:sr-Latn = Tri česme – Koviljačka kosa – Crni vrh (Gučevo)
 	network = rwn
-	note = staza nije mapirana u potpunosti
 	operator = Gučevo PK
 	osmc:symbol = red:red_round::1:white
 	ref = 3-3-1
@@ -1133,7 +1148,6 @@
 	name:sr = Етно насеље Сунчана река - Кам - Црхи врх (Гучево)
 	name:sr-Latn = Etno naselje Sunčana reka – Kam – Crni vrh (Gučevo)
 	network = rwn
-	note = staza nije mapirana u potpunosti
 	operator = Gučevo PK
 	osmc:symbol = red:red_round::3:white
 	ref = 3-3-3
@@ -1301,9 +1315,10 @@
 	ascent = 1230
 	descent = 1230
 	distance = 21 km
-	name = ПД Грза - Велики Козји Рог - Вис - Црни врх - Јаворак - ПД Грза
-	name:sr = ПД Грза - Велики Козји Рог - Вис - Црни врх - Јаворак - ПД Грза
-	name:sr-Latn = PD Grza – Veliki Kozji Rog – Vis – Crni vrh – Javorak – PD Grza
+	int_name = PD Grza - Veliki kozji rog - Vis - Crni vrh - Javorak - PD Grza
+	name = ПД Грза - Велики козји рог - Вис - Црни врх - Јаворак - ПД Грза
+	name:sr = ПД Грза - Велики козји рог - Вис - Црни врх - Јаворак - ПД Грза
+	name:sr-Latn = PD Grza – Veliki kozji rog – Vis – Crni vrh – Javorak – PD Grza
 	network = rwn
 	operator = Javorak PK
 	osmc:symbol = red:red_round::1:white
@@ -1322,7 +1337,6 @@
 	name:sr = Врмџа (кружна стаза)
 	name:sr-Latn = Vrmdža (kružna staza)
 	network = rwn
-	note = staza nije mapirana u potpunosti
 	operator = Oštra čuka PD
 	osmc:symbol = red:red_round::1:white
 	ref = 4-27-1
@@ -2606,7 +2620,7 @@
 	operator = Beljanica PD
 	osmc:symbol = red:red_round::3:white
 	ref = 4-7-3
-	roundtrip = no
+	roundtrip = yes
 	route = hiking
 	source = pss_staze
 	type = route
@@ -2659,7 +2673,7 @@
 	operator = Beljanica PD
 	osmc:symbol = red:red_round::2:white
 	ref = 4-9-2
-	roundtrip = no
+	roundtrip = yes
 	route = hiking
 	source = pss_staze
 	type = route
@@ -2677,7 +2691,7 @@
 	operator = Beljanica PD
 	osmc:symbol = red:red_round::3:white
 	ref = 4-9-3
-	roundtrip = no
+	roundtrip = yes
 	route = hiking
 	source = pss_staze
 	type = route
@@ -3536,6 +3550,7 @@
 	name:sr = Власински Вртови - В. Чемерник (стаза 5)
 	name:sr-Latn = Vlasinski Vrtovi – V. Čemernik (staza 5)
 	network = rwn
+	operator = Svarog PSU
 	osmc:symbol = red:red_round::3:white
 	ref = 7-22-3
 	roundtrip = no
@@ -3952,594 +3967,6 @@
 	source = pss_staze
 	type = route
 	website = https://pss.rs/terenipp/staza-br-9-sijanka/
-
-14185952
-	complete = yes
-	from = Хоргош (Граница Мађарске)
-	length = 67
-	name = E4: Horgoš – Ada
-	name:de = E4: Horgoš – Ada
-	name:en = E4: Horgoš – Ada
-	name:sr = E4: Хоргош 2 (Граница Мађарске) – Ада
-	name:sr-Latn = E4: Horgoš 2 (Granica Mađarske) – Ada
-	network = iwn
-	operator = Kinđa PD;Spartak PSK
-	osmc:symbol = blue:blue::E4:yellow
-	ref = E4-1
-	route = hiking
-	source = pss_staze
-	tourism = Ада
-	type = route
-	url = https://wiki.openstreetmap.org/wiki/Serbia/Beleske/Evropski_pesacki_putevi
-	website = https://pss.rs/terenipp/granica-madjarske-horgos2-ada/
-	wiki:symbol = E 4 sign.jpg
-	wikidata = Q151658
-	wikipedia = en:E4 European long distance path
-
-14206055
-	ascent = 3323
-	descent = 3350
-	distance = 158.7km
-	name = E4: Vratna - Sikole
-	name:sr = Манастир Вратна (незванично) - Сиколе
-	name:sr-Latn = Monastir Vratna - Sikole
-	network = iwn
-	operator = Crni vrh PSD;Vrh PD
-	osmc:symbol = red:red_round::10:white
-	ref = E4-10
-	roundtrip = no
-	route = hiking
-	source = pss_staze
-	type = route
-	website = https://pss.rs/terenipp/e4-10/
-
-14206054
-	complete = yes
-	from = Лазарев кањон
-	length = 74
-	name = E4: Sikole – Sokobanja
-	name:en = Sikole – Sokobanja
-	name:sr = Сиколе - Сокобања
-	name:sr-Latn = Sikole – Sokobanja
-	network = iwn
-	note = postoji prekid na 21.95013, 43.79219, kontaktirati za vise informacija
-	operator = Crni vrh PSD;Dubašnica PK;Ljuba Nešić PSD;Ozren PK;Šiljak PK
-	osmc:symbol = blue:blue::E4:yellow
-	ref = E4-11
-	route = hiking
-	source = pss_staze
-	to = Сокобања
-	type = route
-	url = https://wiki.openstreetmap.org/wiki/Serbia/Beleske/Evropski_pesacki_putevi
-	website = https://pss.rs/terenipp/krivelj-soko-banja/
-	wiki:symbol = E_4_sign.jpg
-	wikidata = Q151658
-	wikipedia = en:E4 European long distance path
-
-14191834
-	complete = yes
-	from = Ада
-	length = 129
-	name = E4: Ada – Zrenjanin
-	name:de = E4: Ada – Zrenjanin
-	name:en = E4: Ada – Zrenjanin
-	name:sr = E4: Ада – Зрењанин
-	name:sr-Latn = E4: Ada – Zrenjanin
-	network = iwn
-	operator = Kinđa PD;Zrenjanin KP
-	osmc:symbol = blue:blue::E4:yellow
-	ref = E4-2
-	route = hiking
-	source = pss_staze
-	to = Зрењанин
-	type = route
-	url = https://wiki.openstreetmap.org/wiki/Serbia/Beleske/Evropski_pesacki_putevi
-	website = https://pss.rs/terenipp/ada-zrenjanin/
-	wiki:symbol = E 4 sign.jpg
-	wikidata = Q151658
-	wikipedia = en:E4 European long distance path
-
-14192820
-	complete = yes
-	from = Зрењанин
-	length = 63
-	name = E4: Zrenjanin – Padina
-	name:de = E4: Zrenjanin – Padina
-	name:en = E4: Zrenjanin – Padina
-	name:sr = E4: Зрењанин – Падина
-	name:sr-Latn = E4: Zrenjanin – Padina
-	network = iwn
-	operator = Jelenak PD;Soko PEK;Zrenjanin KP
-	osmc:symbol = blue:blue::E4:yellow
-	ref = E4-3
-	route = hiking
-	source = pss_staze
-	to = Падина
-	type = route
-	url = https://wiki.openstreetmap.org/wiki/Serbia/Beleske/Evropski_pesacki_putevi
-	website = https://pss.rs/terenipp/zrenjanin-padina/
-	wiki:symbol = E 4 sign.jpg
-	wikidata = Q151658
-	wikipedia = en:E4 European long distance path
-
-14194463
-	complete = yes
-	from = Падина
-	length = 99
-	name = E4: Padina – Krnjača (Beograd)
-	name:de = E4: Padina – Krnjača (Belgrad)
-	name:en = E4: Padina – Krnjača (Belgrade)
-	name:sr = E4: Падина – Крњача (Београд)
-	name:sr-Latn = E4: Padina – Krnjača (Beograd)
-	network = iwn
-	operator = Jelenak PD;Karpati PD;Soko PEK;Vršačka kula PSD;Zrenjanin KP
-	osmc:symbol = blue:blue::E4:yellow
-	ref = E4-4
-	route = hiking
-	source = pss_staze
-	to = Крњача (Београд)
-	type = route
-	url = https://wiki.openstreetmap.org/wiki/Serbia/Beleske/Evropski_pesacki_putevi
-	website = https://pss.rs/terenipp/padina-krnjaca-beograd/
-	wiki:symbol = E 4 sign.jpg
-	wikidata = Q151658
-	wikipedia = en:E4 European long distance path
-
-18981432
-	ascent = 2085
-	descent = 2117
-	distance = 145100
-	name = E4: Beograd (Krnjača) - Osipaonica
-	name:sr = Београд (Крњача) - Осипаоница
-	name:sr-Latn = Beograd (Krnjača) - Osipaonica
-	network = rwn
-	operator = Avala PD, Extreme summit team PK, Kopaonik PSD, Pobeda PSK, PTT POSK
-	osmc:symbol = red:red_round::5:white
-	ref = E4-5
-	roundtrip = no
-	route = hiking
-	source = pss_staze
-	type = route
-	website = https://pss.rs/terenipp/e4-5/
-
-19199003
-	ascent = 479
-	descent = 489
-	distance = 74,9km
-	name = E4: Osipaonica - Veliko Gradište
-	name:sr = Осипаоница - Велико Градиште
-	name:sr-Latn = Osipaonica - Veliko Gradište
-	network = iwn
-	operator = Gornjak PD, Vukan PK
-	osmc:symbol = red:red_round::6:white
-	ref = E4-6
-	roundtrip = no
-	route = hiking
-	source = pss_staze
-	type = route
-	website = https://pss.rs/terenipp/e4-6/
-
-19232993
-	ascent = 6565
-	descent = 6545
-	distance = 149,6km
-	name = E4: Veliko Gradište - Beljanica vrh
-	name:sr = Велико Градиште - Бељаница врх
-	name:sr-Latn = Veliko Gradište - Beljanica vrh
-	network = iwn
-	operator = Gornjak PD, Vukan PK
-	osmc:symbol = red:red_round::7:white
-	ref = E4-7
-	roundtrip = no
-	route = hiking
-	source = pss_staze
-	type = route
-	website = https://pss.rs/terenipp/e4-7/
-
-19282616
-	ascent = 603
-	descent = 590
-	distance = 119.9km
-	name = E4: Beljanica vrh - Lepenski Vir
-	name:sr = Бељаница врх - Лепенски Вир
-	name:sr-Latn = Beljanica vrh - Lepenski Vir
-	network = iwn
-	operator = Gornjak PD,Vukan PK
-	osmc:symbol = red:red_round::8:white
-	ref = E4-8
-	roundtrip = no
-	route = hiking
-	source = pss_staze
-	type = route
-	website = https://pss.rs/terenipp/e4-8/
-
-19505827
-	ascent = 3323
-	descent = 3350
-	distance = 158.7km
-	name = E4: Lepenski Vir - Derdap
-	name:sr = Лепенски Вир - Ђердап хидроелектрана
-	name:sr-Latn = Lepenski Vir - Đerdap hidroelektrana
-	network = iwn
-	operator = Gornjak PD,Vrh PD,Vukan PK
-	osmc:symbol = red:red_round::9:white
-	ref = E4-9
-	roundtrip = no
-	route = hiking
-	source = pss_staze
-	type = route
-	website = https://pss.rs/terenipp/e4-9/
-
-18335543
-	complete = yes
-	from = Bački Vinogradi
-	name = E7-01: Бачки Виногради – Стари Жедник
-	name:de = E7-01: Bački Vinogradi – Stari Žednik
-	name:en = E7-01: Bački Vinogradi – Stari Žednik
-	name:sr = E7-01: Бачки Виногради – Стари Жедник
-	name:sr-Latn = E7-01: Bački Vinogradi – Stari Žednik
-	network = iwn
-	note = https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Evropski_pešački_put_E7
-	operator = European Ramblers Association
-	ref = E7-1
-	route = hiking
-	source = pss_staze
-	to = Stari Žednik
-	type = route
-	website = https://pss.rs/terenipp/e7-1/
-	wiki:symbol = E 7 sign.jpg
-
-17610623
-	complete = yes
-	from = Ovčar banja
-	name = E7-10: Овчар бања – Ариље – Чајетина – Кремна
-	name:de = E7-10: Ovčar banja – Arilje – Čajetina – Kremna
-	name:en = E7-10: Ovčar banja – Arilje – Čajetina – Kremna
-	name:sr = E7-10: Овчар бања – Ариље – Чајетина – Кремна
-	name:sr-Latn = E7-10: Ovčar banja – Arilje – Čajetina – Kremna
-	network = iwn
-	note = https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Evropski_pešački_put_E7
-	operator = Kablar PD;Maljen PPD;Rujno PD;Sevojno PSSD;Sunčevica SUPSD;Tornik PK;Zlatibor PD;Železničar PD Beograd
-	ref = E7-10
-	route = hiking
-	source = pss_staze
-	to = Kremna
-	type = route
-	website = https://pss.rs/terenipp/e7-10/
-	wiki:symbol = E 7 sign.jpg
-	wikidata = Q2914372
-	wikipedia = en:E7 European long distance path
-
-18360637
-	complete = yes
-	from = Kremna
-	name = E7-11: Кремна – Тара – Мокра гора – Златибор – Муртеница (Бријач)
-	name:de = E7-11: Kremna – Tara – Mokra gora – Zlatibor – Murtenica (Brijač)
-	name:en = E7-11: Kremna – Tara – Mokra gora – Zlatibor – Murtenica (Brijač)
-	name:sr = E7-11: Кремна – Тара – Мокра гора – Златибор – Муртеница (Бријач)
-	name:sr-Latn = E7-11: Kremna – Tara – Mokra gora – Zlatibor – Murtenica (Brijač)
-	network = iwn
-	note = https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Evropski_pešački_put_E7
-	operator = European Ramblers Association
-	ref = E7-11
-	route = hiking
-	source = pss_staze
-	to = Murtenica
-	type = route
-	website = https://pss.rs/terenipp/e7-11/
-	wiki:symbol = E 7 sign.jpg
-
-11753312
-	from = Brijač
-	name = E7-12a: Бријач – Увац – Сопотница
-	name:de = E7-12a: Brijač – Uvac – Sopotnica
-	name:en = E7-12a: Brijač – Uvac – Sopotnica
-	name:sr = E7-12a: Бријач – Увац – Сопотница
-	name:sr-Latn = E7-12a: Brijač – Uvac – Sopotnica
-	network = iwn
-	note = https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Evropski_pešački_put_E7
-	operator = Planinarski savez Srbije
-	ref = E7-12
-	route = hiking
-	source = pss_staze
-	to = Sopotnica
-	type = route
-	website = https://pss.rs/terenipp/e7-12/
-	wiki:symbol = E 7 sign.jpg
-	wikidata = Q2914372
-	wikipedia = en:E7 European long distance path
-
-18368092
-	complete = yes
-	from = Sjenica
-	name = E7-13: Сјеница – Градац
-	name:de = E7-13: Sjenica – Gradac
-	name:en = E7-13: Sjenica – Gradac
-	name:sr = E7-13: Сјеница – Градац
-	name:sr-Latn = E7-13: Sjenica – Gradac
-	network = iwn
-	note = https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Evropski_pešački_put_E7
-	operator = European Ramblers Association
-	ref = E7-13
-	route = hiking
-	source = pss_staze
-	to = Gradac
-	type = route
-	website = https://pss.rs/terenipp/e7-13/
-	wiki:symbol = E 7 sign.jpg
-
-18371638
-	complete = yes
-	from = Gradac
-	name = E7-14: Градац – Крива Река
-	name:de = E7-14: Gradac – Kriva Reka
-	name:en = E7-14: Gradac – Kriva Reka
-	name:sr = E7-14: Градац – Крива Река
-	name:sr-Latn = E7-14: Gradac – Kriva Reka
-	network = iwn
-	note = https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Evropski_pešački_put_E7
-	operator = European Ramblers Association
-	ref = E7-14
-	route = hiking
-	source = pss_staze
-	to = Kriva Reka
-	type = route
-	website = https://pss.rs/terenipp/e7-14/
-	wiki:symbol = E 7 sign.jpg
-
-18374951
-	complete = yes
-	from = Kriva Reka
-	name = E7-15: Крива Река – Жуч
-	name:de = E7-15: Kriva Reka – Žuč
-	name:en = E7-15: Kriva Reka – Žuč
-	name:sr = E7-15: Крива Река – Жуч
-	name:sr-Latn = E7-15: Kriva Reka – Žuč
-	network = iwn
-	note = https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Evropski_pešački_put_E7
-	operator = European Ramblers Association
-	ref = E7-15
-	route = hiking
-	source = pss_staze
-	to = Žuč
-	type = route
-	website = https://pss.rs/terenipp/e7-15/
-	wiki:symbol = E 7 sign.jpg
-
-18404717
-	complete = yes
-	from = Gornja Trnava
-	name = E7-17: Горња Трнава – Власотинце
-	name:de = E7-17: Gornja Trnava – Vlasotince
-	name:en = E7-17: Gornja Trnava – Vlasotince
-	name:sr = E7-17: Горња Трнава – Власотинце
-	name:sr-Latn = E7-17: Gornja Trnava – Vlasotince
-	network = iwn
-	note = https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Evropski_pešački_put_E7
-	operator = European Ramblers Association
-	ref = E7-17
-	roundtrip = no
-	route = hiking
-	source = pss_staze
-	to = Vlasotince
-	type = route
-	website = https://pss.rs/terenipp/e7-17/
-	wiki:symbol = E 7 sign.jpg
-
-18397689
-	complete = yes
-	from = Vlasotince
-	name = E7-18: Власотинце – Свети Илија – Прохор Пчињски
-	name:de = E7-18: Vlasotince – Sveti Ilija – Prohor Pčinjski
-	name:en = E7-18: Vlasotince – Sveti Ilija – Prohor Pčinjski
-	name:sr = E7-18: Власотинце – Свети Илија – Прохор Пчињски
-	name:sr-Latn = E7-18: Vlasotince – Sveti Ilija – Prohor Pčinjski
-	network = iwn
-	note = https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Evropski_pešački_put_E7
-	operator = European Ramblers Association
-	ref = E7-18
-	route = hiking
-	source = pss_staze
-	to = Prohor Pčinjski
-	type = route
-	website = https://pss.rs/terenipp/e7-18/
-	wiki:symbol = E 7 sign.jpg
-
-18378518
-	complete = yes
-	from = Žuč
-	name = E7-19: Жуч – Лебане
-	name:de = E7-19: Žuč – Lebane
-	name:en = E7-19: from
-	name:sr = E7-19: Жуч – Лебане
-	name:sr-Latn = E7-19: Žuč – Lebane
-	network = iwn
-	note = https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Evropski_pešački_put_E7
-	operator = European Ramblers Association
-	ref = E7-19
-	route = hiking
-	source = pss_staze
-	to = Lebane
-	type = route
-	website = https://pss.rs/terenipp/e7-19/
-	wiki:symbol = E 7 sign.jpg
-
-18335542
-	complete = yes
-	from = Stari Žednik
-	name = E7-02: Стари Жедник – Сомбор
-	name:de = E7-02: Stari Žednik – Sombor
-	name:en = E7-02: Stari Žednik – Sombor
-	name:sr = E7-02: Стари Жедник – Сомбор
-	name:sr-Latn = E7-02: Stari Žednik – Sombor
-	network = iwn
-	note = https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Evropski_pešački_put_E7
-	operator = European Ramblers Association
-	ref = E7-2
-	route = hiking
-	source = pss_staze
-	to = Sombor
-	type = route
-	website = https://pss.rs/terenipp/e7-3/
-	wiki:symbol = E 7 sign.jpg
-
-18391888
-	complete = yes
-	from = Lebane
-	name = E7-20: Лебане – Свети Илија
-	name:de = E7-20: Lebane – Sveti Ilija
-	name:en = E7-20: Lebane – Sveti Ilija
-	name:sr = E7-20: Лебане – Свети Илија
-	name:sr-Latn = E7-20: Lebane – Sveti Ilija
-	network = iwn
-	note = https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Evropski_pešački_put_E7
-	operator = European Ramblers Association
-	ref = E7-20
-	route = hiking
-	source = pss_staze
-	to = Sveti Ilija
-	type = route
-	website = https://pss.rs/terenipp/e7-20/
-	wiki:symbol = E 7 sign.jpg
-
-18331386
-	complete = yes
-	from = Sombor
-	name = E7-03: Сомбор – Бач
-	name:de = E7-03: Sombor – Bač
-	name:en = E7-03: Sombor – Bač
-	name:sr = E7-03: Сомбор – Бач
-	name:sr-Latn = E7-03: Sombor – Bač
-	network = iwn
-	note = https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Evropski_pešački_put_E7
-	operator = European Ramblers Association
-	ref = E7-3
-	route = hiking
-	source = pss_staze
-	to = Bač
-	type = route
-	website = https://pss.rs/terenipp/e7-3/
-	wiki:symbol = E 7 sign.jpg
-
-18206217
-	complete = yes
-	from = Bač
-	name = E7-04: Бач – Петроварадин
-	name:de = E7-04: Bač – Petrovaradin
-	name:en = E7-04: Bač – Petrovaradin
-	name:sr = E7-04: Бач – Петроварадин
-	name:sr-Latn = E7-04: Bač – Petrovaradin
-	network = iwn
-	note = https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Evropski_pešački_put_E7
-	operator = European Ramblers Association
-	ref = E7-4
-	route = hiking
-	source = pss_staze
-	to = Petrovaradin
-	type = route
-	website = https://pss.rs/terenipp/e7-4/
-	wiki:symbol = E 7 sign.jpg
-
-12499130
-	complete = yes
-	from = Petrovaradin
-	name = E7-05: Петроварадин – Сремска Митровица
-	name:de = E7-05: Petrovaradin – Sremska Mitrovica
-	name:en = E7-05: Petrovaradin – Sremska Mitrovica
-	name:sr = E7-05: Петроварадин – Сремска Митровица
-	name:sr-Latn = E7-05: Petrovaradin – Sremska Mitrovica
-	network = iwn
-	note = https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Evropski_pešački_put_E7
-	operator = European Ramblers Association
-	ref = E7-5
-	route = hiking
-	source = pss_staze
-	to = Sremska Mitrovica
-	type = route
-	website = https://pss.rs/terenipp/e7-5/
-	wiki:symbol = E 7 sign.jpg
-	wikidata = Q2914372
-	wikipedia = en:E7 European long distance path
-
-18335544
-	complete = yes
-	from = Sremska Mitrovica
-	name = E7-06: Сремска Митровица – Цер
-	name:de = E7-06: Sremska Mitrovica – Cer
-	name:en = E7-06: Sremska Mitrovica – Cer
-	name:sr = E7-06: Сремска Митровица – Цер
-	name:sr-Latn = E7-06: Sremska Mitrovica – Cer
-	network = iwn
-	note = https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Evropski_pešački_put_E7
-	operator = European Ramblers Association
-	ref = E7-6
-	route = hiking
-	source = pss_staze
-	to = Cer
-	type = route
-	website = https://pss.rs/terenipp/e7-6/
-	wiki:symbol = E 7 sign.jpg
-
-18345452
-	complete = yes
-	from = Cer
-	name = E7-07: Цер – Крупањ
-	name:de = E7-07: Cer – Krupanj
-	name:en = E7-07: Cer – Krupanj
-	name:sr = E7-07: Цер – Крупањ
-	name:sr-Latn = E7-07: Cer – Krupanj
-	network = iwn
-	note = https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Evropski_pešački_put_E7
-	operator = European Ramblers Association
-	ref = E7-7
-	route = hiking
-	source = pss_staze
-	to = Krupanj
-	type = route
-	website = https://pss.rs/terenipp/e7-7/
-	wiki:symbol = E 7 sign.jpg
-
-14177412
-	complete = yes
-	from = Krupanj
-	name = E7-08: Крупањ – Љубовија – Ваљево – Дивчибаре
-	name:de = E7-08: Krupanj – Ljubovija – Valjevo – Divčibare
-	name:en = E7-08: Krupanj – Ljubovija – Valjevo – Divčibare
-	name:sr = E7-08: Крупањ – Љубовија – Ваљево – Дивчибаре
-	name:sr-Latn = E7-08: Krupanj – Ljubovija – Valjevo – Divčibare
-	network = iwn
-	note = https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Evropski_pešački_put_E7
-	operator = Brđanka PSK;Magleš PSD;Povlen PK;Subjel PED;Tornička Bobija PK
-	ref = E7-8
-	route = hiking
-	source = pss_staze
-	to = Divčibare
-	type = route
-	website = https://pss.rs/terenipp/e7-8/
-	wiki:symbol = E 7 sign.jpg
-	wikidata = Q2914372
-	wikipedia = en:E7 European long distance path
-
-14180878
-	complete = yes
-	from = Divčibare
-	name = E7-09: Дивчибаре – Рајац – Рудник – Овчар бања
-	name:de = E7-09: Divčibare – Rajac – Rudnik – Ovčar banja
-	name:en = E7-09: Divčibare – Rajac – Rudnik – Ovčar banja
-	name:sr = E7-09: Дивчибаре – Рајац – Рудник – Овчар бања
-	name:sr-Latn = E7-09: Divčibare – Rajac – Rudnik – Ovčar banja
-	network = iwn
-	note = https://wiki.openstreetmap.org/wiki/Serbia/Beleske/Evropski_pesacki_putevi#e7
-	operator = Kablar PD;Pobeda PK;Povlen PK;PTT POSK;Rudnik PSD;Železničar PD Beograd
-	ref = E7-9
-	route = hiking
-	source = pss_staze
-	to = Ovčar banja
-	type = route
-	website = https://pss.rs/terenipp/e7-9/
-	wiki:symbol = E 7 sign.jpg
-	wikidata = Q2914372
-	wikipedia = en:E7 European long distance path
 
 13145926
 	ascent = 1162

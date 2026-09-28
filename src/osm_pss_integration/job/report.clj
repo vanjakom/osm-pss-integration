@@ -8,10 +8,11 @@
    [clj-common.context :as context]
    [clj-common.edn :as edn]
    [clj-common.io :as io]
+   [clj-common.json :as json]
    [clj-common.localfs :as fs]
    [clj-common.path :as path]))
 
-(defn- id->category
+(defn id->category
   "0 normal trails, 1 transversals ( T- prefix ), 2 E paths, matches
   registar.md / trail-lst.md sort convention"
   [id]
@@ -20,7 +21,7 @@
     (re-matches #"E\d.*" id) 2
     :else 0))
 
-(defn- id->numeric-key
+(defn id->numeric-key
   "Parses dash separated segments of id ( after stripping leading letters )
   into [number suffix] pairs so trails sort numerically, not
   lexicographically ( \"4-4-1\" before \"4-27-1\", \"E7-12\" before
@@ -34,7 +35,7 @@
           [(if (empty? digits) 0 (as/as-long digits)) suffix]))
       (string/split rest #"-")))))
 
-(defn- id->sort-key [id]
+(defn id->sort-key [id]
   [(id->category id) (id->numeric-key id)])
 
 (defn create-trail-list

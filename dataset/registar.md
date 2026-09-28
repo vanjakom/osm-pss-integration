@@ -7,6 +7,10 @@
 једна белешка, једна стаза. први таг у белешки је ознака стазе. линије до 80
 карактера. уносити датум па објашњење измене.
 
+# #2-16-5 Vera
+
+20260921 унео стазу на основу мејла, смањена верзија 2-16-1
+
 # #3-3-2 Tri česme - Grabovci - Kam - Crni vrh (Gučevo)
 https://www.openstreetmap.org/relation/15005069
 20260915
@@ -34,6 +38,15 @@ https://www.openstreetmap.org/relation/15015633
 gpx problematičan, dosta odstupanja
 preneseno iz note-map (job/pss.clj)
 
+# #4-33-3 Pozdrav proleću / Aleksinac - Sokobanja (Ripaljka)
+https://www.openstreetmap.org/relation/11305864
+20260920 отворена неправилност
+
+
+# #4-33-9 Ripaljka - Jermenčić - Leskovik - Ozrenska vrata
+https://www.openstreetmap.org/relation/13190234
+20260920 одступање од трага на 21.83912, 43.59094
+
 # #4-40-1 Niševačka klisura
 20260915
 kretanje železničkom prugom kroz tunele?
@@ -55,6 +68,15 @@ https://www.openstreetmap.org/relation/11038554
 Према https://www.openstreetmap.org/changeset/163438554 пут не постоји и пролази
 кроз приватно имање. Потребно је контактирати клуб
 пренесено са OSM вики стране
+
+# #5-6-2 Priboj - Tvrđava Jagat
+https://www.openstreetmap.org/relation/12163308
+20260920 трек је кружни, опис у једном правцу, унешена у једном правцу
+
+# #T-1-9 Fruškogorska transverzala
+20260921 званични траг одступа од реалности
+
+
 
 # #T-5-8 Овчарско-кабларска трансверзала
 https://www.openstreetmap.org/relation/11499127
@@ -131,9 +153,13 @@ https://www.openstreetmap.org/relation/14206054
 
 # #E4-12 Sokobanja - Jalovik
 #mapignore
+20260915
+Е пут није мапиран током пројекта
 
 # #E4-13 Jalovik - Gradina
 #mapignore
+20260915
+Е пут није мапиран током пројекта
 
 # #E7-1 Bački Vinogradi - Stari Žednik
 https://www.openstreetmap.org/relation/18335543

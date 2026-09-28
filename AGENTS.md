@@ -38,33 +38,52 @@ Crawled/scraped and OSM-extracted data pass through a pipeline of jobs in
    erroring — this exact bug previously zeroed every coordinate in
    `dataset/trails/*.geojson`, fixed in `job/pss.clj` around line 1606).
 5. `extract-geojson-combined-map`, `extract-geojson-per-trail` (writes
-   `dataset/trails/<ref>.geojson`, one file per trail), `extract-geojson-with-trails`
-   (writes combined `dataset/trails.geojson`), `create-trails-image`,
+   `dataset/trails/<ref>.geojson`, one file per trail), `create-trails-image`,
    `extract-pss-stats` — various exports from the OSM dataset.
+   `job/staze.clj` (see below) holds the exports that write into
+   `pss-map-v1` instead.
 
-`job/qa.clj` (`compare-trails`) compares the freshly extracted
-`dataset/trails.geojson` ("new") against `~/projects/pss-map-v1/dataset/trails.geojson`
-("production") to catch regressions before publishing, and can render an HTML
-diff report (`dataset/staze-pss-rs-diff/`). In `sf_macbook.clj`, its trigger
-(`pss-6-compare-new-trails-geojson`) is wired off state
-`["pss" "pss-geojson-with-trails"]` — the state-done-node set specifically
-by `extract-geojson-with-trails` (the job that writes `dataset/trails.geojson`)
-— not the broader `["pss" "extract"]` state that all `pss-5-*` export jobs
-fan out from; wiring it off `["pss" "extract"]` raced `compare-trails`
-against `trails.geojson` actually being (re)written.
+`job/staze.clj` groups everything that reads from / writes to
+`~/projects/pss-map-v1` (the live map's repo), as opposed to `job/pss.clj`
+which only ever touches this repo's own `dataset/`:
 
-**Releasing**: once the diff looks right, publish by copying
-`dataset/trails.geojson` over `~/projects/pss-map-v1/dataset/trails.geojson`
-(plain file copy, no dedicated job for this yet). That only updates the
-working tree in `pss-map-v1` — committing/pushing there is a separate,
-manual step in that repo.
+- `extract-geojson-with-trails` (job `pss-5-staze-trails-geojson`) writes the
+  combined trails geometry straight into the live map's
+  `~/projects/pss-map-v1/dataset/trails.geojson`, overwriting it on every run
+  — there's no separate new-vs-production file anymore, and the job can be
+  (re)run many times over several days before anything is actually released.
+  It does **not** snapshot history itself.
+- `create-trail-list-html` (job `pss-6-staze-trail-list-html`) writes
+  `~/projects/pss-map-v1/dataset/trail-list.html`, using
+  `osm-pss-integration.job.report/id->sort-key` (public, shared with
+  `job/report.clj`'s own `create-trail-list`) for sort order.
+- `compare-trails` (job `pss-6-staze-compare-trails-geojson`) compares the
+  current `pss-map-v1/dataset/trails.geojson` ("new") against the newest
+  `trails.<date>.geojson` snapshot in `pss-map-v1/history/` ("production",
+  picked dynamically by `trails-production-path`, not hardcoded — it used to
+  point at a stale `trails.20240603.geojson` snapshot, tagged
+  `;; todo temporary fix` in the code), and can render an HTML diff report
+  (`dataset/staze-pss-rs-diff/`).
+
+Both `pss-6-staze-*` triggers are wired off state `["pss" "staze-trails-geojson"]`
+— the state-done-node set specifically by `extract-geojson-with-trails` — not
+the broader `["pss" "extract"]` state that all `pss-5-*` export jobs fan out
+from; wiring off `["pss" "extract"]` would race them against `trails.geojson`
+actually being (re)written.
+
+**Releasing**: a `trails.<yyyyMMdd>.geojson` snapshot is written to
+`pss-map-v1/history/` **at release/commit time**, not by the extract job —
+that's the point at which `pss-map-v1/dataset/trails.geojson`'s current
+state is actually promoted to "production" for future `compare-trails`
+diffs. (This release step isn't automated yet.)
 
 ## Repo layout
 
 - `dataset/pss-dataset.edn` — master trail metadata map, keyed by PSS ref.
 - `dataset/pss.rs/routes/` — raw per-trail scrape output (json/html/gpx).
 - `dataset/trails/<ref>.geojson` — per-trail geometry, one file per ref.
-- `dataset/trails.geojson` — combined geometry for all trails.
+  (Combined geometry for all trails is no longer kept in this repo — see
+  `~/projects/pss-map-v1/dataset/trails.geojson` in Data flow above.)
 - `dataset/relation-mapping.tsv` — PSS ref → OSM relation id.
 - `dataset/klubovi/` — per-club HTML maps and markdown reports (see below).
 - `dataset/maps/`, `dataset/staze-pss-rs-diff/` — other rendered outputs.
@@ -75,12 +94,38 @@ manual step in that repo.
   `note-map` def, see Conventions below for required sort order.
 - `dataset/wiki-status.md`, `dataset/nepravilnosti.dot`,
   `dataset/osm-notes.dot` — manually curated notes fed into map overlays.
-- `src/osm_pss_integration/job/pss.clj` — main extraction/export pipeline
+- `src/osm_pss_integration/job/pss.clj` — main extraction/export pipeline,
+  only ever touches this repo's own `dataset/` (see Data flow above).
+- `src/osm_pss_integration/job/staze.clj` — everything that reads from /
+  writes to `~/projects/pss-map-v1` instead: publishing `trails.geojson` and
+  `trail-list.html`, and the new-vs-production comparison / HTML diff report
   (see Data flow above).
-- `src/osm_pss_integration/job/qa.clj` — comparison of new vs. production
-  trail data, HTML diff report generation.
-- `src/osm_pss_integration/job/map.clj`, `job/history.clj` — misc map/history
-  rendering helpers.
+- `src/osm_pss_integration/job/report.clj` — `create-trail-list` (writes
+  this repo's own `dataset/trail-lst.md`) plus the shared, public
+  `id->category`/`id->numeric-key`/`id->sort-key` sort-order helpers reused
+  by `job/staze.clj`'s `create-trail-list-html`.
+- `src/osm_pss_integration/job/map.clj` — misc map rendering helpers.
+- `src/osm_pss_integration/job/history.clj` — OSM relation history debugging.
+  `debug-relation-history` (called from `repl.clj`, not scheduler-wired)
+  reads `~/dataset-local/geofabrik-serbia-history/serbia-internal.osh.pbf`
+  three times in sequence (relations, then ways, then nodes — required
+  because `osm/relation-histset-go` drains those three channels strictly in
+  that order in one `go` block, so pushing all three from a single pbf pass
+  would deadlock on an unbuffered channel no one's reading yet), builds a
+  histset via `osm/relation-histset-go` + `pipeline/wait-pipeline-output`,
+  writes it to `~/dataset-local/osm-pss-debug/<relation-id>.histset`, then
+  renders one colored layer per geometry version (`map/geojson-layer`, which
+  reads `*style-stroke-color*` at render time — unlike
+  `geojson-style-extended-layer`/`geojson-style-layer`, see below) to
+  `<relation-id>.html` in the same dir, plus the matching PSS gpx track if
+  the relation carries a `ref` tag with a gpx file on disk. The rest of the
+  file below a `(throw ...)` guard is `#_`-commented ad-hoc debug snippets —
+  add new top-level code above that throw or it won't load.
+  `debug-relation-history-job` wraps it as a plain `clj-common.context`
+  job-fn (`context/configuration` / `context/trace`) — `job/history.clj`
+  deliberately has no `clj-scheduler` dependency; submitting it as a
+  scheduler job is `repl.clj`'s `submit-relation-history-job`'s job, which
+  does depend on `clj-scheduler.core`.
 - `src/osm_pss_integration/job/club/*.clj` — one file per club (e.g.
   `suncevica.clj`, `vrsackakula.clj`, `ostracuka.clj`): standalone scripts
   (no `-main`, no scheduler `context`) that, on namespace load, filter
@@ -97,7 +142,7 @@ There is no `-main`. Two execution modes:
 - **`job/club/*.clj` scripts**: side-effecting at namespace load time (wrapped
   in top-level `with-open`). Run by loading/requiring the namespace (e.g. in a
   REPL) — evaluating the file *is* running the job.
-- **`job/pss.clj`, `job/qa.clj`, `job/map.clj` functions**: designed to be
+- **`job/pss.clj`, `job/staze.clj`, `job/map.clj` functions**: designed to be
   invoked as `clj-scheduler` jobs/triggers, wired up externally in
   `uberjvm`'s `src/uberjvm/preset/sf_macbook.clj` (a separate project). Each
   trigger there wraps its job function in `(var ns/fn)` rather than a bare

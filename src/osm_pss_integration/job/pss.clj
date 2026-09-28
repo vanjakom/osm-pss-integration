@@ -1591,65 +1591,6 @@
                  (:members relation))))}
              (io/output-stream->writer os))))))))
 
-(defn extract-geojson-with-trails
-  "Creates GeoJSON containing each trail as single feature for each trail, containing all trail geometry. If trail is
-  not complete multiple features will be extracted"
-  [job-context]
-  (let [configuration (core/context-configuration job-context)
-        context (core/context-pipeline-adapter job-context)
-        channel-provider (pipeline/create-channels-provider)
-        resource-controller (pipeline/create-trace-resource-controller context)
-        osm-pss-integration-path (:osm-pss-integration-path configuration)
-        osm-pss-extract-path (:osm-pss-extract-path configuration)
-        timestamp (System/currentTimeMillis)]
-    (let [dataset (load-pss-extract-as-dataset job-context)]
-      (core/context-report
-       job-context
-       "dataset loaded, writing trails")
-      (with-open [os (fs/output-stream (path/child
-                                        osm-pss-integration-path "trails.geojson"))]
-        (json/write-pretty-print
-         (geojson/geojson
-          (doall
-           (map
-            (fn [relation]
-              (let [ref (get-in relation [:tags "ref"])]
-                (core/context-report
-                 job-context
-                 (str "processing: " ref " (" (get relation :id) ")"))
-                (binding [geojson/*style-stroke-color* "#FF0000"
-                          geojson/*style-stroke-width* (cond
-                                                         (.startsWith ref "E")
-                                                         6
-                                                         (.startsWith ref "T")
-                                                         4
-                                                         :else
-                                                         2)]
-                  (geojson/multi-line-string
-                   {
-                    "ref" ref
-                    "osm-relation-id" (get relation :id)
-                    "name" (get-in relation [:tags "name"])
-                    "operator" (get-in relation [:tags "operator"])
-                    "website" (get-in relation [:tags "website"])
-                    "network" (get-in relation [:tags "network"])
-                    "distance" (get-in relation [:tags "distance"])}
-                   (filter
-                    some?
-                    (map
-                     (fn [member]
-                       (cond
-                         (= (:type member) :way)
-                         (map
-                          (fn [id]
-                            (get-in dataset [:node id]))
-                          (:nodes (get-in dataset [:way (:id member)])))
-                         :else
-                         nil))
-                     (:members relation)))))))
-            (vals (:relation dataset)))))
-         (io/output-stream->writer os))))))
-
 (defn create-trails-image
   "Draws trails on top of image generated from tiles"
   [job-context]

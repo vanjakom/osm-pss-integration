@@ -334,6 +334,25 @@
    :latitude 43.31365470774472,
    :timestamp nil},
   :drustvo "Mosor PSK"},
+ "7-27-1"
+ {:info-path
+  ["Users"
+   "vanja"
+   "projects"
+   "osm-pss-integration"
+   "dataset"
+   "pss.rs"
+   "routes"
+   "7-27-1.json"],
+  :gpx-path nil,
+  :title "Promaja – Veliki Strešer (staza br. 1)",
+  :region "7 - Jugoistočna Srbija",
+  :link "https://pss.rs/terenipp/7-27-1/",
+  :id "7-27-1",
+  :uredjenost "delimično uređena",
+  :planina "Vardenik",
+  :location nil,
+  :drustvo nil},
  "5-4-41"
  {:info-path
   ["Users"
@@ -2186,6 +2205,25 @@
    :latitude 43.68095800280571,
    :timestamp 1616916325000},
   :drustvo "Ozren PK"},
+ "7-27-3"
+ {:info-path
+  ["Users"
+   "vanja"
+   "projects"
+   "osm-pss-integration"
+   "dataset"
+   "pss.rs"
+   "routes"
+   "7-27-3.json"],
+  :gpx-path nil,
+  :title "Valjavica – Veliki Strešer (staza br. 3)",
+  :region "7 - Jugoistočna Srbija",
+  :link "https://pss.rs/terenipp/7-27-3/",
+  :id "7-27-3",
+  :uredjenost "delimično uređena",
+  :planina "Vardenik",
+  :location nil,
+  :drustvo nil},
  "4-33-2"
  {:info-path
   ["Users"
@@ -3723,6 +3761,36 @@
    :latitude 43.36651258170605,
    :timestamp 1550996584000},
   :drustvo "Preslap PD"},
+ "6-3-9"
+ {:info-path
+  ["Users"
+   "vanja"
+   "projects"
+   "osm-pss-integration"
+   "dataset"
+   "pss.rs"
+   "routes"
+   "6-3-9.json"],
+  :gpx-path
+  ["Users"
+   "vanja"
+   "projects"
+   "osm-pss-integration"
+   "dataset"
+   "pss.rs"
+   "routes"
+   "6-3-9.gpx"],
+  :title "Narcisu u pohode",
+  :region "6 - Kopaoničko-Toplička regija",
+  :link "https://pss.rs/terenipp/narcisu-u-pohode/",
+  :id "6-3-9",
+  :uredjenost "dobro uređena i markirana",
+  :planina "Stolovi",
+  :location
+  {:longitude 20.701587,
+   :latitude 43.612357,
+   :timestamp 1740292243000},
+  :drustvo "Gvozdac PSD"},
  "7-3-3"
  {:info-path
   ["Users"
@@ -9547,6 +9615,55 @@
   :planina "Tara",
   :location nil,
   :drustvo "Tara PK"},
+ "2-16-5"
+ {:info-path
+  ["Users"
+   "vanja"
+   "projects"
+   "osm-pss-integration"
+   "dataset"
+   "pss.rs"
+   "routes"
+   "2-16-5.json"],
+  :gpx-path
+  ["Users"
+   "vanja"
+   "projects"
+   "osm-pss-integration"
+   "dataset"
+   "pss.rs"
+   "routes"
+   "2-16-5.gpx"],
+  :title "Vera",
+  :region "2 - Šumadija",
+  :link "https://pss.rs/terenipp/2-16-5/",
+  :id "2-16-5",
+  :uredjenost "dobro uređena i markirana",
+  :planina "Juhor",
+  :location
+  {:longitude 21.2666550837,
+   :latitude 43.9653967135,
+   :timestamp 1787670653000},
+  :drustvo "Planinski duh PD"},
+ "7-27-2"
+ {:info-path
+  ["Users"
+   "vanja"
+   "projects"
+   "osm-pss-integration"
+   "dataset"
+   "pss.rs"
+   "routes"
+   "7-27-2.json"],
+  :gpx-path nil,
+  :title "Topli do – Veliki Strešer (staza br. 2)",
+  :region "7 - Jugoistočna Srbija",
+  :link "https://pss.rs/terenipp/7-27-2/",
+  :id "7-27-2",
+  :uredjenost "delimično uređena",
+  :planina "Vardenik",
+  :location nil,
+  :drustvo nil},
  "6-31-1"
  {:info-path
   ["Users"
@@ -10723,6 +10840,25 @@
   :planina "Čemerno",
   :location nil,
   :drustvo "Železničar PSK Kraljevo"},
+ "7-22-4"
+ {:info-path
+  ["Users"
+   "vanja"
+   "projects"
+   "osm-pss-integration"
+   "dataset"
+   "pss.rs"
+   "routes"
+   "7-22-4.json"],
+  :gpx-path nil,
+  :title "Donji Del – Veliki Čemernik (staza br. 6)",
+  :region "7 - Jugoistočna Srbija",
+  :link "https://pss.rs/terenipp/7-22-4/",
+  :id "7-22-4",
+  :uredjenost "zapuštena",
+  :planina "Čemernik",
+  :location nil,
+  :drustvo nil},
  "E7-12"
  {:info-path
   ["Users"
