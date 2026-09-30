@@ -126,3 +126,58 @@
       "map created, view <a href='file://"
       (path/path->string export-path)
       "'>map</a>"))))
+
+(defn- markdown-line->html
+  [line]
+  (string/replace
+   (-> line
+       (string/replace "&" "&amp;")
+       (string/replace "<" "&lt;")
+       (string/replace ">" "&gt;"))
+   #"https?://\S+"
+   (fn [url] (str "<a href=\"" url "\">" url "</a>"))))
+
+(defn- markdown->html-body
+  [content]
+  (let [[html in-paragraph]
+        (reduce
+         (fn [[html in-paragraph] line]
+           (if-let [[_ hashes title] (re-matches #"(#{1,6}) (.*)" line)]
+             [(str html (when in-paragraph "</p>\n")
+                   "<h" (count hashes) ">" (markdown-line->html (string/trimr title))
+                   "</h" (count hashes) ">\n")
+              false]
+             (if (string/blank? line)
+               [(str html (when in-paragraph "</p>\n")) false]
+               [(str html (if in-paragraph "" "<p>\n") (markdown-line->html line) "<br>\n")
+                true])))
+         ["" false]
+         (string/split content #"\n" -1))]
+    (str html (when in-paragraph "</p>\n"))))
+
+(defn create-html-from-markdown
+  "Generic job: reads a plain markdown file ( :md-path configuration ) and
+  writes a minimal rendered html page ( :html-path configuration ).
+  Supports # .. ###### headers and paragraphs ( blank line separated, each
+  line <br> terminated, bare urls linkified ) - intentionally minimal,
+  matches what this repo's own README.md ( and similar plain docs )
+  actually use, not full commonmark ( no bold/italic/lists/fenced
+  code/inline [text](url) links ). Optional :title configuration key sets
+  the page title, defaults to the output file name"
+  [job-context]
+  (let [configuration (context/configuration job-context)
+        md-path (:md-path configuration)
+        html-path (:html-path configuration)
+        title (or (:title configuration) (path/name html-path))
+        content (with-open [is (fs/input-stream md-path)]
+                  (io/input-stream->string is))]
+    (with-open [os (fs/output-stream html-path)]
+      (io/write-string
+       os
+       (str
+        "<html><head><meta charset=\"utf-8\"/><title>" title "</title></head><body>\n"
+        (markdown->html-body content)
+        "</body></html>\n")))
+    (context/trace
+     job-context
+     (str (path/path->string html-path) " created from " (path/path->string md-path)))))

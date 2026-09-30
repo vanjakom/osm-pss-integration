@@ -170,8 +170,16 @@ the function looks the way it does, not as pending work):
   Serbia instead of `render-raw`'s hardcoded Belgrade/zoom-10 fallback;
   also `create-registar-html` (job `pss-5-registar-html`), renders
   `dataset/registar.html` from `registar.md` via
-  `clj-common.notemd/prepare-note-html`, one rendered note per `#notemd`
-  entry, `<hr/>`-separated, in file order.
+  `clj-common.notemd/notes->html` (one styled, self contained page, one
+  `<div class="note">` per `#notemd` entry, in file order); each note's
+  header line doubles the ref as plain text right after the `#<ref>` tag
+  (`# #2-16-5 2-16-5: Vera`) so the rendered `<h1>` title keeps the ref
+  prefix — `notemd`'s tag-stripping only removes `#`/`@`-prefixed tokens,
+  a plain-text duplicate survives; also `create-html-from-markdown` (job
+  `pss-5-index-html`, generic — `:md-path`/`:html-path`/optional `:title`
+  configuration), a deliberately minimal markdown renderer (headers,
+  blank-line paragraphs, bare url linkify, no bold/italic/lists/fenced
+  code/inline links) used to turn `README.md` into `index.html`.
 - `src/osm_pss_integration/job/history.clj` — OSM relation history debugging.
   `debug-relation-history` (called from `repl.clj`, not scheduler-wired)
   reads `~/dataset-local/geofabrik-serbia-history/serbia-internal.osh.pbf`
