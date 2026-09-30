@@ -176,10 +176,14 @@ the function looks the way it does, not as pending work):
   (`# #2-16-5 2-16-5: Vera`) so the rendered `<h1>` title keeps the ref
   prefix — `notemd`'s tag-stripping only removes `#`/`@`-prefixed tokens,
   a plain-text duplicate survives; also `create-html-from-markdown` (job
-  `pss-5-index-html`, generic — `:md-path`/`:html-path`/optional `:title`
-  configuration), a deliberately minimal markdown renderer (headers,
-  blank-line paragraphs, bare url linkify, no bold/italic/lists/fenced
-  code/inline links) used to turn `README.md` into `index.html`.
+  `pss-5-index-html`, generic — `:md-path`/`:html-path` configuration),
+  reuses `notemd/read-notes` + `notes->html` for any plain `# Heading` +
+  paragraph file, not just actual `#notemd` docs — `read-notes` doesn't
+  require the `[notemd]`/tag conventions, anything before the first `"# "`
+  line is just an ignorable preamble. Used to turn `README.md` into
+  `index.html`. Inherits notemd's one real limitation: only single `"# "`
+  lines are section boundaries, `"##"`/`"###"` etc render as literal
+  paragraph text, not sub-headings.
 - `src/osm_pss_integration/job/history.clj` — OSM relation history debugging.
   `debug-relation-history` (called from `repl.clj`, not scheduler-wired)
   reads `~/dataset-local/geofabrik-serbia-history/serbia-internal.osh.pbf`
