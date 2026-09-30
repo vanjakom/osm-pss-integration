@@ -161,8 +161,17 @@ the function looks the way it does, not as pending work):
 - `src/osm_pss_integration/job/report.clj` — `create-trail-list` (writes
   this repo's own `dataset/trail-lst.md`) plus the shared, public
   `id->category`/`id->numeric-key`/`id->sort-key` sort-order helpers reused
-  by `job/staze.clj`'s `create-trail-list-html`.
-- `src/osm_pss_integration/job/map.clj` — misc map rendering helpers.
+  by `job/staze.clj`'s `create-trail-list-html`; also `create-map` (job
+  `pss-5-nepravilnosti-map`), misc map rendering merged in from the former
+  `job/map.clj`, renders `dataset/maps/nepravilnosti.html` from
+  `nepravilnosti.dot`/`osm-notes.dot`, passing `serbia-view-configuration`
+  (`:center-longitude`/`:center-latitude`/`:center-zoom`) to
+  `clj-geo.visualization.map/render-raw` so the map opens framed on all of
+  Serbia instead of `render-raw`'s hardcoded Belgrade/zoom-10 fallback;
+  also `create-registar-html` (job `pss-5-registar-html`), renders
+  `dataset/registar.html` from `registar.md` via
+  `clj-common.notemd/prepare-note-html`, one rendered note per `#notemd`
+  entry, `<hr/>`-separated, in file order.
 - `src/osm_pss_integration/job/history.clj` — OSM relation history debugging.
   `debug-relation-history` (called from `repl.clj`, not scheduler-wired)
   reads `~/dataset-local/geofabrik-serbia-history/serbia-internal.osh.pbf`
@@ -200,7 +209,7 @@ There is no `-main`. Two execution modes:
 - **`job/club/*.clj` scripts**: side-effecting at namespace load time (wrapped
   in top-level `with-open`). Run by loading/requiring the namespace (e.g. in a
   REPL) — evaluating the file *is* running the job.
-- **`job/pss.clj`, `job/staze.clj`, `job/map.clj` functions**: designed to be
+- **`job/pss.clj`, `job/staze.clj`, `job/report.clj` functions**: designed to be
   invoked as `clj-scheduler` jobs/triggers, wired up externally in
   `uberjvm`'s `src/uberjvm/preset/sf_macbook.clj` (a separate project). Each
   trigger there wraps its job function in `(var ns/fn)` rather than a bare

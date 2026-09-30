@@ -1,9 +1,12 @@
 
-# Nepravilnosti  
+# Files  
 
-https://vanjakom.github.io/dote/index.html?url=https://vanjakom.github.io/osm-pss-integration/dataset/nepravilnosti.dot
+https://vanjakom.github.io/dote/index.html?url=https://vanjakom.github.io/osm-pss-integration/dataset/nepravilnosti.dot  
+https://vanjakom.github.io/osm-pss-integration/dataset/maps/nepravilnosti.html  
 
+https://vanjakom.github.io/osm-pss-integration/dataset/osm-state.html  
 
+https://vanjakom.github.io/osm-pss-integration/dataset/registar.html  
 
 # Data copyright  
 

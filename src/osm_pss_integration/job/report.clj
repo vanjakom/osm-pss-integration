@@ -10,7 +10,11 @@
    [clj-common.io :as io]
    [clj-common.json :as json]
    [clj-common.localfs :as fs]
-   [clj-common.path :as path]))
+   [clj-common.notemd :as notemd]
+   [clj-common.path :as path]
+
+   [clj-geo.dot.store.humandot :as humandot]
+   [clj-geo.visualization.map :as map]))
 
 (defn id->category
   "0 normal trails, 1 transversals ( T- prefix ), 2 E paths, matches
@@ -69,3 +73,56 @@
           trail-seq))
         "\n```\n")))
     (context/trace job-context (str "trail-lst.md created, " (count trail-seq) " trails"))))
+
+(defn create-registar-html
+  "Reads registar.md and writes registar.html, a single self contained page
+  rendered via clj-common.notemd/notes->html, one #notemd note per entry,
+  in file order"
+  [job-context]
+  (let [configuration (context/configuration job-context)
+        osm-pss-integration-path (:osm-pss-integration-path configuration)
+        note-seq (with-open [is (fs/input-stream
+                                  (path/child osm-pss-integration-path "registar.md"))]
+                   (doall (notemd/read-notes is #{})))]
+    (with-open [os (fs/output-stream (path/child osm-pss-integration-path "registar.html"))]
+      (io/write-string os (notemd/notes->html {} note-seq)))
+    (context/trace job-context (str "registar.html created, " (count note-seq) " notes"))))
+
+;; same default view pss-map-v1/index.html uses, fits all of Serbia on an
+;; average laptop screen
+(def serbia-view-configuration
+  {:center-longitude 21.08276
+   :center-latitude 44.41599
+   :center-zoom 8})
+
+(defn create-map [context]
+  (let [configuration (context/configuration context)
+        dataset-root-path (get configuration :dataset-root-path)
+        export-path (get configuration :export-path)]
+    (context/trace context (str "creating map for: pss"))
+    (with-open [os (fs/output-stream export-path)
+                nepravilnosti-is (fs/input-stream
+                                  (path/child dataset-root-path
+                                              "nepravilnosti.dot"))
+                osm-notes-is (fs/input-stream
+                              (path/child dataset-root-path
+                                          "osm-notes.dot"))]
+      (let [nepravilnosti-seq (humandot/read nepravilnosti-is)
+            osm-notes-seq (humandot/read osm-notes-is)]
+        (io/write-string
+         os
+         (map/render-raw
+          serbia-view-configuration
+          [
+           (map/tile-layer-osm true)
+           (map/tile-layer-bing-satellite false)
+           (map/tile-layer-google-satellite false)
+
+           (map/tile-overlay-dot-layer "неправилности" nepravilnosti-seq)
+           (map/tile-overlay-dot-layer "osm notes" osm-notes-seq)]))))
+    (context/trace
+     context
+     (str
+      "map created, view <a href='file://"
+      (path/path->string export-path)
+      "'>map</a>"))))
