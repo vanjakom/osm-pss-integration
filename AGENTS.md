@@ -54,16 +54,30 @@ which only ever touches this repo's own `dataset/`:
   (re)run many times over several days before anything is actually released.
   It does **not** snapshot history itself.
 - `create-trail-list-html` (job `pss-6-staze-trail-list-html`) writes
-  `~/projects/pss-map-v1/dataset/trail-list.html`, using
+  `~/projects/pss-map-v1/trail-list.html`, using
   `osm-pss-integration.job.report/id->sort-key` (public, shared with
   `job/report.clj`'s own `create-trail-list`) for sort order.
+- `create-trail-list-club-html` (job `pss-6-staze-trail-list-club-html`)
+  writes `~/projects/pss-map-v1/trail-list-club.html`, same data grouped by
+  club (`:drustvo`) instead of mapped/unmapped tiers; each club heading gets
+  an anchor (lowercase, diacritics transliterated, everything else stripped
+  — same rule `pss-map-v1/index.html`'s `simplifyClubFn` uses for its
+  `?club=` filter, see below) plus a `[share]` permalink and a `[map]` link
+  to `index.html?club=<anchor>`.
+- `prepare-nepravilnosti-geojson` (job `pss-6-staze-nepravilnosti-geojson`) —
+  see `dataset/nepravilnosti.dot` in Repo layout below.
 - `compare-trails` (job `pss-6-staze-compare-trails-geojson`) compares the
   current `pss-map-v1/dataset/trails.geojson` ("new") against the newest
   `trails.<date>.geojson` snapshot in `pss-map-v1/history/` ("production",
   picked dynamically by `trails-production-path`, not hardcoded — it used to
   point at a stale `trails.20240603.geojson` snapshot, tagged
   `;; todo temporary fix` in the code), and can render an HTML diff report
-  (`dataset/staze-pss-rs-diff/`).
+  (`dataset/staze-pss-rs-diff/`). Its rendering (div markers per changed
+  segment, orange overlay for only the actually-changed points, GPX-sourced
+  markers, multiple indices when a segment repeats in-route, combined
+  MODIFIED_GEOM+MODIFIED_PROPERTIES reporting, links to pss/osm/history/
+  level0/tmosme) was built up from a series of one-off requests — see
+  History below.
 
 Both `pss-6-staze-*` triggers are wired off state `["pss" "staze-trails-geojson"]`
 — the state-done-node set specifically by `extract-geojson-with-trails` — not
@@ -76,6 +90,36 @@ actually being (re)written.
 that's the point at which `pss-map-v1/dataset/trails.geojson`'s current
 state is actually promoted to "production" for future `compare-trails`
 diffs. (This release step isn't automated yet.)
+
+## History: compare-trails feature requests (all implemented)
+
+`compare-trails`'/`job/staze.clj`'s diff rendering was built up incrementally
+from a numbered backlog (originally kept in this repo's `CLAUDE.md`, merged
+here since all of it now reflects shipped behavior — kept as a record of why
+the function looks the way it does, not as pending work):
+
+1. Render source-geojson and new-trail using
+   `clj-geo.visualization.map/geojson-style-extended-layer` with div markers
+   showing a number, 10 per trail.
+2. Use GPX files for source geojson instead of
+   `http://localhost:7077/route/source/`.
+3. Use the middle point of each segment inside a trail (`MultiLineString`) as
+   its marker — new trail only, source unchanged.
+4. Add an overlay containing only the changed parts of the new trail vs.
+   production, drawn in orange, at point-level precision (only actually
+   different points, not whole segments).
+5. Render an HTML report (`staze-pss-rs-diff/index.html`) mirroring the
+   console output, with a link to each `<ref>.html` diff (new tab) and to
+   `http://localhost:7077/route/edit/<id>`; report ref, id, name, and what
+   changed.
+6. Add links to pss (the relation's `website` tag), osm
+   (`https://osm.org/relation/<id>`), and history
+   (`http://localhost:7077/view/osm/history/relation/<id>`), all opening in a
+   new tab.
+7. Show more than one index for a new-trail marker when a segment repeats
+   inside the route — new trail only.
+8. Report when both `MODIFIED_GEOM` and `MODIFIED_PROPERTIES` occur on the
+   same trail.
 
 ## Repo layout
 
@@ -94,6 +138,20 @@ diffs. (This release step isn't automated yet.)
   `note-map` def, see Conventions below for required sort order.
 - `dataset/wiki-status.md`, `dataset/nepravilnosti.dot`,
   `dataset/osm-notes.dot` — manually curated notes fed into map overlays.
+  `nepravilnosti.dot` ( humandot format, see `clj-geo.dot.store.humandot` ) is
+  editable via [dote](https://github.com/vanjakom/dote), a browser humandot
+  editor:
+  - locally, writable, through `uberjvm.desktop.dote`'s server (served at
+    `http://localhost:7078/dote/...`, registered in
+    `~/dataset-git/dotrepo.json` under namespace `pss` id `nepravilnosti`):
+    `http://localhost:7078/dote/editor?repository=http://localhost:7078/dote/&url=http://localhost:7078/dote/data/pss/nepravilnosti.dot&writable=true`
+  - publicly, read-only, off GitHub Pages (no write route there, so no
+    `writable=true`):
+    `https://vanjakom.github.io/dote/index.html?url=https://vanjakom.github.io/osm-pss-integration/dataset/nepravilnosti.dot`
+  `job/staze.clj`'s `prepare-nepravilnosti-geojson` (job
+  `pss-6-staze-nepravilnosti-geojson`) converts it to
+  `pss-map-v1/dataset/nepravilnosti.geojson` for the map's "Неправилности"
+  layer.
 - `src/osm_pss_integration/job/pss.clj` — main extraction/export pipeline,
   only ever touches this repo's own `dataset/` (see Data flow above).
 - `src/osm_pss_integration/job/staze.clj` — everything that reads from /
