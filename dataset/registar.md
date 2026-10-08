@@ -9,7 +9,7 @@
 
 # #2-16-5 2-16-5: Vera
 https://pss.rs/terenipp/2-16-5/
-
+https://www.openstreetmap.org/relation/21424707
 20260921 унео стазу на основу мејла, смањена верзија 2-16-1
 
 # #3-3-2 3-3-2: Tri česme - Grabovci - Kam - Crni vrh (Gučevo)

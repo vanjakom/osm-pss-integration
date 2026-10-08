@@ -161,7 +161,17 @@ the function looks the way it does, not as pending work):
 - `src/osm_pss_integration/job/report.clj` — `create-trail-list` (writes
   this repo's own `dataset/trail-lst.md`) plus the shared, public
   `id->category`/`id->numeric-key`/`id->sort-key` sort-order helpers reused
-  by `job/staze.clj`'s `create-trail-list-html`; also `create-map` (job
+  by `job/staze.clj`'s `create-trail-list-html`; also `create-trail-planine`
+  (**not** scheduler-wired, call manually), writes `dataset/trail-planine.md`
+  — groups `pss-dataset.edn` trails by the first two dash-separated segments
+  of their ref (`"5-11-4"` -> `"5-11"`, same prefix `id->numeric-key` sorts
+  by), skipping transversals/E-paths (they legitimately span multiple
+  `:planina` by nature), and writes one tsv row per prefix (`<prefix>\t
+  <planina>`, ` / `-joined when a prefix has more than one distinct
+  `:planina` value), followed by a plain text `Inconsistencies:` section
+  listing exactly those multi-value prefixes — for a normal (non-
+  transversal) prefix more than one `:planina` value is a real data
+  inconsistency, not an expected multi-mountain route; also `create-map` (job
   `pss-5-nepravilnosti-map`), misc map rendering merged in from the former
   `job/map.clj`, renders `dataset/maps/nepravilnosti.html` from
   `nepravilnosti.dot`/`osm-notes.dot`, passing `serbia-view-configuration`

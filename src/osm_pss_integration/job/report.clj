@@ -74,6 +74,52 @@
         "\n```\n")))
     (context/trace job-context (str "trail-lst.md created, " (count trail-seq) " trails"))))
 
+(defn create-trail-planine
+  "Reads pss-dataset.edn and writes dataset/trail-planine.md: a tsv body,
+  one row per distinct region-mountain prefix ( first two dash separated
+  segments of ref, e.g. \"5-11-4\" -> \"5-11\" ) mapped to its :planina
+  value(s) ( \" / \" joined when a prefix has more than one distinct value
+  ), followed by a plain text Inconsistencies section. Transversals ( T-
+  prefix ) and E-paths are skipped - they legitimately span multiple
+  planina by nature, so more than one value per prefix there isn't a data
+  problem the way it is for normal trails"
+  [job-context]
+  (let [configuration (context/configuration job-context)
+        osm-pss-integration-path (:osm-pss-integration-path configuration)
+        trail-seq (with-open [is (fs/input-stream
+                                   (path/child osm-pss-integration-path "pss-dataset.edn"))]
+                    (vals (edn/read is)))
+        transversal-or-e-path? (fn [id] (or (.startsWith id "T-") (re-matches #"E\d.*" id)))
+        prefix (fn [id] (string/join "-" (take 2 (string/split id #"-"))))
+        groups (group-by
+                (comp prefix :id)
+                (remove #(transversal-or-e-path? (:id %)) trail-seq))
+        prefix-seq (sort-by id->numeric-key (keys groups))
+        planina-seq (fn [pfx] (sort (into #{} (keep :planina (get groups pfx)))))
+        inconsistent-seq (filter #(> (count (planina-seq %)) 1) prefix-seq)]
+    (with-open [os (fs/output-stream (path/child osm-pss-integration-path "trail-planine.md"))]
+      (io/write-string
+       os
+       (str
+        (string/join
+         "\n"
+         (map
+          #(str % "\t" (string/join " / " (planina-seq %)))
+          prefix-seq))
+        "\n\n"
+        "Inconsistencies:\n"
+        (if (seq inconsistent-seq)
+          (string/join
+           "\n"
+           (map #(str % ": " (string/join " / " (planina-seq %))) inconsistent-seq))
+          "none")
+        "\n")))
+    (context/trace
+     job-context
+     (str
+      "trail-planine.md created, " (count prefix-seq) " prefixes, "
+      (count inconsistent-seq) " inconsistencies"))))
+
 (defn create-registar-html
   "Reads registar.md and writes registar.html, a single self contained page
   rendered via clj-common.notemd/notes->html, one #notemd note per entry,
