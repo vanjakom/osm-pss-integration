@@ -344,15 +344,26 @@
    "pss.rs"
    "routes"
    "7-27-1.json"],
-  :gpx-path nil,
-  :title "Promaja – Veliki Strešer (staza br. 1)",
+  :gpx-path
+  ["Users"
+   "vanja"
+   "projects"
+   "osm-pss-integration"
+   "dataset"
+   "pss.rs"
+   "routes"
+   "7-27-1.gpx"],
+  :title "Промаја – Велики Стрешер",
   :region "7 - Jugoistočna Srbija",
   :link "https://pss.rs/terenipp/7-27-1/",
   :id "7-27-1",
-  :uredjenost "delimično uređena",
+  :uredjenost "dobro uređena i markirana",
   :planina "Vardenik",
-  :location nil,
-  :drustvo nil},
+  :location
+  {:longitude 22.321403,
+   :latitude 42.669472,
+   :timestamp 1723276795000},
+  :drustvo "Svarog PSU"},
  "5-4-41"
  {:info-path
   ["Users"
@@ -2215,15 +2226,24 @@
    "pss.rs"
    "routes"
    "7-27-3.json"],
-  :gpx-path nil,
-  :title "Valjavica – Veliki Strešer (staza br. 3)",
+  :gpx-path
+  ["Users"
+   "vanja"
+   "projects"
+   "osm-pss-integration"
+   "dataset"
+   "pss.rs"
+   "routes"
+   "7-27-3.gpx"],
+  :title "Ваљавица – Велики Стрешер",
   :region "7 - Jugoistočna Srbija",
   :link "https://pss.rs/terenipp/7-27-3/",
   :id "7-27-3",
-  :uredjenost "delimično uređena",
+  :uredjenost "dobro uređena i markirana",
   :planina "Vardenik",
-  :location nil,
-  :drustvo nil},
+  :location
+  {:longitude 22.293339883, :latitude 42.665547241, :timestamp nil},
+  :drustvo "Svarog PSU"},
  "4-33-2"
  {:info-path
   ["Users"
@@ -2880,34 +2900,6 @@
   :location
   {:longitude 20.222928171, :latitude 43.918315401, :timestamp nil},
   :drustvo "Kablar PD"},
- "4-23-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-23-1.json"],
-  :gpx-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-23-1.gpx"],
-  :title "Cerovi - Golema Porica",
-  :region "4 - Istočna Srbija",
-  :link "https://pss.rs/terenipp/cerovi-golema-porica/",
-  :id "4-23-1",
-  :uredjenost "odlično uređena i markirana",
-  :planina "Baba",
-  :location
-  {:longitude 21.9397402, :latitude 43.7137977, :timestamp nil},
-  :drustvo "Oštra čuka PD"},
  "2-13-1"
  {:info-path
   ["Users"
@@ -5977,6 +5969,36 @@
   :planina "Radovanjska brda",
   :location nil,
   :drustvo "Vrbica PK"},
+ "4-23-2"
+ {:info-path
+  ["Users"
+   "vanja"
+   "projects"
+   "osm-pss-integration"
+   "dataset"
+   "pss.rs"
+   "routes"
+   "4-23-2.json"],
+  :gpx-path
+  ["Users"
+   "vanja"
+   "projects"
+   "osm-pss-integration"
+   "dataset"
+   "pss.rs"
+   "routes"
+   "4-23-2.gpx"],
+  :title "Мали ртањски врхови - Баба",
+  :region "4 - Istočna Srbija",
+  :link "https://pss.rs/terenipp/4-23-2/",
+  :id "4-23-2",
+  :uredjenost "odlično uređena i markirana",
+  :planina "Rtanj",
+  :location
+  {:longitude 21.9396208,
+   :latitude 43.7141198,
+   :timestamp 1747310348000},
+  :drustvo "Oštra čuka PD"},
  "4-4-7"
  {:info-path
   ["Users"
@@ -8188,38 +8210,6 @@
    :latitude 43.670121,
    :timestamp 1609267500000},
   :drustvo "Ozren PK"},
- "E7-10-11"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-10-11.json"],
-  :gpx-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-10-11.gpx"],
-  :title
-  "Ovčar banja -Arilje - Čajetina - Kremna - Tara - Mokra gora - Zlatibor - Murtenica (Brijač)",
-  :region nil,
-  :link
-  "https://pss.rs/terenipp/ovcar-banja-arilje-cajetina-kremna-tara-mokra-gora-zlatibor-murtenica-brijac/",
-  :id "E7-10-11",
-  :uredjenost nil,
-  :planina nil,
-  :location
-  {:longitude 20.170608927,
-   :latitude 43.741006795,
-   :timestamp 1700393263000},
-  :drustvo nil},
  "7-20-3"
  {:info-path
   ["Users"
@@ -9272,26 +9262,6 @@
    :latitude 43.7129573430866,
    :timestamp nil},
   :drustvo "Oštra čuka PD"},
- "E7-12a"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-12a.json"],
-  :gpx-path nil,
-  :title "Ojkovica - Kokin Brod -Kamena gora - Sopotnica (devijacija)",
-  :region nil,
-  :link
-  "https://pss.rs/terenipp/ojkovica-kokin-brod-kamena-gora-sopotnica-devijacija/",
-  :id "E7-12a",
-  :uredjenost nil,
-  :planina nil,
-  :location nil,
-  :drustvo nil},
  "6-3-4"
  {:info-path
   ["Users"
@@ -9655,15 +9625,24 @@
    "pss.rs"
    "routes"
    "7-27-2.json"],
-  :gpx-path nil,
-  :title "Topli do – Veliki Strešer (staza br. 2)",
+  :gpx-path
+  ["Users"
+   "vanja"
+   "projects"
+   "osm-pss-integration"
+   "dataset"
+   "pss.rs"
+   "routes"
+   "7-27-2.gpx"],
+  :title "Топли До – Велики Стрешер",
   :region "7 - Jugoistočna Srbija",
   :link "https://pss.rs/terenipp/7-27-2/",
   :id "7-27-2",
-  :uredjenost "delimično uređena",
+  :uredjenost "dobro uređena i markirana",
   :planina "Vardenik",
-  :location nil,
-  :drustvo nil},
+  :location
+  {:longitude 22.302177825, :latitude 42.635198643, :timestamp nil},
+  :drustvo "Svarog PSU"},
  "6-31-1"
  {:info-path
   ["Users"
@@ -10850,15 +10829,26 @@
    "pss.rs"
    "routes"
    "7-22-4.json"],
-  :gpx-path nil,
-  :title "Donji Del – Veliki Čemernik (staza br. 6)",
+  :gpx-path
+  ["Users"
+   "vanja"
+   "projects"
+   "osm-pss-integration"
+   "dataset"
+   "pss.rs"
+   "routes"
+   "7-22-4.gpx"],
+  :title "Доњи Дел – Велики Чемерник",
   :region "7 - Jugoistočna Srbija",
   :link "https://pss.rs/terenipp/7-22-4/",
   :id "7-22-4",
-  :uredjenost "zapuštena",
+  :uredjenost "dobro uređena i markirana",
   :planina "Čemernik",
-  :location nil,
-  :drustvo nil},
+  :location
+  {:longitude 22.268858,
+   :latitude 42.815094,
+   :timestamp 1733495137000},
+  :drustvo "Svarog PSU"},
  "E7-12"
  {:info-path
   ["Users"
