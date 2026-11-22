@@ -48,7 +48,7 @@
 (def relation-mapping-path ["Users" "vanja" "projects" "osm-pss-integration"
                             "dataset" "relation-mapping.tsv"])
 (def gpx-root-path ["Users" "vanja" "projects" "osm-pss-integration" "dataset"
-                    "pss.rs" "routes"])
+                    "pss.rs" "gpx"])
 
 ;; todo reset on each iteration, put pss ref in
 (def ignore
@@ -115,7 +115,7 @@
          (io/output-stream->writer os))))))
 
 (defn create-trail-list-html
-  "Reads pss-dataset.edn and trails.geojson and writes trail-list.html, a plain
+  "Reads pss.rs/dataset.edn and trails.geojson and writes trail-list.html, a plain
   list of trails split into three sections: mapped ( present in
   trails.geojson - id, club, name, links to the live map and to pss.rs ),
   not mapped but with a gpx file on disk ( id, club, name, link to pss.rs ),
@@ -125,7 +125,7 @@
         osm-pss-integration-path (:osm-pss-integration-path configuration)
         pss-map-v1-path (:pss-map-v1-path configuration)
         trail-seq (with-open [is (fs/input-stream
-                                   (path/child osm-pss-integration-path "pss-dataset.edn"))]
+                                   (path/child osm-pss-integration-path "pss.rs" "dataset.edn"))]
                     (vals (edn/read is)))
         mapped-refs (with-open [is (fs/input-stream
                                      (path/child pss-map-v1-path "dataset" "trails.geojson"))]
@@ -169,7 +169,7 @@
       (count without-gpx) " without gpx"))))
 
 (defn create-trail-list-club-html
-  "Reads pss-dataset.edn and trails.geojson and writes trail-list-club.html,
+  "Reads pss.rs/dataset.edn and trails.geojson and writes trail-list-club.html,
   trails grouped by club ( :drustvo ); mapped trails get [map] and [pss]
   links, unmapped trails get only a [pss] link plus a [gpx] marker if a gpx
   file exists on disk"
@@ -178,7 +178,7 @@
         osm-pss-integration-path (:osm-pss-integration-path configuration)
         pss-map-v1-path (:pss-map-v1-path configuration)
         trail-seq (with-open [is (fs/input-stream
-                                   (path/child osm-pss-integration-path "pss-dataset.edn"))]
+                                   (path/child osm-pss-integration-path "pss.rs" "dataset.edn"))]
                     (vals (edn/read is)))
         mapped-refs (with-open [is (fs/input-stream
                                      (path/child pss-map-v1-path "dataset" "trails.geojson"))]
@@ -662,6 +662,10 @@
                          [
                           (map/tile-layer-osm true)
                           (map/tile-layer-bing-satellite false)
+                          (when source-geojson
+                            (binding [geojson/*style-stroke-color* geojson/color-blue
+                                      geojson/*style-stroke-width* 4]
+                              (map/geojson-layer "source gpx" source-geojson true false)))
                           (binding [geojson/*style-stroke-color* geojson/color-green
                                     geojson/*style-stroke-width* 16]
                             (map/geojson-layer "original" production-trail true true))
@@ -677,11 +681,7 @@
                                 :properties {}
                                 :geometry {:type "MultiLineString"
                                            :coordinates (vec changed-lines)}}
-                               true true)))
-                          (when source-geojson
-                            (binding [geojson/*style-stroke-color* geojson/color-blue
-                                      geojson/*style-stroke-width* 4]
-                              (map/geojson-layer "source gpx" source-geojson false false)))]
+                               true true)))]
                          (filter
                           some?
                           [(when-let [markers (segment-midpoint-markers

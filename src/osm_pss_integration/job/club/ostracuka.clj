@@ -24,7 +24,7 @@
 (def root-path ["Users" "vanja" "projects" "osm-pss-integration"])
 
 (def trail-seq
-  (with-open [is (fs/input-stream (path/child root-path "dataset" "pss-dataset.edn"))]
+  (with-open [is (fs/input-stream (path/child root-path "dataset" "pss.rs" "dataset.edn"))]
     (filter
      #(= (:drustvo %) "Oštra čuka PD")
      (vals (edn/read is)))))

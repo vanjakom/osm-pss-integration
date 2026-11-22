@@ -28,7 +28,7 @@
 
 #_(history/debug-relation-history-repl 11098411)
 
-#_(with-open [is (fs/input-stream (path/child root-path "dataset" "pss-dataset.edn"))]
+#_(with-open [is (fs/input-stream (path/child root-path "dataset" "pss.rs" "dataset.edn"))]
     (let [dataset (edn/read is)]
       (doseq [[club trails] (sort-by first (group-by :drustvo (vals dataset)))]
         (println club)

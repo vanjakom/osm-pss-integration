@@ -26,7 +26,7 @@
   ["Users" "vanja" "dataset-local" "geofabrik-serbia-history" "serbia-internal.osh.pbf"])
 
 (def pss-gpx-root-path
-  ["Users" "vanja" "projects" "osm-pss-integration" "dataset" "pss.rs" "routes"])
+  ["Users" "vanja" "projects" "osm-pss-integration" "dataset" "pss.rs" "gpx"])
 
 (def active-pipeline nil)
 (def relation-histset nil)

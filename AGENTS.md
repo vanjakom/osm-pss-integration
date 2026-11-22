@@ -15,12 +15,26 @@ Crawled/scraped and OSM-extracted data pass through a pipeline of jobs in
 `src/osm_pss_integration/job/pss.clj`, run in this order:
 
 1. `crawl-website` — scrapes pss.rs, produces per-trail
-   `dataset/pss.rs/routes/<ref>.json` / `.html` / `.gpx`.
-2. `prepare-pss-dataset` — merges the crawl into `dataset/pss-dataset.edn`, a
+   `dataset/pss.rs/website/routes/<ref>.json` / `.html`, and
+   `dataset/pss.rs/gpx/<ref>.gpx`. (20261122 repack: gpx tracks live
+   separate from the website-scrape-specific json/html/geojson, since
+   they're reusable regardless of which source — website scrape or api —
+   supplies the metadata; see `pss-dataset-from-api` below.)
+2. `prepare-pss-dataset` — merges the crawl into `dataset/pss.rs/dataset.edn`
+   (until 20261122: `dataset/pss-dataset.edn`), a
    map keyed by PSS ref (e.g. `"4-31-4"`) with `:info-path`, `:gpx-path`,
    `:title`, `:region`, `:link`, `:id`, `:uredjenost`, `:planina`, `:location`,
    `:drustvo` (owning club). This file has no length/start/end/distance
-   fields — those must be derived from geometry if needed.
+   fields — those must be derived from geometry if needed. Only refs present
+   in the *current* website listing (`posts.json`/`posts-transversal.json`/
+   `posts-e-paths.json`, the same source `:drustvo` is looked up from) are
+   included — `crawl-website` never deletes
+   `dataset/pss.rs/website/routes/<ref>.json`/`.html` or
+   `dataset/pss.rs/gpx/<ref>.gpx` for a ref that disappears from the site
+   (goes private, removed, renamed), so those files linger on disk, but
+   `prepare-pss-dataset` filters them out rather than re-including them
+   with a stale/partial entry (e.g. `:drustvo nil`) — `dataset.edn` always
+   reflects the live site, not everything ever scraped.
 3. `extract-pss-ref-osm-relation-id-mapping` — matches PSS refs to OSM
    relations, writes `dataset/relation-mapping.tsv` (`pss ref` \t
    `osm relation id`, header row present). **Not chained automatically** —
@@ -123,8 +137,15 @@ the function looks the way it does, not as pending work):
 
 ## Repo layout
 
-- `dataset/pss-dataset.edn` — master trail metadata map, keyed by PSS ref.
-- `dataset/pss.rs/routes/` — raw per-trail scrape output (json/html/gpx).
+- `dataset/pss.rs/dataset.edn` — master trail metadata map, keyed by PSS
+  ref (named `dataset/pss-dataset.edn` before 20261122).
+- `dataset/pss.rs/website/` — raw per-trail scrape output (json/html),
+  plus the top-level scrape files (`posts*.json`, `regions.*`,
+  `types.json`, `terrains.json`, `mapa-*.jpg`) and the per-route
+  `<ref>.geojson` export written by `prepare-pss-dataset`.
+- `dataset/pss.rs/gpx/` — gpx tracks, one per ref, kept separate from the
+  website scrape output since they're reusable regardless of metadata
+  source (website scrape or api).
 - `dataset/trails/<ref>.geojson` — per-trail geometry, one file per ref.
   (Combined geometry for all trails is no longer kept in this repo — see
   `~/projects/pss-map-v1/dataset/trails.geojson` in Data flow above.)
@@ -163,7 +184,7 @@ the function looks the way it does, not as pending work):
   `id->category`/`id->numeric-key`/`id->sort-key` sort-order helpers reused
   by `job/staze.clj`'s `create-trail-list-html`; also `create-trail-planine`
   (**not** scheduler-wired, call manually), writes `dataset/trail-planine.md`
-  — groups `pss-dataset.edn` trails by the first two dash-separated segments
+  — groups `dataset.edn` trails by the first two dash-separated segments
   of their ref (`"5-11-4"` -> `"5-11"`, same prefix `id->numeric-key` sorts
   by), skipping transversals/E-paths (they legitimately span multiple
   `:planina` by nature), and writes one tsv row per prefix (`<prefix>\t
@@ -182,10 +203,10 @@ the function looks the way it does, not as pending work):
   `dataset/registar.html` from `registar.md` via
   `clj-common.notemd/notes->html` (one styled, self contained page, one
   `<div class="note">` per `#notemd` entry, in file order); each note's
-  header line doubles the ref as plain text right after the `#<ref>` tag
-  (`# #2-16-5 2-16-5: Vera`) so the rendered `<h1>` title keeps the ref
-  prefix — `notemd`'s tag-stripping only removes `#`/`@`-prefixed tokens,
-  a plain-text duplicate survives; also `create-html-from-markdown` (job
+  header line is `#<ref> <naziv>` (e.g. `# #2-16-5 Vera`) — no duplicated
+  ref before the title, so the rendered `<h1>` title shows just the name,
+  not the ref prefix (`notemd`'s tag-stripping removes the `#<ref>` tag,
+  leaving only the title text); also `create-html-from-markdown` (job
   `pss-5-index-html`, generic — `:md-path`/`:html-path` configuration),
   reuses `notemd/read-notes` + `notes->html` for any plain `# Heading` +
   paragraph file, not just actual `#notemd` docs — `read-notes` doesn't
@@ -218,7 +239,7 @@ the function looks the way it does, not as pending work):
 - `src/osm_pss_integration/job/club/*.clj` — one file per club (e.g.
   `suncevica.clj`, `vrsackakula.clj`, `ostracuka.clj`): standalone scripts
   (no `-main`, no scheduler `context`) that, on namespace load, filter
-  `pss-dataset.edn` by `:drustvo`, render a Leaflet HTML map to
+  `dataset.edn` by `:drustvo`, render a Leaflet HTML map to
   `dataset/klubovi/<name>.html`, and (for `ostracuka.clj`) also write a
   markdown report to `dataset/klubovi/<name>.md`. Copy this pattern for new
   clubs rather than inventing a new structure.
@@ -252,7 +273,7 @@ libs during development.
   `"T-1-3"` (E-roads / transversals). Use `pss/id-compare` (`job/pss.clj`,
   ~line 102) to sort by ref — plain string sort misorders numeric segments
   (e.g. `"4-4-1"` would sort after `"4-27-1"`).
-- `:drustvo` in `pss-dataset.edn` holds the owning club name, e.g.
+- `:drustvo` in `dataset.edn` holds the owning club name, e.g.
   `"Oštra čuka PD"` — used to select a club's trail subset.
 - `dataset/klubovi/*.html` naming has no strict rule yet (`psdvrsackakula.html`,
   `pskbalkan.html`, `supsdsuncevica.html`, `ostracuka.html`) — pick something
@@ -271,3 +292,114 @@ libs during development.
   `"stroke"` key into pre-built feature properties — a lazy seq built inside
   a `binding` block reverts to the default color once the binding scope
   exits before the seq is forced.
+
+## Baznikamp API (pss.rs) — exploration findings
+
+Got API access to recreate/supplement `dataset/pss.rs/dataset.edn` without
+HTML-scraping. Findings only so far — `job/pss.clj`'s `crawl-website`/
+`prepare-pss-dataset` HTML-scrape pipeline is untouched, no decision made on
+whether/how this API replaces it.
+
+- Base: `https://www.baznikamp.pss.rs/api-public/`. Auth:
+  `Authorization: <token>` header, raw token value, no `Bearer ` prefix.
+  Token lives in env var `PSS_RS_BAZNIKAMP_API`, only available in the
+  uberjvm REPL process after a JVM restart — not settable on an
+  already-running JVM on Java 17+/21 without
+  `--add-opens java.base/java.util=ALL-UNNAMED` at launch (the old
+  `clj_common.jvm/set-environment-variable` reflection trick is blocked by
+  module encapsulation).
+- `GET /api-public/` — 200, placeholder test page, no route listing.
+- `GET /api-public/sajt-pss/tereni` — 852 WP posts, `post_type` always
+  `"terenipp"`. Bare fields only: `ID`, `post_title`, `post_name` (slug),
+  `post_status`, dates, `guid` — **no `oznaka`/ref, no custom fields, no
+  region**. Mixes transversals/E-paths/private trails in together, not
+  separated by category. Query params (`?meta=1`, `?postmeta=1`,
+  `?fields=all`, `?expand=postmeta`, `?tip=...`) all ignored.
+- `GET /api-public/sajt-pss/tereni/<id>` — 404, no per-id detail route.
+- `GET /api-public/sajt-pss/tereni-pregled-sinhronizacija` — response is
+  `{:items [...]}`, **422 items**, not a bare array. An earlier pass at this
+  endpoint skipped the `:items` unwrap and iterated the response map itself
+  (so `(:body response)` was treated as the item list directly) — that
+  silently produced a garbage 357-item reading (actually `keys`/map-entries
+  of the wrong level) and hid every field nested one level down, including
+  `:region`. Corrected counts: 354 regular numbered refs, 47 E-paths
+  (`E7-*`/`E4-*`), 19 transversals (`T-*`), plus 2 blank-`oznaka` garbage
+  stubs (`post` all-nil, filter out) — **does include transversals and
+  E-paths**, contrary to the earlier note. Clean fields: `oznaka`, `gpx`,
+  `planine`, `drustvo_klub`, `uredjenost`, `duzina_km`, `vreme_obilaska`,
+  `pocetak_staze`, `kraj_staze`, `visinska`, `tezina_staze`,
+  `vrsta_markacije`, `znacajni_lokaliteti`, `smestaj_i_snadbevenost`,
+  `napomena`, `skracenice`, `mapa_link`, `karta`, nested
+  `post: {ID, post_title, post_name, post_status, post_date}`, and nested
+  `region: {id, term_id, planina_predeo, region_id, region_naziv,
+  pss_section}` — **does have the administrative region**, contrary to the
+  earlier note: `(str region_id " - " region_naziv)` matches the current
+  dataset's `:region` string exactly (all 7 values confirmed:
+  `"1 - Vojvodina"`, `"2 - Šumadija"`, `"3 - Zapadna Srbija"`,
+  `"4 - Istočna Srbija"`, `"5 - Jugozapadna Srbija"`,
+  `"6 - Kopaoničko-Toplička regija"`, `"7 - Jugoistočna Srbija"`). Transversal
+  items additionally carry `transversal_lat`/`transversal_lng`/
+  `transversal_label`. `?tip=...` ignored (irrelevant — category is just
+  implicit in which `oznaka` prefix an item has).
+  - **Duplicate `oznaka` gotcha**: when pss.rs has (or recently had) two
+    posts sharing a ref during a manual dedup, this endpoint returns both
+    rows under the same `oznaka` — one `post_status: "trash"` (old slug +
+    `__trashed` suffix) and one `post_status: "publish"` (slug renamed to
+    literally equal the ref). Confirmed live for refs `4-33-1`, `4-37-1`,
+    `4-37-2`, `4-45-1`, `5-3-23`, `5-3-25`. A naive `(into {} ...)`
+    ref→item map silently keeps whichever duplicate is last in iteration
+    order — any real ingestion must dedupe by preferring
+    `post_status: "publish"`, keeping `"private"` (e.g. `4-23-1`, a
+    legitimate single-post ref), and dropping `"trash"`.
+  - Guessed sibling endpoint names for transversals/E-paths, all 404:
+    `transverzale-pregled-sinhronizacija`,
+    `evropski-pesacki-putevi-pregled-sinhronizacija`,
+    `e-pesacki-putevi-pregled-sinhronizacija`.
+- `GET /api-public/sajt-pss/tereni-meta` — 863 items, raw WP postmeta dump
+  (every meta row per post, plus RankMath/AIOSEO SEO junk to ignore) with
+  hashed ACF-style field keys (`psst_meta_<slugified-label>_<random-suffix>`
+  — suffix stable per field per category, but opaque, needs a decode table
+  if used). **Covers all three categories in one call**, each with its own
+  `oznaka` key: `psst_meta_oznaka_q8lrf` (regular trails, 355 refs),
+  `psst_meta_oznaka_krb0h` (E-paths, 47 refs), `psst_meta_oznaka_w94vh`
+  (transversals, 18 refs) — 420 total, a superset of the current dataset's
+  413, incl. private. Each category has its own distinct field set under
+  different hashes; transversals carry extra fields regular trails don't
+  (`transversal_lat`/`transversal_lng`, `godina_otvaranja`, `kontakt`,
+  `priznanja`, `broj_kontrolnih_tacaka`, `status`, `dnevnik`). Most complete
+  single source found, messiest to parse.
+- `:region` was earlier reported absent from every endpoint tried — wrong,
+  see the `tereni-pregled-sinhronizacija` correction above; it's present
+  there via the nested `region` object and matches the current dataset's
+  `:region` string exactly once combined as `region_id + " - " +
+  region_naziv`. `tereni-meta`'s own region-adjacent key,
+  `psst_meta_mountains_regions_search_kewords` (sinhronizacija: `planine`),
+  is still just a *mountain* name (e.g. `"Baba"`), not the administrative
+  region — that finding stands.
+- Diff of `tereni-pregled-sinhronizacija` vs. current `dataset.edn` (348
+  common refs): `uredjenost` differs for 2 (looks like genuinely
+  swapped/updated values), `planina` for 8 (mostly an API-side bug —
+  multiple mountains joined with no separator, e.g.
+  `"MaglešOstrešPovlen"` — plus a couple of real improvements), `link` for 9
+  (real drift, site slugs renamed/trashed since last crawl), `title` for 14
+  (mostly punctuation or fuller API text), `drustvo` for 210 nominal but
+  only 49 real (161 are pure quoting noise — API wraps the club name in
+  `„…“`/`"…"`, current never does; the 49 real ones are club-type
+  abbreviation changes like `PSK` vs `PAK` vs `PD` vs `PK`, or nil/empty
+  mismatches). This diff predates both the `:items`-unwrap fix and
+  understanding the duplicate-`oznaka` gotcha above (so the 6
+  trash/publish-duplicate refs may be counted against the wrong duplicate)
+  — re-run against the corrected 422-item reading, with dedup applied and
+  `:region` included, before treating any of these numbers as final.
+- Separately (not this API) diagnosed why `4-23-1` showed up in
+  `dataset.edn` with `:drustvo nil` after going private — see
+  `prepare-pss-dataset` filtering fix in Data flow above. This API confirms
+  the private trail's data is still fully intact server-side
+  (`drustvo_klub: "Oštra čuka PD"`, etc.), just unreachable via the old
+  public `?tip=...` scrape target once private.
+- Open: `tereni-pregled-sinhronizacija` now looks like the strongest single
+  replacement candidate for `crawl-website`/`prepare-pss-dataset` — it has
+  `:region`, covers all three categories, and has clean (non-hashed) field
+  names, unlike `tereni-meta`. The diff above needs re-running against the
+  corrected reading before any such decision; no decision made yet on
+  whether/how this API replaces the scrape pipeline.

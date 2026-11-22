@@ -43,14 +43,14 @@
   [(id->category id) (id->numeric-key id)])
 
 (defn create-trail-list
-  "Reads pss-dataset.edn and writes trail-lst.md, a space aligned id /
+  "Reads pss.rs/dataset.edn and writes trail-lst.md, a space aligned id /
   planina / naziv listing, sorted normal trails first, then transversals,
   then E paths"
   [job-context]
   (let [configuration (context/configuration job-context)
         osm-pss-integration-path (:osm-pss-integration-path configuration)
         trail-seq (with-open [is (fs/input-stream
-                                   (path/child osm-pss-integration-path "pss-dataset.edn"))]
+                                   (path/child osm-pss-integration-path "pss.rs" "dataset.edn"))]
                     (sort-by
                      #(id->sort-key (:id %))
                      (vals (edn/read is))))
@@ -75,7 +75,7 @@
     (context/trace job-context (str "trail-lst.md created, " (count trail-seq) " trails"))))
 
 (defn create-trail-planine
-  "Reads pss-dataset.edn and writes dataset/trail-planine.md: a tsv body,
+  "Reads pss.rs/dataset.edn and writes dataset/trail-planine.md: a tsv body,
   one row per distinct region-mountain prefix ( first two dash separated
   segments of ref, e.g. \"5-11-4\" -> \"5-11\" ) mapped to its :planina
   value(s) ( \" / \" joined when a prefix has more than one distinct value
@@ -87,7 +87,7 @@
   (let [configuration (context/configuration job-context)
         osm-pss-integration-path (:osm-pss-integration-path configuration)
         trail-seq (with-open [is (fs/input-stream
-                                   (path/child osm-pss-integration-path "pss-dataset.edn"))]
+                                   (path/child osm-pss-integration-path "pss.rs" "dataset.edn"))]
                     (vals (edn/read is)))
         transversal-or-e-path? (fn [id] (or (.startsWith id "T-") (re-matches #"E\d.*" id)))
         prefix (fn [id] (string/join "-" (take 2 (string/split id #"-"))))
