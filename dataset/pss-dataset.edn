@@ -1,14 +1,5 @@
 {"E7-6"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-6.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -25,18 +16,11 @@
   :planina "Zasavica",
   :location
   {:longitude 19.603260176, :latitude 44.966581295, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E7-6-Sremska-Mitrovica-Cer.gpx"},
  "5-11-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-11-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -55,18 +39,11 @@
   {:longitude 19.62525011971593,
    :latitude 43.53252883069217,
    :timestamp 1472967254000},
-  :drustvo "Ljeskovac ŽKP"},
+  :drustvo "Ljeskovac ŽKP",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/11/5-11-2-Kanjon-Kratovske-reke.gpx"},
  "4-49-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-49-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -85,18 +62,11 @@
   {:longitude 21.54449329711497,
    :latitude 44.26607678644359,
    :timestamp 1552203923000},
-  :drustvo "Gornjak PD"},
+  :drustvo "Gornjak PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/06/4-49-4-Izvor-reke-Dubocice.gpx"},
  "E4-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E4-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -115,18 +85,11 @@
   {:longitude 20.39025996811688,
    :latitude 45.38032902404666,
    :timestamp 1000},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E4-3-Zrenjanin-Padina-1.gpx"},
  "5-12-8"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-8.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -145,18 +108,11 @@
   {:longitude 19.829258,
    :latitude 43.653654,
    :timestamp 1621638807000},
-  :drustvo "Tornik PK"},
+  :drustvo "Tornik PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/03/Staza-4-Gostilje-Cigota.gpx"},
  "7-9-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-9-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -175,18 +131,11 @@
   {:longitude 21.9605284743011,
    :latitude 42.86635184660554,
    :timestamp 1432985683000},
-  :drustvo "Kukavica PSK"},
+  :drustvo "Kukavica PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/7-9-3-Staza-br.3-Repusnica.gpx"},
  "2-14-8"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-14-8.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Staza 6 (Kamidžor-lepa staza)",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/3892/",
@@ -194,18 +143,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Gledićke planine",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "7-3-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-3-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -224,18 +165,11 @@
   {:longitude 22.290570437908173,
    :latitude 43.18564837798476,
    :timestamp nil},
-  :drustvo "Železničar PK Niš"},
+  :drustvo "Železničar PK Niš",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/7-3-4-Divljana-Pasarelo.gpx"},
  "4-31-14"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-31-14.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -254,18 +188,11 @@
   {:longitude 21.873764963820577,
    :latitude 43.64398702047765,
    :timestamp 1611737412000},
-  :drustvo "Ozren PK"},
+  :drustvo "Ozren PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/03/4-31-14-Izletista-i-vidikovci-Sokobanje.gpx"},
  "6-5-8"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-5-8.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Crni Vrh",
   :region "6 - Kopaoničko-Toplička regija",
   :link "https://pss.rs/terenipp/crni-vrh/",
@@ -273,18 +200,10 @@
   :uredjenost "odlično uređena i markirana",
   :planina "Goč",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "4-31-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-31-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -303,18 +222,11 @@
   {:longitude 21.920771598815918,
    :latitude 43.56546878814697,
    :timestamp nil},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/4-31-4-Novo-Selo-Radenkovac.gpx"},
  "7-47-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-47-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -333,18 +245,11 @@
   {:longitude 22.12434070184827,
    :latitude 43.31365470774472,
    :timestamp nil},
-  :drustvo "Mosor PAK"},
+  :drustvo "Mosor PAK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/03/7-47-1-Ostrovica-Oblik.gpx"},
  "7-27-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-27-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -363,18 +268,10 @@
   {:longitude 22.321403,
    :latitude 42.669472,
    :timestamp 1723276795000},
-  :drustvo "Svarog PSU"},
+  :drustvo "Svarog PSU",
+  :gpx-url "https://pss.rs/wp-content/uploads/2026/07/7-27-1.gpx"},
  "5-4-41"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-4-41.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Predov Krst – Vidikovac Štula",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/predov-krst-vidikovac-stula/",
@@ -382,18 +279,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Tara",
   :location nil,
-  :drustvo "Tara PK"},
+  :drustvo "Tara PK",
+  :gpx-url nil},
  "2-14-6"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-14-6.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "STAZA ZDRAVLJA 4",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/staza-zdravlja-4/",
@@ -401,18 +290,10 @@
   :uredjenost "delimično uređena",
   :planina "Gledićke planine",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "6-21-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-21-2.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Pešački maraton / Srpsko - turskom granicom iz 1834. god",
   :region "6 - Kopaoničko-Toplička regija",
   :link
@@ -421,18 +302,10 @@
   :uredjenost "delimično uređena",
   :planina "Mali Jastrebac",
   :location nil,
-  :drustvo "PSD Brđanka"},
+  :drustvo "PSD Brđanka",
+  :gpx-url nil},
  "3-32-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-32-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -451,18 +324,11 @@
   {:longitude 19.983143974095583,
    :latitude 44.01440695859492,
    :timestamp nil},
-  :drustvo "Pobeda PK"},
+  :drustvo "Pobeda PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/06/3-32-1-Subjel-Divcibare.gpx"},
  "5-12-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -481,18 +347,11 @@
   {:longitude 19.700096994638443,
    :latitude 43.72639403678477,
    :timestamp nil},
-  :drustvo "Tornik PK"},
+  :drustvo "Tornik PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/06/5-12-1-Zlatibor-Tornik-Vodice.gpx"},
  "5-12-21"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-21.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -509,18 +368,11 @@
   :planina "Zlatibor",
   :location
   {:longitude 19.621796, :latitude 43.66429, :timestamp 1601780653000},
-  :drustvo "Tornik PK"},
+  :drustvo "Tornik PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/03/Staza-19-Ribnica-Liska.gpx"},
  "5-66-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-66-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -540,18 +392,11 @@
   {:longitude 20.092071,
    :latitude 43.751558,
    :timestamp 1741280777000},
-  :drustvo "Sunčevica SUPSD"},
+  :drustvo "Sunčevica SUPSD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2025/05/Staza-M-M-Mladenovic.gpx"},
  "2-8-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-8-2.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Rudnik - Blagoveštenje",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/rudnik-blagovestenje/",
@@ -559,18 +404,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Rudnik",
   :location nil,
-  :drustvo "PTT POSK"},
+  :drustvo "PTT POSK",
+  :gpx-url nil},
  "4-47-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-47-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -589,18 +426,11 @@
   {:longitude 21.910421289503574,
    :latitude 43.42934483662248,
    :timestamp nil},
-  :drustvo "Železničar PK Niš"},
+  :drustvo "Železničar PK Niš",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/4-47-1-Cerje-Goli-vrh-Debeli-vrh.gpx"},
  "5-12-22"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-22.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -617,18 +447,11 @@
   :planina "Zlatibor",
   :location
   {:longitude 19.613861125, :latitude 43.735219091, :timestamp nil},
-  :drustvo "Tornik PK"},
+  :drustvo "Tornik PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/03/Staza-20-Semegnjevo-Lupoglav.gpx"},
  "E7-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -645,18 +468,11 @@
   :planina "Gornje Podunavlje",
   :location
   {:longitude 19.116888497, :latitude 45.770988393, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E7-3-Sombor-Bac.gpx"},
  "E7-13"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-13.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -673,18 +489,11 @@
   :planina "Golija",
   :location
   {:longitude 20.00048608, :latitude 43.273227359, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E7-13-Sjenica-Gradac.gpx"},
  "5-46-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-46-3.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Dajići - Okruglica",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/dajici-okruglica/",
@@ -692,18 +501,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Golija",
   :location nil,
-  :drustvo "Golija PD"},
+  :drustvo "Golija PD",
+  :gpx-url nil},
  "3-14-8"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-14-8.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -722,18 +523,11 @@
   {:longitude 19.760708967223763,
    :latitude 44.134455006569624,
    :timestamp 1000},
-  :drustvo "Povlen PK"},
+  :drustvo "Povlen PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2022/03/3-14-8-Bele-vode-Taorska-vrela.gpx"},
  "5-12-12"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-12.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -752,18 +546,11 @@
   {:longitude 19.805278145,
    :latitude 43.549229102,
    :timestamp 1602419678000},
-  :drustvo "Omorika PD"},
+  :drustvo "Omorika PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/03/Staza-1-Negbina-Karaula.gpx"},
  "1-4-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "1-4-5.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -780,18 +567,10 @@
   :planina "Vršačke planine",
   :location
   {:longitude 21.3600403, :latitude 45.1265209, :timestamp nil},
-  :drustvo "Vršačka kula PSD"},
+  :drustvo "Vršačka kula PSD",
+  :gpx-url "https://pss.rs/wp-content/uploads/2017/05/1-4-5.gpx"},
  "2-14-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-14-4.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Staza zdravlja 2",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/staza-zdravlja-2/",
@@ -799,18 +578,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Gledićke planine",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "4-45-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-45-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -829,18 +600,11 @@
   {:longitude 22.010776977986097,
    :latitude 43.67013797163963,
    :timestamp 1609267260000},
-  :drustvo "Ozren PK"},
+  :drustvo "Ozren PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/01/4-45-2-Milusinac-Krstatac-Bogova-vrata.gpx"},
  "2-8-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-8-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -859,18 +623,11 @@
   {:longitude 20.790627021342516,
    :latitude 44.02716304175556,
    :timestamp 1000},
-  :drustvo "Žeželj PD"},
+  :drustvo "Žeželj PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/11/2-8-3-Staza-zdravlja-manastir-Draca.gpx"},
  "4-31-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-31-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -889,18 +646,11 @@
   {:longitude 21.87352180480957,
    :latitude 43.64396095275879,
    :timestamp nil},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/4-31-2-Sokobanja-Ostra-Cuka.gpx"},
  "6-5-6"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-5-6.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "kružna \"Ljukten\"",
   :region "6 - Kopaoničko-Toplička regija",
   :link "https://pss.rs/terenipp/kruzna-ljukten/",
@@ -908,18 +658,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Goč",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "2-14-13"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-14-13.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "STAZA 11 \"Vilindar\"",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/staza-11-vilindar/",
@@ -927,18 +669,10 @@
   :uredjenost "delimično uređena",
   :planina "Gledićke planine",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "5-3-12"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-3-12.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Lađevac - Sokolina",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/ladjevac-sokolina/",
@@ -946,18 +680,10 @@
   :uredjenost "zapuštena",
   :planina "Tara",
   :location nil,
-  :drustvo "Tara PK"},
+  :drustvo "Tara PK",
+  :gpx-url nil},
  "5-12-19"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-19.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -974,18 +700,11 @@
   :planina "Zlatibor",
   :location
   {:longitude 19.64822, :latitude 43.625729, :timestamp 1590935997000},
-  :drustvo "Omorika PD"},
+  :drustvo "Omorika PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/03/Staza-13-Stublo-Omarski-potok.gpx"},
  "T-3-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "T-3-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1004,18 +723,11 @@
   {:longitude 20.24456799030304,
    :latitude 44.14106103591621,
    :timestamp 1000},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/T-3-2-Rajacka-transverzala.gpx"},
  "E7-12-6"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-12-6.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1032,18 +744,10 @@
   :planina "Jadovnik",
   :location
   {:longitude 19.681781889, :latitude 43.313385395, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url "https://pss.rs/wp-content/uploads/2024/02/E7-12-6.gpx"},
  "7-20-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-20-2.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Uspon na Besnu Kobilu",
   :region "7 - Jugoistočna Srbija",
   :link "https://pss.rs/terenipp/uspon-na-besnu-kobilu/",
@@ -1051,18 +755,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Besna Kobila",
   :location nil,
-  :drustvo "Železničar 2006 PK Vranje"},
+  :drustvo "Železničar 2006 PK Vranje",
+  :gpx-url nil},
  "1-2-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "1-2-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1081,18 +777,11 @@
   {:longitude 20.41675399057567,
    :latitude 45.28175096958876,
    :timestamp 1308382500000},
-  :drustvo "Zrenjanin KP"},
+  :drustvo "Zrenjanin KP",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/12/1-2-3-Velika-staza-30-km.gpx"},
  "5-12-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1111,18 +800,11 @@
   {:longitude 19.727534987032413,
    :latitude 43.60737604089081,
    :timestamp nil},
-  :drustvo "Tornik PK"},
+  :drustvo "Tornik PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/06/5-12-3-Tetrebovac.gpx"},
  "E7-12-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-12-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1139,18 +821,10 @@
   :planina "Zlatibor",
   :location
   {:longitude 19.782498405, :latitude 43.5990866, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url "https://pss.rs/wp-content/uploads/2024/02/E7-12-1.gpx"},
  "7-20-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-20-5.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Vlasinsko jezero - Prohor Pčinjski",
   :region "7 - Jugoistočna Srbija",
   :link
@@ -1159,18 +833,10 @@
   :uredjenost "delimično uređena",
   :planina "Besna Kobila",
   :location nil,
-  :drustvo "Železničar 2006 PK Vranje"},
+  :drustvo "Železničar 2006 PK Vranje",
+  :gpx-url nil},
  "3-22-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-22-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1189,18 +855,11 @@
   {:longitude 20.013759965077043,
    :latitude 44.12922796793282,
    :timestamp 1000},
-  :drustvo "Magleš PSD"},
+  :drustvo "Magleš PSD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2022/04/3-22-2-Pl-dom-na-Poljanama-Paljba.gpx"},
  "7-15-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-15-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1219,18 +878,11 @@
   {:longitude 22.324751000851393,
    :latitude 42.75233801454306,
    :timestamp nil},
-  :drustvo "Vlasina SPK"},
+  :drustvo "Vlasina SPK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/03/7-15-1-GRAMADA-Vlasina-vrh-Vrtop-Vlasina.gpx"},
  "4-39-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-39-2.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Ostrovica - Pleš",
   :region "4 - Istočna Srbija",
   :link "https://pss.rs/terenipp/ostrovica-ples/",
@@ -1238,18 +890,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Svrljiške planine",
   :location nil,
-  :drustvo "Suva planina PD"},
+  :drustvo "Suva planina PD",
+  :gpx-url nil},
  "4-45-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-45-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1268,18 +912,11 @@
   {:longitude 22.010765075683594,
    :latitude 43.67018222808838,
    :timestamp nil},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/02/4-45-1-Milusinac-Krstatac.gpx"},
  "3-28-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-28-5.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1298,18 +935,11 @@
   {:longitude 20.192422,
    :latitude 43.903258,
    :timestamp 1332428824000},
-  :drustvo "Kablar PD"},
+  :drustvo "Kablar PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/05/5-kota-889-kablar_staza.gpx"},
  "5-46-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-46-2.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Jankov kamen",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/jankov-kamen/",
@@ -1317,18 +947,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Golija",
   :location nil,
-  :drustvo "Golija PD"},
+  :drustvo "Golija PD",
+  :gpx-url nil},
  "7-22-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-22-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1347,18 +969,11 @@
   {:longitude 22.326008538,
    :latitude 42.72567166,
    :timestamp 1689495499000},
-  :drustvo "Svarog PSU"},
+  :drustvo "Svarog PSU",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/08/Edukat-staza-GPS.gpx"},
  "4-27-7"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-27-7.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1377,18 +992,11 @@
   {:longitude 21.883221678435802,
    :latitude 43.77553319558501,
    :timestamp nil},
-  :drustvo "Dragan Radosavljević OPSD"},
+  :drustvo "Dragan Radosavljević OPSD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2018/10/4-27-5-RTANJ.gpx"},
  "4-49-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-49-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1408,18 +1016,11 @@
   {:longitude 21.54459798708558,
    :latitude 44.26609296351671,
    :timestamp 1289736510000},
-  :drustvo "Gornjak PD"},
+  :drustvo "Gornjak PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/10/4-49-2_Jezevac-Lalin_kladenac.gpx"},
  "4-33-6"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-33-6.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1438,18 +1039,11 @@
   {:longitude 21.852072263136506,
    :latitude 43.64081019535661,
    :timestamp nil},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/02/4-33-6-Sokobanja-Ripaljka.gpx"},
  "2-14-17"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-14-17.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Županjevac",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/zupanjevac/",
@@ -1457,18 +1051,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Gledićke planine",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "5-65-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-65-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Priboj (stari deo grada) - Crni vrh",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/priboj-stari-deo-grada-crni-vrh/",
@@ -1476,18 +1062,10 @@
   :uredjenost "delimično uređena",
   :planina "Crni vrh (pribojski)",
   :location nil,
-  :drustvo "Ljeskovac ŽKP"},
+  :drustvo "Ljeskovac ŽKP",
+  :gpx-url nil},
  "3-20-8"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-20-8.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1507,18 +1085,11 @@
   {:longitude 20.239595007151365,
    :latitude 44.22549697570503,
    :timestamp nil},
-  :drustvo "Pobeda PK"},
+  :drustvo "Pobeda PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/3-20-8-Ljig-Cardak-Rajac.gpx"},
  "4-36-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-36-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1537,18 +1108,11 @@
   {:longitude 22.209823206067085,
    :latitude 43.74376251362264,
    :timestamp 1531550544000},
-  :drustvo "Dragan Radosavljević OPSD"},
+  :drustvo "Dragan Radosavljević OPSD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/01/4-36-2-Tupiznica-Glogovački-vrh.gpx"},
  "4-9-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-9-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1567,18 +1131,11 @@
   {:longitude 21.6359515954,
    :latitude 44.0911108442,
    :timestamp 1579161927000},
-  :drustvo "Resava PSK"},
+  :drustvo "Resava PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2024/01/Track_BEIJANICA-BU-2020.gpx"},
  "7-15-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-15-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1597,18 +1154,10 @@
   {:longitude 22.324681515,
    :latitude 42.752411859,
    :timestamp 1694184357000},
-  :drustvo "Čemernik PD"},
+  :drustvo "Čemernik PD",
+  :gpx-url "https://pss.rs/wp-content/uploads/2023/08/Staza-9.gpx"},
  "6-2-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-2-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Staza zdravlja Strmenice",
   :region "6 - Kopaoničko-Toplička regija",
   :link "https://pss.rs/terenipp/staza-zdravlja-strmenice/",
@@ -1616,18 +1165,10 @@
   :uredjenost "odlično uređena i markirana",
   :planina "Ozren (Kraljevo)",
   :location nil,
-  :drustvo "Kraljevo PAK"},
+  :drustvo "Kraljevo PAK",
+  :gpx-url nil},
  "2-5-6"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-5-6.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1648,18 +1189,11 @@
   {:longitude 20.550146028399467,
    :latitude 44.30772503837943,
    :timestamp 1540389060000},
-  :drustvo "Bukulja PD"},
+  :drustvo "Bukulja PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/05/2-5-6-Bukulja-Garasko-jezero.gpx"},
  "3-20-9"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-20-9.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1678,18 +1212,11 @@
   {:longitude 20.153978979215026,
    :latitude 44.22148397192359,
    :timestamp nil},
-  :drustvo "Pobeda PK"},
+  :drustvo "Pobeda PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/06/3-20-9-Banja-Vrujci-Rajac-dom.gpx"},
  "3-3-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-3-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1709,18 +1236,11 @@
   {:longitude 19.136507799848914,
    :latitude 44.49616547673941,
    :timestamp nil},
-  :drustvo "Gučevo PK"},
+  :drustvo "Gučevo PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2018/12/3-3-3-staza-3.gpx"},
  "T-7-38"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "T-7-38.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Vlasinska transverzala",
   :region "7 - Jugoistočna Srbija",
   :link "https://pss.rs/terenipp/vlasinska-transverzala/",
@@ -1728,18 +1248,10 @@
   :uredjenost nil,
   :planina "Čemernik",
   :location nil,
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url nil},
  "E7-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-5.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1756,18 +1268,11 @@
   :planina "Fruška gora",
   :location
   {:longitude 19.859403471, :latitude 45.25486657, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E7-5-Novi-Sad-Sremska-Mitrovica.gpx"},
  "4-39-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-39-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1786,18 +1291,11 @@
   {:longitude 22.223389986902475,
    :latitude 43.29524000175297,
    :timestamp nil},
-  :drustvo "Železničar PK Niš"},
+  :drustvo "Železničar PK Niš",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/4-39-3-Krupac-Zeleni-vrh.gpx"},
  "5-12-23"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-23.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1814,18 +1312,11 @@
   :planina "Zlatibor",
   :location
   {:longitude 19.90065205, :latitude 43.75873236, :timestamp nil},
-  :drustvo "Zlatibor PD"},
+  :drustvo "Zlatibor PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/11/Dreznik-Kucista.gpx"},
  "3-5-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-5-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1844,18 +1335,11 @@
   {:longitude 19.247571,
    :latitude 44.451059,
    :timestamp 1708074648000},
-  :drustvo "Gučevo PK"},
+  :drustvo "Gučevo PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2024/04/3-5-1-Zajaca-Tronosa.gpx"},
  "2-14-19"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-14-19.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1876,18 +1360,11 @@
   {:longitude 21.02093598805368,
    :latitude 43.88893799856305,
    :timestamp 1539853708000},
-  :drustvo "Žeželj PD"},
+  :drustvo "Žeželj PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/05/2-14-19-Man.RaletinacManastirakKalenic.gpx"},
  "5-12-18"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-18.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1907,18 +1384,11 @@
   {:longitude 19.704332352,
    :latitude 43.616260529,
    :timestamp 1598538279000},
-  :drustvo "Tornik PK"},
+  :drustvo "Tornik PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/03/Staza-12-Dobroselica-Marica-stena.gpx"},
  "5-6-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-6-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1937,18 +1407,11 @@
   {:longitude 19.52531771734357,
    :latitude 43.58250265941024,
    :timestamp 1606376507000},
-  :drustvo "Ljeskovac ŽKP"},
+  :drustvo "Ljeskovac ŽKP",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/08/5-6-2-Priboj-Tvrdjava-Jagat.gpx"},
  "2-16-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-16-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1968,18 +1431,11 @@
   {:longitude 21.266697412356734,
    :latitude 43.965659234672785,
    :timestamp 1592151315000},
-  :drustvo "Planinski duh PD"},
+  :drustvo "Planinski duh PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/06/2-16-1-Pesacka-staza-Jagodina.gpx"},
  "5-12-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-5.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -1998,18 +1454,11 @@
   {:longitude 19.600600954,
    :latitude 43.629179718,
    :timestamp 1618988572000},
-  :drustvo "Aleksandar Džavović PD"},
+  :drustvo "Aleksandar Džavović PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/03/Staza-15-Kolijevka-Orlic.gpx"},
  "4-47-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-47-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2028,18 +1477,11 @@
   {:longitude 21.90833754837513,
    :latitude 43.45780768431723,
    :timestamp nil},
-  :drustvo "Železničar PK Niš"},
+  :drustvo "Železničar PK Niš",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/4-47-4-Kravlje-Goli-vrh.gpx"},
  "5-4-31"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-4-31.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Sedaljka – Orlov vis – Bilješka stena",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/sedaljka-orlov-vis-biljeska-stena/",
@@ -2047,18 +1489,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Tara",
   :location nil,
-  :drustvo "Tara PK"},
+  :drustvo "Tara PK",
+  :gpx-url nil},
  "4-33-9"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-33-9.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2078,18 +1512,11 @@
   {:longitude 21.85452003031969,
    :latitude 43.62372100353241,
    :timestamp 1611735861000},
-  :drustvo "Ozren PK"},
+  :drustvo "Ozren PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/03/4-33-9-Ripaljka-Jermencic-Leskovik-Ozrenska-vrata.gpx"},
  "4-39-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-39-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2108,18 +1535,11 @@
   {:longitude 22.164996871724725,
    :latitude 43.32462837919593,
    :timestamp nil},
-  :drustvo "Železničar PK Niš"},
+  :drustvo "Železničar PK Niš",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/4-39-4-Cirin-prolaz-Gradiste-Ples.gpx"},
  "E7-12-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-12-5.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2136,18 +1556,10 @@
   :planina "Pobijenik",
   :location
   {:longitude 19.51832371, :latitude 43.342123394, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url "https://pss.rs/wp-content/uploads/2024/02/E7-12-5.gpx"},
  "6-3-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-3-3.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Severne staze Lipara",
   :region "6 - Kopaoničko-Toplička regija",
   :link "https://pss.rs/terenipp/severne-staze-lipara/",
@@ -2155,18 +1567,10 @@
   :uredjenost "odlično uređena i markirana",
   :planina "Stolovi",
   :location nil,
-  :drustvo "Kraljevo PAK"},
+  :drustvo "Kraljevo PAK",
+  :gpx-url nil},
  "4-42-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-42-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2185,18 +1589,11 @@
   {:longitude 22.338676108047366,
    :latitude 43.84343331679702,
    :timestamp 1368947963000},
-  :drustvo "Ljuba Nešić PSD"},
+  :drustvo "Ljuba Nešić PSD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/01/4-42-1-Vrska-cuka-Vlaski-do.gpx"},
  "4-27-8"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-27-8.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2215,18 +1612,11 @@
   {:longitude 21.977213993668556,
    :latitude 43.68095800280571,
    :timestamp 1616916325000},
-  :drustvo "Ozren PK"},
+  :drustvo "Ozren PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/03/Sesalac-Tumba-Sesalacka-pecina-new.gpx"},
  "7-27-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-27-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2243,18 +1633,10 @@
   :planina "Vardenik",
   :location
   {:longitude 22.293339883, :latitude 42.665547241, :timestamp nil},
-  :drustvo "Svarog PSU"},
+  :drustvo "Svarog PSU",
+  :gpx-url "https://pss.rs/wp-content/uploads/2026/07/7-27-3.gpx"},
  "4-33-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-33-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2273,18 +1655,11 @@
   {:longitude 21.83417103253305,
    :latitude 43.56084197759628,
    :timestamp 1508655853000},
-  :drustvo "PSD Brđanka"},
+  :drustvo "PSD Brđanka",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/06/4-33-2-Leskovik-kruzna-staza.gpx"},
  "5-17-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-17-3.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Ratkova staza",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/ratkova-staza/",
@@ -2292,18 +1667,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Ovčar",
   :location nil,
-  :drustvo "Kablar PD"},
+  :drustvo "Kablar PD",
+  :gpx-url nil},
  "5-24-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-24-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Čemerno",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/cemerno/",
@@ -2311,18 +1678,10 @@
   :uredjenost "odlično uređena i markirana",
   :planina "Čemerno",
   :location nil,
-  :drustvo "Železničar PSK Kraljevo"},
+  :drustvo "Železničar PSK Kraljevo",
+  :gpx-url nil},
  "7-9-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-9-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2341,18 +1700,11 @@
   {:longitude 21.960710026323795,
    :latitude 42.866575978696346,
    :timestamp 1000},
-  :drustvo "Kukavica PSK"},
+  :drustvo "Kukavica PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/Staza-br.-2-Krstovski-Rid.gpx"},
  "5-3-23"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-3-23.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Mitrovac - Predov Krst",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/5-3-23/",
@@ -2360,18 +1712,10 @@
   :uredjenost "zapuštena",
   :planina "Tara",
   :location nil,
-  :drustvo "Tara PK"},
+  :drustvo "Tara PK",
+  :gpx-url nil},
  "2-14-15"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-14-15.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "STAZA 13 Leševo-Samar",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/staza-13-lesevo-samar/",
@@ -2379,18 +1723,10 @@
   :uredjenost "odlično uređena i markirana",
   :planina "Gledićke planine",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "T-6-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "T-6-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Josif Pančić Kopaonik",
   :region "6 - Kopaoničko-Toplička regija",
   :link "https://pss.rs/terenipp/josif-pancic-kopaonik/",
@@ -2398,18 +1734,10 @@
   :uredjenost nil,
   :planina "Kopaonik",
   :location nil,
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url nil},
  "5-12-7"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-7.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2427,18 +1755,11 @@
   :planina "Zlatibor",
   :location
   {:longitude 19.7825, :latitude 43.598748, :timestamp 1606567080000},
-  :drustvo "Tornik PK"},
+  :drustvo "Tornik PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/03/Staza-2-Murtenica-Tavnicko-jezero.gpx"},
  "7-15-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-15-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2457,18 +1778,10 @@
   {:longitude 22.373345,
    :latitude 42.792896,
    :timestamp 1691836145000},
-  :drustvo "Čemernik PD"},
+  :drustvo "Čemernik PD",
+  :gpx-url "https://pss.rs/wp-content/uploads/2023/08/Staza-8.gpx"},
  "4-48-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-48-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2487,18 +1800,11 @@
   {:longitude 21.505499007180333,
    :latitude 44.29453996941447,
    :timestamp 1514803294000},
-  :drustvo "Gornjak PD"},
+  :drustvo "Gornjak PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2018/01/4-48-4-zdrelo_v-vukan.gpx"},
  "4-33-8"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-33-8.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2517,18 +1823,11 @@
   {:longitude 21.852881032973528,
    :latitude 43.64067600108683,
    :timestamp 1611740621000},
-  :drustvo "Ozren PK"},
+  :drustvo "Ozren PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/03/4-33-8-Sokobanja-Ripaljka-Jermencic.gpx"},
  "4-86-6"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-86-6.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2548,18 +1847,11 @@
   {:longitude 21.505499007180333,
    :latitude 44.29453996941447,
    :timestamp 1520149294000},
-  :drustvo "Gornjak PD"},
+  :drustvo "Gornjak PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/06/4-48-6-Veliki-Vukan_Zdrelo_Reskovica.gpx"},
  "6-12-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-12-2.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Staza 2 Nerađa-Koznik",
   :region "6 - Kopaoničko-Toplička regija",
   :link "https://pss.rs/terenipp/staza-2-neradja-koznik/",
@@ -2567,18 +1859,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Željin",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "E4-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E4-5.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2595,18 +1879,11 @@
   :planina "Avala",
   :location
   {:longitude 20.491908871, :latitude 44.83918307, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E4-5-Beograd-Osipaonica.gpx"},
  "6-3-7"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-3-7.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Oštra Glavica, plava staza",
   :region "6 - Kopaoničko-Toplička regija",
   :link "https://pss.rs/terenipp/ostra-glavica-plava-staza/",
@@ -2614,18 +1891,10 @@
   :uredjenost "odlično uređena i markirana",
   :planina "Stolovi",
   :location nil,
-  :drustvo "Kraljevo PAK"},
+  :drustvo "Kraljevo PAK",
+  :gpx-url nil},
  "2-14-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-14-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Gledićke planine (selo Ravanica-Samar-s.Ravanica)",
   :region "2 - Šumadija",
   :link
@@ -2634,18 +1903,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Gledićke planine",
   :location nil,
-  :drustvo "Železničar PSK Kraljevo"},
+  :drustvo "Železničar PSK Kraljevo",
+  :gpx-url nil},
  "7-20-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-20-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Vranjska banja - Planinarski dom Besna Kobila",
   :region "7 - Jugoistočna Srbija",
   :link
@@ -2654,18 +1915,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Besna Kobila",
   :location nil,
-  :drustvo "Železničar 2006 PK Vranje"},
+  :drustvo "Železničar 2006 PK Vranje",
+  :gpx-url nil},
  "T-3-13"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "T-3-13.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2685,18 +1938,11 @@
   {:longitude 22.007324220612645,
    :latitude 43.291984805837274,
    :timestamp 1596344533000},
-  :drustvo "Mosor PAK"},
+  :drustvo "Mosor PAK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/11/7-3-13-Niska-Banja-Devojacki-grob-Trem-Bojanine-vode.gpx"},
  "T-2-39"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "T-2-39.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Orašac - Oplenac",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/4328/",
@@ -2704,18 +1950,10 @@
   :uredjenost nil,
   :planina "BukuljaOrašacVenčac",
   :location nil,
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url nil},
  "7-3-8"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-3-8.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2734,18 +1972,11 @@
   {:longitude 22.209024829789996,
    :latitude 43.098649587482214,
    :timestamp nil},
-  :drustvo "Železničar PK Niš"},
+  :drustvo "Železničar PK Niš",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/7-3-8-Veliki-Krcimir-Litica.gpx"},
  "1-4-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "1-4-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2762,18 +1993,10 @@
   :planina "Vršačke planine",
   :location
   {:longitude 21.3982282, :latitude 45.1452504, :timestamp nil},
-  :drustvo "Vršačka kula PSD"},
+  :drustvo "Vršačka kula PSD",
+  :gpx-url "https://pss.rs/wp-content/uploads/2017/05/1-4-2.gpx"},
  "4-27-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-27-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2792,18 +2015,11 @@
   {:longitude 21.883670026436448,
    :latitude 43.75546499155462,
    :timestamp 1430064459000},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/4-27-2-Tomiceva-koliba-Siljak-Rtanj.gpx"},
  "2-14-12"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-14-12.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "STAZA 10 \"Moravska\"",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/staza-10-moravska/",
@@ -2811,18 +2027,10 @@
   :uredjenost "teško prohodna",
   :planina "Gledićke planine",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "2-3-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-3-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2841,18 +2049,11 @@
   {:longitude 20.501848831772804,
    :latitude 44.696070179343224,
    :timestamp 1602575194000},
-  :drustvo "Avala PSK"},
+  :drustvo "Avala PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/10/2-3-2-Avala-staza-1.gpx"},
  "4-31-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-31-5.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2871,18 +2072,11 @@
   {:longitude 21.87352180480957,
    :latitude 43.64396095275879,
    :timestamp nil},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/4-31-5-Sokobanja-Ostra-cuka.gpx"},
  "5-17-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-17-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2899,18 +2093,11 @@
   :planina "Ovčar",
   :location
   {:longitude 20.222928171, :latitude 43.918315401, :timestamp nil},
-  :drustvo "Kablar PD"},
+  :drustvo "Kablar PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/05/8-Dusan-Krnjajic-data.gpx"},
  "2-13-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-13-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2930,18 +2117,11 @@
   {:longitude 20.752882976084948,
    :latitude 43.846339993178844,
    :timestamp 1540278447000},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/05/2-13-1-Leskovac-Kotlenjaca-Knic.gpx"},
  "1-3-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "1-3-4.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Dositejevim stazama",
   :region "1 - Vojvodina",
   :link "https://pss.rs/terenipp/dositejevim-stazama/",
@@ -2949,18 +2129,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Fruška gora",
   :location nil,
-  :drustvo "Dr. Laza Marković PSD"},
+  :drustvo "Dr. Laza Marković PSD",
+  :gpx-url nil},
  "3-2-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-2-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Banja Badanja - Banja Crniljevo",
   :region "3 - Zapadna Srbija",
   :link "https://pss.rs/terenipp/banja-badanja-banja-crniljevo/",
@@ -2968,18 +2140,10 @@
   :uredjenost "delimično uređena",
   :planina "Vlašić",
   :location nil,
-  :drustvo "Čivija PAK"},
+  :drustvo "Čivija PAK",
+  :gpx-url nil},
  "2-14-21"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-14-21.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -2999,18 +2163,11 @@
   {:longitude 20.881753815338016,
    :latitude 43.86516918428242,
    :timestamp nil},
-  :drustvo "Žeželj PD"},
+  :drustvo "Žeželj PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/02/2-14-21-Bajcetina-Crni-vrh-Bajcetina.gpx"},
  "6-3-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-3-5.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Oštra Glavica, zelena staza",
   :region "6 - Kopaoničko-Toplička regija",
   :link "https://pss.rs/terenipp/ostra-glavica-zelena-staza/",
@@ -3018,18 +2175,10 @@
   :uredjenost "odlično uređena i markirana",
   :planina "Stolovi",
   :location nil,
-  :drustvo "Kraljevo PAK"},
+  :drustvo "Kraljevo PAK",
+  :gpx-url nil},
  "7-9-8"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-9-8.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3048,18 +2197,11 @@
   {:longitude 21.922221248969436,
    :latitude 42.82283660955727,
    :timestamp nil},
-  :drustvo "Kukavica PSK"},
+  :drustvo "Kukavica PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/7-9-8-Staza-br.8-Markovgrad.gpx"},
  "5-12-24"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-24.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Kotroman - Krsmanovića potok",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/kotroman-krsmanovica-potok/",
@@ -3067,18 +2209,10 @@
   :uredjenost "zapuštena",
   :planina "Zlatibor",
   :location nil,
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url nil},
  "4-31-12"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-31-12.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3097,18 +2231,11 @@
   {:longitude 21.87101997435093,
    :latitude 43.62454150803387,
    :timestamp nil},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/01/4-31-12-Oko-Ostre-cuke.gpx"},
  "4-37-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-37-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3127,18 +2254,11 @@
   {:longitude 22.011260027065873,
    :latitude 43.66947999224067,
    :timestamp 1394619870000},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/02/4-37-2-Milusinac-Slemen.gpx"},
  "2-8-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-8-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3157,18 +2277,11 @@
   {:longitude 20.6347875,
    :latitude 44.1258025,
    :timestamp 1480838014000},
-  :drustvo "Žeželj PD"},
+  :drustvo "Žeželj PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/Manastir-Voljavca-Ramaca_PD-Zezelj.gpx"},
  "E7-10"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-10.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3185,18 +2298,11 @@
   :planina "Tara",
   :location
   {:longitude 20.170635793, :latitude 43.741005118, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E7-10-Ovcar-Banja-Kremna.gpx"},
  "4-27-6"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-27-6.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3215,18 +2321,11 @@
   {:longitude 21.926686204969883,
    :latitude 43.76055775210261,
    :timestamp nil},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/4-27-6-Sarbanovac-Javor-Porica-Baba.gpx"},
  "4-27-9"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-27-9.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3245,18 +2344,11 @@
   {:longitude 21.88403899781406,
    :latitude 43.755413023754954,
    :timestamp 1000},
-  :drustvo "Ozren PK"},
+  :drustvo "Ozren PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/12/4-27-9-Grebenom-Rtnja.gpx"},
  "5-12-10"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-10.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3273,18 +2365,11 @@
   :planina "Zlatibor",
   :location
   {:longitude 19.702438, :latitude 43.718471, :timestamp nil},
-  :drustvo "Tornik PK"},
+  :drustvo "Tornik PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/03/Staza-6-Zlatibor-Spomenik-Cuker.gpx"},
  "2-14-11"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-14-11.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "STAZA 9 Kružna \"Zbegovište\"",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/staza-9-kruzna-zbegoviste/",
@@ -3292,18 +2377,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Gledićke planine",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "1-2-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "1-2-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3322,18 +2399,11 @@
   {:longitude 20.41675399057567,
    :latitude 45.28175096958876,
    :timestamp 1308382500000},
-  :drustvo "Zrenjanin KP"},
+  :drustvo "Zrenjanin KP",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/12/1-2-2-Srednja-staza-20-km.gpx"},
  "T-2-6"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "T-2-6.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Rudničke staze",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/rudnicke-staze/",
@@ -3341,18 +2411,10 @@
   :uredjenost nil,
   :planina "Rudnik",
   :location nil,
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url nil},
  "3-20-12"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-20-12.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3371,18 +2433,11 @@
   {:longitude 20.19027496688068,
    :latitude 44.08294603228569,
    :timestamp nil},
-  :drustvo "Pobeda PK"},
+  :drustvo "Pobeda PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/06/3-20-12-Kostunici-Danilov-vrh.gpx"},
  "E4-11"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E4-11.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3401,18 +2456,11 @@
   {:longitude 21.96794587187469,
    :latitude 44.02811103500426,
    :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E4-11-Sikole-Sokobanja.gpx"},
  "7-9-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-9-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3431,18 +2479,11 @@
   {:longitude 21.96045278571546,
    :latitude 42.866382943466306,
    :timestamp 1431153632000},
-  :drustvo "Kukavica PSK"},
+  :drustvo "Kukavica PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/7-9-1-Staza-br.1-Strugara.gpx"},
  "4-33-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-33-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3462,18 +2503,11 @@
   {:longitude 21.834460040554404,
    :latitude 43.560740975663066,
    :timestamp 1580042015000},
-  :drustvo "PSD Brđanka"},
+  :drustvo "PSD Brđanka",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/06/4-33-4-Manastir-Bovansko-jezero.gpx"},
  "5-4-33"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-4-33.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Sedaljka - Sjenič",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/sedaljka-sjenic/",
@@ -3481,18 +2515,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Tara",
   :location nil,
-  :drustvo "Tara PK"},
+  :drustvo "Tara PK",
+  :gpx-url nil},
  "2-3-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-3-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3511,18 +2537,11 @@
   {:longitude 20.65912602469325,
    :latitude 44.738323017954826,
    :timestamp 1567235450000},
-  :drustvo "Železničar PD Beograd"},
+  :drustvo "Železničar PD Beograd",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/07/2-3-1-Ritpopek-Vinca.gpx"},
  "2-3-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-3-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3541,18 +2560,11 @@
   {:longitude 20.50192929804325,
    :latitude 44.69630353152752,
    :timestamp 1602592562000},
-  :drustvo "Avala PSK"},
+  :drustvo "Avala PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/10/2-3-3-Avala-staza-2.gpx"},
  "E4-7"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E4-7.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3569,18 +2581,11 @@
   :planina "Braničevo",
   :location
   {:longitude 21.514744902, :latitude 44.761556908, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E4-7-V-Gradiste-Beljanica-vrh.gpx"},
  "7-3-12"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-3-12.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3600,18 +2605,11 @@
   {:longitude 22.00732296332717,
    :latitude 43.29197198152542,
    :timestamp 1598086639000},
-  :drustvo "Mosor PAK"},
+  :drustvo "Mosor PAK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/11/7-3-12-Niska-banja-Koritnjak-Rautovo.gpx"},
  "7-3-15"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-3-15.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3630,18 +2628,11 @@
   {:longitude 22.007337966933846,
    :latitude 43.29176897183061,
    :timestamp 1589781604000},
-  :drustvo "Mosor PAK"},
+  :drustvo "Mosor PAK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/11/7-3-15-Suva-trail-Niska-Banja-Trem.gpx"},
  "T-4-41"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "T-4-41.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3660,18 +2651,11 @@
   {:longitude 22.276938697323203,
    :latitude 43.89588098041713,
    :timestamp 1518253369000},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2018/06/T-4-41-Bastionska-transverzala.gpx"},
  "4-29-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-29-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3690,18 +2674,11 @@
   {:longitude 21.750061651691794,
    :latitude 43.683329997584224,
    :timestamp 1390036868000},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/4-29-1-Vrbovac-Djurkov-vrh.gpx"},
  "7-3-6"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-3-6.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3720,18 +2697,11 @@
   {:longitude 22.08905783481896,
    :latitude 43.26083178631961,
    :timestamp nil},
-  :drustvo "Železničar PK Niš"},
+  :drustvo "Železničar PK Niš",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/7-3-6-Donja-Studena-Trem.gpx"},
  "4-47-6"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-47-6.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3752,18 +2722,11 @@
   {:longitude 21.994720017537475,
    :latitude 43.36651258170605,
    :timestamp 1550996584000},
-  :drustvo "Preslap PD"},
+  :drustvo "Preslap PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/03/4-47-6-Knez-Selo-Kalafat-G.Matejevac.gpx"},
  "6-3-9"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-3-9.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3782,18 +2745,11 @@
   {:longitude 20.701587,
    :latitude 43.612357,
    :timestamp 1740292243000},
-  :drustvo "Gvozdac PSD"},
+  :drustvo "Gvozdac PSD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2025/06/6-3-9-narcisi.gpx"},
  "7-3-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-3-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3812,18 +2768,11 @@
   {:longitude 22.341743130236864,
    :latitude 43.12601163983345,
    :timestamp nil},
-  :drustvo "Železničar PK Niš"},
+  :drustvo "Železničar PK Niš",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/7-3-3-Beziste-Pasarelo.gpx"},
  "3-20-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-20-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3842,18 +2791,11 @@
   {:longitude 20.247137965634465,
    :latitude 44.168791975826025,
    :timestamp nil},
-  :drustvo "Pobeda PK"},
+  :drustvo "Pobeda PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/3-20-1-Slavkovica-Suvobor-vrh.gpx"},
  "E7-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3870,18 +2812,11 @@
   :planina "Palićko jezero",
   :location
   {:longitude 19.845593031, :latitude 46.14239972, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E7-1-Backi-Vinogradi-–-Stari-Zednik.gpx"},
  "5-3-21"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-3-21.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Mitrovac – Beserovačke bare - Zborište",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/mitrovac-beserovacke-bare-zboriste/",
@@ -3889,18 +2824,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Tara",
   :location nil,
-  :drustvo "Tara PK"},
+  :drustvo "Tara PK",
+  :gpx-url nil},
  "2-5-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-5-3.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Garaško jezero",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/garasko-jezero/",
@@ -3908,18 +2835,10 @@
   :uredjenost "delimično uređena",
   :planina "Bukulja",
   :location nil,
-  :drustvo "Bukulja PD"},
+  :drustvo "Bukulja PD",
+  :gpx-url nil},
  "4-27-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-27-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3938,18 +2857,11 @@
   {:longitude 21.88408501446247,
    :latitude 43.75546499155462,
    :timestamp nil},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/4-27-4-Tomiceva-koliba-jama-Ledenica.gpx"},
  "4-31-10"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-31-10.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Dikulićeva staza - Klisura Ždrelo",
   :region "4 - Istočna Srbija",
   :link "https://pss.rs/terenipp/dikuliceva-staza-klisura-zdrelo/",
@@ -3957,18 +2869,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Devica",
   :location nil,
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url nil},
  "7-3-9"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-3-9.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -3987,18 +2891,11 @@
   {:longitude 22.17075959779322,
    :latitude 43.13194661401212,
    :timestamp nil},
-  :drustvo "Železničar PK Niš"},
+  :drustvo "Železničar PK Niš",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/7-3-9-Veliki-Vrtop-Golemo-Straziste.gpx"},
  "4-47-7"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-47-7.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4017,18 +2914,11 @@
   {:longitude 21.98459878563881,
    :latitude 43.397032096982,
    :timestamp 1554273803000},
-  :drustvo "Mosor PAK"},
+  :drustvo "Mosor PAK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/04/4-47-7-Kalafat-Tvrdjava-Nis.gpx"},
  "3-14-7"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-14-7.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4048,18 +2938,11 @@
   {:longitude 19.857868887484074,
    :latitude 44.12342065013945,
    :timestamp nil},
-  :drustvo "Povlen PK"},
+  :drustvo "Povlen PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/01/3-14-7-Samari-s.Mravinjci-vrh-Maglesa.gpx"},
  "2-11-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-11-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Tri vrha Atomske banje",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/tri-vrha-atomske-banje/",
@@ -4067,18 +2950,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Bukovik (Čačak)OstricaVujan",
   :location nil,
-  :drustvo "FRA PK"},
+  :drustvo "FRA PK",
+  :gpx-url nil},
  "E7-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4095,18 +2970,11 @@
   :planina "Karađorđevo",
   :location
   {:longitude 19.23278842, :latitude 45.391529841, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E7-4-Bac-Novi-Sad.gpx"},
  "7-9-15"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-9-15.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4125,18 +2993,11 @@
   {:longitude 21.911208014935255,
    :latitude 42.86692399531603,
    :timestamp 1630138463000},
-  :drustvo "Kukavica PSK"},
+  :drustvo "Kukavica PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/05/7-9-15-Staza-br.15-Kita.gpx"},
  "4-48-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-48-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4155,18 +3016,11 @@
   {:longitude 21.503746015951037,
    :latitude 44.30601102299988,
    :timestamp 1325408588000},
-  :drustvo "Vukan PK"},
+  :drustvo "Vukan PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/12/4-48-2-Mali-i-Veliki-Vukan.gpx"},
  "3-28-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-28-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4183,18 +3037,11 @@
   :planina "Kablar",
   :location
   {:longitude 20.191385569, :latitude 43.91252744, :timestamp nil},
-  :drustvo "Kablar PD"},
+  :drustvo "Kablar PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/05/3-Kablar-data.gpx"},
  "2-14-9"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-14-9.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "STAZA 7 \"ADŽEVAC\"",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/staza-7-adzevac/",
@@ -4202,18 +3049,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Gledićke planine",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "5-12-20"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-20.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4232,18 +3071,11 @@
   {:longitude 19.687994449,
    :latitude 43.605709216,
    :timestamp 1600239728000},
-  :drustvo "Omorika PD"},
+  :drustvo "Omorika PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/03/Staza-17-Donje-Selo-Dubrava.gpx"},
  "1-4-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "1-4-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4260,18 +3092,10 @@
   :planina "Vršačke planine",
   :location
   {:longitude 21.3600403, :latitude 45.1265209, :timestamp nil},
-  :drustvo "Vršačka kula PSD"},
+  :drustvo "Vršačka kula PSD",
+  :gpx-url "https://pss.rs/wp-content/uploads/2017/05/1-4-4.gpx"},
  "E7-9"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-9.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4290,18 +3114,11 @@
   {:longitude 20.013701040297747,
    :latitude 44.12930700927973,
    :timestamp 1000},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E7-9-Divcibare-Ovcar-Banja.gpx"},
  "4-27-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-27-5.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4320,18 +3137,11 @@
   {:longitude 21.88391980715096,
    :latitude 43.70517692528665,
    :timestamp nil},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/4-27-5-Gola-planina.gpx"},
  "E4-10"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E4-10.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4348,18 +3158,11 @@
   :planina "Deli Jovan",
   :location
   {:longitude 22.523252038, :latitude 44.666630399, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E4-10-Djerdap-Sikole.gpx"},
  "4-36-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-36-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4378,18 +3181,11 @@
   {:longitude 22.19233696348965,
    :latitude 43.68692172691226,
    :timestamp 1544253757000},
-  :drustvo "Dragan Radosavljević OPSD"},
+  :drustvo "Dragan Radosavljević OPSD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/01/4-36-1Tupižnica-Koželj-Ledenički-vrh.gpx"},
  "E7-17"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-17.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4405,18 +3201,11 @@
   :uredjenost nil,
   :planina "Suva planina",
   :location {:longitude 21.82135, :latitude 43.42982, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E7-17-Gornja-Trnava-Vlasotince.gpx"},
  "4-45-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-45-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4435,18 +3224,11 @@
   {:longitude 22.01979037374258,
    :latitude 43.63169537857175,
    :timestamp nil},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/02/4-45-3-Citluk-Krstatac.gpx"},
  "4-47-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-47-5.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4465,18 +3247,11 @@
   {:longitude 21.907584769651294,
    :latitude 43.45779343508184,
    :timestamp nil},
-  :drustvo "Železničar PK Niš"},
+  :drustvo "Železničar PK Niš",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/4-47-5-Kravlje-Pecurina-Ljuti-vrh.gpx"},
  "4-31-7"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-31-7.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4495,18 +3270,11 @@
   {:longitude 22.019794983789325,
    :latitude 43.63159169442952,
    :timestamp 1498196461000},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/4-31-7-Velika-i-Mala-Propast-na-Devici.gpx"},
  "6-10-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-10-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Konaci - Kadijevac",
   :region "6 - Kopaoničko-Toplička regija",
   :link "https://pss.rs/terenipp/konaci-kadijevac/",
@@ -4514,18 +3282,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Kopaonik",
   :location nil,
-  :drustvo "Kopaonik PSK"},
+  :drustvo "Kopaonik PSK",
+  :gpx-url nil},
  "7-1-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-1-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4544,18 +3304,11 @@
   {:longitude 22.061671977862716,
    :latitude 43.12633400782943,
    :timestamp 1615120544000},
-  :drustvo "Kukavica PSK"},
+  :drustvo "Kukavica PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2022/02/7-1-2-Staza-br.17-Jarsenovo-G.Kupinovica-Kriva-Buka.gpx"},
  "4-4-6"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-4-6.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4574,18 +3327,11 @@
   {:longitude 21.519681019708514,
    :latitude 44.33001997880638,
    :timestamp 1553416067000},
-  :drustvo "Gornjak PD"},
+  :drustvo "Gornjak PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/06/4-4-6-Bistrica-Sumorovac.gpx"},
  "2-3-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-3-5.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4604,18 +3350,11 @@
   {:longitude 20.518688997253776,
    :latitude 44.70532497391105,
    :timestamp 1602678402000},
-  :drustvo "Avala PSK"},
+  :drustvo "Avala PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/10/2-3-5-Avala-staza-4.gpx"},
  "4-27-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-27-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4634,18 +3373,11 @@
   {:longitude 21.82690811343491,
    :latitude 43.70644259266555,
    :timestamp nil},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/4-27-1-Vrmdza-kruzna.gpx"},
  "6-5-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-5-4.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Stopama Miloša Obilića",
   :region "6 - Kopaoničko-Toplička regija",
   :link "https://pss.rs/terenipp/stopama-milosa-obilica/",
@@ -4653,18 +3385,10 @@
   :uredjenost "odlično uređena i markirana",
   :planina "Goč",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "3-20-7"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-20-7.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4683,18 +3407,11 @@
   {:longitude 20.181842017918825,
    :latitude 44.12104102782905,
    :timestamp 1378560965000},
-  :drustvo "Pobeda PK"},
+  :drustvo "Pobeda PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/3-20-7-Suvobor-Divcibare.gpx"},
  "4-31-16"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-31-16.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4713,18 +3430,11 @@
   {:longitude 21.887852,
    :latitude 43.590537,
    :timestamp 1657505229000},
-  :drustvo "Ozren PK"},
+  :drustvo "Ozren PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2022/07/Plato-Device-do-izvora-Moravice.gpx"},
  "6-5-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-5-2.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Vinska tura \"Sođina staza\"",
   :region "6 - Kopaoničko-Toplička regija",
   :link "https://pss.rs/terenipp/vinska-tura-sodjina-staza/",
@@ -4732,18 +3442,10 @@
   :uredjenost "delimično uređena",
   :planina "Goč",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "7-9-9"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-9-9.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4762,18 +3464,11 @@
   {:longitude 21.92243699915707,
    :latitude 42.83031301572919,
    :timestamp 1000},
-  :drustvo "Kukavica PSK"},
+  :drustvo "Kukavica PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/7-9-9-Staza-br.9-Sijanka.gpx"},
  "3-8-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-8-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4794,18 +3489,11 @@
   {:longitude 19.372618971392512,
    :latitude 44.188256012275815,
    :timestamp 1437115787000},
-  :drustvo "Avala PSK"},
+  :drustvo "Avala PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/07/3-8-2-tri-manastira-druga-etapa-ljubovija-bele-vode-bobija.gpx"},
  "2-16-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-16-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4824,18 +3512,11 @@
   {:longitude 21.1844289,
    :latitude 43.7913077,
    :timestamp 1683444139000},
-  :drustvo "Planinski duh PD"},
+  :drustvo "Planinski duh PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/06/Juhorski-izvori.gpx"},
  "5-3-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-3-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Kaluđerske Bare - Zborište",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/kaludjerske-bare-zboriste/",
@@ -4843,18 +3524,10 @@
   :uredjenost "zapuštena",
   :planina "Tara",
   :location nil,
-  :drustvo "Tara PK"},
+  :drustvo "Tara PK",
+  :gpx-url nil},
  "3-20-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-20-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4873,18 +3546,11 @@
   {:longitude 20.24714802391827,
    :latitude 44.16877697221935,
    :timestamp nil},
-  :drustvo "Pobeda PK"},
+  :drustvo "Pobeda PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/3-20-3-Slavkovica-Ikonici-Crkvine-Rajac-dom.gpx"},
  "6-9-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-9-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4900,18 +3566,11 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Žaračka planina",
   :location nil,
-  :drustvo "Radočelo PD"},
+  :drustvo "Radočelo PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2025/03/suuntoapp-Hiking-2025-02-16T08-15-53Z-route.gpx"},
  "6-5-7"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-5-7.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Grebenska \"Ljukten\"",
   :region "6 - Kopaoničko-Toplička regija",
   :link "https://pss.rs/terenipp/grebenska-ljukten/",
@@ -4919,18 +3578,10 @@
   :uredjenost "delimično uređena",
   :planina "Goč",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "T-2-36"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "T-2-36.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4949,18 +3600,11 @@
   {:longitude 21.216134000569582,
    :latitude 43.863811986520886,
    :timestamp 1591107170000},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/06/T-2-36-Juhorska-transverzala.gpx"},
  "7-9-6"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-9-6.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -4979,18 +3623,11 @@
   {:longitude 21.985676614567637,
    :latitude 42.7072801720351,
    :timestamp 1433061629000},
-  :drustvo "Kukavica PSK"},
+  :drustvo "Kukavica PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/7-9-6-Staza-br.6-Furniste.gpx"},
  "4-39-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-39-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Ostrovica - Gradac",
   :region "4 - Istočna Srbija",
   :link "https://pss.rs/terenipp/ostrovica-gradac/",
@@ -4998,18 +3635,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Svrljiške planine",
   :location nil,
-  :drustvo "Suva planina PD"},
+  :drustvo "Suva planina PD",
+  :gpx-url nil},
  "5-3-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-3-3.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Kaluđerske Bare - manastir Rača",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/kaludjerske-bare-manastir-raca/",
@@ -5017,18 +3646,10 @@
   :uredjenost "zapuštena",
   :planina "Tara",
   :location nil,
-  :drustvo "Tara PK"},
+  :drustvo "Tara PK",
+  :gpx-url nil},
  "3-1-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-1-3.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Iverak (Debeli rt)",
   :region "3 - Zapadna Srbija",
   :link "https://pss.rs/terenipp/iverak-debeli-rt/",
@@ -5036,18 +3657,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Cer",
   :location nil,
-  :drustvo "Cer PSD"},
+  :drustvo "Cer PSD",
+  :gpx-url nil},
  "1-2-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "1-2-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5066,18 +3679,11 @@
   {:longitude 20.41675399057567,
    :latitude 45.28175096958876,
    :timestamp 1308382500000},
-  :drustvo "Zrenjanin KP"},
+  :drustvo "Zrenjanin KP",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/12/1-2-1-Mala-staza-15-km.gpx"},
  "5-12-14"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-14.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5096,18 +3702,11 @@
   {:longitude 19.589792239,
    :latitude 43.758438136,
    :timestamp 1589039001000},
-  :drustvo "Omorika PD"},
+  :drustvo "Omorika PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/03/Staza-7-Semegnjevo-Savino-Brdo.gpx"},
  "7-9-12"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-9-12.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5126,18 +3725,11 @@
   {:longitude 21.911011459305882,
    :latitude 42.86494477652013,
    :timestamp 1580463065000},
-  :drustvo "Kukavica PSK"},
+  :drustvo "Kukavica PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/7-9-12-Staza-br.12-Sokolica.gpx"},
  "7-20-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-20-4.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Kukavica-Besna Kobila",
   :region "7 - Jugoistočna Srbija",
   :link "https://pss.rs/terenipp/deonica-e7-kukavica-besna-kobila/",
@@ -5145,18 +3737,10 @@
   :uredjenost "delimično uređena",
   :planina "Besna Kobila",
   :location nil,
-  :drustvo "Železničar 2006 PK Vranje"},
+  :drustvo "Železničar 2006 PK Vranje",
+  :gpx-url nil},
  "E7-11-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-11-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5173,18 +3757,10 @@
   :planina "Tara",
   :location
   {:longitude 19.431127684, :latitude 43.828341236, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url "https://pss.rs/wp-content/uploads/2024/02/E7-11-3.gpx"},
  "E7-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5201,18 +3777,11 @@
   :planina "Telečka visoravan",
   :location
   {:longitude 19.597557002, :latitude 45.953924617, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E7-2-Stari-Zednik-–-Sombor.gpx"},
  "E7-11"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-11.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5229,18 +3798,11 @@
   :planina "Jadovnik",
   :location
   {:longitude 19.582307, :latitude 43.859105, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E7-11-Kremna-Murtenica.gpx"},
  "4-39-6"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-39-6.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5259,18 +3821,11 @@
   {:longitude 22.165179094299674,
    :latitude 43.39228492230177,
    :timestamp 1541232496000},
-  :drustvo "Preslap PD"},
+  :drustvo "Preslap PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2018/11/4-39-6-Ples.gpx"},
  "4-48-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-48-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5291,18 +3846,11 @@
   {:longitude 21.544385002925992,
    :latitude 44.26513499580324,
    :timestamp 1427614597000},
-  :drustvo "Gornjak PD"},
+  :drustvo "Gornjak PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/10/4-48-1_V_Vukan_od_man_Gornjak.gpx"},
  "3-18-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-18-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5321,18 +3869,11 @@
   {:longitude 19.84034299850464,
    :latitude 44.08174297772348,
    :timestamp 1000},
-  :drustvo "Povlen PK"},
+  :drustvo "Povlen PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2022/04/3-18-1-Radanovci-Obradovic.gpx"},
  "1-3-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "1-3-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5351,18 +3892,10 @@
   {:longitude 19.894518004730344,
    :latitude 45.19148818217218,
    :timestamp 1437800491000},
-  :drustvo "Vilina vodica PD"},
+  :drustvo "Vilina vodica PD",
+  :gpx-url "https://pss.rs/wp-content/uploads/2017/07/1-3-2.gpx"},
  "2-5-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-5-4.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Staza zadovoljstva",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/staza-zadovoljstva/",
@@ -5370,18 +3903,10 @@
   :uredjenost "odlično uređena i markirana",
   :planina "Bukulja",
   :location nil,
-  :drustvo "Bukulja PD"},
+  :drustvo "Bukulja PD",
+  :gpx-url nil},
  "E7-14"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-14.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5398,18 +3923,11 @@
   :planina "Goč",
   :location
   {:longitude 20.543454776, :latitude 43.368676966, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E7-14-Gradac-Kriva-Reka.gpx"},
  "7-3-11"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-3-11.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5428,18 +3946,11 @@
   {:longitude 22.11110919713974,
    :latitude 43.32665763795376,
    :timestamp 1562850910000},
-  :drustvo "Mosor PAK"},
+  :drustvo "Mosor PAK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/07/7-3-11-Banjica-Kusaca.gpx"},
  "E4-8"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E4-8.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5456,18 +3967,11 @@
   :planina "Lepenski vir",
   :location
   {:longitude 21.700062733, :latitude 44.111323892, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E4-8-Beljanica-vrh-Lepenski-Vir.gpx"},
  "1-4-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "1-4-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5484,18 +3988,10 @@
   :planina "Vršačke planine",
   :location
   {:longitude 21.3600403, :latitude 45.1265209, :timestamp nil},
-  :drustvo "Vršačka kula PSD"},
+  :drustvo "Vršačka kula PSD",
+  :gpx-url "https://pss.rs/wp-content/uploads/2017/05/1-4-1.gpx"},
  "6-5-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-5-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Staza zdravlja \"Rogovi\"",
   :region "6 - Kopaoničko-Toplička regija",
   :link "https://pss.rs/terenipp/staza-zdravlja-rogovi/",
@@ -5503,18 +3999,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Goč",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "3-8-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-8-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5534,18 +4022,11 @@
   {:longitude 19.518077010288835,
    :latitude 44.13637203164399,
    :timestamp 1531643181000},
-  :drustvo "Avala PSK"},
+  :drustvo "Avala PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/07/3-8-3-djacka-staza-kanjon-tresnjice-gornje-koslje.gpx"},
  "T-1-9"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "T-1-9.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5564,18 +4045,11 @@
   {:longitude 19.513265127316117,
    :latitude 45.11599858291447,
    :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/12/T-1-9-FG_Transverzala.gpx"},
  "5-15-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-15-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5592,18 +4066,11 @@
   :planina "Debela gora",
   :location
   {:longitude 20.166619979, :latitude 43.887230605, :timestamp nil},
-  :drustvo "Kablar PD"},
+  :drustvo "Kablar PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/05/10-Kadjenica-sa-Branojevca-data.gpx"},
  "5-12-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5622,18 +4089,11 @@
   {:longitude 19.647013982757926,
    :latitude 43.67144403979182,
    :timestamp nil},
-  :drustvo "Tornik PK"},
+  :drustvo "Tornik PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/06/5-12-2-Ski-centar-Tornik-Vodice.gpx"},
  "2-15-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-15-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5653,18 +4113,11 @@
   {:longitude 21.0016199760139,
    :latitude 43.98998200893402,
    :timestamp 1539589646000},
-  :drustvo "Gora PEK"},
+  :drustvo "Gora PEK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/05/2-15-2-Bukorovac-kanjon-Voljevice-Besnjaja.gpx"},
  "4-4-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-4-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5684,18 +4137,11 @@
   {:longitude 21.544583989307284,
    :latitude 44.26603797823191,
    :timestamp 1515916604000},
-  :drustvo "Gornjak PD"},
+  :drustvo "Gornjak PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2018/01/4-4-3-man.gornjak_krupajsko-vrelo.gpx"},
  "7-9-11"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-9-11.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Staza br. 11 \"Rašin laz\"",
   :region "7 - Jugoistočna Srbija",
   :link "https://pss.rs/terenipp/staza-br-11-rasin-laz/",
@@ -5703,18 +4149,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Kukavica",
   :location nil,
-  :drustvo "Kukavica PSK"},
+  :drustvo "Kukavica PSK",
+  :gpx-url nil},
  "4-39-7"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-39-7.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5733,18 +4171,11 @@
   {:longitude 22.07895797677338,
    :latitude 43.33656404167414,
    :timestamp nil},
-  :drustvo "Mosor PAK"},
+  :drustvo "Mosor PAK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/11/4-39-7-Sicevo-Jecava.gpx"},
  "T-3-7"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "T-3-7.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5763,18 +4194,11 @@
   {:longitude 19.52768904156983,
    :latitude 44.55423999577761,
    :timestamp 1475422723000},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/T-3-7-Stazama-Cera.gpx"},
  "4-40-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-40-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5793,18 +4217,11 @@
   {:longitude 22.08873739466071,
    :latitude 43.474539974704385,
    :timestamp nil},
-  :drustvo "Preslap PD"},
+  :drustvo "Preslap PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2018/07/4-40-1-Nisevacka-klisura.gpx"},
  "4-7-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-7-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Lazarica - Bela staza",
   :region "4 - Istočna Srbija",
   :link "https://pss.rs/terenipp/lazarica-bela-staza/",
@@ -5812,18 +4229,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Kučaj (Resavica)",
   :location nil,
-  :drustvo "Ćuprija SUSD"},
+  :drustvo "Ćuprija SUSD",
+  :gpx-url nil},
  "E4-12"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E4-12.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5840,18 +4249,11 @@
   :planina "Devica",
   :location
   {:longitude 21.873309011, :latitude 43.6440408, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E4-12-Sokobanja-Jalovik.gpx"},
  "4-31-15"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-31-15.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5870,18 +4272,11 @@
   {:longitude 21.887837005779147,
    :latitude 43.6038660351187,
    :timestamp 1000},
-  :drustvo "Ozren PK"},
+  :drustvo "Ozren PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/12/4-31-15-4-vrha-Device.gpx"},
  "6-3-6"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-3-6.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Oštra Glavica, crvena staza",
   :region "6 - Kopaoničko-Toplička regija",
   :link "https://pss.rs/terenipp/ostra-glavica-crvena-staza/",
@@ -5889,18 +4284,10 @@
   :uredjenost "odlično uređena i markirana",
   :planina "Stolovi",
   :location nil,
-  :drustvo "Kraljevo PAK"},
+  :drustvo "Kraljevo PAK",
+  :gpx-url nil},
  "E7-10-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-10-5.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5917,18 +4304,10 @@
   :planina "Zlatibor",
   :location
   {:longitude 19.837627108, :latitude 43.778412109, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url "https://pss.rs/wp-content/uploads/2024/02/E7-10-5.gpx"},
  "4-53-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-53-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5948,18 +4327,11 @@
   {:longitude 21.495966017246246,
    :latitude 43.97343001328409,
    :timestamp 1540812843000},
-  :drustvo "Zubrova PD"},
+  :drustvo "Zubrova PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/05/4-53-1-Man.Ravanica-Bostava.gpx"},
  "2-17-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-17-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Pokajnica",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/pokajnica/",
@@ -5967,18 +4339,10 @@
   :uredjenost "odlično uređena i markirana",
   :planina "Radovanjska brda",
   :location nil,
-  :drustvo "Vrbica PK"},
+  :drustvo "Vrbica PK",
+  :gpx-url nil},
  "4-23-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-23-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -5997,18 +4361,11 @@
   {:longitude 21.9396208,
    :latitude 43.7141198,
    :timestamp 1747310348000},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2026/10/Mali-rtanjski-vrhoviBaba-2025-05-15-1359__20250515_1359.gpx"},
  "4-4-7"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-4-7.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6027,18 +4384,11 @@
   {:longitude 21.607682034373283,
    :latitude 44.29494498297572,
    :timestamp 1544964281000},
-  :drustvo "Gornjak PD"},
+  :drustvo "Gornjak PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/06/4-4-7-Krepoljin-Veliki-Vranj.gpx"},
  "3-8-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-8-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6058,18 +4408,11 @@
   {:longitude 19.540299028158188,
    :latitude 44.19458300806582,
    :timestamp 1524297121000},
-  :drustvo "Avala PSK"},
+  :drustvo "Avala PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/07/3-8-1-bobija-rudnik-vrh-dobra-voda-razbojiste.gpx"},
  "7-3-10"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-3-10.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6088,18 +4431,11 @@
   {:longitude 22.010180354118347,
    :latitude 43.28117407858372,
    :timestamp 1554036265000},
-  :drustvo "Mosor PAK"},
+  :drustvo "Mosor PAK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/04/7-3-10-Koritnjak-Devojacki-grob.gpx"},
  "5-12-17"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-17.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6116,18 +4452,11 @@
   :planina "Zlatibor",
   :location
   {:longitude 19.646213531, :latitude 43.736255646, :timestamp nil},
-  :drustvo "Tornik PK"},
+  :drustvo "Tornik PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/03/Staza-10-Semegnjevo-Lecica-vrh.gpx"},
  "E4-6"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E4-6.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6144,18 +4473,11 @@
   :planina "Stig",
   :location
   {:longitude 21.058684936, :latitude 44.549542483, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E4-6-Osipaonica-V-Gradiste.gpx"},
  "2-14-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-14-2.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Gledićke planine (s.Ravanica-G.Planine-S.Stubal)",
   :region "2 - Šumadija",
   :link
@@ -6164,18 +4486,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Gledićke planine",
   :location nil,
-  :drustvo "Železničar PSK Kraljevo"},
+  :drustvo "Železničar PSK Kraljevo",
+  :gpx-url nil},
  "E7-11-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-11-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6192,18 +4506,10 @@
   :planina "Tara",
   :location
   {:longitude 19.424697794, :latitude 43.919408435, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url "https://pss.rs/wp-content/uploads/2024/02/E7-11-2.gpx"},
  "4-49-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-49-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6222,18 +4528,11 @@
   {:longitude 21.544514000415802,
    :latitude 44.26622196100652,
    :timestamp 1321174495000},
-  :drustvo "Vukan PK"},
+  :drustvo "Vukan PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/12/4-49-3-Jezevac.gpx"},
  "E4-13"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E4-13.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6250,18 +4549,11 @@
   :planina "Stara planina",
   :location
   {:longitude 22.387668283, :latitude 43.393950631, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E4-13-Jalovik-Gradina.gpx"},
  "T-1-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "T-1-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6278,18 +4570,10 @@
   :planina "Vršačke planine",
   :location
   {:longitude 21.3099197, :latitude 45.1172717, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url "https://pss.rs/wp-content/uploads/2017/05/T-1-3.gpx"},
  "4-31-6"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-31-6.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6308,18 +4592,11 @@
   {:longitude 22.01999698765576,
    :latitude 43.631938034668565,
    :timestamp 1482822228000},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/4-31-6-Kanjon-Zdrelo-na-Devici.gpx"},
  "6-5-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-5-5.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Veluće-Lisac",
   :region "6 - Kopaoničko-Toplička regija",
   :link "https://pss.rs/terenipp/veluce-lisac/",
@@ -6327,18 +4604,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Goč",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "3-13-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-13-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6357,18 +4626,11 @@
   {:longitude 19.691718025133014,
    :latitude 44.15077289566398,
    :timestamp nil},
-  :drustvo "Magleš PSD"},
+  :drustvo "Magleš PSD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2022/04/3-13-1-Debelo-brdo-Bebica-luka.gpx"},
  "4-4-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-4-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6387,18 +4649,11 @@
   {:longitude 21.541464999318123,
    :latitude 44.37739600427449,
    :timestamp 1333173583000},
-  :drustvo "Vukan PK"},
+  :drustvo "Vukan PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/12/4-4-1-Homoljski-maraton.gpx"},
  "3-22-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-22-5.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6418,18 +4673,11 @@
   {:longitude 19.99166803434491,
    :latitude 44.10475197248161,
    :timestamp 1000},
-  :drustvo "Magleš PSD"},
+  :drustvo "Magleš PSD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2022/04/3-22-5-Centar-Pl.dom-na-Poljanama.gpx"},
  "4-33-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-33-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6449,18 +4697,11 @@
   {:longitude 21.709394920617342,
    :latitude 43.5405174549669,
    :timestamp 1489904935000},
-  :drustvo "PSD Brđanka"},
+  :drustvo "PSD Brđanka",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/06/4-33-3-Aleksinac-Sokobanja.gpx"},
  "4-4-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-4-5.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6479,18 +4720,11 @@
   {:longitude 21.637900974601507,
    :latitude 44.3833289667964,
    :timestamp 1578830969000},
-  :drustvo "Gornjak PD"},
+  :drustvo "Gornjak PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/06/4-4-5-Ceremosnja-Stubej.gpx"},
  "4-33-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-33-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6509,18 +4743,11 @@
   {:longitude 21.887915544211864,
    :latitude 43.59051123261452,
    :timestamp nil},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/01/4-33-1-Vlasina-Leskovik.gpx"},
  "4-4-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-4-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6539,18 +4766,11 @@
   {:longitude 21.553759993985295,
    :latitude 44.37478504143655,
    :timestamp 1581861538000},
-  :drustvo "Gornjak PD"},
+  :drustvo "Gornjak PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/06/4-4-4-Strnjak-Trest.gpx"},
  "2-16-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-16-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6570,18 +4790,11 @@
   {:longitude 21.295840367674828,
    :latitude 44.007768323644996,
    :timestamp 1627555345000},
-  :drustvo "Planinski duh PD"},
+  :drustvo "Planinski duh PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/08/2-16-2-Rekreativna-staza-Ribare-Kocin-hrast.gpx"},
  "3-1-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-1-4.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Miloševac",
   :region "3 - Zapadna Srbija",
   :link "https://pss.rs/terenipp/milosevac/",
@@ -6589,18 +4802,10 @@
   :uredjenost "delimično uređena",
   :planina "Cer",
   :location nil,
-  :drustvo "Cer PSD"},
+  :drustvo "Cer PSD",
+  :gpx-url nil},
  "T-3-29"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "T-3-29.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6619,18 +4824,11 @@
   {:longitude 19.22238316386938,
    :latitude 44.53296320512891,
    :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/07/T-3-29-Vukove-bogaze.gpx"},
  "T-2-31"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "T-2-31.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Gledićka transverzala",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/gledicka-transverzala/",
@@ -6638,18 +4836,10 @@
   :uredjenost nil,
   :planina "Gledićke planine",
   :location nil,
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url nil},
  "E4-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E4-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6668,18 +4858,11 @@
   {:longitude 20.72160799987614,
    :latitude 45.119101982563734,
    :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E4-4-Padina-Beograd.gpx"},
  "4-31-11"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-31-11.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6698,18 +4881,11 @@
   {:longitude 21.92162672057748,
    :latitude 43.56572770513594,
    :timestamp nil},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/01/4-31-11-Maljica.gpx"},
  "E7-8"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-8.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6729,18 +4905,11 @@
   {:longitude 19.36298497952521,
    :latitude 44.365552961826324,
    :timestamp 1000},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E7-8-Krupanj-Divcibare.gpx"},
  "3-1-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-1-2.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Manastir Petkovica",
   :region "3 - Zapadna Srbija",
   :link "https://pss.rs/terenipp/manastir-petkovica/",
@@ -6748,18 +4917,10 @@
   :uredjenost "delimično uređena",
   :planina "Cer",
   :location nil,
-  :drustvo "Cer PSD"},
+  :drustvo "Cer PSD",
+  :gpx-url nil},
  "4-31-13"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-31-13.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6778,18 +4939,11 @@
   {:longitude 21.887786965817213,
    :latitude 43.636816972866654,
    :timestamp 1611742403000},
-  :drustvo "Ozren PK"},
+  :drustvo "Ozren PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/03/4-31-13-Lepterija-Sokograd-Golemi-kamen.gpx"},
  "2-5-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-5-5.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Dr. Dušan Mitrović - Spirta",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/dr-dusan-mitrovic-spirta/",
@@ -6797,18 +4951,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Bukulja",
   :location nil,
-  :drustvo "Bukulja PD"},
+  :drustvo "Bukulja PD",
+  :gpx-url nil},
  "2-14-16"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-14-16.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Selo Ravanica-manastir Kalenić. Samar. Stubal",
   :region "2 - Šumadija",
   :link
@@ -6817,18 +4963,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Gledićke planine",
   :location nil,
-  :drustvo "Železničar PSK Kraljevo"},
+  :drustvo "Železničar PSK Kraljevo",
+  :gpx-url nil},
  "7-15-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-15-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6847,18 +4985,10 @@
   {:longitude 22.327192398,
    :latitude 42.798273359,
    :timestamp 1694932598000},
-  :drustvo "Čemernik PD"},
+  :drustvo "Čemernik PD",
+  :gpx-url "https://pss.rs/wp-content/uploads/2023/08/Staza-7.gpx"},
  "1-14-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "1-14-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6877,18 +5007,11 @@
   {:longitude 19.808639036491513,
    :latitude 45.456356992945075,
    :timestamp 1000},
-  :drustvo "Sirig PSK"},
+  :drustvo "Sirig PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/1-14-1-Obalom-Jegicke.gpx"},
  "3-14-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-14-5.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6908,18 +5031,11 @@
   {:longitude 19.836356984451413,
    :latitude 44.08227497711778,
    :timestamp nil},
-  :drustvo "Povlen PK"},
+  :drustvo "Povlen PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/01/3-14-5-Taorska-vrela-s.Radanovci.gpx"},
  "7-1-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-1-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6938,18 +5054,11 @@
   {:longitude 22.084117038175464,
    :latitude 43.08373901993036,
    :timestamp 1641633222000},
-  :drustvo "Kukavica PSK"},
+  :drustvo "Kukavica PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2022/02/7-1-1-Staza-br.16-Crni-Kamen.gpx"},
  "7-9-13"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-9-13.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6968,18 +5077,11 @@
   {:longitude 21.93747203797102,
    :latitude 42.993096029385924,
    :timestamp nil},
-  :drustvo "Kukavica PSK"},
+  :drustvo "Kukavica PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/7-9-13-Staza-br.13-Staza-zdravlja.gpx"},
  "E7-10-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-10-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -6996,18 +5098,10 @@
   :planina "Zlatibor",
   :location
   {:longitude 19.948446274, :latitude 43.780330658, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url "https://pss.rs/wp-content/uploads/2024/02/E7-10-4.gpx"},
  "2-5-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-5-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Staza Vedrog duha",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/staza-vedrog-duha/",
@@ -7015,18 +5109,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Bukulja",
   :location nil,
-  :drustvo "Bukulja PD"},
+  :drustvo "Bukulja PD",
+  :gpx-url nil},
  "2-18-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-18-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Stazama Kolubarske bitke",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/stazama-kolubarske-bitke/",
@@ -7034,18 +5120,10 @@
   :uredjenost "odlično uređena i markirana",
   :planina "Lajkovac",
   :location nil,
-  :drustvo "Ćira PSD"},
+  :drustvo "Ćira PSD",
+  :gpx-url nil},
  "3-20-11"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-20-11.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -7064,18 +5142,11 @@
   {:longitude 20.374280037358403,
    :latitude 44.04782300814986,
    :timestamp nil},
-  :drustvo "Pobeda PK"},
+  :drustvo "Pobeda PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/06/3-20-11-Takovo-Rajac-dom.gpx"},
  "2-3-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-3-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -7094,18 +5165,11 @@
   {:longitude 20.533167980611324,
    :latitude 44.680759040638804,
    :timestamp 1602834388000},
-  :drustvo "Avala PSK"},
+  :drustvo "Avala PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/10/2-3-4-Avala-staza-3.gpx"},
  "E4-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E4-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -7124,18 +5188,11 @@
   {:longitude 20.157374991104007,
    :latitude 45.78586000017822,
    :timestamp 1000},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E4-2-Ada-Zrenjanin.gpx"},
  "T-6-37"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "T-6-37.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Mala Toplička transverzala",
   :region "6 - Kopaoničko-Toplička regija",
   :link "https://pss.rs/terenipp/mala-toplicka-transverzala/",
@@ -7143,18 +5200,10 @@
   :uredjenost nil,
   :planina "Radan",
   :location nil,
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url nil},
  "5-12-13"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-13.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -7173,18 +5222,11 @@
   {:longitude 19.776608264,
    :latitude 43.629881451,
    :timestamp 1604765578000},
-  :drustvo "Tornik PK"},
+  :drustvo "Tornik PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/03/Staza-3-Ljubis-Murtenica.gpx"},
  "4-7-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-7-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -7204,18 +5246,11 @@
   {:longitude 21.6357589,
    :latitude 44.0911357,
    :timestamp 1618731689000},
-  :drustvo "Beljanica PD"},
+  :drustvo "Beljanica PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2024/12/Resavska_pecina_2021-04-18.gpx"},
  "6-3-8"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-3-8.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Crna reka",
   :region "6 - Kopaoničko-Toplička regija",
   :link "https://pss.rs/terenipp/crna-reka/",
@@ -7223,18 +5258,10 @@
   :uredjenost "odlično uređena i markirana",
   :planina "Stolovi",
   :location nil,
-  :drustvo "Kraljevo PAK"},
+  :drustvo "Kraljevo PAK",
+  :gpx-url nil},
  "2-3-8"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-3-8.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -7253,18 +5280,11 @@
   {:longitude 20.543433967977762,
    :latitude 44.66269796714187,
    :timestamp 1603454863000},
-  :drustvo "Avala PSK"},
+  :drustvo "Avala PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/10/2-3-8-Avala-staza-7.gpx"},
  "3-20-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-20-5.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -7283,18 +5303,11 @@
   {:longitude 20.286345994099975,
    :latitude 44.19709003530443,
    :timestamp nil},
-  :drustvo "Pobeda PK"},
+  :drustvo "Pobeda PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/3-20-5-Dici-Rajac-dom.gpx"},
  "E7-11-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-11-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -7310,18 +5323,10 @@
   :uredjenost nil,
   :planina "Zlatibor",
   :location {:longitude 19.54455, :latitude 43.759652, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url "https://pss.rs/wp-content/uploads/2024/02/E7-11-4.gpx"},
  "2-14-14"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-14-14.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "STAZA 12 \"Sv. Petka\"",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/staza-12-sv-petka/",
@@ -7329,18 +5334,10 @@
   :uredjenost "odlično uređena i markirana",
   :planina "Gledićke planine",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "5-12-9"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-9.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -7358,18 +5355,11 @@
   :planina "Zlatibor",
   :location
   {:longitude 19.708579, :latitude 43.663592, :timestamp nil},
-  :drustvo "Tornik PK"},
+  :drustvo "Tornik PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/03/Staza-5-Jokina-cuprija-Jelje-Konjoder.gpx"},
  "7-3-14"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-3-14.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -7389,18 +5379,11 @@
   {:longitude 22.11219348013401,
    :latitude 43.22146919555962,
    :timestamp 1605612626000},
-  :drustvo "Mosor PAK"},
+  :drustvo "Mosor PAK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/11/7-3-14-Bojanine-vode-Sokolov-kamen.gpx"},
  "3-22-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-22-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -7419,18 +5402,11 @@
   {:longitude 19.935922594740987,
    :latitude 44.12612431682646,
    :timestamp 1567924726000},
-  :drustvo "Magleš PSD"},
+  :drustvo "Magleš PSD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/11/3-22-1-Podbukovi-Golubac.gpx"},
  "6-21-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-21-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -7450,18 +5426,11 @@
   {:longitude 21.70450600795448,
    :latitude 43.421343974769115,
    :timestamp 1618488640000},
-  :drustvo "PSD Brđanka"},
+  :drustvo "PSD Brđanka",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/06/6-21-1-Koprivnica-Veliki-Drenovac.gpx"},
  "4-31-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-31-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -7480,18 +5449,11 @@
   {:longitude 21.897269329056144,
    :latitude 43.596013030037284,
    :timestamp nil},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/4-31-1-Ostra-cuka-Jezero.gpx"},
  "5-47-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-47-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Košaninova jezera",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/kosaninova-jezera/",
@@ -7499,18 +5461,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Radočelo",
   :location nil,
-  :drustvo "Golija PD"},
+  :drustvo "Golija PD",
+  :gpx-url nil},
  "5-12-11"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-11.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -7530,18 +5484,11 @@
   {:longitude 19.6469458,
    :latitude 43.6714394,
    :timestamp 1573636177000},
-  :drustvo "Tornik PK"},
+  :drustvo "Tornik PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/03/Staza-18-Jecmiste-vrh-Bandera.gpx"},
  "2-17-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-17-2.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Karađorđevim stopama",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/karadjordjevim-stopama/",
@@ -7549,18 +5496,10 @@
   :uredjenost "odlično uređena i markirana",
   :planina "Radovanjska brda",
   :location nil,
-  :drustvo "Vrbica PK"},
+  :drustvo "Vrbica PK",
+  :gpx-url nil},
  "6-3-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-3-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Žiča-Stolovi-Mataruška banja",
   :region "6 - Kopaoničko-Toplička regija",
   :link "https://pss.rs/terenipp/zica-stolovi-mataruska-banja/",
@@ -7568,18 +5507,10 @@
   :uredjenost "odlično uređena i markirana",
   :planina "Stolovi",
   :location nil,
-  :drustvo "Železničar PSK Kraljevo"},
+  :drustvo "Železničar PSK Kraljevo",
+  :gpx-url nil},
  "7-9-16"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-9-16.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -7598,18 +5529,11 @@
   {:longitude 21.9140781,
    :latitude 42.8557321,
    :timestamp 1658038879000},
-  :drustvo "Kukavica PSK"},
+  :drustvo "Kukavica PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2022/08/7-9-16-Staza-br.16-Biser_Kukavice.gpx"},
  "1-3-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "1-3-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -7628,18 +5552,10 @@
   {:longitude 19.894518004730344,
    :latitude 45.19148818217218,
    :timestamp 1437800491000},
-  :drustvo "Vilina vodica PD"},
+  :drustvo "Vilina vodica PD",
+  :gpx-url "https://pss.rs/wp-content/uploads/2017/07/1-3-1.gpx"},
  "E7-16"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-16.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -7658,18 +5574,11 @@
   {:longitude 21.580382008105516,
    :latitude 43.357680989429355,
    :timestamp 1598595000000},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E7-16-Zuc-Gornja-Trnava.gpx"},
  "1-1-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "1-1-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Pešačka staza kroz Subotičku peščaru",
   :region "1 - Vojvodina",
   :link
@@ -7678,18 +5587,10 @@
   :uredjenost "delimično uređena",
   :planina "Palićko jezero",
   :location nil,
-  :drustvo "Spartak ŽPK"},
+  :drustvo "Spartak ŽPK",
+  :gpx-url nil},
  "5-66-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-66-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -7708,18 +5609,11 @@
   {:longitude 20.096618652,
    :latitude 43.752986908,
    :timestamp 1736086963000},
-  :drustvo "Sunčevica SUPSD"},
+  :drustvo "Sunčevica SUPSD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2025/03/ARILJE-Dobrilova-staza-.gpx"},
  "3-14-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-14-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -7738,18 +5632,11 @@
   {:longitude 19.712689211592078,
    :latitude 44.14155908860266,
    :timestamp nil},
-  :drustvo "Povlen PK"},
+  :drustvo "Povlen PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/01/3-14-1-3-vrha-Povlena.gpx"},
  "5-12-6"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-6.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -7768,18 +5655,11 @@
   {:longitude 19.5740242,
    :latitude 43.664245605,
    :timestamp 1607153010000},
-  :drustvo "Aleksandar Džavović PD"},
+  :drustvo "Aleksandar Džavović PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/03/Staza-16-Jablanica-Ljuljas.gpx"},
  "4-30-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-30-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -7798,18 +5678,11 @@
   {:longitude 21.759606041014194,
    :latitude 43.667518040165305,
    :timestamp 1609271700000},
-  :drustvo "Ozren PK"},
+  :drustvo "Ozren PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/01/4-30-1-Trubarevac-Bovansko-jezero.gpx"},
  "3-1-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-1-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Manastir Radovašnica",
   :region "3 - Zapadna Srbija",
   :link "https://pss.rs/terenipp/manastir-radovasnica/",
@@ -7817,18 +5690,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Cer",
   :location nil,
-  :drustvo "Cer PSD"},
+  :drustvo "Cer PSD",
+  :gpx-url nil},
  "7-9-7"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-9-7.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Staza br. 7 \"Dren\"",
   :region "7 - Jugoistočna Srbija",
   :link "https://pss.rs/terenipp/staza-br-7-dren/",
@@ -7836,18 +5701,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Kukavica",
   :location nil,
-  :drustvo "Kukavica PSK"},
+  :drustvo "Kukavica PSK",
+  :gpx-url nil},
  "5-3-25"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-3-25.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Mitrovac - Gorušica - Banjska stena",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/5-3-25/",
@@ -7855,18 +5712,10 @@
   :uredjenost "zapuštena",
   :planina "Tara",
   :location nil,
-  :drustvo "Tara PK"},
+  :drustvo "Tara PK",
+  :gpx-url nil},
  "7-3-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-3-2.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Bojanine vode – Mosor - Rajac",
   :region "7 - Jugoistočna Srbija",
   :link "https://pss.rs/terenipp/bojanine-vode-mosor-rajac/",
@@ -7874,18 +5723,10 @@
   :uredjenost "odlično uređena i markirana",
   :planina "Suva planina",
   :location nil,
-  :drustvo "Suva planina PD"},
+  :drustvo "Suva planina PD",
+  :gpx-url nil},
  "3-22-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-22-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -7904,18 +5745,11 @@
   {:longitude 19.99170701019466,
    :latitude 44.10478902049363,
    :timestamp 1000},
-  :drustvo "Magleš PSD"},
+  :drustvo "Magleš PSD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2022/04/3-22-4-Centar-Golubac.gpx"},
  "5-4-46"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-4-46.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Predov Krst – Bilješka stena",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/predov-krst-biljeska-stena/",
@@ -7923,18 +5757,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Tara",
   :location nil,
-  :drustvo "Tara PK"},
+  :drustvo "Tara PK",
+  :gpx-url nil},
  "1-13-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "1-13-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Čortanovačka šuma",
   :region "1 - Vojvodina",
   :link "https://pss.rs/terenipp/cortanovacka-suma/",
@@ -7942,18 +5768,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Čortanovačka šuma",
   :location nil,
-  :drustvo "Železničar Indjija PK"},
+  :drustvo "Železničar Indjija PK",
+  :gpx-url nil},
  "5-46-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-46-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Bojevo brdo",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/bojevo-brdo/",
@@ -7961,18 +5779,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Golija",
   :location nil,
-  :drustvo "Golija PD"},
+  :drustvo "Golija PD",
+  :gpx-url nil},
  "5-23-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-23-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Katići - Mučanj",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/katici-mucanj/",
@@ -7980,18 +5790,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Mučanj",
   :location nil,
-  :drustvo "Golija PD"},
+  :drustvo "Golija PD",
+  :gpx-url nil},
  "4-47-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-47-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8010,18 +5812,11 @@
   {:longitude 21.911575561389327,
    :latitude 43.428581077605486,
    :timestamp nil},
-  :drustvo "Železničar PK Niš"},
+  :drustvo "Železničar PK Niš",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/4-47-2-Cerje-Ljuti-vrh-Provalija.gpx"},
  "5-15-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-15-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8038,18 +5833,11 @@
   :planina "Debela gora",
   :location
   {:longitude 20.186208822, :latitude 43.896167474, :timestamp nil},
-  :drustvo "Kablar PD"},
+  :drustvo "Kablar PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/05/Debela-gora.gpx"},
  "4-7-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-7-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8068,18 +5856,11 @@
   {:longitude 21.635560077,
    :latitude 44.090409363,
    :timestamp 1656143602000},
-  :drustvo "Resava PSK"},
+  :drustvo "Resava PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2024/01/Track_LISINE-R.PECINA-SUVAJA.gpx"},
  "5-4-44"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-4-44.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Mrka Kosa – Kozji Rid",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/mrka-kosa-kozji-rid/",
@@ -8087,18 +5868,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Tara",
   :location nil,
-  :drustvo "Tara PK"},
+  :drustvo "Tara PK",
+  :gpx-url nil},
  "5-11-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-11-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8117,18 +5890,11 @@
   {:longitude 19.559779660776258,
    :latitude 43.54963134974241,
    :timestamp 1493529832000},
-  :drustvo "Ljeskovac ŽKP"},
+  :drustvo "Ljeskovac ŽKP",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/11/5-11-1-Banjsko-brdo.gpx"},
  "E4-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E4-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8147,18 +5913,11 @@
   {:longitude 19.984174026176333,
    :latitude 46.17572997696698,
    :timestamp 1000},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E4-1-Horgos-Ada.gpx"},
  "4-37-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-37-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8177,18 +5936,11 @@
   {:longitude 21.977996109053493,
    :latitude 43.67992208339274,
    :timestamp nil},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/02/4-37-1-Sesalac-Sesalacka-pecina.gpx"},
  "4-45-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-45-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8207,18 +5959,11 @@
   {:longitude 22.010672,
    :latitude 43.670121,
    :timestamp 1609267500000},
-  :drustvo "Ozren PK"},
+  :drustvo "Ozren PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/03/4-45-4-Milusinac-Bogova-vrata.gpx"},
  "7-20-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-20-3.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Vodopad Damjanik",
   :region "7 - Jugoistočna Srbija",
   :link "https://pss.rs/terenipp/vodopad-damjanik/",
@@ -8226,18 +5971,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Besna Kobila",
   :location nil,
-  :drustvo "Železničar 2006 PK Vranje"},
+  :drustvo "Železničar 2006 PK Vranje",
+  :gpx-url nil},
  "3-14-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-14-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8257,18 +5994,11 @@
   {:longitude 19.712502462789416,
    :latitude 44.141515251249075,
    :timestamp nil},
-  :drustvo "Povlen PK"},
+  :drustvo "Povlen PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/01/3-14-4-Debelo-brdo-pl.dom-Jablanik.gpx"},
  "6-12-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-12-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Staza 1 Željin iz Polja",
   :region "6 - Kopaoničko-Toplička regija",
   :link "https://pss.rs/terenipp/staza-1-zeljin-iz-polja/",
@@ -8276,18 +6006,10 @@
   :uredjenost "delimično uređena",
   :planina "Željin",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "4-49-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-49-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8306,18 +6028,11 @@
   {:longitude 21.50843895971775,
    :latitude 44.281695038080215,
    :timestamp 1508050981000},
-  :drustvo "Gornjak PD"},
+  :drustvo "Gornjak PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/10/4-49-1_Jezevac-Kozji_grb.gpx"},
  "4-33-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-33-5.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8336,18 +6051,11 @@
   {:longitude 21.80231099948287,
    :latitude 43.53318496607244,
    :timestamp 1578057125000},
-  :drustvo "PSD Brđanka"},
+  :drustvo "PSD Brđanka",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/06/4-33-5-Stanci-Koviljaca-Manastir-Lipovac.gpx"},
  "E7-15"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-15.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8364,18 +6072,11 @@
   :planina "Kopaonik",
   :location
   {:longitude 20.88672211, :latitude 43.388592977, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E7-15-Kriva-Reka-Zuc.gpx"},
  "3-28-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-28-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8392,18 +6093,11 @@
   :planina "Kablar",
   :location
   {:longitude 20.191383222, :latitude 43.912534649, :timestamp nil},
-  :drustvo "Kablar PD"},
+  :drustvo "Kablar PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/05/1-Devojacka-stena-.gpx"},
  "4-31-8"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-31-8.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8422,18 +6116,11 @@
   {:longitude 22.01976832933724,
    :latitude 43.6318567302078,
    :timestamp 1483348141000},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/4-31-8-Tri-bunara-na-Devici-Izvor-Moravice.gpx"},
  "4-33-7"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-33-7.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8452,18 +6139,11 @@
   {:longitude 21.887861816212535,
    :latitude 43.59068490564823,
    :timestamp nil},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/02/4-33-7-Vlasina-Ostra-cuka.gpx"},
  "5-4-42"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-4-42.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Predov Krst – Veliki Stolac",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/predov-krst-veliki-stolac/",
@@ -8471,18 +6151,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Tara",
   :location nil,
-  :drustvo "Tara PK"},
+  :drustvo "Tara PK",
+  :gpx-url nil},
  "5-17-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-17-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8499,18 +6171,11 @@
   :planina "Ovčar",
   :location
   {:longitude 20.186113436, :latitude 43.896169066, :timestamp nil},
-  :drustvo "Kablar PD"},
+  :drustvo "Kablar PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/05/7-Ovcar-data.gpx"},
  "3-14-6"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-14-6.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8530,18 +6195,11 @@
   {:longitude 19.857902331277728,
    :latitude 44.12337220273912,
    :timestamp nil},
-  :drustvo "Povlen PK"},
+  :drustvo "Povlen PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/01/3-14-6-Samari-Povlen-pl.kuca.gpx"},
  "2-14-18"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-14-18.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Veliki Blagotin",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/veliki-blagotin/",
@@ -8549,18 +6207,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Gledićke planine",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "T-5-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "T-5-4.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Golijska transverzala",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/golijska-transverzala/",
@@ -8568,18 +6218,10 @@
   :uredjenost nil,
   :planina "Golija",
   :location nil,
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url nil},
  "1-3-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "1-3-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8598,18 +6240,11 @@
   {:longitude 19.894518004730344,
    :latitude 45.19148818217218,
    :timestamp 1437800491000},
-  :drustvo "Vilina vodica PD"},
+  :drustvo "Vilina vodica PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/07/Bukovacki-maraton-Veliki.gpx"},
  "T-4-12"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "T-4-12.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8628,18 +6263,11 @@
   {:longitude 21.666822982952,
    :latitude 44.479141999036074,
    :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2018/10/T-4-12-Homoljska-transferzala.gpx"},
  "5-26-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-26-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Maglič-Troglav-Stanča",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/maglic-troglav-stanca/",
@@ -8647,18 +6275,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Troglav",
   :location nil,
-  :drustvo "Železničar PSK Kraljevo"},
+  :drustvo "Železničar PSK Kraljevo",
+  :gpx-url nil},
  "T-6-34"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "T-6-34.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Žaračka transverzala",
   :region "6 - Kopaoničko-Toplička regija",
   :link "https://pss.rs/terenipp/zaracka-transverzala/",
@@ -8666,18 +6286,10 @@
   :uredjenost nil,
   :planina "GočStudena planinaŽaračka planina",
   :location nil,
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url nil},
  "4-47-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-47-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8697,18 +6309,11 @@
   {:longitude 21.94102881476283,
    :latitude 43.37598807178438,
    :timestamp nil},
-  :drustvo "Železničar PK Niš"},
+  :drustvo "Železničar PK Niš",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/4-47-3-Kamenica-Sreckovo-vrelo-Kamenicka-karaula.gpx"},
  "3-22-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-22-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8727,18 +6332,11 @@
   {:longitude 19.99149100854993,
    :latitude 44.10462498664856,
    :timestamp 1000},
-  :drustvo "Magleš PSD"},
+  :drustvo "Magleš PSD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2022/04/3-22-3-Centar-Velika-Pleca.gpx"},
  "4-26-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-26-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8759,18 +6357,11 @@
   {:longitude 21.64626603014767,
    :latitude 43.896549018099904,
    :timestamp 1539414604000},
-  :drustvo "Javorak  PK"},
+  :drustvo "Javorak  PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/05/4-26-1-Dom-Vis-Javoracki-vrh.gpx"},
  "E7-11-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-11-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8787,18 +6378,10 @@
   :planina "Tara",
   :location
   {:longitude 19.582307, :latitude 43.859105, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url "https://pss.rs/wp-content/uploads/2024/02/E7-11-1.gpx"},
  "5-19-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-19-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8816,18 +6399,11 @@
   :planina "Budeč",
   :location
   {:longitude 20.095802448, :latitude 43.663250343, :timestamp nil},
-  :drustvo "Sunčevica SUPSD"},
+  :drustvo "Sunčevica SUPSD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2024/03/Vodena-pecina-konacno.gpx"},
  "E7-10-6"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-10-6.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8844,18 +6420,10 @@
   :planina "Zlatibor",
   :location
   {:longitude 19.646462202, :latitude 43.820691411, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url "https://pss.rs/wp-content/uploads/2024/02/E7-10-6.gpx"},
  "3-7-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-7-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8875,18 +6443,11 @@
   {:longitude 19.371361015364528,
    :latitude 44.187228977680206,
    :timestamp 1460036346000},
-  :drustvo "Avala PSK"},
+  :drustvo "Avala PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/07/3-7-1-tri-manastira-prva-etapa-ljubovija-soko-grad.gpx"},
  "3-34-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-34-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8905,18 +6466,11 @@
   {:longitude 19.893183019012213,
    :latitude 44.26090800203383,
    :timestamp 1000},
-  :drustvo "Povlen PK"},
+  :drustvo "Povlen PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2022/03/3-34-1-Klisura-reke-Gradac.gpx"},
  "5-4-34"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-4-34.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Sedaljka - Mramorje",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/sedaljka-mramorje/",
@@ -8924,18 +6478,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Tara",
   :location nil,
-  :drustvo "Tara PK"},
+  :drustvo "Tara PK",
+  :gpx-url nil},
  "E7-12-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-12-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8952,18 +6498,10 @@
   :planina "Pobijenik",
   :location
   {:longitude 19.549683005, :latitude 43.478544497, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url "https://pss.rs/wp-content/uploads/2024/02/E7-12-4.gpx"},
  "3-28-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-28-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -8980,18 +6518,11 @@
   :planina "Kablar",
   :location
   {:longitude 20.187231246, :latitude 43.899707152, :timestamp nil},
-  :drustvo "Kablar PD"},
+  :drustvo "Kablar PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/05/Grabova-kosa.gpx"},
  "6-5-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-5-3.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Vinska tura \"Prokupac\"",
   :region "6 - Kopaoničko-Toplička regija",
   :link "https://pss.rs/terenipp/vinska-tura-prokupac/",
@@ -8999,18 +6530,10 @@
   :uredjenost "delimično uređena",
   :planina "Goč",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "E7-18"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-18.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9027,18 +6550,11 @@
   :planina "Čemernik",
   :location
   {:longitude 22.135329, :latitude 42.963638, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E7-18-Vlasotince-Prohor-Pcinjski.gpx"},
  "3-13-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-13-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9057,18 +6573,11 @@
   {:longitude 19.686560053378344,
    :latitude 44.157104417681694,
    :timestamp nil},
-  :drustvo "Magleš PSD"},
+  :drustvo "Magleš PSD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2022/04/3-13-2-Pl-dom-Debelo-brdo-Pocuta-1.gpx"},
  "7-3-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-3-5.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9087,18 +6596,11 @@
   {:longitude 22.316530030220747,
    :latitude 43.157156025990844,
    :timestamp nil},
-  :drustvo "Železničar PK Niš"},
+  :drustvo "Železničar PK Niš",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/7-3-5-Donja-Koritnica-Pasarelo.gpx"},
  "2-14-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-14-3.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Staza zdravlja 1",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/staza-zdravlja-1/",
@@ -9106,18 +6608,10 @@
   :uredjenost "delimično uređena",
   :planina "Gledićke planine",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "4-48-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-48-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9137,18 +6631,11 @@
   {:longitude 21.532489992678165,
    :latitude 44.27405904047191,
    :timestamp 1512290814000},
-  :drustvo "Gornjak PD"},
+  :drustvo "Gornjak PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/12/4-48-3-Mali-Vukan-od-Cetiri-lule-do-manastira-Zdrelo.gpx"},
  "5-40-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-40-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9168,18 +6655,11 @@
   {:longitude 19.539484810084105,
    :latitude 43.56066059321165,
    :timestamp 1475381366000},
-  :drustvo "Ljeskovac ŽKP"},
+  :drustvo "Ljeskovac ŽKP",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/08/5-40-1-Lisa-Stena.gpx"},
  "4-4-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-4-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9198,18 +6678,11 @@
   {:longitude 21.537393992766738,
    :latitude 44.37641800381243,
    :timestamp 1428130158000},
-  :drustvo "Vukan PK"},
+  :drustvo "Vukan PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/12/4-4-2-Homoljski-polumaraton.gpx"},
  "7-9-10"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-9-10.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9228,18 +6701,11 @@
   {:longitude 21.95149328559637,
    :latitude 42.7849649079144,
    :timestamp 1442063602000},
-  :drustvo "Kukavica PSK"},
+  :drustvo "Kukavica PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/7-9-10-Staza-br.10-Vlajna.gpx"},
  "4-27-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-27-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9259,18 +6725,11 @@
   {:longitude 21.851647216826677,
    :latitude 43.7129573430866,
    :timestamp nil},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/4-27-3-Muzinac-Tomiceva-koliba.gpx"},
  "6-3-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-3-4.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Oštra Glavica, narandžasta staza",
   :region "6 - Kopaoničko-Toplička regija",
   :link "https://pss.rs/terenipp/ostra-glavica-narandzasta-staza/",
@@ -9278,18 +6737,10 @@
   :uredjenost "odlično uređena i markirana",
   :planina "Stolovi",
   :location nil,
-  :drustvo "Kraljevo PAK"},
+  :drustvo "Kraljevo PAK",
+  :gpx-url nil},
  "4-9-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-9-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9309,18 +6760,11 @@
   {:longitude 21.6365848,
    :latitude 44.0913068,
    :timestamp 1622877663000},
-  :drustvo "Beljanica PD"},
+  :drustvo "Beljanica PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2024/12/Beljanica_trek_2021-06-05.gpx"},
  "1-15-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "1-15-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9339,18 +6783,11 @@
   {:longitude 20.16419199295342,
    :latitude 44.72691424190998,
    :timestamp nil},
-  :drustvo "Železničar PD Beograd"},
+  :drustvo "Železničar PD Beograd",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/07/1-15-1-Bojcinska-suma.gpx"},
  "5-46-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-46-4.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Jezero Okruglica",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/jezero-okruglica/",
@@ -9358,18 +6795,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Golija",
   :location nil,
-  :drustvo "Golija PD"},
+  :drustvo "Golija PD",
+  :gpx-url nil},
  "6-3-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-3-2.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Stolovi (manastir Žiča-Lipar-Mataruška banja)",
   :region "6 - Kopaoničko-Toplička regija",
   :link
@@ -9378,18 +6807,10 @@
   :uredjenost "odlično uređena i markirana",
   :planina "Stolovi",
   :location nil,
-  :drustvo "Železničar PSK Kraljevo"},
+  :drustvo "Železničar PSK Kraljevo",
+  :gpx-url nil},
  "2-14-10"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-14-10.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "STAZA 8 \"LOBODERSKA\"",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/staza-8-loboderska/",
@@ -9397,18 +6818,10 @@
   :uredjenost "odlično uređena i markirana",
   :planina "Gledićke planine",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "E7-12-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-12-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9425,18 +6838,10 @@
   :planina "Pobijenik",
   :location
   {:longitude 19.550959517, :latitude 43.544035333, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url "https://pss.rs/wp-content/uploads/2024/02/E7-12-3.gpx"},
  "7-22-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-22-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9453,18 +6858,10 @@
   :planina "Čemernik",
   :location
   {:longitude 22.315535, :latitude 42.686696, :timestamp nil},
-  :drustvo "Svarog PSU"},
+  :drustvo "Svarog PSU",
+  :gpx-url "https://pss.rs/wp-content/uploads/2023/08/Staza-4.gpx"},
  "3-14-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-14-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9483,18 +6880,11 @@
   {:longitude 19.712566835805774,
    :latitude 44.14159026928246,
    :timestamp nil},
-  :drustvo "Povlen PK"},
+  :drustvo "Povlen PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/01/3-14-3-Mrka-stena-Beden.gpx"},
  "3-5-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-5-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9514,18 +6904,11 @@
   {:longitude 19.239149317,
    :latitude 44.395338558,
    :timestamp 1584784000000},
-  :drustvo "Gučevo PK"},
+  :drustvo "Gučevo PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2024/04/5-3-2-Sarena-bukva-Radaljsko-jezero.gpx"},
  "4-42-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-42-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9544,18 +6927,11 @@
   {:longitude 22.3526930809021,
    :latitude 43.69979381561279,
    :timestamp 1300004531000},
-  :drustvo "Ljuba Nešić PSD"},
+  :drustvo "Ljuba Nešić PSD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/01/4-42-2-Vetren.gpx"},
  "2-5-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-5-2.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Bela stena",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/bela-stena/",
@@ -9563,18 +6939,10 @@
   :uredjenost "zapuštena",
   :planina "Bukulja",
   :location nil,
-  :drustvo "Bukulja PD"},
+  :drustvo "Bukulja PD",
+  :gpx-url nil},
  "5-3-6"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-3-6.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Đurino brdo - Jarevac - Borovo brdo",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/djurino-brdo-jarevac-borovo-brdo/",
@@ -9582,18 +6950,10 @@
   :uredjenost "zapuštena",
   :planina "Tara",
   :location nil,
-  :drustvo "Tara PK"},
+  :drustvo "Tara PK",
+  :gpx-url nil},
  "2-16-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-16-5.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9612,18 +6972,10 @@
   {:longitude 21.2666550837,
    :latitude 43.9653967135,
    :timestamp 1787670653000},
-  :drustvo "Planinski duh PD"},
+  :drustvo "Planinski duh PD",
+  :gpx-url "https://pss.rs/wp-content/uploads/2026/09/Vera.gpx"},
  "7-27-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-27-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9640,18 +6992,10 @@
   :planina "Vardenik",
   :location
   {:longitude 22.302177825, :latitude 42.635198643, :timestamp nil},
-  :drustvo "Svarog PSU"},
+  :drustvo "Svarog PSU",
+  :gpx-url "https://pss.rs/wp-content/uploads/2026/07/7-27-2.gpx"},
  "6-31-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-31-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9670,18 +7014,11 @@
   {:longitude 21.570397,
    :latitude 42.978747,
    :timestamp 1659172504000},
-  :drustvo "Zmaj sa Radana  PBK"},
+  :drustvo "Zmaj sa Radana  PBK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2024/07/Borince-Petrov-vrh.gpx"},
  "2-14-7"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-14-7.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "STAZA ZDRAVLJA 5 \"ĐUROVAČA\"",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/staza-zdravlja-5-djurovaca/",
@@ -9689,18 +7026,10 @@
   :uredjenost "delimično uređena",
   :planina "Gledićke planine",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "4-31-9"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-31-9.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9720,18 +7049,11 @@
   {:longitude 22.01910230331123,
    :latitude 43.631928814575076,
    :timestamp 1472277909000},
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/4-31-9-Klisura-Izgarske-reke.gpx"},
  "1-4-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "1-4-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9748,18 +7070,10 @@
   :planina "Vršačke planine",
   :location
   {:longitude 21.3600403, :latitude 45.1265209, :timestamp nil},
-  :drustvo "Vršačka kula PSD"},
+  :drustvo "Vršačka kula PSD",
+  :gpx-url "https://pss.rs/wp-content/uploads/2017/05/1-4-3.gpx"},
  "2-3-6"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-3-6.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9778,18 +7092,11 @@
   {:longitude 20.518723027780652,
    :latitude 44.705427987501025,
    :timestamp 1602663120000},
-  :drustvo "Avala PSK"},
+  :drustvo "Avala PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/10/2-3-6-Avala-staza-5.gpx"},
  "7-9-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-9-4.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Staza br. 4 \"Čukare\"",
   :region "7 - Jugoistočna Srbija",
   :link "https://pss.rs/terenipp/staza-br-4-cukare/",
@@ -9797,18 +7104,10 @@
   :uredjenost "odlično uređena i markirana",
   :planina "Kukavica",
   :location nil,
-  :drustvo "Kukavica PSK"},
+  :drustvo "Kukavica PSK",
+  :gpx-url nil},
  "E7-11-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-11-5.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9825,18 +7124,10 @@
   :planina "Zlatibor",
   :location
   {:longitude 19.80111974, :latitude 43.702068009, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url "https://pss.rs/wp-content/uploads/2024/02/E7-11-5.gpx"},
  "E7-7"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-7.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9853,18 +7144,11 @@
   :planina "Cer",
   :location
   {:longitude 19.494027009, :latitude 44.602818375, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E7-7-Cer-Krupanj.gpx"},
  "2-16-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-16-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9883,18 +7167,11 @@
   {:longitude 21.1854451,
    :latitude 43.7918674,
    :timestamp 1712746282000},
-  :drustvo "Planinski duh PD"},
+  :drustvo "Planinski duh PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2024/05/Junior-eko-trail.gpx"},
  "E7-19"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-19.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9911,18 +7188,11 @@
   :planina "Radan",
   :location
   {:longitude 21.158049172, :latitude 43.194057344, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E7-19-Devijacija-Zuc-Lebane.gpx"},
  "4-9-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-9-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9942,18 +7212,11 @@
   {:longitude 21.6364307,
    :latitude 44.091264,
    :timestamp 1635062367597},
-  :drustvo "Beljanica PD"},
+  :drustvo "Beljanica PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2024/12/Golovrsac_trek_2021-06-05.gpx"},
  "7-22-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-22-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -9972,18 +7235,11 @@
   {:longitude 22.329218,
    :latitude 42.742201,
    :timestamp 1636874146000},
-  :drustvo "Svarog PSU"},
+  :drustvo "Svarog PSU",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/08/Staza-5-GPS.gpx"},
  "7-9-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-9-5.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Staza br. 5 \"Žutajka\"",
   :region "7 - Jugoistočna Srbija",
   :link "https://pss.rs/terenipp/staza-br-5-zutajka/",
@@ -9991,18 +7247,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Kukavica",
   :location nil,
-  :drustvo "Kukavica PSK"},
+  :drustvo "Kukavica PSK",
+  :gpx-url nil},
  "2-14-20"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-14-20.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10022,18 +7270,11 @@
   {:longitude 20.865364260971546,
    :latitude 43.89915386214852,
    :timestamp 1560090566000},
-  :drustvo "Žeželj PD"},
+  :drustvo "Žeželj PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/01/2-14-20-Dom-Kamenac.gpx"},
  "5-12-15"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-15.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10052,18 +7293,11 @@
   {:longitude 19.583398188,
    :latitude 43.750916971,
    :timestamp 1568531801000},
-  :drustvo "Omorika PD"},
+  :drustvo "Omorika PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/03/Staza-8-Semegnjevo-Viogor.gpx"},
  "7-10-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-10-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Staza vranjskog planinarskog maratona",
   :region "7 - Jugoistočna Srbija",
   :link
@@ -10072,18 +7306,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Grot",
   :location nil,
-  :drustvo "Železničar 2006 PK"},
+  :drustvo "Železničar 2006 PK",
+  :gpx-url nil},
  "7-3-7"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-3-7.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10102,18 +7328,11 @@
   {:longitude 22.01555239968002,
    :latitude 43.23996956460178,
    :timestamp nil},
-  :drustvo "Železničar PK Niš"},
+  :drustvo "Železničar PK Niš",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/08/7-3-7-Taskovici-Crni-kamen.gpx"},
  "4-54-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-54-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Meandri Timoka",
   :region "4 - Istočna Srbija",
   :link "https://pss.rs/terenipp/meandri-timoka/",
@@ -10121,18 +7340,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Dolina Timoka",
   :location nil,
-  :drustvo "Ljuba Nešić PSD"},
+  :drustvo "Ljuba Nešić PSD",
+  :gpx-url nil},
  "5-9-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-9-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10151,18 +7362,10 @@
   {:longitude 19.7623951,
    :latitude 43.84564282,
    :timestamp 1708067477000},
-  :drustvo "Zlatibor PD"},
+  :drustvo "Zlatibor PD",
+  :gpx-url "https://pss.rs/wp-content/uploads/2024/06/Megara.gpx"},
  "3-28-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-28-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10179,18 +7382,11 @@
   :planina "Kablar",
   :location
   {:longitude 20.194290821, :latitude 43.904988756, :timestamp nil},
-  :drustvo "Kablar PD"},
+  :drustvo "Kablar PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/05/2-Sveti-Sava-data.gpx"},
  "3-3-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-3-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10210,18 +7406,11 @@
   {:longitude 19.156389590352774,
    :latitude 44.51111854054034,
    :timestamp nil},
-  :drustvo "Gučevo PK"},
+  :drustvo "Gučevo PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2018/12/3-3-2-Staza-2.gpx"},
  "4-37-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-37-3.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10240,18 +7429,11 @@
   {:longitude 21.97786401025951,
    :latitude 43.68062197230756,
    :timestamp 1609252379000},
-  :drustvo "Ozren PK"},
+  :drustvo "Ozren PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/03/4-37-3-Sesalac-Slemen-Sesalacka-pecina.gpx"},
  "4-31-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-31-3.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Čapljinac-Ravnište",
   :region "4 - Istočna Srbija",
   :link "https://pss.rs/terenipp/capljinac-ravniste/",
@@ -10259,18 +7441,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Devica",
   :location nil,
-  :drustvo "Oštra čuka PD"},
+  :drustvo "Oštra čuka PD",
+  :gpx-url nil},
  "5-12-16"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-16.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10287,18 +7461,11 @@
   :planina "Zlatibor",
   :location
   {:longitude 19.667720795, :latitude 43.696422577, :timestamp nil},
-  :drustvo "Tornik PK"},
+  :drustvo "Tornik PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/03/Staza-9-Cavlovac-Kobilja-glava.gpx"},
  "5-12-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10317,18 +7484,11 @@
   {:longitude 19.600614548,
    :latitude 43.629077911,
    :timestamp 1548497538000},
-  :drustvo "Aleksandar Džavović PD"},
+  :drustvo "Aleksandar Džavović PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2023/03/Staza-14-Man-Uvac-Krvavac-1.gpx"},
  "5-6-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-6-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10347,18 +7507,10 @@
   {:longitude 19.538334058597684,
    :latitude 43.56188300997019,
    :timestamp 1472632884000},
-  :drustvo "Ljeskovac ŽKP"},
+  :drustvo "Ljeskovac ŽKP",
+  :gpx-url "https://pss.rs/wp-content/uploads/2020/08/Veliki-Bic.gpx"},
  "4-39-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-39-5.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10377,18 +7529,11 @@
   {:longitude 22.104494282975793,
    :latitude 43.39479890652001,
    :timestamp nil},
-  :drustvo "Preslap PD"},
+  :drustvo "Preslap PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2018/07/4-39-5-Prekonoska-pecina.gpx"},
  "E7-20"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-20.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10405,18 +7550,11 @@
   :planina "Kukavica",
   :location
   {:longitude 21.739573109, :latitude 42.918580578, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E7-20-Lebane-Sveti-Ilija.gpx"},
  "5-4-28"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-4-28.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Dikava - Janjač",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/dikava-janjac/",
@@ -10424,18 +7562,10 @@
   :uredjenost "zapuštena",
   :planina "Tara",
   :location nil,
-  :drustvo "Tara PK"},
+  :drustvo "Tara PK",
+  :gpx-url nil},
  "T-2-25"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "T-2-25.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Transverzala \"FRA\"",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/transverzala-fra/",
@@ -10443,18 +7573,10 @@
   :uredjenost nil,
   :planina "Bukovik (Čačak)OstricaVujan",
   :location nil,
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url nil},
  "3-14-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-14-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10473,18 +7595,11 @@
   {:longitude 19.712683260440826,
    :latitude 44.141562609001994,
    :timestamp nil},
-  :drustvo "Povlen PK"},
+  :drustvo "Povlen PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2021/01/3-14-2-4-izvora-Povlena.gpx"},
  "E4-9"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E4-9.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10501,18 +7616,11 @@
   :planina "Đerdap",
   :location
   {:longitude 22.029806166, :latitude 44.54818306, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E4-9-Lepenski-Vir-Djerdap.gpx"},
  "2-15-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-15-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10532,18 +7640,11 @@
   {:longitude 20.938058998435736,
    :latitude 43.97261403501034,
    :timestamp nil},
-  :drustvo "Gora PEK"},
+  :drustvo "Gora PEK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/02/2-15-1-Zezelj-Besnjaja.gpx"},
  "1-13-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "1-13-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10562,18 +7663,11 @@
   {:longitude 19.98006697744131,
    :latitude 45.15527500770986,
    :timestamp 1574583725000},
-  :drustvo "Železničar PD Beograd"},
+  :drustvo "Železničar PD Beograd",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/12/Cortanovacka-magija.gpx"},
  "5-4-26"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-4-26.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Luke - Ravna stena",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/luke-ravna-stena/",
@@ -10581,18 +7675,10 @@
   :uredjenost "zapuštena",
   :planina "Tara",
   :location nil,
-  :drustvo "Tara PK"},
+  :drustvo "Tara PK",
+  :gpx-url nil},
  "2-17-3"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-17-3.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Karaula",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/karaula/",
@@ -10600,18 +7686,10 @@
   :uredjenost "odlično uređena i markirana",
   :planina "Radovanjska brda",
   :location nil,
-  :drustvo "Vrbica PK"},
+  :drustvo "Vrbica PK",
+  :gpx-url nil},
  "5-4-32"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-4-32.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Sedaljka – Banjska stena",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/sedaljka-banjska-stena/",
@@ -10619,18 +7697,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Tara",
   :location nil,
-  :drustvo "Tara PK"},
+  :drustvo "Tara PK",
+  :gpx-url nil},
  "7-9-14"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-9-14.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Staza br. 14. \"Palje\"",
   :region "7 - Jugoistočna Srbija",
   :link "https://pss.rs/terenipp/staza-br-14-palje/",
@@ -10638,18 +7708,10 @@
   :uredjenost "zapuštena",
   :planina "Kukavica",
   :location nil,
-  :drustvo "Kukavica PSK"},
+  :drustvo "Kukavica PSK",
+  :gpx-url nil},
  "2-14-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-14-5.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Staza zdravlja 3 (Kamena kugla)",
   :region "2 - Šumadija",
   :link "https://pss.rs/terenipp/staza-zdravlja-3-kamena-kugla/",
@@ -10657,18 +7719,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Gledićke planine",
   :location nil,
-  :drustvo "Ljukten PSD"},
+  :drustvo "Ljukten PSD",
+  :gpx-url nil},
  "6-14-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "6-14-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10687,18 +7741,11 @@
   {:longitude 21.374728996306658,
    :latitude 43.42726000584662,
    :timestamp 1564899603000},
-  :drustvo "Jastrebac PSK"},
+  :drustvo "Jastrebac PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2019/08/6-14-1-Jastrebac-Mečje-stene.gpx"},
  "2-3-7"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "2-3-7.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10717,18 +7764,11 @@
   {:longitude 20.521311024203897,
    :latitude 44.695563996210694,
    :timestamp 1602843591000},
-  :drustvo "Avala PSK"},
+  :drustvo "Avala PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/10/2-3-7-Avala-staza-6.gpx"},
  "1-3-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "1-3-5.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Lazin vir",
   :region "1 - Vojvodina",
   :link "https://pss.rs/terenipp/lazin-vir/",
@@ -10736,18 +7776,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Fruška gora",
   :location nil,
-  :drustvo "PS Vojvodine"},
+  :drustvo "PS Vojvodine",
+  :gpx-url nil},
  "3-3-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "3-3-1.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10767,18 +7799,11 @@
   {:longitude 19.1564176697284,
    :latitude 44.51111284084618,
    :timestamp nil},
-  :drustvo "Gučevo PK"},
+  :drustvo "Gučevo PK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2018/12/3-3-1-Staza-1.gpx"},
  "4-48-5"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "4-48-5.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10797,18 +7822,11 @@
   {:longitude 21.53230802156031,
    :latitude 44.27401604130864,
    :timestamp 1524982980000},
-  :drustvo "Gornjak PD"},
+  :drustvo "Gornjak PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/06/4-48-5-Mali-Vukan_greben.gpx"},
  "5-24-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-24-2.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Bresnik-Gornja Dubočica- Maglič",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/bresnik-gornja-dubocica-maglic/",
@@ -10816,18 +7834,10 @@
   :uredjenost "odlično uređena i markirana",
   :planina "Čemerno",
   :location nil,
-  :drustvo "Železničar PSK Kraljevo"},
+  :drustvo "Železničar PSK Kraljevo",
+  :gpx-url nil},
  "7-22-4"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-22-4.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10846,18 +7856,10 @@
   {:longitude 22.268858,
    :latitude 42.815094,
    :timestamp 1733495137000},
-  :drustvo "Svarog PSU"},
+  :drustvo "Svarog PSU",
+  :gpx-url "https://pss.rs/wp-content/uploads/2026/07/7-22-4.gpx"},
  "E7-12"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-12.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10876,18 +7878,11 @@
   {:longitude 19.917500847950578,
    :latitude 43.53479932062328,
    :timestamp 1374952212000},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/05/E7-12-Murtenica-Sjenica.gpx"},
  "T-5-8"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "T-5-8.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10906,18 +7901,11 @@
   {:longitude 20.31885076314211,
    :latitude 43.88184489682317,
    :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2017/06/T-5-8-Ovcarsko-Kablarska-transverzala.gpx"},
  "E7-12-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "E7-12-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10934,18 +7922,10 @@
   :planina "Bič",
   :location
   {:longitude 19.671228202, :latitude 43.545080573, :timestamp nil},
-  :drustvo nil},
+  :drustvo nil,
+  :gpx-url "https://pss.rs/wp-content/uploads/2024/02/E7-12-2.gpx"},
  "5-4-27"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-4-27.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Luke - Sklopovi",
   :region "5 - Jugozapadna Srbija",
   :link "https://pss.rs/terenipp/luke-sklopovi/",
@@ -10953,18 +7933,10 @@
   :uredjenost "zapuštena",
   :planina "Tara",
   :location nil,
-  :drustvo "Tara PK"},
+  :drustvo "Tara PK",
+  :gpx-url nil},
  "5-12-25"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "5-12-25.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -10983,18 +7955,11 @@
   {:longitude 19.88806982,
    :latitude 43.74065052,
    :timestamp 1710577573000},
-  :drustvo "Zlatibor PD"},
+  :drustvo "Zlatibor PD",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2024/06/Ravni-Dreznik.gpx"},
  "7-3-1"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "7-3-1.json"],
-  :gpx-path nil,
+ {:gpx-path nil,
   :title "Gornja Studena - manastir Veta",
   :region "7 - Jugoistočna Srbija",
   :link "https://pss.rs/terenipp/gornja-studena-manastir-veta/",
@@ -11002,18 +7967,10 @@
   :uredjenost "dobro uređena i markirana",
   :planina "Suva planina",
   :location nil,
-  :drustvo "Suva planina PD"},
+  :drustvo "Suva planina PD",
+  :gpx-url nil},
  "1-1-2"
- {:info-path
-  ["Users"
-   "vanja"
-   "projects"
-   "osm-pss-integration"
-   "dataset"
-   "pss.rs"
-   "routes"
-   "1-1-2.json"],
-  :gpx-path
+ {:gpx-path
   ["Users"
    "vanja"
    "projects"
@@ -11032,4 +7989,6 @@
   {:longitude 19.7584708314389,
    :latitude 46.10221976414323,
    :timestamp nil},
-  :drustvo "Spartak PSK"}}
+  :drustvo "Spartak PSK",
+  :gpx-url
+  "https://pss.rs/wp-content/uploads/2020/09/1-1-2-Vodotoranj-Tresetiste-Palic-centar.gpx"}}
