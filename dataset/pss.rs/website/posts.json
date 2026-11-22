@@ -1,4 +1,41 @@
-[{"ID":28732,
+[{"ID":28842,
+  "title":"Мали ртањски врхови - Баба",
+  "permalink":"https:\/\/pss.rs\/terenipp\/4-23-2\/",
+  "terrain_category":28,
+  "terrain_ids":[71],
+  "region_ids":[4],
+  "postmeta":
+  [{"label":"Oznaka",
+    "type":"text",
+    "desc":"",
+    "meta_key":"psst_meta_oznaka_q8lrf",
+    "value":"4-23-2",
+    "getValue":"4-23-2"},
+   {"label":"Društvo\/klub",
+    "type":"adresar_klubova",
+    "desc":"Naziv kluba\/društva koje održava stazu i mesto",
+    "meta_key":"psst_meta_dru_tvo_klub_c3ri7_adresar_klubova",
+    "value":
+    [{"post_title":"Oštra čuka PD",
+      "permalink":
+      "https:\/\/pss.rs\/adresar_klubova\/ostra-cuka-pd\/",
+      "meta":
+      "Alekse Markišića 2\/4\/16, 18230 Soko Banja<br>+38164 9 202 909<br>https:\/\/www.ostracuka.rs\/"}],
+    "getValue":
+    "<a href=\"https:\/\/pss.rs\/adresar_klubova\/ostra-cuka-pd\/\">Oštra čuka PD<\/a>"},
+   {"label":"Dužina (km)",
+    "type":"text",
+    "desc":"Dužina staze\/puta u km (prim. 4,1 = 4km i 100m)",
+    "meta_key":"psst_meta_du_ina__km__j3b6v",
+    "value":"15 km",
+    "getValue":"15 km"},
+   {"label":"Vreme obilaska (h:min)",
+    "type":"text",
+    "desc":"Prosečno vreme obilaska (h:min) prim. 2:20",
+    "meta_key":"psst_meta_vreme_obilaska__h_min__s8og8",
+    "value":"5 h",
+    "getValue":"5 h"}]},
+ {"ID":28732,
   "title":"Vera",
   "permalink":"https:\/\/pss.rs\/terenipp\/2-16-5\/",
   "terrain_category":28,
@@ -20,7 +57,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/planinski-duh-pd\/",
       "meta":
-      "Kralja Petra Prvog 63 35220 Ribare Jagodina<br>0691530989<br>https:\/\/planinskiduh.rs\/"}],
+      "Kralja Petra Prvog 63 35220 Ribare Jagodina<br>0691530989<br>https:\/\/www.instagram.com\/pdplaninski"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/planinski-duh-pd\/\">Planinski duh PD<\/a>"},
    {"label":"Dužina (km)",
@@ -36,7 +73,7 @@
     "value":"",
     "getValue":""}]},
  {"ID":28529,
-  "title":"Donji Del – Veliki Čemernik (staza br. 6)",
+  "title":"Доњи Дел – Велики Чемерник",
   "permalink":"https:\/\/pss.rs\/terenipp\/7-22-4\/",
   "terrain_category":28,
   "terrain_ids":[78],
@@ -52,8 +89,12 @@
     "type":"adresar_klubova",
     "desc":"Naziv kluba\/društva koje održava stazu i mesto",
     "meta_key":"psst_meta_dru_tvo_klub_c3ri7_adresar_klubova",
-    "value":[],
-    "getValue":""},
+    "value":
+    [{"post_title":"Svarog PSU",
+      "permalink":"https:\/\/pss.rs\/adresar_klubova\/svarog-psu\/",
+      "meta":"Vojvode Sinđelića 1\/9<br>+38162 81 49 023<br>"}],
+    "getValue":
+    "<a href=\"https:\/\/pss.rs\/adresar_klubova\/svarog-psu\/\">Svarog PSU<\/a>"},
    {"label":"Dužina (km)",
     "type":"text",
     "desc":"Dužina staze\/puta u km (prim. 4,1 = 4km i 100m)",
@@ -64,10 +105,10 @@
     "type":"text",
     "desc":"Prosečno vreme obilaska (h:min) prim. 2:20",
     "meta_key":"psst_meta_vreme_obilaska__h_min__s8og8",
-    "value":"",
-    "getValue":""}]},
+    "value":"4:30",
+    "getValue":"4:30"}]},
  {"ID":28528,
-  "title":"Valjavica – Veliki Strešer (staza br. 3)",
+  "title":"Ваљавица – Велики Стрешер",
   "permalink":"https:\/\/pss.rs\/terenipp\/7-27-3\/",
   "terrain_category":28,
   "terrain_ids":[98],
@@ -83,8 +124,12 @@
     "type":"adresar_klubova",
     "desc":"Naziv kluba\/društva koje održava stazu i mesto",
     "meta_key":"psst_meta_dru_tvo_klub_c3ri7_adresar_klubova",
-    "value":[],
-    "getValue":""},
+    "value":
+    [{"post_title":"Svarog PSU",
+      "permalink":"https:\/\/pss.rs\/adresar_klubova\/svarog-psu\/",
+      "meta":"Vojvode Sinđelića 1\/9<br>+38162 81 49 023<br>"}],
+    "getValue":
+    "<a href=\"https:\/\/pss.rs\/adresar_klubova\/svarog-psu\/\">Svarog PSU<\/a>"},
    {"label":"Dužina (km)",
     "type":"text",
     "desc":"Dužina staze\/puta u km (prim. 4,1 = 4km i 100m)",
@@ -95,10 +140,10 @@
     "type":"text",
     "desc":"Prosečno vreme obilaska (h:min) prim. 2:20",
     "meta_key":"psst_meta_vreme_obilaska__h_min__s8og8",
-    "value":"",
-    "getValue":""}]},
+    "value":"5:30",
+    "getValue":"5:30"}]},
  {"ID":28527,
-  "title":"Topli do – Veliki Strešer (staza br. 2)",
+  "title":"Топли До – Велики Стрешер",
   "permalink":"https:\/\/pss.rs\/terenipp\/7-27-2\/",
   "terrain_category":28,
   "terrain_ids":[98],
@@ -114,8 +159,12 @@
     "type":"adresar_klubova",
     "desc":"Naziv kluba\/društva koje održava stazu i mesto",
     "meta_key":"psst_meta_dru_tvo_klub_c3ri7_adresar_klubova",
-    "value":[],
-    "getValue":""},
+    "value":
+    [{"post_title":"Svarog PSU",
+      "permalink":"https:\/\/pss.rs\/adresar_klubova\/svarog-psu\/",
+      "meta":"Vojvode Sinđelića 1\/9<br>+38162 81 49 023<br>"}],
+    "getValue":
+    "<a href=\"https:\/\/pss.rs\/adresar_klubova\/svarog-psu\/\">Svarog PSU<\/a>"},
    {"label":"Dužina (km)",
     "type":"text",
     "desc":"Dužina staze\/puta u km (prim. 4,1 = 4km i 100m)",
@@ -126,10 +175,10 @@
     "type":"text",
     "desc":"Prosečno vreme obilaska (h:min) prim. 2:20",
     "meta_key":"psst_meta_vreme_obilaska__h_min__s8og8",
-    "value":"",
-    "getValue":""}]},
+    "value":"3:45",
+    "getValue":"3:45"}]},
  {"ID":28526,
-  "title":"Promaja – Veliki Strešer (staza br. 1)",
+  "title":"Промаја – Велики Стрешер",
   "permalink":"https:\/\/pss.rs\/terenipp\/7-27-1\/",
   "terrain_category":28,
   "terrain_ids":[98],
@@ -145,8 +194,12 @@
     "type":"adresar_klubova",
     "desc":"Naziv kluba\/društva koje održava stazu i mesto",
     "meta_key":"psst_meta_dru_tvo_klub_c3ri7_adresar_klubova",
-    "value":[],
-    "getValue":""},
+    "value":
+    [{"post_title":"Svarog PSU",
+      "permalink":"https:\/\/pss.rs\/adresar_klubova\/svarog-psu\/",
+      "meta":"Vojvode Sinđelića 1\/9<br>+38162 81 49 023<br>"}],
+    "getValue":
+    "<a href=\"https:\/\/pss.rs\/adresar_klubova\/svarog-psu\/\">Svarog PSU<\/a>"},
    {"label":"Dužina (km)",
     "type":"text",
     "desc":"Dužina staze\/puta u km (prim. 4,1 = 4km i 100m)",
@@ -157,8 +210,8 @@
     "type":"text",
     "desc":"Prosečno vreme obilaska (h:min) prim. 2:20",
     "meta_key":"psst_meta_vreme_obilaska__h_min__s8og8",
-    "value":"",
-    "getValue":""}]},
+    "value":"7:30",
+    "getValue":"7:30"}]},
  {"ID":26589,
   "title":"Narcisu u pohode",
   "permalink":"https:\/\/pss.rs\/terenipp\/narcisu-u-pohode\/",
@@ -327,7 +380,7 @@
     [{"post_title":"Beljanica PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/beljanica-pd\/",
       "meta":
-      "Svetog Ćirila i Metodija 23, 35210 Svilajnac<br> +38163 826 0571, +381628293557, +38166321706<br>"}],
+      "Svetog Ćirila i Metodija 23, 35210 Svilajnac<br> +38163 826 0571, +381628293557, +38166321706<br>https:\/\/www.pdbeljanica.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/beljanica-pd\/\">Beljanica PD<\/a>"},
    {"label":"Dužina (km)",
@@ -364,7 +417,7 @@
     [{"post_title":"Beljanica PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/beljanica-pd\/",
       "meta":
-      "Svetog Ćirila i Metodija 23, 35210 Svilajnac<br> +38163 826 0571, +381628293557, +38166321706<br>"}],
+      "Svetog Ćirila i Metodija 23, 35210 Svilajnac<br> +38163 826 0571, +381628293557, +38166321706<br>https:\/\/www.pdbeljanica.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/beljanica-pd\/\">Beljanica PD<\/a>"},
    {"label":"Dužina (km)",
@@ -401,7 +454,7 @@
     [{"post_title":"Beljanica PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/beljanica-pd\/",
       "meta":
-      "Svetog Ćirila i Metodija 23, 35210 Svilajnac<br> +38163 826 0571, +381628293557, +38166321706<br>"}],
+      "Svetog Ćirila i Metodija 23, 35210 Svilajnac<br> +38163 826 0571, +381628293557, +38166321706<br>https:\/\/www.pdbeljanica.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/beljanica-pd\/\">Beljanica PD<\/a>"},
    {"label":"Dužina (km)",
@@ -877,7 +930,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/planinski-duh-pd\/",
       "meta":
-      "Kralja Petra Prvog 63 35220 Ribare Jagodina<br>0691530989<br>https:\/\/planinskiduh.rs\/"}],
+      "Kralja Petra Prvog 63 35220 Ribare Jagodina<br>0691530989<br>https:\/\/www.instagram.com\/pdplaninski"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/planinski-duh-pd\/\">Planinski duh PD<\/a>"},
    {"label":"Dužina (km)",
@@ -1041,8 +1094,7 @@
     "getValue":""}]},
  {"ID":23585,
   "title":"Mitrovac - Gorušica - Banjska stena",
-  "permalink":
-  "https:\/\/pss.rs\/terenipp\/mitrovac-gorusica-banjska-stena\/",
+  "permalink":"https:\/\/pss.rs\/terenipp\/5-3-25\/",
   "terrain_category":28,
   "terrain_ids":[67],
   "region_ids":[5],
@@ -1078,7 +1130,7 @@
     "getValue":""}]},
  {"ID":23584,
   "title":"Mitrovac - Predov Krst",
-  "permalink":"https:\/\/pss.rs\/terenipp\/mitrovac-predov-krst-2\/",
+  "permalink":"https:\/\/pss.rs\/terenipp\/5-3-23\/",
   "terrain_category":28,
   "terrain_ids":[67],
   "region_ids":[5],
@@ -1246,69 +1298,6 @@
     "meta_key":"psst_meta_du_ina__km__j3b6v",
     "value":"1,1",
     "getValue":"1,1"},
-   {"label":"Vreme obilaska (h:min)",
-    "type":"text",
-    "desc":"Prosečno vreme obilaska (h:min) prim. 2:20",
-    "meta_key":"psst_meta_vreme_obilaska__h_min__s8og8",
-    "value":"",
-    "getValue":""}]},
- {"ID":23579,
-  "title":"Mitrovac - Gorišice - Banjska stena",
-  "permalink":
-  "https:\/\/pss.rs\/terenipp\/mitrovac-gorisice-banjska-stena\/",
-  "terrain_category":28,
-  "terrain_ids":[],
-  "region_ids":[],
-  "postmeta":
-  [{"label":"Oznaka",
-    "type":"text",
-    "desc":"",
-    "meta_key":"psst_meta_oznaka_q8lrf",
-    "value":"5-3-25",
-    "getValue":"5-3-25"},
-   {"label":"Društvo\/klub",
-    "type":"adresar_klubova",
-    "desc":"Naziv kluba\/društva koje održava stazu i mesto",
-    "meta_key":"psst_meta_dru_tvo_klub_c3ri7_adresar_klubova",
-    "value":[],
-    "getValue":""},
-   {"label":"Dužina (km)",
-    "type":"text",
-    "desc":"Dužina staze\/puta u km (prim. 4,1 = 4km i 100m)",
-    "meta_key":"psst_meta_du_ina__km__j3b6v",
-    "value":"",
-    "getValue":""},
-   {"label":"Vreme obilaska (h:min)",
-    "type":"text",
-    "desc":"Prosečno vreme obilaska (h:min) prim. 2:20",
-    "meta_key":"psst_meta_vreme_obilaska__h_min__s8og8",
-    "value":"",
-    "getValue":""}]},
- {"ID":23578,
-  "title":"Mitrovac - Predov Krst",
-  "permalink":"https:\/\/pss.rs\/terenipp\/mitrovac-predov-krst\/",
-  "terrain_category":28,
-  "terrain_ids":[],
-  "region_ids":[],
-  "postmeta":
-  [{"label":"Oznaka",
-    "type":"text",
-    "desc":"",
-    "meta_key":"psst_meta_oznaka_q8lrf",
-    "value":"5-3-23",
-    "getValue":"5-3-23"},
-   {"label":"Društvo\/klub",
-    "type":"adresar_klubova",
-    "desc":"Naziv kluba\/društva koje održava stazu i mesto",
-    "meta_key":"psst_meta_dru_tvo_klub_c3ri7_adresar_klubova",
-    "value":[],
-    "getValue":""},
-   {"label":"Dužina (km)",
-    "type":"text",
-    "desc":"Dužina staze\/puta u km (prim. 4,1 = 4km i 100m)",
-    "meta_key":"psst_meta_du_ina__km__j3b6v",
-    "value":"",
-    "getValue":""},
    {"label":"Vreme obilaska (h:min)",
     "type":"text",
     "desc":"Prosečno vreme obilaska (h:min) prim. 2:20",
@@ -1848,7 +1837,7 @@
     [{"post_title":"Ćira PSD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/cira-psd\/",
       "meta":
-      "Cvijićeva 17, 14224 Lajkovac<br>+38114 343 37 10 ; +38163 253 054<br>http:\/\/psdciralajkovac.com"}],
+      "Cvijićeva 17, 14224 Lajkovac<br>+38114 343 37 10 ; +38163 253 054<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/cira-psd\/\">Ćira PSD<\/a>"},
    {"label":"Dužina (km)",
@@ -1885,7 +1874,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/planinski-duh-pd\/",
       "meta":
-      "Kralja Petra Prvog 63 35220 Ribare Jagodina<br>0691530989<br>https:\/\/planinskiduh.rs\/"}],
+      "Kralja Petra Prvog 63 35220 Ribare Jagodina<br>0691530989<br>https:\/\/www.instagram.com\/pdplaninski"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/planinski-duh-pd\/\">Planinski duh PD<\/a>"},
    {"label":"Dužina (km)",
@@ -1921,7 +1910,7 @@
     [{"post_title":"Kablar PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/kablar-pd\/",
       "meta":
-      "Braće Glišić 6,  32000 Čačak<br>+38164 852 60 48<br>http:\/\/www.kablar.rs"}],
+      "Kneza Miloša 1,  32000 Čačak<br>+38164 852 60 48<br>https:\/\/www.kablar.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/kablar-pd\/\">Kablar PD<\/a>"},
    {"label":"Dužina (km)",
@@ -1957,7 +1946,7 @@
     [{"post_title":"Kablar PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/kablar-pd\/",
       "meta":
-      "Braće Glišić 6,  32000 Čačak<br>+38164 852 60 48<br>http:\/\/www.kablar.rs"}],
+      "Kneza Miloša 1,  32000 Čačak<br>+38164 852 60 48<br>https:\/\/www.kablar.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/kablar-pd\/\">Kablar PD<\/a>"},
    {"label":"Dužina (km)",
@@ -1993,7 +1982,7 @@
     [{"post_title":"Kablar PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/kablar-pd\/",
       "meta":
-      "Braće Glišić 6,  32000 Čačak<br>+38164 852 60 48<br>http:\/\/www.kablar.rs"}],
+      "Kneza Miloša 1,  32000 Čačak<br>+38164 852 60 48<br>https:\/\/www.kablar.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/kablar-pd\/\">Kablar PD<\/a>"},
    {"label":"Dužina (km)",
@@ -2029,7 +2018,7 @@
     [{"post_title":"Kablar PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/kablar-pd\/",
       "meta":
-      "Braće Glišić 6,  32000 Čačak<br>+38164 852 60 48<br>http:\/\/www.kablar.rs"}],
+      "Kneza Miloša 1,  32000 Čačak<br>+38164 852 60 48<br>https:\/\/www.kablar.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/kablar-pd\/\">Kablar PD<\/a>"},
    {"label":"Dužina (km)",
@@ -2065,7 +2054,7 @@
     [{"post_title":"Kablar PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/kablar-pd\/",
       "meta":
-      "Braće Glišić 6,  32000 Čačak<br>+38164 852 60 48<br>http:\/\/www.kablar.rs"}],
+      "Kneza Miloša 1,  32000 Čačak<br>+38164 852 60 48<br>https:\/\/www.kablar.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/kablar-pd\/\">Kablar PD<\/a>"},
    {"label":"Dužina (km)",
@@ -2101,7 +2090,7 @@
     [{"post_title":"Kablar PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/kablar-pd\/",
       "meta":
-      "Braće Glišić 6,  32000 Čačak<br>+38164 852 60 48<br>http:\/\/www.kablar.rs"}],
+      "Kneza Miloša 1,  32000 Čačak<br>+38164 852 60 48<br>https:\/\/www.kablar.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/kablar-pd\/\">Kablar PD<\/a>"},
    {"label":"Dužina (km)",
@@ -2137,7 +2126,7 @@
     [{"post_title":"Kablar PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/kablar-pd\/",
       "meta":
-      "Braće Glišić 6,  32000 Čačak<br>+38164 852 60 48<br>http:\/\/www.kablar.rs"}],
+      "Kneza Miloša 1,  32000 Čačak<br>+38164 852 60 48<br>https:\/\/www.kablar.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/kablar-pd\/\">Kablar PD<\/a>"},
    {"label":"Dužina (km)",
@@ -2154,7 +2143,7 @@
     "getValue":"2:30"}]},
  {"ID":19512,
   "title":"Kablar",
-  "permalink":"https:\/\/pss.rs\/terenipp\/kablar\/",
+  "permalink":"https:\/\/pss.rs\/terenipp\/3-28-3\/",
   "terrain_category":28,
   "terrain_ids":[390],
   "region_ids":[3],
@@ -2173,7 +2162,7 @@
     [{"post_title":"Kablar PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/kablar-pd\/",
       "meta":
-      "Braće Glišić 6,  32000 Čačak<br>+38164 852 60 48<br>http:\/\/www.kablar.rs"}],
+      "Kneza Miloša 1,  32000 Čačak<br>+38164 852 60 48<br>https:\/\/www.kablar.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/kablar-pd\/\">Kablar PD<\/a>"},
    {"label":"Dužina (km)",
@@ -2209,7 +2198,7 @@
     [{"post_title":"Kablar PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/kablar-pd\/",
       "meta":
-      "Braće Glišić 6,  32000 Čačak<br>+38164 852 60 48<br>http:\/\/www.kablar.rs"}],
+      "Kneza Miloša 1,  32000 Čačak<br>+38164 852 60 48<br>https:\/\/www.kablar.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/kablar-pd\/\">Kablar PD<\/a>"},
    {"label":"Dužina (km)",
@@ -2245,7 +2234,7 @@
     [{"post_title":"Kablar PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/kablar-pd\/",
       "meta":
-      "Braće Glišić 6,  32000 Čačak<br>+38164 852 60 48<br>http:\/\/www.kablar.rs"}],
+      "Kneza Miloša 1,  32000 Čačak<br>+38164 852 60 48<br>https:\/\/www.kablar.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/kablar-pd\/\">Kablar PD<\/a>"},
    {"label":"Dužina (km)",
@@ -2353,7 +2342,8 @@
     "value":
     [{"post_title":"Omorika PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/omorika-pd\/",
-      "meta":"Vukole Dabića 4\/1\/9, Užice<br>064 881 86 97<br>"}],
+      "meta":
+      "Vukole Dabića 4\/1\/9, Užice<br>064 881 86 97<br>https:\/\/pdomorika.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/omorika-pd\/\">Omorika PD<\/a>"},
    {"label":"Dužina (km)",
@@ -2388,7 +2378,8 @@
     "value":
     [{"post_title":"Omorika PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/omorika-pd\/",
-      "meta":"Vukole Dabića 4\/1\/9, Užice<br>064 881 86 97<br>"}],
+      "meta":
+      "Vukole Dabića 4\/1\/9, Užice<br>064 881 86 97<br>https:\/\/pdomorika.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/omorika-pd\/\">Omorika PD<\/a>"},
    {"label":"Dužina (km)",
@@ -2532,7 +2523,8 @@
     "value":
     [{"post_title":"Omorika PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/omorika-pd\/",
-      "meta":"Vukole Dabića 4\/1\/9, Užice<br>064 881 86 97<br>"}],
+      "meta":
+      "Vukole Dabića 4\/1\/9, Užice<br>064 881 86 97<br>https:\/\/pdomorika.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/omorika-pd\/\">Omorika PD<\/a>"},
    {"label":"Dužina (km)",
@@ -2568,7 +2560,8 @@
     "value":
     [{"post_title":"Omorika PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/omorika-pd\/",
-      "meta":"Vukole Dabića 4\/1\/9, Užice<br>064 881 86 97<br>"}],
+      "meta":
+      "Vukole Dabića 4\/1\/9, Užice<br>064 881 86 97<br>https:\/\/pdomorika.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/omorika-pd\/\">Omorika PD<\/a>"},
    {"label":"Dužina (km)",
@@ -2583,43 +2576,6 @@
     "meta_key":"psst_meta_vreme_obilaska__h_min__s8og8",
     "value":"5:10",
     "getValue":"5:10"}]},
- {"ID":19211,
-  "title":"Cerovi - Golema Porica",
-  "permalink":"https:\/\/pss.rs\/terenipp\/cerovi-golema-porica\/",
-  "terrain_category":28,
-  "terrain_ids":[407],
-  "region_ids":[4],
-  "postmeta":
-  [{"label":"Oznaka",
-    "type":"text",
-    "desc":"",
-    "meta_key":"psst_meta_oznaka_q8lrf",
-    "value":"4-23-1",
-    "getValue":"4-23-1"},
-   {"label":"Društvo\/klub",
-    "type":"adresar_klubova",
-    "desc":"Naziv kluba\/društva koje održava stazu i mesto",
-    "meta_key":"psst_meta_dru_tvo_klub_c3ri7_adresar_klubova",
-    "value":
-    [{"post_title":"Oštra čuka PD",
-      "permalink":
-      "https:\/\/pss.rs\/adresar_klubova\/ostra-cuka-pd\/",
-      "meta":
-      "Alekse Markišića 2\/4\/16, 18230 Soko Banja<br>+38164 9 202 909<br>https:\/\/www.ostracuka.rs\/"}],
-    "getValue":
-    "<a href=\"https:\/\/pss.rs\/adresar_klubova\/ostra-cuka-pd\/\">Oštra čuka PD<\/a>"},
-   {"label":"Dužina (km)",
-    "type":"text",
-    "desc":"Dužina staze\/puta u km (prim. 4,1 = 4km i 100m)",
-    "meta_key":"psst_meta_du_ina__km__j3b6v",
-    "value":"4,5",
-    "getValue":"4,5"},
-   {"label":"Vreme obilaska (h:min)",
-    "type":"text",
-    "desc":"Prosečno vreme obilaska (h:min) prim. 2:20",
-    "meta_key":"psst_meta_vreme_obilaska__h_min__s8og8",
-    "value":"1:30",
-    "getValue":"1:30"}]},
  {"ID":19197,
   "title":"Staza br. 3: Ljubiš – Murtenica",
   "permalink":
@@ -2677,7 +2633,8 @@
     "value":
     [{"post_title":"Omorika PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/omorika-pd\/",
-      "meta":"Vukole Dabića 4\/1\/9, Užice<br>064 881 86 97<br>"}],
+      "meta":
+      "Vukole Dabića 4\/1\/9, Užice<br>064 881 86 97<br>https:\/\/pdomorika.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/omorika-pd\/\">Omorika PD<\/a>"},
    {"label":"Dužina (km)",
@@ -3152,7 +3109,7 @@
     [{"post_title":"Povlen PK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/povlen-pk\/",
       "meta":
-      "ul. Zdravka Jovanovića 44, 14000 Valjevo<br>064\/2001703<br>"}],
+      "Doktora Pantića 131\/6 14000 Valjevo<br>063-232039<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/povlen-pk\/\">Povlen PK<\/a>"},
    {"label":"Dužina (km)",
@@ -3372,7 +3329,7 @@
     [{"post_title":"Povlen PK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/povlen-pk\/",
       "meta":
-      "ul. Zdravka Jovanovića 44, 14000 Valjevo<br>064\/2001703<br>"}],
+      "Doktora Pantića 131\/6 14000 Valjevo<br>063-232039<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/povlen-pk\/\">Povlen PK<\/a>"},
    {"label":"Dužina (km)",
@@ -3408,7 +3365,7 @@
     [{"post_title":"Povlen PK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/povlen-pk\/",
       "meta":
-      "ul. Zdravka Jovanovića 44, 14000 Valjevo<br>064\/2001703<br>"}],
+      "Doktora Pantića 131\/6 14000 Valjevo<br>063-232039<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/povlen-pk\/\">Povlen PK<\/a>"},
    {"label":"Dužina (km)",
@@ -3696,7 +3653,7 @@
     [{"post_title":"Žeželj PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/zezelj-pd\/",
       "meta":
-      "Rudnička 7a 34000 Kragujevac<br>+38164 21 83 412<br>http:\/\/www.pdzezelj.org"}],
+      "Rudnička 7a 34000 Kragujevac<br>+38164 21 83 412<br>https:\/\/www.pdzezelj.org"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zezelj-pd\/\">Žeželj PD<\/a>"},
    {"label":"Dužina (km)",
@@ -3734,7 +3691,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/planinski-duh-pd\/",
       "meta":
-      "Kralja Petra Prvog 63 35220 Ribare Jagodina<br>0691530989<br>https:\/\/planinskiduh.rs\/"}],
+      "Kralja Petra Prvog 63 35220 Ribare Jagodina<br>0691530989<br>https:\/\/www.instagram.com\/pdplaninski"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/planinski-duh-pd\/\">Planinski duh PD<\/a>"},
    {"label":"Dužina (km)",
@@ -4099,7 +4056,7 @@
     [{"post_title":"Žeželj PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/zezelj-pd\/",
       "meta":
-      "Rudnička 7a 34000 Kragujevac<br>+38164 21 83 412<br>http:\/\/www.pdzezelj.org"}],
+      "Rudnička 7a 34000 Kragujevac<br>+38164 21 83 412<br>https:\/\/www.pdzezelj.org"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zezelj-pd\/\">Žeželj PD<\/a>"},
    {"label":"Dužina (km)",
@@ -4136,7 +4093,7 @@
     [{"post_title":"Žeželj PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/zezelj-pd\/",
       "meta":
-      "Rudnička 7a 34000 Kragujevac<br>+38164 21 83 412<br>http:\/\/www.pdzezelj.org"}],
+      "Rudnička 7a 34000 Kragujevac<br>+38164 21 83 412<br>https:\/\/www.pdzezelj.org"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zezelj-pd\/\">Žeželj PD<\/a>"},
    {"label":"Dužina (km)",
@@ -4173,7 +4130,7 @@
     [{"post_title":"Povlen PK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/povlen-pk\/",
       "meta":
-      "ul. Zdravka Jovanovića 44, 14000 Valjevo<br>064\/2001703<br>"}],
+      "Doktora Pantića 131\/6 14000 Valjevo<br>063-232039<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/povlen-pk\/\">Povlen PK<\/a>"},
    {"label":"Dužina (km)",
@@ -4211,7 +4168,7 @@
     [{"post_title":"Povlen PK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/povlen-pk\/",
       "meta":
-      "ul. Zdravka Jovanovića 44, 14000 Valjevo<br>064\/2001703<br>"}],
+      "Doktora Pantića 131\/6 14000 Valjevo<br>063-232039<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/povlen-pk\/\">Povlen PK<\/a>"},
    {"label":"Dužina (km)",
@@ -4248,7 +4205,7 @@
     [{"post_title":"Povlen PK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/povlen-pk\/",
       "meta":
-      "ul. Zdravka Jovanovića 44, 14000 Valjevo<br>064\/2001703<br>"}],
+      "Doktora Pantića 131\/6 14000 Valjevo<br>063-232039<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/povlen-pk\/\">Povlen PK<\/a>"},
    {"label":"Dužina (km)",
@@ -4285,7 +4242,7 @@
     [{"post_title":"Povlen PK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/povlen-pk\/",
       "meta":
-      "ul. Zdravka Jovanovića 44, 14000 Valjevo<br>064\/2001703<br>"}],
+      "Doktora Pantića 131\/6 14000 Valjevo<br>063-232039<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/povlen-pk\/\">Povlen PK<\/a>"},
    {"label":"Dužina (km)",
@@ -4321,7 +4278,7 @@
     [{"post_title":"Povlen PK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/povlen-pk\/",
       "meta":
-      "ul. Zdravka Jovanovića 44, 14000 Valjevo<br>064\/2001703<br>"}],
+      "Doktora Pantića 131\/6 14000 Valjevo<br>063-232039<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/povlen-pk\/\">Povlen PK<\/a>"},
    {"label":"Dužina (km)",
@@ -4357,7 +4314,7 @@
     [{"post_title":"Povlen PK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/povlen-pk\/",
       "meta":
-      "ul. Zdravka Jovanovića 44, 14000 Valjevo<br>064\/2001703<br>"}],
+      "Doktora Pantića 131\/6 14000 Valjevo<br>063-232039<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/povlen-pk\/\">Povlen PK<\/a>"},
    {"label":"Dužina (km)",
@@ -4393,7 +4350,7 @@
     [{"post_title":"Povlen PK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/povlen-pk\/",
       "meta":
-      "ul. Zdravka Jovanovića 44, 14000 Valjevo<br>064\/2001703<br>"}],
+      "Doktora Pantića 131\/6 14000 Valjevo<br>063-232039<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/povlen-pk\/\">Povlen PK<\/a>"},
    {"label":"Dužina (km)",
@@ -4502,7 +4459,7 @@
     [{"post_title":"Mosor PSK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/mosor-pak\/",
       "meta":
-      "Tvrđava bb, 18000 Niš<br>063 1023016, 063 406025,  064 665 41 58<br>http:\/\/www.pakmosor.org\/"}],
+      "Tvrđava bb, 18000 Niš<br>063 1023016, 063 406025,  064 665 41 58<br>https:\/\/www.pskmosor.org\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/mosor-pak\/\">Mosor PSK<\/a>"},
    {"label":"Dužina (km)",
@@ -4539,7 +4496,7 @@
     [{"post_title":"Mosor PSK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/mosor-pak\/",
       "meta":
-      "Tvrđava bb, 18000 Niš<br>063 1023016, 063 406025,  064 665 41 58<br>http:\/\/www.pakmosor.org\/"}],
+      "Tvrđava bb, 18000 Niš<br>063 1023016, 063 406025,  064 665 41 58<br>https:\/\/www.pskmosor.org\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/mosor-pak\/\">Mosor PSK<\/a>"},
    {"label":"Dužina (km)",
@@ -4576,7 +4533,7 @@
     [{"post_title":"Mosor PSK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/mosor-pak\/",
       "meta":
-      "Tvrđava bb, 18000 Niš<br>063 1023016, 063 406025,  064 665 41 58<br>http:\/\/www.pakmosor.org\/"}],
+      "Tvrđava bb, 18000 Niš<br>063 1023016, 063 406025,  064 665 41 58<br>https:\/\/www.pskmosor.org\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/mosor-pak\/\">Mosor PSK<\/a>"},
    {"label":"Dužina (km)",
@@ -4612,7 +4569,7 @@
     [{"post_title":"Mosor PSK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/mosor-pak\/",
       "meta":
-      "Tvrđava bb, 18000 Niš<br>063 1023016, 063 406025,  064 665 41 58<br>http:\/\/www.pakmosor.org\/"}],
+      "Tvrđava bb, 18000 Niš<br>063 1023016, 063 406025,  064 665 41 58<br>https:\/\/www.pskmosor.org\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/mosor-pak\/\">Mosor PSK<\/a>"},
    {"label":"Dužina (km)",
@@ -4648,7 +4605,7 @@
     [{"post_title":"Mosor PSK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/mosor-pak\/",
       "meta":
-      "Tvrđava bb, 18000 Niš<br>063 1023016, 063 406025,  064 665 41 58<br>http:\/\/www.pakmosor.org\/"}],
+      "Tvrđava bb, 18000 Niš<br>063 1023016, 063 406025,  064 665 41 58<br>https:\/\/www.pskmosor.org\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/mosor-pak\/\">Mosor PSK<\/a>"},
    {"label":"Dužina (km)",
@@ -4684,7 +4641,7 @@
     [{"post_title":"Avala PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/psk-avala\/",
       "meta":
-      "Murska 14,  11000 Beograd<br>+38111 386 00 64 ; +38160 04 28 252, <br>http:\/\/www.avala.club\/"}],
+      "Murska 14,  11000 Beograd<br>+38111 386 00 64 ; +38160 04 28 252, <br>https:\/\/pd-avala.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/psk-avala\/\">Avala PD<\/a>"},
    {"label":"Dužina (km)",
@@ -4720,7 +4677,7 @@
     [{"post_title":"Avala PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/psk-avala\/",
       "meta":
-      "Murska 14,  11000 Beograd<br>+38111 386 00 64 ; +38160 04 28 252, <br>http:\/\/www.avala.club\/"}],
+      "Murska 14,  11000 Beograd<br>+38111 386 00 64 ; +38160 04 28 252, <br>https:\/\/pd-avala.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/psk-avala\/\">Avala PD<\/a>"},
    {"label":"Dužina (km)",
@@ -4756,7 +4713,7 @@
     [{"post_title":"Avala PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/psk-avala\/",
       "meta":
-      "Murska 14,  11000 Beograd<br>+38111 386 00 64 ; +38160 04 28 252, <br>http:\/\/www.avala.club\/"}],
+      "Murska 14,  11000 Beograd<br>+38111 386 00 64 ; +38160 04 28 252, <br>https:\/\/pd-avala.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/psk-avala\/\">Avala PD<\/a>"},
    {"label":"Dužina (km)",
@@ -4792,7 +4749,7 @@
     [{"post_title":"Avala PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/psk-avala\/",
       "meta":
-      "Murska 14,  11000 Beograd<br>+38111 386 00 64 ; +38160 04 28 252, <br>http:\/\/www.avala.club\/"}],
+      "Murska 14,  11000 Beograd<br>+38111 386 00 64 ; +38160 04 28 252, <br>https:\/\/pd-avala.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/psk-avala\/\">Avala PD<\/a>"},
    {"label":"Dužina (km)",
@@ -4828,7 +4785,7 @@
     [{"post_title":"Avala PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/psk-avala\/",
       "meta":
-      "Murska 14,  11000 Beograd<br>+38111 386 00 64 ; +38160 04 28 252, <br>http:\/\/www.avala.club\/"}],
+      "Murska 14,  11000 Beograd<br>+38111 386 00 64 ; +38160 04 28 252, <br>https:\/\/pd-avala.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/psk-avala\/\">Avala PD<\/a>"},
    {"label":"Dužina (km)",
@@ -4864,7 +4821,7 @@
     [{"post_title":"Avala PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/psk-avala\/",
       "meta":
-      "Murska 14,  11000 Beograd<br>+38111 386 00 64 ; +38160 04 28 252, <br>http:\/\/www.avala.club\/"}],
+      "Murska 14,  11000 Beograd<br>+38111 386 00 64 ; +38160 04 28 252, <br>https:\/\/pd-avala.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/psk-avala\/\">Avala PD<\/a>"},
    {"label":"Dužina (km)",
@@ -4900,7 +4857,7 @@
     [{"post_title":"Avala PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/psk-avala\/",
       "meta":
-      "Murska 14,  11000 Beograd<br>+38111 386 00 64 ; +38160 04 28 252, <br>http:\/\/www.avala.club\/"}],
+      "Murska 14,  11000 Beograd<br>+38111 386 00 64 ; +38160 04 28 252, <br>https:\/\/pd-avala.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/psk-avala\/\">Avala PD<\/a>"},
    {"label":"Dužina (km)",
@@ -4937,7 +4894,7 @@
     [{"post_title":"Spartak PSK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/spartak-zpk\/",
       "meta":
-      "Bose Miličević BB, 24000 Subotica <br>+38163 87 94 681; +38164 666 12 87<br>http:\/\/www.suplaninari.co.rs\/"}],
+      "Bose Miličević BB, 24000 Subotica <br>+38163 87 94 681; +38164 666 12 87<br>https:\/\/pskspartak.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/spartak-zpk\/\">Spartak PSK<\/a>"},
    {"label":"Dužina (km)",
@@ -5084,7 +5041,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk-2\/",
       "meta":
-      "Bulevar Mihajla Pupina 167, 11070 Novi Beograd<br>063 66 44 22; 064 293 0877<br>http:\/\/www.zeleznicar.org.rs"}],
+      "Bulevar Mihajla Pupina 167, 11070 Novi Beograd<br>063 66 44 22; 064 293 0877<br>https:\/\/www.zeleznicar.org.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk-2\/\">Železničar PD Beograd<\/a>"},
    {"label":"Dužina (km)",
@@ -5121,7 +5078,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk-2\/",
       "meta":
-      "Bulevar Mihajla Pupina 167, 11070 Novi Beograd<br>063 66 44 22; 064 293 0877<br>http:\/\/www.zeleznicar.org.rs"}],
+      "Bulevar Mihajla Pupina 167, 11070 Novi Beograd<br>063 66 44 22; 064 293 0877<br>https:\/\/www.zeleznicar.org.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk-2\/\">Železničar PD Beograd<\/a>"},
    {"label":"Dužina (km)",
@@ -5159,7 +5116,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/planinski-duh-pd\/",
       "meta":
-      "Kralja Petra Prvog 63 35220 Ribare Jagodina<br>0691530989<br>https:\/\/planinskiduh.rs\/"}],
+      "Kralja Petra Prvog 63 35220 Ribare Jagodina<br>0691530989<br>https:\/\/www.instagram.com\/pdplaninski"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/planinski-duh-pd\/\">Planinski duh PD<\/a>"},
    {"label":"Dužina (km)",
@@ -5195,7 +5152,7 @@
     [{"post_title":"Gornjak PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/",
       "meta":
-      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>http:\/\/www.gornjak.org.rs"}],
+      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>https:\/\/www.gornjak.org.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/\">Gornjak PD<\/a>"},
    {"label":"Dužina (km)",
@@ -5232,7 +5189,7 @@
     [{"post_title":"Gornjak PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/",
       "meta":
-      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>http:\/\/www.gornjak.org.rs"}],
+      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>https:\/\/www.gornjak.org.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/\">Gornjak PD<\/a>"},
    {"label":"Dužina (km)",
@@ -5269,7 +5226,7 @@
     [{"post_title":"Gornjak PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/",
       "meta":
-      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>http:\/\/www.gornjak.org.rs"}],
+      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>https:\/\/www.gornjak.org.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/\">Gornjak PD<\/a>"},
    {"label":"Dužina (km)",
@@ -5306,7 +5263,7 @@
     [{"post_title":"Gornjak PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/",
       "meta":
-      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>http:\/\/www.gornjak.org.rs"}],
+      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>https:\/\/www.gornjak.org.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/\">Gornjak PD<\/a>"},
    {"label":"Dužina (km)",
@@ -5343,7 +5300,7 @@
     [{"post_title":"Gornjak PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/",
       "meta":
-      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>http:\/\/www.gornjak.org.rs"}],
+      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>https:\/\/www.gornjak.org.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/\">Gornjak PD<\/a>"},
    {"label":"Dužina (km)",
@@ -5379,7 +5336,7 @@
     [{"post_title":"Gornjak PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/",
       "meta":
-      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>http:\/\/www.gornjak.org.rs"}],
+      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>https:\/\/www.gornjak.org.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/\">Gornjak PD<\/a>"},
    {"label":"Dužina (km)",
@@ -5415,7 +5372,7 @@
     [{"post_title":"Gornjak PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/",
       "meta":
-      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>http:\/\/www.gornjak.org.rs"}],
+      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>https:\/\/www.gornjak.org.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/\">Gornjak PD<\/a>"},
    {"label":"Dužina (km)",
@@ -5595,7 +5552,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk-2\/",
       "meta":
-      "Bulevar Mihajla Pupina 167, 11070 Novi Beograd<br>063 66 44 22; 064 293 0877<br>http:\/\/www.zeleznicar.org.rs"}],
+      "Bulevar Mihajla Pupina 167, 11070 Novi Beograd<br>063 66 44 22; 064 293 0877<br>https:\/\/www.zeleznicar.org.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk-2\/\">Železničar PD Beograd<\/a>"},
    {"label":"Dužina (km)",
@@ -5704,7 +5661,7 @@
     [{"post_title":"Mosor PSK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/mosor-pak\/",
       "meta":
-      "Tvrđava bb, 18000 Niš<br>063 1023016, 063 406025,  064 665 41 58<br>http:\/\/www.pakmosor.org\/"}],
+      "Tvrđava bb, 18000 Niš<br>063 1023016, 063 406025,  064 665 41 58<br>https:\/\/www.pskmosor.org\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/mosor-pak\/\">Mosor PSK<\/a>"},
    {"label":"Dužina (km)",
@@ -5741,7 +5698,7 @@
     [{"post_title":"Avala PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/psk-avala\/",
       "meta":
-      "Murska 14,  11000 Beograd<br>+38111 386 00 64 ; +38160 04 28 252, <br>http:\/\/www.avala.club\/"}],
+      "Murska 14,  11000 Beograd<br>+38111 386 00 64 ; +38160 04 28 252, <br>https:\/\/pd-avala.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/psk-avala\/\">Avala PD<\/a>"},
    {"label":"Dužina (km)",
@@ -5779,7 +5736,7 @@
     [{"post_title":"Avala PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/psk-avala\/",
       "meta":
-      "Murska 14,  11000 Beograd<br>+38111 386 00 64 ; +38160 04 28 252, <br>http:\/\/www.avala.club\/"}],
+      "Murska 14,  11000 Beograd<br>+38111 386 00 64 ; +38160 04 28 252, <br>https:\/\/pd-avala.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/psk-avala\/\">Avala PD<\/a>"},
    {"label":"Dužina (km)",
@@ -5816,7 +5773,7 @@
     [{"post_title":"Avala PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/psk-avala\/",
       "meta":
-      "Murska 14,  11000 Beograd<br>+38111 386 00 64 ; +38160 04 28 252, <br>http:\/\/www.avala.club\/"}],
+      "Murska 14,  11000 Beograd<br>+38111 386 00 64 ; +38160 04 28 252, <br>https:\/\/pd-avala.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/psk-avala\/\">Avala PD<\/a>"},
    {"label":"Dužina (km)",
@@ -5853,7 +5810,7 @@
     [{"post_title":"Avala PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/psk-avala\/",
       "meta":
-      "Murska 14,  11000 Beograd<br>+38111 386 00 64 ; +38160 04 28 252, <br>http:\/\/www.avala.club\/"}],
+      "Murska 14,  11000 Beograd<br>+38111 386 00 64 ; +38160 04 28 252, <br>https:\/\/pd-avala.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/psk-avala\/\">Avala PD<\/a>"},
    {"label":"Dužina (km)",
@@ -5891,7 +5848,7 @@
     [{"post_title":"Žeželj PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/zezelj-pd\/",
       "meta":
-      "Rudnička 7a 34000 Kragujevac<br>+38164 21 83 412<br>http:\/\/www.pdzezelj.org"}],
+      "Rudnička 7a 34000 Kragujevac<br>+38164 21 83 412<br>https:\/\/www.pdzezelj.org"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zezelj-pd\/\">Žeželj PD<\/a>"},
    {"label":"Dužina (km)",
@@ -5929,7 +5886,7 @@
     [{"post_title":"Javorak  PK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/javorak-psd\/",
       "meta":
-      "Kragujevačka 4, 35250 Paraćin<br>066009754<br>http:\/\/www.javorakpn.com\/"}],
+      "Kragujevačka 4, 35250 Paraćin<br>066009754<br>https:\/\/www.javorakpn.com\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/javorak-psd\/\">Javorak  PK<\/a>"},
    {"label":"Dužina (km)",
@@ -5967,7 +5924,7 @@
     [{"post_title":"Gora PEK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/gora-pek\/",
       "meta":
-      "Poskurički put 39, 34000 Kragujevac<br>064 380 80 73, 064 2415412, 061 218 33 75, 064 266 19 70<br>http:\/\/www.pekgora.org\/"}],
+      " Nikole Pašića 2., 34000 Kragujevac<br>060 32 41 049<br>https:\/\/www.pekgora.com\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/gora-pek\/\">Gora PEK<\/a>"},
    {"label":"Dužina (km)",
@@ -6110,7 +6067,7 @@
     [{"post_title":"Mosor PSK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/mosor-pak\/",
       "meta":
-      "Tvrđava bb, 18000 Niš<br>063 1023016, 063 406025,  064 665 41 58<br>http:\/\/www.pakmosor.org\/"}],
+      "Tvrđava bb, 18000 Niš<br>063 1023016, 063 406025,  064 665 41 58<br>https:\/\/www.pskmosor.org\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/mosor-pak\/\">Mosor PSK<\/a>"},
    {"label":"Dužina (km)",
@@ -6147,7 +6104,7 @@
     [{"post_title":"Mosor PSK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/mosor-pak\/",
       "meta":
-      "Tvrđava bb, 18000 Niš<br>063 1023016, 063 406025,  064 665 41 58<br>http:\/\/www.pakmosor.org\/"}],
+      "Tvrđava bb, 18000 Niš<br>063 1023016, 063 406025,  064 665 41 58<br>https:\/\/www.pskmosor.org\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/mosor-pak\/\">Mosor PSK<\/a>"},
    {"label":"Dužina (km)",
@@ -6183,7 +6140,7 @@
     [{"post_title":"Mosor PSK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/mosor-pak\/",
       "meta":
-      "Tvrđava bb, 18000 Niš<br>063 1023016, 063 406025,  064 665 41 58<br>http:\/\/www.pakmosor.org\/"}],
+      "Tvrđava bb, 18000 Niš<br>063 1023016, 063 406025,  064 665 41 58<br>https:\/\/www.pskmosor.org\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/mosor-pak\/\">Mosor PSK<\/a>"},
    {"label":"Dužina (km)",
@@ -6275,7 +6232,7 @@
     "getValue":"6:00"}]},
  {"ID":8312,
   "title":"Milušinac - Krstatac",
-  "permalink":"https:\/\/pss.rs\/terenipp\/milusinac-krstatac-2\/",
+  "permalink":"https:\/\/pss.rs\/terenipp\/4-45-1\/",
   "terrain_category":28,
   "terrain_ids":[70],
   "region_ids":[4],
@@ -6312,7 +6269,7 @@
     "getValue":"3:00"}]},
  {"ID":8308,
   "title":"Milušinac - Slemen",
-  "permalink":"https:\/\/pss.rs\/terenipp\/milusinac-slemen-2\/",
+  "permalink":"https:\/\/pss.rs\/terenipp\/4-37-2\/",
   "terrain_category":28,
   "terrain_ids":[73],
   "region_ids":[4],
@@ -6349,8 +6306,7 @@
     "getValue":"3:00"}]},
  {"ID":8304,
   "title":"Sesalac - Sesalačka pećina",
-  "permalink":
-  "https:\/\/pss.rs\/terenipp\/sesalac-sesalacka-pecina-2\/",
+  "permalink":"https:\/\/pss.rs\/terenipp\/4-37-1\/",
   "terrain_category":28,
   "terrain_ids":[73],
   "region_ids":[4],
@@ -6481,7 +6437,7 @@
     [{"post_title":"Gora PEK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/gora-pek\/",
       "meta":
-      "Poskurički put 39, 34000 Kragujevac<br>064 380 80 73, 064 2415412, 061 218 33 75, 064 266 19 70<br>http:\/\/www.pekgora.org\/"}],
+      " Nikole Pašića 2., 34000 Kragujevac<br>060 32 41 049<br>https:\/\/www.pekgora.com\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/gora-pek\/\">Gora PEK<\/a>"},
    {"label":"Dužina (km)",
@@ -6498,7 +6454,7 @@
     "getValue":"6:00 - 7:00"}]},
  {"ID":8222,
   "title":"Vlasina - Leskovik",
-  "permalink":"https:\/\/pss.rs\/terenipp\/vlasina-leskovik-2\/",
+  "permalink":"https:\/\/pss.rs\/terenipp\/4-33-1\/",
   "terrain_category":28,
   "terrain_ids":[74],
   "region_ids":[4],
@@ -6955,7 +6911,7 @@
     [{"post_title":"PTT POSK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/ptt-pd\/",
       "meta":
-      "Kosovska 49, 11000 Beograd<br>064 6653 609, 064 651 2972, 064 651 36 29<br>http:\/\/www.pdptt.rs\/"}],
+      "Kosovska 49, 11000 Beograd<br>064 6653 609, 064 651 2972, 064 651 36 29<br>https:\/\/www.pdptt.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/ptt-pd\/\">PTT POSK<\/a>"},
    {"label":"Dužina (km)",
@@ -6991,7 +6947,7 @@
     [{"post_title":"Kopaonik PSD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/kopaonik-psk\/",
       "meta":
-      "Zmaj od Noćaja 9\/IV,  11000 Beograd<br> 064 1552 607<br>http:\/\/www.psd-kopaonik.org.rs"}],
+      "Zmaj od Noćaja 9\/IV,  11000 Beograd<br> 064 1552 607<br>https:\/\/psd-kopaonik.org.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/kopaonik-psk\/\">Kopaonik PSD<\/a>"},
    {"label":"Dužina (km)",
@@ -7284,7 +7240,7 @@
     [{"post_title":"Gornjak PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/",
       "meta":
-      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>http:\/\/www.gornjak.org.rs"}],
+      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>https:\/\/www.gornjak.org.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/\">Gornjak PD<\/a>"},
    {"label":"Dužina (km)",
@@ -7320,7 +7276,7 @@
     [{"post_title":"Gornjak PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/",
       "meta":
-      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>http:\/\/www.gornjak.org.rs"}],
+      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>https:\/\/www.gornjak.org.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/\">Gornjak PD<\/a>"},
    {"label":"Dužina (km)",
@@ -7357,7 +7313,7 @@
     [{"post_title":"Gornjak PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/",
       "meta":
-      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>http:\/\/www.gornjak.org.rs"}],
+      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>https:\/\/www.gornjak.org.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/\">Gornjak PD<\/a>"},
    {"label":"Dužina (km)",
@@ -7393,7 +7349,7 @@
     [{"post_title":"Vukan PK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/vukan-pk\/",
       "meta":
-      "Voje Dulića 41 12000 Požerevac<br>+38164 280 6730; +38163 8826271<br>http:\/\/www.pkvukan.rs"}],
+      "Voje Dulića 41 12000 Požerevac<br>+38164 280 6730; +38163 8826271<br>https:\/\/pkvukan.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/vukan-pk\/\">Vukan PK<\/a>"},
    {"label":"Dužina (km)",
@@ -7430,7 +7386,7 @@
     [{"post_title":"Vukan PK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/vukan-pk\/",
       "meta":
-      "Voje Dulića 41 12000 Požerevac<br>+38164 280 6730; +38163 8826271<br>http:\/\/www.pkvukan.rs"}],
+      "Voje Dulića 41 12000 Požerevac<br>+38164 280 6730; +38163 8826271<br>https:\/\/pkvukan.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/vukan-pk\/\">Vukan PK<\/a>"},
    {"label":"Dužina (km)",
@@ -7467,7 +7423,7 @@
     [{"post_title":"Vukan PK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/vukan-pk\/",
       "meta":
-      "Voje Dulića 41 12000 Požerevac<br>+38164 280 6730; +38163 8826271<br>http:\/\/www.pkvukan.rs"}],
+      "Voje Dulića 41 12000 Požerevac<br>+38164 280 6730; +38163 8826271<br>https:\/\/pkvukan.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/vukan-pk\/\">Vukan PK<\/a>"},
    {"label":"Dužina (km)",
@@ -7504,7 +7460,7 @@
     [{"post_title":"Vukan PK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/vukan-pk\/",
       "meta":
-      "Voje Dulića 41 12000 Požerevac<br>+38164 280 6730; +38163 8826271<br>http:\/\/www.pkvukan.rs"}],
+      "Voje Dulića 41 12000 Požerevac<br>+38164 280 6730; +38163 8826271<br>https:\/\/pkvukan.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/vukan-pk\/\">Vukan PK<\/a>"},
    {"label":"Dužina (km)",
@@ -7541,7 +7497,7 @@
     [{"post_title":"Gornjak PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/",
       "meta":
-      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>http:\/\/www.gornjak.org.rs"}],
+      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>https:\/\/www.gornjak.org.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/\">Gornjak PD<\/a>"},
    {"label":"Dužina (km)",
@@ -7578,7 +7534,7 @@
     [{"post_title":"Gornjak PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/",
       "meta":
-      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>http:\/\/www.gornjak.org.rs"}],
+      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>https:\/\/www.gornjak.org.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/\">Gornjak PD<\/a>"},
    {"label":"Dužina (km)",
@@ -7616,7 +7572,7 @@
     [{"post_title":"Gornjak PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/",
       "meta":
-      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>http:\/\/www.gornjak.org.rs"}],
+      "Prvomajska bb, 12300 Petrovac na Mlavi<br>+38164 2345 518 ; +38163 696 682<br>https:\/\/www.gornjak.org.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/gornjak-pd\/\">Gornjak PD<\/a>"},
    {"label":"Dužina (km)",
@@ -7653,7 +7609,7 @@
     [{"post_title":"Spartak PSK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/spartak-zpk\/",
       "meta":
-      "Bose Miličević BB, 24000 Subotica <br>+38163 87 94 681; +38164 666 12 87<br>http:\/\/www.suplaninari.co.rs\/"}],
+      "Bose Miličević BB, 24000 Subotica <br>+38163 87 94 681; +38164 666 12 87<br>https:\/\/pskspartak.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/spartak-zpk\/\">Spartak PSK<\/a>"},
    {"label":"Dužina (km)",
@@ -8289,7 +8245,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-2006-pk\/",
       "meta":
-      "Kralja Stefana Prvovenčanog bb, 17500 Vranje<br>+38164 836 7865<br>http:\/\/www.spidzelznicar.com"}],
+      "Kralja Stefana Prvovenčanog bb, 17500 Vranje<br>+38164 836 7865<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-2006-pk\/\">Železničar 2006 PK Vranje<\/a>"},
    {"label":"Dužina (km)",
@@ -8327,7 +8283,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-2006-pk\/",
       "meta":
-      "Kralja Stefana Prvovenčanog bb, 17500 Vranje<br>+38164 836 7865<br>http:\/\/www.spidzelznicar.com"}],
+      "Kralja Stefana Prvovenčanog bb, 17500 Vranje<br>+38164 836 7865<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-2006-pk\/\">Železničar 2006 PK Vranje<\/a>"},
    {"label":"Dužina (km)",
@@ -8364,7 +8320,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-2006-pk\/",
       "meta":
-      "Kralja Stefana Prvovenčanog bb, 17500 Vranje<br>+38164 836 7865<br>http:\/\/www.spidzelznicar.com"}],
+      "Kralja Stefana Prvovenčanog bb, 17500 Vranje<br>+38164 836 7865<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-2006-pk\/\">Železničar 2006 PK Vranje<\/a>"},
    {"label":"Dužina (km)",
@@ -8401,7 +8357,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-2006-pk\/",
       "meta":
-      "Kralja Stefana Prvovenčanog bb, 17500 Vranje<br>+38164 836 7865<br>http:\/\/www.spidzelznicar.com"}],
+      "Kralja Stefana Prvovenčanog bb, 17500 Vranje<br>+38164 836 7865<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-2006-pk\/\">Železničar 2006 PK Vranje<\/a>"},
    {"label":"Dužina (km)",
@@ -8439,7 +8395,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-2006-pk\/",
       "meta":
-      "Kralja Stefana Prvovenčanog bb, 17500 Vranje<br>+38164 836 7865<br>http:\/\/www.spidzelznicar.com"}],
+      "Kralja Stefana Prvovenčanog bb, 17500 Vranje<br>+38164 836 7865<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-2006-pk\/\">Železničar 2006 PK Vranje<\/a>"},
    {"label":"Dužina (km)",
@@ -8477,7 +8433,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-2006-pk\/",
       "meta":
-      "Kralja Stefana Prvovenčanog bb, 17500 Vranje<br>+38164 836 7865<br>http:\/\/www.spidzelznicar.com"}],
+      "Kralja Stefana Prvovenčanog bb, 17500 Vranje<br>+38164 836 7865<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-2006-pk\/\">Železničar 2006 PK Vranje<\/a>"},
    {"label":"Dužina (km)",
@@ -8515,7 +8471,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/",
       "meta":
-      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>http:\/\/www.planinari-zeleznicar.rs\/"}],
+      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>https:\/\/planinari-zeleznicar.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/\">Železničar PK Niš<\/a>"},
    {"label":"Dužina (km)",
@@ -8552,7 +8508,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/",
       "meta":
-      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>http:\/\/www.planinari-zeleznicar.rs\/"}],
+      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>https:\/\/planinari-zeleznicar.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/\">Železničar PK Niš<\/a>"},
    {"label":"Dužina (km)",
@@ -8590,7 +8546,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/",
       "meta":
-      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>http:\/\/www.planinari-zeleznicar.rs\/"}],
+      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>https:\/\/planinari-zeleznicar.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/\">Železničar PK Niš<\/a>"},
    {"label":"Dužina (km)",
@@ -8627,7 +8583,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/",
       "meta":
-      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>http:\/\/www.planinari-zeleznicar.rs\/"}],
+      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>https:\/\/planinari-zeleznicar.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/\">Železničar PK Niš<\/a>"},
    {"label":"Dužina (km)",
@@ -8665,7 +8621,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/",
       "meta":
-      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>http:\/\/www.planinari-zeleznicar.rs\/"}],
+      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>https:\/\/planinari-zeleznicar.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/\">Železničar PK Niš<\/a>"},
    {"label":"Dužina (km)",
@@ -8703,7 +8659,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/",
       "meta":
-      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>http:\/\/www.planinari-zeleznicar.rs\/"}],
+      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>https:\/\/planinari-zeleznicar.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/\">Železničar PK Niš<\/a>"},
    {"label":"Dužina (km)",
@@ -8741,7 +8697,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/",
       "meta":
-      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>http:\/\/www.planinari-zeleznicar.rs\/"}],
+      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>https:\/\/planinari-zeleznicar.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/\">Železničar PK Niš<\/a>"},
    {"label":"Dužina (km)",
@@ -8779,7 +8735,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/",
       "meta":
-      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>http:\/\/www.planinari-zeleznicar.rs\/"}],
+      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>https:\/\/planinari-zeleznicar.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/\">Železničar PK Niš<\/a>"},
    {"label":"Dužina (km)",
@@ -8816,7 +8772,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/",
       "meta":
-      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>http:\/\/www.planinari-zeleznicar.rs\/"}],
+      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>https:\/\/planinari-zeleznicar.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/\">Železničar PK Niš<\/a>"},
    {"label":"Dužina (km)",
@@ -8853,7 +8809,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/",
       "meta":
-      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>http:\/\/www.planinari-zeleznicar.rs\/"}],
+      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>https:\/\/planinari-zeleznicar.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/\">Železničar PK Niš<\/a>"},
    {"label":"Dužina (km)",
@@ -8890,7 +8846,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/",
       "meta":
-      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>http:\/\/www.planinari-zeleznicar.rs\/"}],
+      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>https:\/\/planinari-zeleznicar.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/\">Železničar PK Niš<\/a>"},
    {"label":"Dužina (km)",
@@ -8927,7 +8883,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/",
       "meta":
-      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>http:\/\/www.planinari-zeleznicar.rs\/"}],
+      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>https:\/\/planinari-zeleznicar.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/\">Železničar PK Niš<\/a>"},
    {"label":"Dužina (km)",
@@ -8964,7 +8920,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/",
       "meta":
-      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>http:\/\/www.planinari-zeleznicar.rs\/"}],
+      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>https:\/\/planinari-zeleznicar.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/\">Železničar PK Niš<\/a>"},
    {"label":"Dužina (km)",
@@ -9001,7 +8957,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/",
       "meta":
-      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>http:\/\/www.planinari-zeleznicar.rs\/"}],
+      "Tvrđava bb, 18000 Niš<br>064 833 000 3, 061 168 777 1<br>https:\/\/planinari-zeleznicar.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-pk\/\">Železničar PK Niš<\/a>"},
    {"label":"Dužina (km)",
@@ -9393,7 +9349,7 @@
     [{"post_title":"Sirig PSK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/sirig-psk\/",
       "meta":
-      "Novosadska 38 21214 Sirig<br>+38164 207 10 11 ; +38121 849 287<br>http:\/\/www.psksirig.org.rs\/"}],
+      "Novosadska 38 21214 Sirig<br>+38164 207 10 11 ; +38121 849 287<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/sirig-psk\/\">Sirig PSK<\/a>"},
    {"label":"Dužina (km)",
@@ -10005,7 +9961,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-psk\/",
       "meta":
-      "Industrijska 2, 36000 Kraljevo<br>064\/636 17 95<br>http:\/\/www.pskzeleznicarkv.rs\/"}],
+      "Industrijska 2, 36000 Kraljevo<br>064\/636 17 95<br>https:\/\/pskzeleznicarkv.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-psk\/\">Železničar PSK Kraljevo<\/a>"},
    {"label":"Dužina (km)",
@@ -10043,7 +9999,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-psk\/",
       "meta":
-      "Industrijska 2, 36000 Kraljevo<br>064\/636 17 95<br>http:\/\/www.pskzeleznicarkv.rs\/"}],
+      "Industrijska 2, 36000 Kraljevo<br>064\/636 17 95<br>https:\/\/pskzeleznicarkv.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-psk\/\">Železničar PSK Kraljevo<\/a>"},
    {"label":"Dužina (km)",
@@ -10080,7 +10036,7 @@
     [{"post_title":"Brđanka PSK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/psd-brdanka\/",
       "meta":
-      "Dušana Trivunca 54, 18220 Aleksinac<br>060 680 29 75<br>http:\/\/www.planinari-brdjanka.org"}],
+      "Dušana Trivunca 54, 18220 Aleksinac<br>060 680 29 75<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/psd-brdanka\/\">Brđanka PSK<\/a>"},
    {"label":"Dužina (km)",
@@ -10117,7 +10073,7 @@
     [{"post_title":"Brđanka PSK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/psd-brdanka\/",
       "meta":
-      "Dušana Trivunca 54, 18220 Aleksinac<br>060 680 29 75<br>http:\/\/www.planinari-brdjanka.org"}],
+      "Dušana Trivunca 54, 18220 Aleksinac<br>060 680 29 75<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/psd-brdanka\/\">Brđanka PSK<\/a>"},
    {"label":"Dužina (km)",
@@ -10154,7 +10110,7 @@
     [{"post_title":"Brđanka PSK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/psd-brdanka\/",
       "meta":
-      "Dušana Trivunca 54, 18220 Aleksinac<br>060 680 29 75<br>http:\/\/www.planinari-brdjanka.org"}],
+      "Dušana Trivunca 54, 18220 Aleksinac<br>060 680 29 75<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/psd-brdanka\/\">Brđanka PSK<\/a>"},
    {"label":"Dužina (km)",
@@ -10191,7 +10147,7 @@
     [{"post_title":"Brđanka PSK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/psd-brdanka\/",
       "meta":
-      "Dušana Trivunca 54, 18220 Aleksinac<br>060 680 29 75<br>http:\/\/www.planinari-brdjanka.org"}],
+      "Dušana Trivunca 54, 18220 Aleksinac<br>060 680 29 75<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/psd-brdanka\/\">Brđanka PSK<\/a>"},
    {"label":"Dužina (km)",
@@ -10228,7 +10184,7 @@
     [{"post_title":"Brđanka PSK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/psd-brdanka\/",
       "meta":
-      "Dušana Trivunca 54, 18220 Aleksinac<br>060 680 29 75<br>http:\/\/www.planinari-brdjanka.org"}],
+      "Dušana Trivunca 54, 18220 Aleksinac<br>060 680 29 75<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/psd-brdanka\/\">Brđanka PSK<\/a>"},
    {"label":"Dužina (km)",
@@ -10264,7 +10220,7 @@
     [{"post_title":"Brđanka PSK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/psd-brdanka\/",
       "meta":
-      "Dušana Trivunca 54, 18220 Aleksinac<br>060 680 29 75<br>http:\/\/www.planinari-brdjanka.org"}],
+      "Dušana Trivunca 54, 18220 Aleksinac<br>060 680 29 75<br>"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/psd-brdanka\/\">Brđanka PSK<\/a>"},
    {"label":"Dužina (km)",
@@ -11200,43 +11156,6 @@
     "meta_key":"psst_meta_vreme_obilaska__h_min__s8og8",
     "value":"2:30",
     "getValue":"2:30"}]},
- {"ID":3834,
-  "title":"Milušinac- Slemen",
-  "permalink":"https:\/\/pss.rs\/terenipp\/milusinac-slemen\/",
-  "terrain_category":28,
-  "terrain_ids":[73],
-  "region_ids":[4],
-  "postmeta":
-  [{"label":"Oznaka",
-    "type":"text",
-    "desc":"",
-    "meta_key":"psst_meta_oznaka_q8lrf",
-    "value":"4-37-2",
-    "getValue":"4-37-2"},
-   {"label":"Društvo\/klub",
-    "type":"adresar_klubova",
-    "desc":"Naziv kluba\/društva koje održava stazu i mesto",
-    "meta_key":"psst_meta_dru_tvo_klub_c3ri7_adresar_klubova",
-    "value":
-    [{"post_title":"Oštra čuka PD",
-      "permalink":
-      "https:\/\/pss.rs\/adresar_klubova\/ostra-cuka-pd\/",
-      "meta":
-      "Alekse Markišića 2\/4\/16, 18230 Soko Banja<br>+38164 9 202 909<br>https:\/\/www.ostracuka.rs\/"}],
-    "getValue":
-    "<a href=\"https:\/\/pss.rs\/adresar_klubova\/ostra-cuka-pd\/\">Oštra čuka PD<\/a>"},
-   {"label":"Dužina (km)",
-    "type":"text",
-    "desc":"Dužina staze\/puta u km (prim. 4,1 = 4km i 100m)",
-    "meta_key":"psst_meta_du_ina__km__j3b6v",
-    "value":"7",
-    "getValue":"7"},
-   {"label":"Vreme obilaska (h:min)",
-    "type":"text",
-    "desc":"Prosečno vreme obilaska (h:min) prim. 2:20",
-    "meta_key":"psst_meta_vreme_obilaska__h_min__s8og8",
-    "value":"3",
-    "getValue":"3"}]},
  {"ID":3833,
   "title":"Vrbovac- Đurkov vrh",
   "permalink":"https:\/\/pss.rs\/terenipp\/vrbovac-djurkov-vrh\/",
@@ -11274,81 +11193,6 @@
     "meta_key":"psst_meta_vreme_obilaska__h_min__s8og8",
     "value":"2:00",
     "getValue":"2:00"}]},
- {"ID":3832,
-  "title":"Vlasina-Leskovik",
-  "permalink":"https:\/\/pss.rs\/terenipp\/vlasina-leskovik\/",
-  "terrain_category":28,
-  "terrain_ids":[74],
-  "region_ids":[4],
-  "postmeta":
-  [{"label":"Oznaka",
-    "type":"text",
-    "desc":"",
-    "meta_key":"psst_meta_oznaka_q8lrf",
-    "value":"4-33-1",
-    "getValue":"4-33-1"},
-   {"label":"Društvo\/klub",
-    "type":"adresar_klubova",
-    "desc":"Naziv kluba\/društva koje održava stazu i mesto",
-    "meta_key":"psst_meta_dru_tvo_klub_c3ri7_adresar_klubova",
-    "value":
-    [{"post_title":"Oštra čuka PD",
-      "permalink":
-      "https:\/\/pss.rs\/adresar_klubova\/ostra-cuka-pd\/",
-      "meta":
-      "Alekse Markišića 2\/4\/16, 18230 Soko Banja<br>+38164 9 202 909<br>https:\/\/www.ostracuka.rs\/"}],
-    "getValue":
-    "<a href=\"https:\/\/pss.rs\/adresar_klubova\/ostra-cuka-pd\/\">Oštra čuka PD<\/a>"},
-   {"label":"Dužina (km)",
-    "type":"text",
-    "desc":"Dužina staze\/puta u km (prim. 4,1 = 4km i 100m)",
-    "meta_key":"psst_meta_du_ina__km__j3b6v",
-    "value":"7",
-    "getValue":"7"},
-   {"label":"Vreme obilaska (h:min)",
-    "type":"text",
-    "desc":"Prosečno vreme obilaska (h:min) prim. 2:20",
-    "meta_key":"psst_meta_vreme_obilaska__h_min__s8og8",
-    "value":"2",
-    "getValue":"2"}]},
- {"ID":3831,
-  "title":"Sesalac- Sesalačka pećina",
-  "permalink":
-  "https:\/\/pss.rs\/terenipp\/sesalac-sesalacka-pecina\/",
-  "terrain_category":28,
-  "terrain_ids":[73],
-  "region_ids":[4],
-  "postmeta":
-  [{"label":"Oznaka",
-    "type":"text",
-    "desc":"",
-    "meta_key":"psst_meta_oznaka_q8lrf",
-    "value":"4-37-1",
-    "getValue":"4-37-1"},
-   {"label":"Društvo\/klub",
-    "type":"adresar_klubova",
-    "desc":"Naziv kluba\/društva koje održava stazu i mesto",
-    "meta_key":"psst_meta_dru_tvo_klub_c3ri7_adresar_klubova",
-    "value":
-    [{"post_title":"Oštra čuka PD",
-      "permalink":
-      "https:\/\/pss.rs\/adresar_klubova\/ostra-cuka-pd\/",
-      "meta":
-      "Alekse Markišića 2\/4\/16, 18230 Soko Banja<br>+38164 9 202 909<br>https:\/\/www.ostracuka.rs\/"}],
-    "getValue":
-    "<a href=\"https:\/\/pss.rs\/adresar_klubova\/ostra-cuka-pd\/\">Oštra čuka PD<\/a>"},
-   {"label":"Dužina (km)",
-    "type":"text",
-    "desc":"Dužina staze\/puta u km (prim. 4,1 = 4km i 100m)",
-    "meta_key":"psst_meta_du_ina__km__j3b6v",
-    "value":"3",
-    "getValue":"3"},
-   {"label":"Vreme obilaska (h:min)",
-    "type":"text",
-    "desc":"Prosečno vreme obilaska (h:min) prim. 2:20",
-    "meta_key":"psst_meta_vreme_obilaska__h_min__s8og8",
-    "value":"1",
-    "getValue":"1"}]},
  {"ID":3830,
   "title":"Tomićeva koliba - Šiljak",
   "permalink":"https:\/\/pss.rs\/terenipp\/tomiceva-koliba-siljak\/",
@@ -11536,43 +11380,6 @@
     "meta_key":"psst_meta_vreme_obilaska__h_min__s8og8",
     "value":"1:30",
     "getValue":"1:30"}]},
- {"ID":3800,
-  "title":"Milušinac-Krstatac",
-  "permalink":"https:\/\/pss.rs\/terenipp\/milusinac-krstatac\/",
-  "terrain_category":28,
-  "terrain_ids":[70],
-  "region_ids":[4],
-  "postmeta":
-  [{"label":"Oznaka",
-    "type":"text",
-    "desc":"",
-    "meta_key":"psst_meta_oznaka_q8lrf",
-    "value":"4-45-1",
-    "getValue":"4-45-1"},
-   {"label":"Društvo\/klub",
-    "type":"adresar_klubova",
-    "desc":"Naziv kluba\/društva koje održava stazu i mesto",
-    "meta_key":"psst_meta_dru_tvo_klub_c3ri7_adresar_klubova",
-    "value":
-    [{"post_title":"Oštra čuka PD",
-      "permalink":
-      "https:\/\/pss.rs\/adresar_klubova\/ostra-cuka-pd\/",
-      "meta":
-      "Alekse Markišića 2\/4\/16, 18230 Soko Banja<br>+38164 9 202 909<br>https:\/\/www.ostracuka.rs\/"}],
-    "getValue":
-    "<a href=\"https:\/\/pss.rs\/adresar_klubova\/ostra-cuka-pd\/\">Oštra čuka PD<\/a>"},
-   {"label":"Dužina (km)",
-    "type":"text",
-    "desc":"Dužina staze\/puta u km (prim. 4,1 = 4km i 100m)",
-    "meta_key":"psst_meta_du_ina__km__j3b6v",
-    "value":"6",
-    "getValue":"6"},
-   {"label":"Vreme obilaska (h:min)",
-    "type":"text",
-    "desc":"Prosečno vreme obilaska (h:min) prim. 2:20",
-    "meta_key":"psst_meta_vreme_obilaska__h_min__s8og8",
-    "value":"3",
-    "getValue":"3"}]},
  {"ID":3798,
   "title":"Sokobanja - Kalinovica - Oštra Čuka",
   "permalink":
@@ -12162,7 +11969,7 @@
     [{"post_title":"Vrbica PK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/vrbica-pk\/",
       "meta":
-      "I Mesna zajednica  Nikole Pašića 17, 11320 Velika Plana<br>0641178141<br>http:\/\/www.pdvrbica.org.rs"}],
+      "I Mesna zajednica  Nikole Pašića 17, 11320 Velika Plana<br>0641178141<br>https:\/\/www.pdvrbica.org.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/vrbica-pk\/\">Vrbica PK<\/a>"},
    {"label":"Dužina (km)",
@@ -12198,7 +12005,7 @@
     [{"post_title":"Vrbica PK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/vrbica-pk\/",
       "meta":
-      "I Mesna zajednica  Nikole Pašića 17, 11320 Velika Plana<br>0641178141<br>http:\/\/www.pdvrbica.org.rs"}],
+      "I Mesna zajednica  Nikole Pašića 17, 11320 Velika Plana<br>0641178141<br>https:\/\/www.pdvrbica.org.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/vrbica-pk\/\">Vrbica PK<\/a>"},
    {"label":"Dužina (km)",
@@ -12234,7 +12041,7 @@
     [{"post_title":"Vrbica PK",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/vrbica-pk\/",
       "meta":
-      "I Mesna zajednica  Nikole Pašića 17, 11320 Velika Plana<br>0641178141<br>http:\/\/www.pdvrbica.org.rs"}],
+      "I Mesna zajednica  Nikole Pašića 17, 11320 Velika Plana<br>0641178141<br>https:\/\/www.pdvrbica.org.rs"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/vrbica-pk\/\">Vrbica PK<\/a>"},
    {"label":"Dužina (km)",
@@ -12272,7 +12079,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-psk\/",
       "meta":
-      "Industrijska 2, 36000 Kraljevo<br>064\/636 17 95<br>http:\/\/www.pskzeleznicarkv.rs\/"}],
+      "Industrijska 2, 36000 Kraljevo<br>064\/636 17 95<br>https:\/\/pskzeleznicarkv.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-psk\/\">Železničar PSK Kraljevo<\/a>"},
    {"label":"Dužina (km)",
@@ -12310,7 +12117,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-psk\/",
       "meta":
-      "Industrijska 2, 36000 Kraljevo<br>064\/636 17 95<br>http:\/\/www.pskzeleznicarkv.rs\/"}],
+      "Industrijska 2, 36000 Kraljevo<br>064\/636 17 95<br>https:\/\/pskzeleznicarkv.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-psk\/\">Železničar PSK Kraljevo<\/a>"},
    {"label":"Dužina (km)",
@@ -12348,7 +12155,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-psk\/",
       "meta":
-      "Industrijska 2, 36000 Kraljevo<br>064\/636 17 95<br>http:\/\/www.pskzeleznicarkv.rs\/"}],
+      "Industrijska 2, 36000 Kraljevo<br>064\/636 17 95<br>https:\/\/pskzeleznicarkv.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-psk\/\">Železničar PSK Kraljevo<\/a>"},
    {"label":"Dužina (km)",
@@ -12385,7 +12192,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-psk\/",
       "meta":
-      "Industrijska 2, 36000 Kraljevo<br>064\/636 17 95<br>http:\/\/www.pskzeleznicarkv.rs\/"}],
+      "Industrijska 2, 36000 Kraljevo<br>064\/636 17 95<br>https:\/\/pskzeleznicarkv.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-psk\/\">Železničar PSK Kraljevo<\/a>"},
    {"label":"Dužina (km)",
@@ -12423,7 +12230,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/vrsacka-kula-psd\/",
       "meta":
-      "Svetosavski trg 1a, 26300 Vršac<br>+38169 164 14 76<br>https:\/\/www.psdkulavrsac.com\/"}],
+      "Svetosavski trg 1a, 26300 Vršac<br>+38169 164 14 76<br>https:\/\/psdkulavrsac.com\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/vrsacka-kula-psd\/\">Vršačka kula PSD<\/a>"},
    {"label":"Dužina (km)",
@@ -12461,7 +12268,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/vrsacka-kula-psd\/",
       "meta":
-      "Svetosavski trg 1a, 26300 Vršac<br>+38169 164 14 76<br>https:\/\/www.psdkulavrsac.com\/"}],
+      "Svetosavski trg 1a, 26300 Vršac<br>+38169 164 14 76<br>https:\/\/psdkulavrsac.com\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/vrsacka-kula-psd\/\">Vršačka kula PSD<\/a>"},
    {"label":"Dužina (km)",
@@ -12498,7 +12305,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/vrsacka-kula-psd\/",
       "meta":
-      "Svetosavski trg 1a, 26300 Vršac<br>+38169 164 14 76<br>https:\/\/www.psdkulavrsac.com\/"}],
+      "Svetosavski trg 1a, 26300 Vršac<br>+38169 164 14 76<br>https:\/\/psdkulavrsac.com\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/vrsacka-kula-psd\/\">Vršačka kula PSD<\/a>"},
    {"label":"Dužina (km)",
@@ -12536,7 +12343,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/vrsacka-kula-psd\/",
       "meta":
-      "Svetosavski trg 1a, 26300 Vršac<br>+38169 164 14 76<br>https:\/\/www.psdkulavrsac.com\/"}],
+      "Svetosavski trg 1a, 26300 Vršac<br>+38169 164 14 76<br>https:\/\/psdkulavrsac.com\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/vrsacka-kula-psd\/\">Vršačka kula PSD<\/a>"},
    {"label":"Dužina (km)",
@@ -12722,7 +12529,7 @@
     [{"post_title":"Žeželj PD",
       "permalink":"https:\/\/pss.rs\/adresar_klubova\/zezelj-pd\/",
       "meta":
-      "Rudnička 7a 34000 Kragujevac<br>+38164 21 83 412<br>http:\/\/www.pdzezelj.org"}],
+      "Rudnička 7a 34000 Kragujevac<br>+38164 21 83 412<br>https:\/\/www.pdzezelj.org"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zezelj-pd\/\">Žeželj PD<\/a>"},
    {"label":"Dužina (km)",
@@ -12795,7 +12602,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-psk\/",
       "meta":
-      "Industrijska 2, 36000 Kraljevo<br>064\/636 17 95<br>http:\/\/www.pskzeleznicarkv.rs\/"}],
+      "Industrijska 2, 36000 Kraljevo<br>064\/636 17 95<br>https:\/\/pskzeleznicarkv.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-psk\/\">Železničar PSK Kraljevo<\/a>"},
    {"label":"Dužina (km)",
@@ -12833,7 +12640,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/zeleznicar-psk\/",
       "meta":
-      "Industrijska 2, 36000 Kraljevo<br>064\/636 17 95<br>http:\/\/www.pskzeleznicarkv.rs\/"}],
+      "Industrijska 2, 36000 Kraljevo<br>064\/636 17 95<br>https:\/\/pskzeleznicarkv.rs\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/zeleznicar-psk\/\">Železničar PSK Kraljevo<\/a>"},
    {"label":"Dužina (km)",
@@ -12906,7 +12713,7 @@
       "permalink":
       "https:\/\/pss.rs\/adresar_klubova\/vrsacka-kula-psd\/",
       "meta":
-      "Svetosavski trg 1a, 26300 Vršac<br>+38169 164 14 76<br>https:\/\/www.psdkulavrsac.com\/"}],
+      "Svetosavski trg 1a, 26300 Vršac<br>+38169 164 14 76<br>https:\/\/psdkulavrsac.com\/"}],
     "getValue":
     "<a href=\"https:\/\/pss.rs\/adresar_klubova\/vrsacka-kula-psd\/\">Vršačka kula PSD<\/a>"},
    {"label":"Dužina (km)",
