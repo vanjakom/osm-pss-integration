@@ -129,6 +129,22 @@ https://www.openstreetmap.org/relation/22215030
 https://pss.rs/terenipp/fruskogorska-transverzala/
 20260921 званични траг одступа од реалности
 
+пренесено из OSM:
+Релација је иницијално постављена према трагу који је обезбедио аутор  блога [1]
+и других трагова који су били доступни маперима.
+У верзији 66 трансверзала је сортирана и уређена тако да се генеришу правилни
+висински профили.
+Договорено је да траса трансверзале прилагоди компромисном треку који је 
+припремио Планинарски савез Војводине. Планинарски савез Војводине и даље ради
+на сређивању трасе трансверзале и коришћење компромисног трека није подржано док
+се уређивање стазе не заврши. Уместо тога договорено је да како мапер 
+Komadinovic Vanja [2] обилази трансверзалу уноси измене које сматра да има 
+смисла [3].
+
+[1] https://www.perpetuummobile.blog/2020/08/fruskogorska-transverzala-2020.html
+[2] https://www.openstreetmap.org/user/Komadinovic%20Vanja
+[3] https://vanjakom.github.io/zanimljiva-geografija/projects/fruskogorska_transverzala.html
+
 # #T-5-8 Овчарско-кабларска трансверзала
 https://pss.rs/terenipp/ovcarsko-kablarska-transverzala/
 https://www.openstreetmap.org/relation/11499127
