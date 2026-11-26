@@ -34,7 +34,7 @@ Staze dostupne unutar OSM baze:
 |-
 | T-3-2
 | nepoznat
-| Rajac (suvoborski), Suvobor
+| Rajac (suvoborski)Suvobor
 | 
 | Чика Душкове рајачке стазе
 | [https://pss.rs/terenipp/cika-duskove-rajacke-staze/ pss]
@@ -61,7 +61,7 @@ Staze dostupne unutar OSM baze:
 |-
 | T-3-29
 | nepoznat
-| Boranja, Gučevo
+| BoranjaGučevo
 | 
 | Вукове богазе
 | [https://pss.rs/terenipp/vukove-bogaze/ pss]
@@ -70,10 +70,10 @@ Staze dostupne unutar OSM baze:
 |-
 | T-4-12
 | nepoznat
-| Beljanica, Homoljske planine
+| BeljanicaHomoljske planine
 | 
 | Хомољска трансверзала
-| [ pss]
+| [https://pss.rs/terenipp/homoljska-transverzala/ pss]
 | {{relation|13239017}}
 | 
 |-
@@ -93,7 +93,7 @@ Staze dostupne unutar OSM baze:
 | Овчарско-кабларска трансверзала
 | [https://pss.rs/terenipp/ovcarsko-kablarska-transverzala/ pss]
 | {{relation|11499127}}
-| https://www.openstreetmap.org/relation/11499127 20260913 Висећи мост испред планинарског дома више не постоји, трансверзала преусмерена кроз центар Овчар Бање. пренесено са OSM вики стране
+| https://pss.rs/terenipp/ovcarsko-kablarska-transverzala/  <br/>https://www.openstreetmap.org/relation/11499127  <br/>20260913  <br/>Висећи мост испред планинарског дома више не постоји, трансверзала преусмерена  <br/>кроз центар Овчар Бање.  <br/>пренесено са OSM вики стране  
 |-
 | 1-1-2
 | Vojvodina
@@ -196,7 +196,7 @@ Staze dostupne unutar OSM baze:
 |-
 | 1-14-1
 | Vojvodina
-| Park prirode Jegrička-Sirig
+| Jegrička reka
 | dobro uređena i markirana
 | Обалом Јегричке
 | [https://pss.rs/terenipp/obalom-jegricke/ pss]
@@ -408,7 +408,7 @@ Staze dostupne unutar OSM baze:
 | Вера
 | [https://pss.rs/terenipp/2-16-5/ pss]
 | {{relation|21424707}}
-|  20260921 унео стазу на основу мејла, смањена верзија 2-16-1
+| https://pss.rs/terenipp/2-16-5/  <br/>https://www.openstreetmap.org/relation/21424707  <br/>20260921 унео стазу на основу мејла, смањена верзија 2-16-1  
 |-
 | 3-3-1
 | Zapadna Srbija
@@ -426,7 +426,7 @@ Staze dostupne unutar OSM baze:
 | Три чесме - Грабовци - Кам - Црни врх (Гучево)
 | [https://pss.rs/terenipp/tri-cesme-grabovci-kam-crni-vrh-gucevo/ pss]
 | {{relation|15005069}}
-| https://www.openstreetmap.org/relation/15005069 20260915 malo poklapanja sa unešenim putevima, snimci i tragovi ne pomazu preneseno iz note-map (job/pss.clj)
+| https://pss.rs/terenipp/tri-cesme-grabovci-kam-crni-vrh-gucevo/  <br/>https://www.openstreetmap.org/relation/15005069  <br/>20260915  <br/>malo poklapanja sa unešenim putevima, snimci i tragovi ne pomazu  <br/>preneseno iz note-map (job/pss.clj)  
 |-
 | 3-3-3
 | Zapadna Srbija
@@ -538,12 +538,12 @@ Staze dostupne unutar OSM baze:
 |-
 | 3-14-4
 | Zapadna Srbija
-| Jablanik, Povlen
+| JablanikPovlen
 | dobro uređena i markirana
 | Пл. кућа ”Повленски кућерак” - с. Пашна раван - Јабланик
-| [https://pss.rs/terenipp/pl-kuca-povlenski-kucerak-s-pasna-ravan-zaseok-prokici-jablanik-debelo-brdo-pl-kuca-povlenski-kucerak/ pss]
+| [https://pss.rs/terenipp/3-14-4/ pss]
 | {{relation|12456767}}
-| https://www.openstreetmap.org/relation/12456767 20260913 Додата напомена у nepravilnosti.dot. Према https://www.openstreetmap.org/changeset/152483229 стаза је зарасла,  отворен ноте https://www.openstreetmap.org/note/5169164 пренесено са OSM вики стране
+| https://pss.rs/terenipp/3-14-4/  <br/>https://www.openstreetmap.org/relation/12456767  <br/>20260913  <br/>Додата напомена у nepravilnosti.dot.  <br/>Према https://www.openstreetmap.org/changeset/152483229 стаза је зарасла,   <br/>отворен ноте https://www.openstreetmap.org/note/5169164  <br/>пренесено са OSM вики стране  
 |-
 | 3-14-5
 | Zapadna Srbija
@@ -565,7 +565,7 @@ Staze dostupne unutar OSM baze:
 |-
 | 3-14-7
 | Zapadna Srbija
-| Magleš, Ostreš, Povlen
+| MaglešOstrešPovlen
 | odlično uređena i markirana
 | Жел. ст. Самари - Мравињци
 | [https://pss.rs/terenipp/zel-st-samari-s-mravinjci-vrh-maglesa-zel-st-samari/ pss]
@@ -619,10 +619,10 @@ Staze dostupne unutar OSM baze:
 |-
 | 3-20-7
 | Zapadna Srbija
-| Suvobor
+| MaljenSuvobor
 | dobro uređena i markirana
 | Сувобор (врх) - Маљен, Дивчибаре (Пл. дом „Маглеш”)
-| [https://pss.rs/terenipp/suvobor-vrh-maljen-divcibare-pl-dom-magles/ pss]
+| [https://pss.rs/terenipp/3-20-7/ pss]
 | {{relation|12525333}}
 | 
 |-
@@ -730,7 +730,7 @@ Staze dostupne unutar OSM baze:
 | Kablar
 | dobro uređena i markirana
 | Каблар
-| [https://pss.rs/terenipp/kablar/ pss]
+| [https://pss.rs/terenipp/3-28-3/ pss]
 | {{relation|11189476}}
 | 
 |-
@@ -878,14 +878,14 @@ Staze dostupne unutar OSM baze:
 | {{relation|18934881}}
 | неслагање да ли је кружна, проверити дужину
 |-
-| 4-23-1
+| 4-23-2
 | Istočna Srbija
-| Baba
+| Rtanj
 | odlično uređena i markirana
-| Церови - Голема Порица
-| [https://pss.rs/terenipp/cerovi-golema-porica/ pss]
-| {{relation|16782461}}
-| 
+| Мали ртањски врхови – Баба
+| [https://pss.rs/terenipp/4-23-2/ pss]
+| {{relation|21586568}}
+| https://www.openstreetmap.org/relation/21586568  <br/>20261008  <br/>Стаза унешена током састанка Комисије према подацима од Младена Антића из  <br/>ПД Оштра чука.  
 |-
 | 4-26-1
 | Istočna Srbija
@@ -948,7 +948,7 @@ Staze dostupne unutar OSM baze:
 | Шарбановац - В. Порица - Баба
 | [https://pss.rs/terenipp/sarbanovac-v-porica-baba/ pss]
 | {{relation|11098411}}
-| https://www.openstreetmap.org/relation/11098411 20260913 Грешком обрисан део стазе, враћен након дискусије. https://www.openstreetmap.org/changeset/170544123 пренесено са OSM вики стране
+| https://pss.rs/terenipp/sarbanovac-v-porica-baba/  <br/>https://www.openstreetmap.org/relation/11098411  <br/>20261008  <br/>Стаза исправљена током састанка Комисије према модацима од Младена Антића  <br/>20260913  <br/>Грешком обрисан део стазе, враћен након дискусије.  <br/>https://www.openstreetmap.org/changeset/170544123  <br/>пренесено са OSM вики стране  
 |-
 | 4-27-7
 | Istočna Srbija
@@ -1124,9 +1124,9 @@ Staze dostupne unutar OSM baze:
 | 4-33-1
 | Istočna Srbija
 | Ozren
-| zapuštena
+| dobro uređena i markirana
 | Власина - Лесковик
-| [https://pss.rs/terenipp/vlasina-leskovik-2/ pss]
+| [https://pss.rs/terenipp/4-33-1/ pss]
 | {{relation|11260598}}
 | 
 |-
@@ -1146,7 +1146,7 @@ Staze dostupne unutar OSM baze:
 | Поздрав пролећу / Алексинац - Сокобања (Рипаљка)
 | [https://pss.rs/terenipp/pozdrav-prolecu-aleksinac-sokobanja-ripaljka/ pss]
 | {{relation|11305864}}
-| https://www.openstreetmap.org/relation/11305864 20260920 отворена неправилност
+| https://pss.rs/terenipp/pozdrav-prolecu-aleksinac-sokobanja-ripaljka/  <br/>https://www.openstreetmap.org/relation/11305864  <br/>20260920 отворена неправилност  
 |-
 | 4-33-4
 | Istočna Srbija
@@ -1200,7 +1200,7 @@ Staze dostupne unutar OSM baze:
 | Рипаљка - Јерменчић - Лесковик - Озренска врата
 | [https://pss.rs/terenipp/ripaljka-jermencic-leskovik-ozrenska-vrata/ pss]
 | {{relation|13190234}}
-| https://www.openstreetmap.org/relation/13190234 20260920 одступање од трага на 21.83912, 43.59094
+| https://pss.rs/terenipp/ripaljka-jermencic-leskovik-ozrenska-vrata/  <br/>https://www.openstreetmap.org/relation/13190234  <br/>20260920 одступање од трага на 21.83912, 43.59094  
 |-
 | 4-36-1
 | Istočna Srbija
@@ -1225,7 +1225,7 @@ Staze dostupne unutar OSM baze:
 | Slemen
 | dobro uređena i markirana
 | Сесалац - Сесалачка пећина
-| [https://pss.rs/terenipp/sesalac-sesalacka-pecina-2/ pss]
+| [https://pss.rs/terenipp/4-37-1/ pss]
 | {{relation|11105694}}
 | 
 |-
@@ -1234,7 +1234,7 @@ Staze dostupne unutar OSM baze:
 | Slemen
 | delimično uređena
 | Милушинац - Слемен
-| [https://pss.rs/terenipp/milusinac-slemen-2/ pss]
+| [https://pss.rs/terenipp/4-37-2/ pss]
 | {{relation|11126557}}
 | 
 |-
@@ -1315,7 +1315,7 @@ Staze dostupne unutar OSM baze:
 | Krstatac
 | dobro uređena i markirana
 | Милушинац - Крстатац
-| [https://pss.rs/terenipp/milusinac-krstatac-2/ pss]
+| [https://pss.rs/terenipp/4-45-1/ pss]
 | {{relation|11126446}}
 | staza nije mapirana u potpunosti
 |-
@@ -1492,7 +1492,7 @@ Staze dostupne unutar OSM baze:
 |-
 | 5-6-1
 | Jugozapadna Srbija
-| Bič
+| 
 | dobro uređena i markirana
 | Велики Бич
 | [https://pss.rs/terenipp/veliki-bic/ pss]
@@ -1506,7 +1506,7 @@ Staze dostupne unutar OSM baze:
 | Прибој - Тврђава Јагат
 | [https://pss.rs/terenipp/mali-bic/ pss]
 | {{relation|12163308}}
-| https://www.openstreetmap.org/relation/12163308 20260920 трек је кружни, опис у једном правцу, унешена у једном правцу
+| https://pss.rs/terenipp/mali-bic/  <br/>https://www.openstreetmap.org/relation/12163308  <br/>20260920 трек је кружни, опис у једном правцу, унешена у једном правцу  
 |-
 | 5-9-1
 | Jugozapadna Srbija
@@ -1853,7 +1853,7 @@ Staze dostupne unutar OSM baze:
 | 7-1-1
 | Jugoistočna Srbija
 | Babička gora
-| delimično uređena
+| dobro uređena i markirana
 | „Црни Камен“
 | [https://pss.rs/terenipp/crni-kamen/ pss]
 | {{relation|13935770}}
@@ -1862,7 +1862,7 @@ Staze dostupne unutar OSM baze:
 | 7-1-2
 | Jugoistočna Srbija
 | Babička gora
-| dobro uređena i markirana
+| delimično uređena
 | Јарсеново - Г. Купиновица - Крива Бука
 | [https://pss.rs/terenipp/jarsenovo-g-kupinovica-kriva-buka/ pss]
 | {{relation|13936069}}
@@ -2138,6 +2138,42 @@ Staze dostupne unutar OSM baze:
 | {{relation|16865212}}
 | 
 |-
+| 7-22-4
+| Jugoistočna Srbija
+| Čemernik
+| dobro uređena i markirana
+| Доњи Дел – Велики Чемерник
+| [https://pss.rs/terenipp/7-22-4/ pss]
+| {{relation|22212751}}
+| https://pss.rs/terenipp/7-22-4/  <br/>https://www.openstreetmap.org/relation/22212751  <br/>20261124 нова стаза, унешена у регистар  
+|-
+| 7-27-1
+| Jugoistočna Srbija
+| Vardenik
+| dobro uređena i markirana
+| Промаја – Велики Стрешер
+| [https://pss.rs/terenipp/7-27-1/ pss]
+| {{relation|22214949}}
+| https://pss.rs/terenipp/7-27-1/  <br/>https://www.openstreetmap.org/relation/22214949  <br/>20261124 нова стаза, унешена у регистар  
+|-
+| 7-27-2
+| Jugoistočna Srbija
+| Vardenik
+| dobro uređena i markirana
+| Топли До – Велики Стрешер
+| [https://pss.rs/terenipp/7-27-2/ pss]
+| {{relation|22215026}}
+| https://pss.rs/terenipp/7-27-2/  <br/>https://www.openstreetmap.org/relation/22215026  <br/>20261124 нова стаза, унешена у регистар  
+|-
+| 7-27-3
+| Jugoistočna Srbija
+| Vardenik
+| dobro uređena i markirana
+| Ваљавица – Велики Стрешер
+| [https://pss.rs/terenipp/7-27-3/ pss]
+| {{relation|22215030}}
+| https://pss.rs/terenipp/7-27-3/  <br/>https://www.openstreetmap.org/relation/22215030  <br/>20261124 нова стаза, унешена у регистар  
+|-
 | 7-47-1
 | Jugoistočna Srbija
 | Oblik
@@ -2160,387 +2196,379 @@ Staze koje je moguće mapirati:
 |-
 | E4-1
 | nepoznat
-| nil
+| Kanjiža
 | 
-| Granica Mađarske-Horgoš 2-Ada
-| [https://pss.rs/terenipp/granica-madjarske-horgos2-ada/ pss]
-| https://www.openstreetmap.org/relation/14185952 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| Horgoš - Ada
+| [https://pss.rs/terenipp/e4-1/ pss]
+| https://pss.rs/terenipp/e4-1/  <br/>https://www.openstreetmap.org/relation/14185952  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E4-2
 | nepoznat
-| nil
+| Slano Kopovo
 | 
 | Ada - Zrenjanin
-| [https://pss.rs/terenipp/ada-zrenjanin/ pss]
-| https://www.openstreetmap.org/relation/14191834 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| [https://pss.rs/terenipp/e4-2/ pss]
+| https://pss.rs/terenipp/e4-2/  <br/>https://www.openstreetmap.org/relation/14191834  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E4-3
 | nepoznat
-| nil
+| Carska bara
 | 
 | Zrenjanin - Padina
-| [https://pss.rs/terenipp/zrenjanin-padina/ pss]
-| https://www.openstreetmap.org/relation/14192820 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| [https://pss.rs/terenipp/e4-3/ pss]
+| https://pss.rs/terenipp/e4-3/  <br/>https://www.openstreetmap.org/relation/14192820  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E4-4
 | nepoznat
-| nil
+| Deliblatska peščara
 | 
-| Padina - Krnjača (Beograd)
-| [https://pss.rs/terenipp/padina-krnjaca-beograd/ pss]
-| https://www.openstreetmap.org/relation/14194463 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| Padina - Beograd (Krnjača)
+| [https://pss.rs/terenipp/e4-4/ pss]
+| https://pss.rs/terenipp/e4-4/  <br/>https://www.openstreetmap.org/relation/14194463  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E4-5
 | nepoznat
-| nil
+| Avala
 | 
 | Beograd (Krnjača) - Osipaonica
 | [https://pss.rs/terenipp/e4-5/ pss]
-| https://www.openstreetmap.org/relation/18981432 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| https://pss.rs/terenipp/e4-5/  <br/>https://www.openstreetmap.org/relation/18981432  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E4-6
 | nepoznat
-| nil
+| Stig
 | 
 | Osipaonica - Veliko Gradište
 | [https://pss.rs/terenipp/e4-6/ pss]
-| https://www.openstreetmap.org/relation/19199003 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| https://pss.rs/terenipp/e4-6/  <br/>https://www.openstreetmap.org/relation/19199003  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E4-7
 | nepoznat
-| nil
+| Braničevo
 | 
 | Veliko Gradište - Beljanica vrh
 | [https://pss.rs/terenipp/e4-7/ pss]
-| https://www.openstreetmap.org/relation/19232993 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| https://pss.rs/terenipp/e4-7/  <br/>https://www.openstreetmap.org/relation/19232993  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E4-8
 | nepoznat
-| nil
+| Lepenski vir
 | 
 | Beljanica vrh - Lepenski Vir
 | [https://pss.rs/terenipp/e4-8/ pss]
-| https://www.openstreetmap.org/relation/19282616 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| https://pss.rs/terenipp/e4-8/  <br/>https://www.openstreetmap.org/relation/19282616  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E4-9
 | nepoznat
-| nil
+| Đerdap
 | 
 | Lepenski Vir - Đerdap hidroelektrana
 | [https://pss.rs/terenipp/e4-9/ pss]
-| https://www.openstreetmap.org/relation/19505827 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| https://pss.rs/terenipp/e4-9/  <br/>https://www.openstreetmap.org/relation/19505827  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E4-10
 | nepoznat
-| nil
+| Deli Jovan
 | 
 | Đerdap hidroelektrana - Sikole
 | [https://pss.rs/terenipp/e4-10/ pss]
-| https://www.openstreetmap.org/relation/14206055 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| https://pss.rs/terenipp/e4-10/  <br/>https://www.openstreetmap.org/relation/14206055  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E4-11
 | nepoznat
-| nil
+| Kučaj Malinik
 | 
-| Krivelj - Sokobanja
-| [https://pss.rs/terenipp/krivelj-soko-banja/ pss]
-| https://www.openstreetmap.org/relation/14206054 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| Sikole - Sokobanja
+| [https://pss.rs/terenipp/e4-11/ pss]
+| https://pss.rs/terenipp/e4-11/  <br/>https://www.openstreetmap.org/relation/14206054  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E4-12
 | nepoznat
-| nil
+| Devica
 | 
 | Sokobanja - Jalovik
 | [https://pss.rs/terenipp/e4-12/ pss]
-| #mapignore 20260915 Е пут није мапиран током пројекта
+| https://pss.rs/terenipp/e4-12/  <br/>#mapignore  <br/>20260915  <br/>Е пут није мапиран током пројекта  
 |-
 | E4-13
 | nepoznat
-| nil
+| Stara planina
 | 
 | Jalovik - Gradina
 | [https://pss.rs/terenipp/e4-13/ pss]
-| #mapignore 20260915 Е пут није мапиран током пројекта
+| https://pss.rs/terenipp/e4-13/  <br/>#mapignore  <br/>20260915  <br/>Е пут није мапиран током пројекта  
 |-
 | E7-1
 | nepoznat
-| nil
+| Palićko jezero
 | 
 | Bački Vinogradi - Stari Žednik
 | [https://pss.rs/terenipp/e7-1/ pss]
-| https://www.openstreetmap.org/relation/18335543 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| https://pss.rs/terenipp/e7-1/  <br/>https://www.openstreetmap.org/relation/18335543  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E7-2
 | nepoznat
-| nil
+| Telečka visoravan
 | 
 | Stari Žednik - Sombor
 | [https://pss.rs/terenipp/e7-2/ pss]
-| https://www.openstreetmap.org/relation/18335542 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| https://pss.rs/terenipp/e7-2/  <br/>https://www.openstreetmap.org/relation/18335542  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E7-3
 | nepoznat
-| nil
+| Gornje Podunavlje
 | 
 | Sombor - Bač
 | [https://pss.rs/terenipp/e7-3/ pss]
-| https://www.openstreetmap.org/relation/18331386 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| https://pss.rs/terenipp/e7-3/  <br/>https://www.openstreetmap.org/relation/18331386  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E7-4
 | nepoznat
-| nil
+| Karađorđevo
 | 
 | Bač - Novi Sad
 | [https://pss.rs/terenipp/e7-4/ pss]
-| https://www.openstreetmap.org/relation/18206217 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| https://pss.rs/terenipp/e7-4/  <br/>https://www.openstreetmap.org/relation/18206217  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E7-5
 | nepoznat
-| nil
+| Fruška gora
 | 
 | Novi Sad - Sremska Mitrovica
 | [https://pss.rs/terenipp/e7-5/ pss]
-| https://www.openstreetmap.org/relation/12499130 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| https://pss.rs/terenipp/e7-5/  <br/>https://www.openstreetmap.org/relation/12499130  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E7-6
 | nepoznat
-| nil
+| Zasavica
 | 
 | Sremska Mitrovica - Cer
 | [https://pss.rs/terenipp/e7-6/ pss]
-| https://www.openstreetmap.org/relation/18335544 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| https://pss.rs/terenipp/e7-6/  <br/>https://www.openstreetmap.org/relation/18335544  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E7-7
 | nepoznat
-| nil
+| Cer
 | 
 | Cer - Krupanj
 | [https://pss.rs/terenipp/e7-7/ pss]
-| https://www.openstreetmap.org/relation/18345452 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| https://pss.rs/terenipp/e7-7/  <br/>https://www.openstreetmap.org/relation/18345452  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E7-8
 | nepoznat
-| nil
+| BobijaJablanikKlisura reke GradacMaljenPovlenSokolska planina
 | 
-| Krupanj - Ljubovija - Valjevo - Divčibare
-| [https://pss.rs/terenipp/krupanj-ljubovija-valjevo-divcibare/ pss]
-| https://www.openstreetmap.org/relation/14177412 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| Krupanj - Divčibare
+| [https://pss.rs/terenipp/e7-8/ pss]
+| https://pss.rs/terenipp/e7-8/  <br/>https://www.openstreetmap.org/relation/14177412  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E7-9
 | nepoznat
-| nil
+| RudnikKablarMaljenSuvobor
 | 
-| Divčibare - Rajac - Rudnik - Ovčar banja
-| [https://pss.rs/terenipp/divcibare-rajac-rudnik-ovcar-banja/ pss]
-| https://www.openstreetmap.org/relation/14180878 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| Divčibare - Ovčar Banja
+| [https://pss.rs/terenipp/e7-9/ pss]
+| https://pss.rs/terenipp/e7-9/  <br/>https://www.openstreetmap.org/relation/14180878  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E7-10
 | nepoznat
-| nil
+| Tara
 | 
 | Ovčar banja - Kremna
 | [https://pss.rs/terenipp/e7-10/ pss]
-| https://www.openstreetmap.org/relation/17610623 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| https://pss.rs/terenipp/e7-10/  <br/>https://www.openstreetmap.org/relation/17610623  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E7-10-5
 | nepoznat
-| nil
+| Zlatibor
 | 
 | Čajetina
 | [https://pss.rs/terenipp/cajetina/ pss]
-| #mapignore 20250323 segment E7-10, pitao slobodana, preskocio u mapiranju preneseno iz note-map (job/pss.clj)
+| https://pss.rs/terenipp/cajetina/  <br/>#mapignore  <br/>20250323  <br/>segment E7-10, pitao slobodana, preskocio u mapiranju  <br/>preneseno iz note-map (job/pss.clj)  
 |-
 | E7-10-4
 | nepoznat
-| nil
+| Zlatibor
 | 
 | Drežnik
 | [https://pss.rs/terenipp/dreznik/ pss]
-| #mapignore 20250323 segment E7-10, pitao slobodana, preskocio u mapiranju preneseno iz note-map (job/pss.clj)
-|-
-| E7-10-11
-| nepoznat
-| nil
-| 
-| Ovčar banja -Arilje - Čajetina - Kremna - Tara - Mokra gora - Zlatibor - Murtenica (Brijač)
-| [https://pss.rs/terenipp/ovcar-banja-arilje-cajetina-kremna-tara-mokra-gora-zlatibor-murtenica-brijac/ pss]
-| #mapignore 20250323 mislim da je stara spojena verzija 10 i 11. preskocio u mapiranju, cimao slobodana preneseno iz note-map (job/pss.clj)
+| https://pss.rs/terenipp/dreznik/  <br/>#mapignore  <br/>20250323  <br/>segment E7-10, pitao slobodana, preskocio u mapiranju  <br/>preneseno iz note-map (job/pss.clj)  
 |-
 | E7-10-6
 | nepoznat
-| nil
+| Zlatibor
 | 
 | Kremna
 | [https://pss.rs/terenipp/kremna/ pss]
-| #mapignore 20250323 segment E7-10, pitao slobodana, preskocio u mapiranju preneseno iz note-map (job/pss.clj)
+| https://pss.rs/terenipp/kremna/  <br/>#mapignore  <br/>20250323  <br/>segment E7-10, pitao slobodana, preskocio u mapiranju  <br/>preneseno iz note-map (job/pss.clj)  
 |-
 | E7-11-3
 | nepoznat
-| nil
+| Tara
 | 
 | Mokra Gora
 | [https://pss.rs/terenipp/mokra-gora/ pss]
-| #mapignore 20250323 segment E7-11, preskocio u mapiranju za sada, proveriti sa slobodanom preneseno iz note-map (job/pss.clj)
+| https://pss.rs/terenipp/mokra-gora/  <br/>#mapignore  <br/>20250323  <br/>segment E7-11, preskocio u mapiranju za sada, proveriti sa slobodanom  <br/>preneseno iz note-map (job/pss.clj)  
 |-
 | E7-11
 | nepoznat
-| nil
+| Jadovnik
 | 
 | Kremna - Murtenica
 | [https://pss.rs/terenipp/e7-11/ pss]
-| https://www.openstreetmap.org/relation/18360637 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| https://pss.rs/terenipp/e7-11/  <br/>https://www.openstreetmap.org/relation/18360637  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E7-11-2
 | nepoznat
-| nil
+| Tara
 | 
 | Zvijezda
 | [https://pss.rs/terenipp/zvijezda/ pss]
-| #mapignore 20250323 segment E7-11, preskocio u mapiranju za sada, proveriti sa slobodanom preneseno iz note-map (job/pss.clj)
+| https://pss.rs/terenipp/zvijezda/  <br/>#mapignore  <br/>20250323  <br/>segment E7-11, preskocio u mapiranju za sada, proveriti sa slobodanom  <br/>preneseno iz note-map (job/pss.clj)  
 |-
 | E7-11-4
 | nepoznat
-| nil
+| Zlatibor
 | 
 | Zlatibor
 | [https://pss.rs/terenipp/zlatibor/ pss]
-| #mapignore 20250323 segment E7-11, preskocio u mapiranju za sada, proveriti sa slobodanom preneseno iz note-map (job/pss.clj)
+| https://pss.rs/terenipp/zlatibor/  <br/>#mapignore  <br/>20250323  <br/>segment E7-11, preskocio u mapiranju za sada, proveriti sa slobodanom  <br/>preneseno iz note-map (job/pss.clj)  
 |-
 | E7-11-1
 | nepoznat
-| nil
+| Tara
 | 
 | Tara
 | [https://pss.rs/terenipp/tara/ pss]
-| #mapignore 20250323 segment E7-11, preskocio u mapiranju za sada, proveriti sa slobodanom preneseno iz note-map (job/pss.clj)
+| https://pss.rs/terenipp/tara/  <br/>#mapignore  <br/>20250323  <br/>segment E7-11, preskocio u mapiranju za sada, proveriti sa slobodanom  <br/>preneseno iz note-map (job/pss.clj)  
 |-
 | E7-11-5
 | nepoznat
-| nil
+| Zlatibor
 | 
 | Sirogojno
 | [https://pss.rs/terenipp/sirogojno/ pss]
-| #mapignore 20250323 segment E7-11, preskocio u mapiranju za sada, proveriti sa slobodanom preneseno iz note-map (job/pss.clj)
+| https://pss.rs/terenipp/sirogojno/  <br/>#mapignore  <br/>20250323  <br/>segment E7-11, preskocio u mapiranju za sada, proveriti sa slobodanom  <br/>preneseno iz note-map (job/pss.clj)  
 |-
 | E7-12-6
 | nepoznat
-| nil
+| Jadovnik
 | 
 | Sopotnica
 | [https://pss.rs/terenipp/sopotnica/ pss]
-| #mapignore 20250323 segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom preneseno iz note-map (job/pss.clj)
+| https://pss.rs/terenipp/sopotnica/  <br/>#mapignore  <br/>20250323  <br/>segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom  <br/>preneseno iz note-map (job/pss.clj)  
 |-
 | E7-12-1
 | nepoznat
-| nil
+| Zlatibor
 | 
 | Janja
 | [https://pss.rs/terenipp/janja/ pss]
-| #mapignore 20250323 segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom preneseno iz note-map (job/pss.clj)
+| https://pss.rs/terenipp/janja/  <br/>#mapignore  <br/>20250323  <br/>segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom  <br/>preneseno iz note-map (job/pss.clj)  
 |-
 | E7-12-5
 | nepoznat
-| nil
+| Pobijenik
 | 
 | Kamena Gora
 | [https://pss.rs/terenipp/kamena-gora/ pss]
-| #mapignore 20250323 segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom preneseno iz note-map (job/pss.clj)
+| https://pss.rs/terenipp/kamena-gora/  <br/>#mapignore  <br/>20250323  <br/>segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom  <br/>preneseno iz note-map (job/pss.clj)  
 |-
 | E7-12-4
 | nepoznat
-| nil
+| Pobijenik
 | 
 | Jabuka
 | [https://pss.rs/terenipp/jabuka/ pss]
-| #mapignore 20250323 segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom preneseno iz note-map (job/pss.clj)
+| https://pss.rs/terenipp/jabuka/  <br/>#mapignore  <br/>20250323  <br/>segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom  <br/>preneseno iz note-map (job/pss.clj)  
 |-
 | E7-12-3
 | nepoznat
-| nil
+| Pobijenik
 | 
 | Mažići
 | [https://pss.rs/terenipp/mazici/ pss]
-| #mapignore 20250323 segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom preneseno iz note-map (job/pss.clj)
+| https://pss.rs/terenipp/mazici/  <br/>#mapignore  <br/>20250323  <br/>segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom  <br/>preneseno iz note-map (job/pss.clj)  
 |-
 | E7-12
 | nepoznat
-| nil
+| Jadovnik
 | 
-| Brijač - Uvac - Sopotnica - Sjenica
-| [https://pss.rs/terenipp/brijac-uvac-sopotnica-sjenica/ pss]
-| https://www.openstreetmap.org/relation/11753312 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| Murtenica - Sjenica
+| [https://pss.rs/terenipp/e7-12/ pss]
+| https://pss.rs/terenipp/e7-12/  <br/>https://www.openstreetmap.org/relation/11753312  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E7-12-2
 | nepoznat
-| nil
+| Bič
 | 
 | Pribojska Banja
 | [https://pss.rs/terenipp/pribojska-banja/ pss]
-| #mapignore 20250323 segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom preneseno iz note-map (job/pss.clj)
+| https://pss.rs/terenipp/pribojska-banja/  <br/>#mapignore  <br/>20250323  <br/>segment E7-12, preskocio u mapiranju za sada, proveriti sa slobodanom  <br/>preneseno iz note-map (job/pss.clj)  
 |-
 | E7-13
 | nepoznat
-| nil
+| Golija
 | 
 | Sjenica - Gradac
 | [https://pss.rs/terenipp/e7-13/ pss]
-| https://www.openstreetmap.org/relation/18368092 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| https://pss.rs/terenipp/e7-13/  <br/>https://www.openstreetmap.org/relation/18368092  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E7-14
 | nepoznat
-| nil
+| Goč
 | 
 | Gradac - Kriva Reka
 | [https://pss.rs/terenipp/e7-14/ pss]
-| https://www.openstreetmap.org/relation/18371638 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| https://pss.rs/terenipp/e7-14/  <br/>https://www.openstreetmap.org/relation/18371638  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E7-15
 | nepoznat
-| nil
+| Kopaonik
 | 
 | Kriva Reka - Žuč
 | [https://pss.rs/terenipp/e7-15/ pss]
-| https://www.openstreetmap.org/relation/18374951 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| https://pss.rs/terenipp/e7-15/  <br/>https://www.openstreetmap.org/relation/18374951  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E7-16
 | nepoznat
-| nil
+| Mali JastrebacVeliki Jastrebac
 | 
-| Selova - Blace - Veliki Jastrebac - Mali Jastrebac - Tešica - G.Trnava
-| [https://pss.rs/terenipp/selova-blace-v-jastrebac-m-jastrebac-tesica-g-trnava/ pss]
-| https://www.openstreetmap.org/relation/14185390 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| Žuč - Gornja Trnava
+| [https://pss.rs/terenipp/e7-16/ pss]
+| https://pss.rs/terenipp/e7-16/  <br/>https://www.openstreetmap.org/relation/14185390  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E7-17
 | nepoznat
-| nil
+| Suva planina
 | 
 | Gornja Trnava - Vlasotince
 | [https://pss.rs/terenipp/e7-17/ pss]
-| https://www.openstreetmap.org/relation/18404717 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| https://pss.rs/terenipp/e7-17/  <br/>https://www.openstreetmap.org/relation/18404717  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E7-18
 | nepoznat
-| nil
+| Čemernik
 | 
 | Vlasotince - Prohor Pčinjski
 | [https://pss.rs/terenipp/e7-18/ pss]
-| https://www.openstreetmap.org/relation/18397689 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| https://pss.rs/terenipp/e7-18/  <br/>https://www.openstreetmap.org/relation/18397689  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E7-19
 | nepoznat
-| nil
+| Radan
 | 
 | Devijacija: Žuč - Lebane
 | [https://pss.rs/terenipp/e7-19/ pss]
-| https://www.openstreetmap.org/relation/18378518 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| https://pss.rs/terenipp/e7-19/  <br/>https://www.openstreetmap.org/relation/18378518  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | E7-20
 | nepoznat
-| nil
+| Kukavica
 | 
 | Devijacija: Lebane - Sveti Ilija
 | [https://pss.rs/terenipp/e7-20/ pss]
-| https://www.openstreetmap.org/relation/18391888 #mapignore 20260915 Е путеви привремено уклоњени са мапе
+| https://pss.rs/terenipp/e7-20/  <br/>https://www.openstreetmap.org/relation/18391888  <br/>#mapignore  <br/>20260915  <br/>Е путеви привремено уклоњени са мапе  
 |-
 | T-1-9
 | nepoznat
@@ -2548,7 +2576,7 @@ Staze koje je moguće mapirati:
 | 
 | Fruškogorska transverzala
 | [https://pss.rs/terenipp/fruskogorska-transverzala/ pss]
-| 20260921 званични траг одступа од реалности
+| https://pss.rs/terenipp/fruskogorska-transverzala/  <br/>20260921 званични траг одступа од реалности  <br/>  <br/>пренесено из OSM:  <br/>Релација је иницијално постављена према трагу који је обезбедио аутор  блога [1]  <br/>и других трагова који су били доступни маперима.  <br/>У верзији 66 трансверзала је сортирана и уређена тако да се генеришу правилни  <br/>висински профили.  <br/>Договорено је да траса трансверзале прилагоди компромисном треку који је   <br/>припремио Планинарски савез Војводине. Планинарски савез Војводине и даље ради  <br/>на сређивању трасе трансверзале и коришћење компромисног трека није подржано док  <br/>се уређивање стазе не заврши. Уместо тога договорено је да како мапер   <br/>Komadinovic Vanja [2] обилази трансверзалу уноси измене које сматра да има   <br/>смисла [3].  <br/>  <br/>[1] https://www.perpetuummobile.blog/2020/08/fruskogorska-transverzala-2020.html  <br/>[2] https://www.openstreetmap.org/user/Komadinovic%20Vanja  <br/>[3] https://vanjakom.github.io/zanimljiva-geografija/projects/fruskogorska_transverzala.html  
 |-
 | 1-3-2
 | Vojvodina
@@ -2572,7 +2600,7 @@ Staze koje je moguće mapirati:
 | dobro uređena i markirana
 | Niševačka klisura
 | [https://pss.rs/terenipp/nisevacka-klisura/ pss]
-| 20260915 kretanje železničkom prugom kroz tunele? preneseno iz note-map (job/pss.clj)
+| https://pss.rs/terenipp/nisevacka-klisura/  <br/>20260915  <br/>kretanje železničkom prugom kroz tunele?  <br/>preneseno iz note-map (job/pss.clj)  
 |-
 | 4-45-3
 | Istočna Srbija
@@ -2580,7 +2608,7 @@ Staze koje je moguće mapirati:
 | delimično uređena
 | Čitluk - Krstatac
 | [https://pss.rs/terenipp/citluk-krstatac/ pss]
-| 20260915 gpx je problematičan, deluje da je kružna staza preneseno iz note-map (job/pss.clj)
+| https://pss.rs/terenipp/citluk-krstatac/  <br/>20260915  <br/>gpx je problematičan, deluje da je kružna staza  <br/>preneseno iz note-map (job/pss.clj)  
 |-
 | 4-47-3
 | Istočna Srbija
@@ -2588,7 +2616,7 @@ Staze koje je moguće mapirati:
 | delimično uređena
 | Kamenica - Srećkovo vrelo - Kamenička karaula
 | [https://pss.rs/terenipp/kamenica-sreckovo-vrelo-kamenicka-karaula/ pss]
-| 20260915 malo poklapanja sa putevima i tragovima, dugo nije markirana preneseno iz note-map (job/pss.clj)
+| https://pss.rs/terenipp/kamenica-sreckovo-vrelo-kamenicka-karaula/  <br/>20260915  <br/>malo poklapanja sa putevima i tragovima, dugo nije markirana  <br/>preneseno iz note-map (job/pss.clj)  
 |-
 | 5-15-1
 | Jugozapadna Srbija

@@ -180,7 +180,7 @@ the function looks the way it does, not as pending work):
   `trail-list.html`, and the new-vs-production comparison / HTML diff report
   (see Data flow above).
 - `src/osm_pss_integration/job/report.clj` — `create-trail-list` (writes
-  this repo's own `dataset/trail-lst.md`) plus the shared, public
+  this repo's own `dataset/trail-list.md`) plus the shared, public
   `id->category`/`id->numeric-key`/`id->sort-key` sort-order helpers reused
   by `job/staze.clj`'s `create-trail-list-html`; also `create-trail-planine`
   (**not** scheduler-wired, call manually), writes `dataset/trail-planine.md`
