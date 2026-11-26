@@ -22,6 +22,7 @@
    [clj-geo.import.geojson :as geojson]
    [clj-geo.import.gpx :as gpx]
    [clj-geo.import.osm :as osm]
+   [clj-geo.import.osmapi :as osmapi]
    [clj-geo.math.tile :as tile-math]
    [clj-geo.osm.dataset :as dataset]
    [clj-geo.visualization.map :as map]
@@ -54,7 +55,10 @@
      (keep
       (fn [note]
         (when-let [tag (first (notemd/tags note))]
-          [(.substring tag 1) (clojure.string/join " " (notemd/lines note))]))
+          ;; join with <br/>, not a plain space, so multi-line notes keep
+          ;; their line breaks when rendered into osm-state.html - hiccup
+          ;; doesn't escape plain strings, so a literal <br/> renders raw
+          [(.substring tag 1) (clojure.string/join "<br/>" (notemd/lines note))]))
       (notemd/read-notes is #{})))))
 
 
@@ -117,16 +121,14 @@
               (get-in relation [:tags "note"])
               note)]
     [:tr
-     [:td {:style "border: 1px solid black; padding: 5px; width: 50px;"}
-      id]
      [:td {:style "border: 1px solid black; padding: 5px; width: 150px;"}
-      (id->region id)]
-     [:td {:style "border: 1px solid black; padding: 5px; width: 150px;"}
-      (:planina route)]
-     [:td {:style "border: 1px solid black; padding: 5px; width: 100px; text-align: center;"}
+      id
+      [:br]
+      (id->region id)
+      [:br]
+      (:planina route)
+      [:br]
       (:drustvo route)]
-     [:td {:style "border: 1px solid black; padding: 5px; width: 100px; text-align: center;"}
-      (:uredjenost route)]
      [:td {:style "border: 1px solid black; padding: 5px; width: 600px;"}
       (:title route )
       [:br]
@@ -155,9 +157,11 @@
          "distance =  km<br>"
          "roundtrip = <br>"))]
      
-     [:td {:style "border: 1px solid black; padding: 5px; width: 40px; text-align: center;"}
-      [:a {:href (:link route) :target "_blank"} "pss"]]
+     [:td {:style "border: 1px solid black; padding: 5px; width: 100px;"}
+      note]
      [:td {:style "border: 1px solid black; padding: 5px; width: 80px; text-align: center;"}
+      [:a {:href (:link route) :target "_blank"} "pss"]
+      [:br]
       (if-let [osm-id (:id relation)]
         (list
           [:a {
@@ -165,52 +169,36 @@
                :target "_blank"} "osm"]
           [:br]
           [:a {
-               :href (str "http://localhost:7077/view/osm/history/relation/" osm-id)
-               :target "_blank"} "history"]
-          [:br]
-          [:a {
-               :href (str "http://localhost:7077/route/edit/" osm-id)
-               :target "_blank"} "order edit"]          
-          [:br]
-          [:a {
-               :href (str "http://localhost:7077/projects/pss/compare/" (get-in relation [:tags "ref"]))
-               :target "_blank"} "compare"]          
-          [:br]
-          [:a {
                :href (str
                       "https://www.openstreetmap.org/edit?editor=id"
                       "&relation=" osm-id
                       "&#gpx=https%3A%2F%2Fraw.githubusercontent.com%2Fvanjakom%2Fosm-pss-integration%2Fmaster%2Fdataset%2Fpss.rs%2Fwebsite%2Froutes%2F"
                       id ".geojson")
-
-               ;; looks like editor is not working with file:// urls
-               #_(str
-                "https://www.openstreetmap.org/edit?editor=id"
-                "&relation=" osm-id
-                "&#gpx=" (url-encode (str
-                                      "file://"
-                                      (path/path->string
-                                       (path/child
-                                        dataset-path
-                                        "routes"
-                                        (str id ".gpx"))))))
-
-               
                :target "_blank"} "iD edit"]
+          [:br]
+          [:a {
+               :href (str "http://localhost:7077/view/osm/history/relation/" osm-id)
+               :target "_blank"} "history"]
+          [:br]
+          [:a {
+               :href (str "http://localhost:7077/route/edit/" osm-id)
+               :target "_blank"} "order edit"]
+          [:br]
+          [:a {
+               :href (str "http://localhost:7077/projects/pss/compare/" (get-in relation [:tags "ref"]))
+               :target "_blank"} "compare"]
           [:br]
           [:a {
                :href (str "http://level0.osmz.ru/?url=relation/" osm-id)
                :target "_blank"} "level0"]
-          [:br]          
+          [:br]
           osm-id)
         [:a {
              :href (str
                     "https://www.openstreetmap.org/edit?editor=id"
                     "&#gpx=https%3A%2F%2Fraw.githubusercontent.com%2Fvanjakom%2Fosm-pss-integration%2Fmaster%2Fdataset%2Fpss.rs%2Fwebsite%2Froutes%2F"
                     id ".geojson")
-             :target "_blank"} "iD edit"])]
-     [:td {:style "border: 1px solid black; padding: 5px; width: 100px;"}
-      note]]))
+             :target "_blank"} "iD edit"])]]))
 
 ;; todo
 ;; extract jobs from download routines
@@ -1008,7 +996,7 @@
        (channel-provider :node-out)
        (channel-provider :way-out)
        (channel-provider :relation-out))
-      
+
       (pipeline/write-edn-go
        (context/wrap-scope context "write-node")
        resource-controller
@@ -1039,6 +1027,61 @@
      :geofabrik-serbia-split-path ["Users" "vanja" "dataset-local" "geofabrik-serbia-split"]
      :osm-pss-extract-path ["Users" "vanja" "dataset-local" "osm-pss-extract"]}
     extract-pss-osm))
+
+(defn extract-pss-osm-api
+  "Alternative to extract-pss-osm - instead of reading relations/ways/nodes
+   out of a local geofabrik split, fetches each mapped relation directly
+   from the live OSM API via clj-geo.import.osmapi/relation-full
+   (/api/0.6/relation/#id/full, resolves all member ways and their nodes
+   server side in one call per relation), merges the per-relation datasets
+   together, and writes osm-pss-extract/{node,way,relation}.edn in the same
+   one-entity-per-line format load-pss-osm expects - node/way/relation
+   shapes returned by osmapi (:id/:type/:tags/:longitude/:latitude/:nodes/
+   :members) match clj-geo.import.osm's split-derived shapes field for
+   field. Useful to get current data without waiting on a fresh geofabrik
+   split, at the cost of one OSM API request per relation (237 relations
+   currently mapped) instead of a single local pass over the split."
+  [job-context]
+  (let [configuration (core/context-configuration job-context)
+        osm-pss-integration-path (:osm-pss-integration-path configuration)
+        osm-pss-extract-path (:osm-pss-extract-path configuration)
+        relation-id-seq (with-open [is (fs/input-stream
+                                        (path/child
+                                         osm-pss-integration-path
+                                         "relation-mapping.tsv"))]
+                          (into
+                           []
+                           (map
+                            (comp
+                             as/as-long
+                             second
+                             #(.split % "\t"))
+                            (drop 1 (io/input-stream->line-seq is)))))]
+    (core/context-report job-context (str "loaded " (count relation-id-seq) " relations"))
+    (let [dataset (reduce
+                   (fn [dataset relation-id]
+                     (core/context-report job-context (str "fetching relation " relation-id))
+                     (dataset/merge-datasets dataset (osmapi/relation-full relation-id)))
+                   {:node {} :way {} :relation {}}
+                   relation-id-seq)]
+      (core/context-report
+       job-context
+       (str
+        "fetched " (count (:relation dataset)) " relations, "
+        (count (:way dataset)) " ways, "
+        (count (:node dataset)) " nodes"))
+      (with-open [os (fs/output-stream (path/child osm-pss-extract-path "node.edn"))]
+        (doseq [node (vals (:node dataset))]
+          (edn/write-object os node)
+          (io/write-new-line os)))
+      (with-open [os (fs/output-stream (path/child osm-pss-extract-path "way.edn"))]
+        (doseq [way (vals (:way dataset))]
+          (edn/write-object os way)
+          (io/write-new-line os)))
+      (with-open [os (fs/output-stream (path/child osm-pss-extract-path "relation.edn"))]
+        (doseq [relation (vals (:relation dataset))]
+          (edn/write-object os relation)
+          (io/write-new-line os))))))
 
 (defn load-pss-osm
   "Loads previosly extracted osm-pss-extract"
@@ -1356,7 +1399,19 @@
           (with-open [os (fs/output-stream (path/child integration-git-path "osm-state.html"))]
             (io/write-string
              os
-             (let [[mapped-routes routes-with-gpx rest-of-routes]
+             (let [;; E paths ( E4-*, E7-*, ... ) pulled out of the normal
+                   ;; new/incomplete/error split entirely and shown together
+                   ;; in their own section instead, regardless of their
+                   ;; mapped/gpx/connected state
+                   [e-path-routes normal-routes]
+                   (reduce
+                    (fn [[e-paths normal] route]
+                      (if (.startsWith (:id route) "E")
+                        [(conj e-paths route) normal]
+                        [e-paths (conj normal route)]))
+                    [[] []]
+                    (vals routes))
+                   [mapped-routes routes-with-gpx rest-of-routes]
                    (reduce
                     (fn [[mapped gpx rest-of] route]
                       (if (some? (get relation-map (:id route)))
@@ -1365,57 +1420,84 @@
                           [mapped (conj gpx route) rest-of]
                           [mapped gpx (conj rest-of route)])))
                     [[] [] []]
-                    (vals routes))
+                    normal-routes)
                    complete-routes (filter #(contains? connected-set
                                                        (:id (get relation-map (:id %))))
                                            mapped-routes)
+                   ;; mapped on osm, but relation's ways aren't fully
+                   ;; connected - fails the completeness check
                    not-complete-routes (filter #(not (contains? connected-set
                                                                 (:id (get relation-map (:id %)))))
-                                               mapped-routes)]
+                                               mapped-routes)
+                   ;; unmapped, no gpx track to work from either
+                   bez-traga-routes rest-of-routes
+                   ;; todo not yet defined - distinct from
+                   ;; not-complete-routes (that's now "nisu-kompletne"),
+                   ;; left empty until there's a real criterion
+                   sa-greskama-routes []
+                   render-section (fn [route-seq]
+                                     [:table {:style "border-collapse:collapse; width: 100%; table-layout: fixed;"}
+                                      (map
+                                       #(render-route % (get relation-map (:id %)) (get note-map (:id %)))
+                                       (sort #(id-compare %1 %2) route-seq))])]
                (hiccup/html
                    [:html
                     [:head
                      [:meta {:charset "UTF-8"}]]
                     [:body {:style "font-family:arial;"}
-                     [:br]
-                     [:div (str "rute koje poseduju gpx a nisu mapirane (" (count routes-with-gpx) ")")]
-                     [:br]
-                     [:table {:style "border-collapse:collapse;"}
-                      (map
-                       #(render-route % (get relation-map (:id %)) (get note-map (:id %)))
-                       (sort
-                        #(id-compare %1 %2)
-                        routes-with-gpx))]
-                     [:br]
-
-                     [:div (str "mapirane rute koje nisu kompletne (" (count not-complete-routes)  ")")]
-                     [:br]
-                     [:table {:style "border-collapse:collapse;"}
-                      (map
-                       #(render-route % (get relation-map (:id %)) (get note-map (:id %)))
-                       (sort
-                        #(id-compare %1 %2)
-                        not-complete-routes))]
+                     [:div
+                      [:a {:href "#nove-staze"} (str "Nove staze (" (count routes-with-gpx) ")")]
+                      " | "
+                      [:a {:href "#nisu-kompletne"}
+                       (str "Staze koje nisu kompletne (" (count not-complete-routes) ")")]
+                      " | "
+                      [:a {:href "#bez-traga"}
+                       (str "Staze bez traga (" (count bez-traga-routes) ")")]
+                      " | "
+                      [:a {:href "#sa-greskama"}
+                       (str "Staze sa greškama (" (count sa-greskama-routes) ")")]
+                      " | "
+                      [:a {:href "#kompletne-staze"}
+                       (str "Kompletne staze (" (count complete-routes) ")")]
+                      " | "
+                      [:a {:href "#evropski-putevi"}
+                       (str "Evropski pešački putevi (" (count e-path-routes) ")")]]
                      [:br]
 
-                     [:div (str "mapirane rute koje su kompletne (" (count complete-routes)  ")")]
+                     [:h2 {:id "nove-staze"}
+                      (str "Nove staze (" (count routes-with-gpx) ")")]
                      [:br]
-                     [:table {:style "border-collapse:collapse;"}
-                      (map
-                       #(render-route % (get relation-map (:id %)) (get note-map (:id %)))
-                       (sort
-                        #(id-compare %1 %2)
-                        complete-routes))]
+                     (render-section routes-with-gpx)
                      [:br]
-                  
-                     [:div (str "ostale rute (" (count rest-of-routes) ")")]
+
+                     [:h2 {:id "nisu-kompletne"}
+                      (str "Staze koje nisu kompletne (" (count not-complete-routes) ")")]
                      [:br]
-                     [:table {:style "border-collapse:collapse;"}
-                      (map
-                       #(render-route % (get relation-map (:id %)) (get note-map (:id %)))
-                       (sort
-                        #(id-compare %1 %2)
-                        rest-of-routes))]]]))))))
+                     (render-section not-complete-routes)
+                     [:br]
+
+                     [:h2 {:id "bez-traga"}
+                      (str "Staze bez traga (" (count bez-traga-routes) ")")]
+                     [:br]
+                     (render-section bez-traga-routes)
+                     [:br]
+
+                     [:h2 {:id "sa-greskama"}
+                      (str "Staze sa greškama (" (count sa-greskama-routes) ")")]
+                     [:br]
+                     (render-section sa-greskama-routes)
+                     [:br]
+
+                     [:h2 {:id "kompletne-staze"}
+                      (str "Kompletne staze (" (count complete-routes) ")")]
+                     [:br]
+                     (render-section complete-routes)
+                     [:br]
+
+                     [:h2 {:id "evropski-putevi"}
+                      (str "Evropski pešački putevi (" (count e-path-routes) ")")]
+                     [:br]
+                     (render-section e-path-routes)]]))))))
 
       (core/context-report
        job-context

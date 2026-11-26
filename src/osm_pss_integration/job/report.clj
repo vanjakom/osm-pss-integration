@@ -18,7 +18,7 @@
 
 (defn id->category
   "0 normal trails, 1 transversals ( T- prefix ), 2 E paths, matches
-  registar.md / trail-lst.md sort convention"
+  registar.md / trail-list.md sort convention"
   [id]
   (cond
     (.startsWith id "T-") 1
@@ -43,7 +43,7 @@
   [(id->category id) (id->numeric-key id)])
 
 (defn create-trail-list
-  "Reads pss.rs/dataset.edn and writes trail-lst.md, a space aligned id /
+  "Reads pss.rs/dataset.edn and writes trail-list.md, a space aligned id /
   planina / naziv listing, sorted normal trails first, then transversals,
   then E paths"
   [job-context]
@@ -57,7 +57,7 @@
         id-width (+ 2 (apply max (map #(count (:id %)) trail-seq)))
         planina-width (+ 2 (apply max (map #(count (or (:planina %) "")) trail-seq)))
         row-format (str "%-" id-width "s%-" planina-width "s%s")]
-    (with-open [os (fs/output-stream (path/child osm-pss-integration-path "trail-lst.md"))]
+    (with-open [os (fs/output-stream (path/child osm-pss-integration-path "trail-list.md"))]
       (io/write-string
        os
        (str
@@ -72,7 +72,7 @@
           #(format row-format (:id %) (or (:planina %) "") (:title %))
           trail-seq))
         "\n```\n")))
-    (context/trace job-context (str "trail-lst.md created, " (count trail-seq) " trails"))))
+    (context/trace job-context (str "trail-list.md created, " (count trail-seq) " trails"))))
 
 (defn create-trail-planine
   "Reads pss.rs/dataset.edn and writes dataset/trail-planine.md: a tsv body,
@@ -172,6 +172,36 @@
       "map created, view <a href='file://"
       (path/path->string export-path)
       "'>map</a>"))))
+
+(defn github-format-note-file
+  "In place rewrite of a single notemd-style markdown file so every line
+  ends with github's two trailing spaces hard line break convention ( see
+  clj-common.notemd/prepare-note-github ) - otherwise consecutive notemd
+  lines render collapsed into one paragraph on github, since notemd
+  doesn't use blank line separated paragraphs. notemd/process-notes-path
+  can't target the same path for input and output ( fs/output-stream
+  would truncate the file before it's fully read ), so write to a temp
+  file first, then move it over the original."
+  [job-context path]
+  (let [temp-path (path/child (path/parent path) (str (path/name path) ".tmp"))]
+    (notemd/process-notes-path
+     (context/wrap-context-with-configuration
+      job-context
+      {:path path
+       :output-path temp-path
+       :process-fn notemd/prepare-note-github}))
+    (fs/move temp-path path)
+    (context/trace job-context (str "github formatted: " (path/path->string path)))))
+
+(defn github-format-notes
+  "Applies github-format-note-file to each path in :paths configuration -
+   keeps notemd files that are also browsed on github ( registar.md,
+   procedura.md, projekti.md ) rendering with correct line breaks there."
+  [job-context]
+  (let [configuration (context/configuration job-context)
+        paths (:paths configuration)]
+    (doseq [path paths]
+      (github-format-note-file job-context path))))
 
 (defn create-html-from-markdown
   "Generic job: reads a plain markdown file ( :md-path configuration ) and
