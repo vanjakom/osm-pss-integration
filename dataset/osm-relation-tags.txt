@@ -713,7 +713,7 @@
 	route = hiking
 	source = pss_staze
 	type = route
-	website = https://pss.rs/terenipp/pl-kuca-povlenski-kucerak-s-pasna-ravan-zaseok-prokici-jablanik-debelo-brdo-pl-kuca-povlenski-kucerak/
+	website = https://pss.rs/terenipp/3-14-4/
 
 10886455
 	ascent = 430
@@ -898,7 +898,7 @@
 	route = hiking
 	source = pss_staze
 	type = route
-	website = https://pss.rs/terenipp/suvobor-vrh-maljen-divcibare-pl-dom-magles/
+	website = https://pss.rs/terenipp/3-20-7/
 
 12721371
 	ascent = 960
@@ -1069,7 +1069,7 @@
 	route = hiking
 	source = pss_staze
 	type = route
-	website = https://pss.rs/terenipp/kablar/
+	website = https://pss.rs/terenipp/3-28-3/
 
 11189458
 	ascent = 607
@@ -1295,22 +1295,22 @@
 	type = route
 	website = https://pss.rs/terenipp/djacka-staza-kanjon-tresnjice-gornje-koslje/
 
-16782461
-	ascent = 160
-	descent = 25
-	distance = 4.5 km
-	name = Cerovi - Golema Porica
-	name:sr = Церови - Голема Порица
-	name:sr-Latn = Cerovi - Golema Porica
+21586568
+	ascent = 590
+	descent = 590
+	distance = 15 km
+	name = Мали ртањски врхови – Баба
+	name:sr = Мали ртањски врхови – Баба
+	name:sr-Latn = Mali rtanjski vrhovi - Baba
 	network = rwn
 	operator = Oštra čuka PD
-	osmc:symbol = red:red_round::1:white
-	ref = 4-23-1
-	roundtrip = no
+	osmc:symbol = red:red_round::2:white
+	ref = 4-23-2
+	roundtrip = yes
 	route = hiking
 	source = pss_staze
 	type = route
-	website = https://pss.rs/terenipp/cerovi-golema-porica/
+	website = https://pss.rs/terenipp/4-23-2/
 
 11095303
 	ascent = 1230
@@ -1784,7 +1784,7 @@
 	route = hiking
 	source = pss_staze
 	type = route
-	website = https://pss.rs/terenipp/vlasina-leskovik-2/
+	website = https://pss.rs/terenipp/4-33-1/
 
 11313703
 	ascent = 780
@@ -1976,7 +1976,7 @@
 	route = hiking
 	source = pss_staze
 	type = route
-	website = https://pss.rs/terenipp/sesalac-sesalacka-pecina-2/
+	website = https://pss.rs/terenipp/4-37-1/
 
 11126557
 	ascent = 649
@@ -1993,7 +1993,7 @@
 	route = hiking
 	source = pss_staze
 	type = route
-	website = https://pss.rs/terenipp/milusinac-slemen-2/
+	website = https://pss.rs/terenipp/4-37-2/
 
 13190270
 	ascent = 675
@@ -2272,7 +2272,7 @@
 	route = hiking
 	source = pss_staze
 	type = route
-	website = https://pss.rs/terenipp/milusinac-krstatac-2/
+	website = https://pss.rs/terenipp/4-45-1/
 
 14281196
 	ascent = 724
@@ -3560,6 +3560,74 @@
 	type = route
 	website = https://pss.rs/terenipp/vlasinski-vrtovi-v-cemernik-staza-5/
 
+22212751
+	ascent = 288
+	descent = 0
+	distance = 11.3km
+	name = Доњи Дел – Велики Чемерник
+	name:sr = Доњи Дел – Велики Чемерник
+	name:sr-Latn = Доњи Дел – Велики Чемерник
+	network = rwn
+	operator = Svarog PSU
+	osmc:symbol = red:red_round::4:white
+	ref = 7-22-4
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/7-22-4/
+
+22214949
+	ascent = 762
+	descent = 0
+	distance = 16.9km
+	name = Промаја – Велики Стрешер
+	name:sr = Промаја – Велики Стрешер
+	name:sr-Latn = Промаја – Велики Стрешер
+	network = rwn
+	operator = Svarog PSU
+	osmc:symbol = red:red_round::1:white
+	ref = 7-27-1
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/7-27-1/
+
+22215026
+	ascent = 796
+	descent = 0
+	distance = 5.1km
+	name = Топли До – Велики Стрешер
+	name:sr = Топли До – Велики Стрешер
+	name:sr-Latn = Топли До – Велики Стрешер
+	network = rwn
+	operator = Svarog PSU
+	osmc:symbol = red:red_round::2:white
+	ref = 7-27-2
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/7-27-2/
+
+22215030
+	ascent = 956
+	descent = 0
+	distance = 10km
+	name = Ваљавица – Велики Стрешер
+	name:sr = Ваљавица – Велики Стрешер
+	name:sr-Latn = Ваљавица – Велики Стрешер
+	network = rwn
+	operator = Svarog PSU
+	osmc:symbol = red:red_round::3:white
+	ref = 7-27-3
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/7-27-3/
+
 11263354
 	ascent = 1398
 	descent = 697
@@ -4085,6 +4153,7 @@
 	route = hiking
 	source = pss_staze
 	type = route
+	website = https://pss.rs/terenipp/homoljska-transverzala/
 
 13239147
 	ascent = 1606

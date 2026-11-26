@@ -7,9 +7,9 @@
 једна белешка, једна стаза. први таг у белешки је ознака стазе. линије до 80
 карактера. уносити датум па објашњење измене.
 #mapignore - стаза не треба да буде на staze.pss.rs
-#archived - стаза је архивирана
-
-
+#closed - стаза је архивирана
+#warning - стаза има пријављен проблем, немају све стазе, проћи
+#todo - потребна је још нека интервеницја неког из комисије
 
 
 # #2-16-5 Vera
@@ -33,17 +33,29 @@ https://www.openstreetmap.org/relation/12456767
 отворен ноте https://www.openstreetmap.org/note/5169164  
 пренесено са OSM вики стране  
 
+# #3-28-2 Sveti Sava
+https://pss.rs/terenipp/sveti-sava/  
+https://www.openstreetmap.org/relation/11189523  
+#warning
+#todo
+20261126 стаза поломљена код новог видиковца, контактиран OSM мапер
+https://www.openstreetmap.org/changeset/190554439
+20261126 Небојша потврдио са клубом да стаза није прекинута али да је и даље
+затворена
+20261126 наслов на pss.rs сада гласи "Sveti Sava - STAZA JE PRIVREMENO  
+ZATVORENA", стаза привремено затворена  
+
 # #4-23-1 Мали ртањски врхови - Баба
 https://pss.rs/terenipp/cerovi-golema-porica/  
 20261008  
 Стаза обрисана, 4-23-2 је продужетак стазе.  
-#archived  
+#closed  
 
 # #4-23-2 Мали ртањски врхови - Баба
 https://www.openstreetmap.org/relation/21586568  
 20261008  
 Стаза унешена током састанка Комисије према подацима од Младена Антића из  
-ПД Оштра чука.  
+ПД Оштра чука. Наследник стазе 4-23-1.  
 
 # #4-27-6 Шарбановац - В. Порица - Баба
 https://pss.rs/terenipp/sarbanovac-v-porica-baba/  
