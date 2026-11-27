@@ -115,6 +115,13 @@ https://pss.rs/terenipp/mali-bic/
 https://www.openstreetmap.org/relation/12163308  
 20260920 трек је кружни, опис у једном правцу, унешена у једном правцу  
 
+# #6-3-9 Narcisu u pohode
+https://pss.rs/terenipp/narcisu-u-pohode/  
+https://www.openstreetmap.org/relation/13250571  
+20261126  
+искоришћена постојећа релација, била унешена преко ТО Краљево, исправљена 
+одступања
+
 # #7-22-4 Доњи Дел – Велики Чемерник
 https://pss.rs/terenipp/7-22-4/  
 https://www.openstreetmap.org/relation/22212751  

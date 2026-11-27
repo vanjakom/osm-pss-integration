@@ -723,7 +723,7 @@ Staze dostupne unutar OSM baze:
 | Свети Сава
 | [https://pss.rs/terenipp/sveti-sava/ pss]
 | {{relation|11189523}}
-| 
+| https://pss.rs/terenipp/sveti-sava/  <br/>https://www.openstreetmap.org/relation/11189523  <br/>#warning<br/>#todo<br/>20261126 стаза поломљена код новог видиковца, контактиран OSM мапер<br/>https://www.openstreetmap.org/changeset/190554439<br/>20261126 Небојша потврдио са клубом да стаза није прекинута али да је и даље<br/>затворена<br/>20261126 наслов на pss.rs сада гласи "Sveti Sava - STAZA JE PRIVREMENO  <br/>ZATVORENA", стаза привремено затворена  
 |-
 | 3-28-3
 | Zapadna Srbija
@@ -885,7 +885,7 @@ Staze dostupne unutar OSM baze:
 | Мали ртањски врхови – Баба
 | [https://pss.rs/terenipp/4-23-2/ pss]
 | {{relation|21586568}}
-| https://www.openstreetmap.org/relation/21586568  <br/>20261008  <br/>Стаза унешена током састанка Комисије према подацима од Младена Антића из  <br/>ПД Оштра чука.  
+| https://www.openstreetmap.org/relation/21586568  <br/>20261008  <br/>Стаза унешена током састанка Комисије према подацима од Младена Антића из  <br/>ПД Оштра чука. Наследник стазе 4-23-1.  
 |-
 | 4-26-1
 | Istočna Srbija
@@ -1814,6 +1814,15 @@ Staze dostupne unutar OSM baze:
 | {{relation|19168184}}
 | 
 |-
+| 6-3-9
+| Kopaoničko-Toplička regija
+| Stolovi
+| dobro uređena i markirana
+| Нарцису у походе
+| [https://pss.rs/terenipp/narcisu-u-pohode/ pss]
+| {{relation|13250571}}
+| 
+|-
 | 6-9-1
 | Kopaoničko-Toplička regija
 | Žaračka planina
@@ -2624,13 +2633,5 @@ Staze koje je moguće mapirati:
 | dobro uređena i markirana
 | Debela gora
 | [https://pss.rs/terenipp/debela-gora/ pss]
-| 
-|-
-| 6-3-9
-| Kopaoničko-Toplička regija
-| Stolovi
-| dobro uređena i markirana
-| Narcisu u pohode
-| [https://pss.rs/terenipp/narcisu-u-pohode/ pss]
 | 
 |}

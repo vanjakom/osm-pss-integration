@@ -2085,7 +2085,7 @@
 12115780
 	ascent = 305
 	descent = 222
-	distance = 6 km
+	distance = 6
 	name = Сићево - Јечава
 	name:sr = Сићево - Јечава
 	name:sr-Latn = Sićevo – Ječava
@@ -3369,6 +3369,23 @@
 	type = route
 	website = https://pss.rs/terenipp/sretenjski-susreti-koprivnica-v-drenovac/
 
+13250571
+	ascent = 1170
+	descent = 812
+	distance = 21km
+	name = Нарцису у походе
+	name:sr = Нарцису у походе
+	name:sr-Latn = Narcisu u pohode
+	network = rwn
+	operator = Gvozdac PSD
+	osmc:symbol = red:red_round::9:white
+	ref = 6-3-9
+	roundtrip = no
+	route = hiking
+	source = pss_staze
+	type = route
+	website = https://pss.rs/terenipp/narcisu-u-pohode/
+
 18905170
 	ascent = 532
 	descent = 532
@@ -3614,7 +3631,7 @@
 22215030
 	ascent = 956
 	descent = 0
-	distance = 10km
+	distance = 10
 	name = Ваљавица – Велики Стрешер
 	name:sr = Ваљавица – Велики Стрешер
 	name:sr-Latn = Ваљавица – Велики Стрешер
